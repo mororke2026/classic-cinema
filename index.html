@@ -3,25 +3,24 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Classic Cinema Calendar — Westchester Area</title>
+<title>Cinema Classics in Theaters — Westchester Area</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Josefin+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Josefin+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
 <style>
 :root{
-  --cream:#f5f0e8;--parchment:#ede6d3;--dark:#150f06;--brown:#3d2b1a;
+  --cream:#f4f4f4;--parchment:#ebebeb;--dark:#1a1a1a;--brown:#2a2a2a;
   --amber:#b8742a;--gold:#d4a853;--red:#8b1a1a;--muted:#7a6a55;
-  --border:#c8b89a;--regal-navy:#0f2340;--regal-gold:#c9a84c;
+  --border:#d0d0d0;--regal-navy:#0f2340;--regal-gold:#c9a84c;
   --lb-loved:#e8a020;--lb-liked:#5b8dd9;--lb-watchlist:#4caf7d;
   --lb-seen:#888;--lb-new:#9c6fb5;
 }
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-body{background:var(--cream);background-image:repeating-linear-gradient(0deg,transparent,transparent 30px,rgba(100,70,30,.045) 30px,rgba(100,70,30,.045) 31px);color:var(--dark);font-family:'Libre Baskerville',Georgia,serif;min-height:100vh}
+body{background:var(--cream);color:var(--dark);font-family:'Inter',system-ui,sans-serif;min-height:100vh}
 body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:9999;opacity:.03;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");background-size:160px}
 .masthead{background:var(--dark);border-bottom:3px double var(--gold);padding:1.75rem 1.5rem 1.25rem;text-align:center;position:relative;overflow:hidden}
 .masthead::after{content:'';position:absolute;inset:0;pointer-events:none;background:repeating-linear-gradient(90deg,transparent,transparent 44px,rgba(212,168,83,.035) 44px,rgba(212,168,83,.035) 45px)}
-.sprocket-strip{display:flex;justify-content:center;gap:14px;margin-bottom:1rem}
-.sprocket{width:13px;height:13px;border:2px solid var(--gold);border-radius:3px;opacity:.45}
-.masthead h1{font-family:'Playfair Display',serif;font-size:clamp(1.9rem,5vw,3.4rem);font-weight:900;font-style:italic;color:var(--gold);letter-spacing:.06em;text-transform:uppercase;text-shadow:1px 2px 6px rgba(0,0,0,.6);line-height:1}
+.sprocket-strip{display:none}.sprocket{display:none}
+.masthead h1{font-family:'Josefin Sans',sans-serif;font-size:clamp(1.4rem,4vw,2.4rem);font-weight:700;font-style:normal;color:var(--gold);letter-spacing:.12em;text-transform:uppercase;text-shadow:1px 2px 6px rgba(0,0,0,.5);line-height:1}
 .masthead .tagline{font-family:'Josefin Sans',sans-serif;font-size:.72rem;letter-spacing:.28em;color:var(--border);text-transform:uppercase;margin-top:.5rem}
 .masthead .generated{font-family:'Josefin Sans',sans-serif;font-size:.62rem;letter-spacing:.14em;color:rgba(255,255,255,.25);margin-top:.6rem;text-transform:uppercase}
 .cal-btn{display:inline-block;margin-top:.75rem;font-family:'Josefin Sans',sans-serif;font-size:.65rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);border:1px solid var(--gold);padding:.3rem .9rem;text-decoration:none;opacity:.7;transition:opacity .2s;cursor:pointer}
@@ -40,7 +39,7 @@ body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:9999;
 @keyframes fadeUp{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
 .theater-header{display:flex;align-items:center;flex-wrap:wrap;gap:.6rem;padding:.75rem 1.15rem;background:var(--parchment);border-bottom:1px solid var(--border)}
 .regal-theater .theater-header{background:linear-gradient(90deg,#e4e9f5,#ecf0fa)}
-a.theater-name{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--brown);text-decoration:none;border-bottom:1px solid transparent;transition:border-color .2s}
+a.theater-name{font-family:'Inter',sans-serif;font-size:.95rem;font-weight:700;color:var(--brown);text-decoration:none;border-bottom:1px solid transparent;transition:border-color .2s}
 a.theater-name:hover{border-bottom-color:var(--amber)}
 .regal-theater a.theater-name{color:var(--regal-navy);font-weight:900}
 .theater-city{font-family:'Josefin Sans',sans-serif;font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;color:#999;margin-left:auto}
@@ -55,7 +54,7 @@ a.theater-name:hover{border-bottom-color:var(--amber)}
 .movie-card.lb-seen{border-left-color:#ddd}
 .movie-card.lb-new{border-left-color:var(--lb-new)}
 .movie-top{display:flex;align-items:baseline;justify-content:space-between;gap:.75rem;flex-wrap:wrap}
-.movie-title{font-family:'Playfair Display',serif;font-size:.98rem;color:var(--dark)}
+.movie-title{font-family:'Inter',sans-serif;font-size:.95rem;font-weight:500;color:var(--dark)}
 .movie-title .year{font-family:'Josefin Sans',sans-serif;font-size:.7rem;color:var(--muted);font-style:normal;letter-spacing:.04em}
 a.film-link{color:var(--dark);text-decoration:none;border-bottom:1px solid var(--border);transition:border-color .2s,color .2s}
 a.film-link:hover{color:var(--red);border-bottom-color:var(--red)}
@@ -83,16 +82,16 @@ a.film-link:hover{color:var(--red);border-bottom-color:var(--red)}
 <body>
 <header class="masthead">
   <div class="sprocket-strip"><div class="sprocket"></div><div class="sprocket"></div><div class="sprocket"></div><div class="sprocket"></div><div class="sprocket"></div><div class="sprocket"></div><div class="sprocket"></div><div class="sprocket"></div><div class="sprocket"></div><div class="sprocket"></div><div class="sprocket"></div></div>
-  <h1>Classic Cinema Calendar</h1>
+  <h1>See Upcoming Cinema Classics in Theaters</h1>
   <div class="tagline">Revival &amp; Repertory Screenings — Westchester Area</div>
-  <div class="generated">Generated March 7, 2026 at 2:34 PM</div>
+  <div class="generated">Generated March 7, 2026 at 2:57 PM</div>
   <a class="cal-btn" href="classic_cinema.ics" download>📅 Add to Google Calendar (.ics)</a>
 </header>
 <main class="container">
   <div class="stats-bar">
 
 
-    <span><strong>55</strong> Classic Screenings in Westchester</span>
+    <span><strong>56</strong> Classic Screenings in Westchester</span>
   </div>
   <div class="legend">
     <div class="legend-item"><div class="legend-dot" style="background:var(--lb-loved)"></div><span>You loved it (★★★★½–★★★★★)</span></div>
@@ -113,162 +112,162 @@ a.film-link:hover{color:var(--red);border-bottom-color:var(--red)}
             <span class="movie-title"><a href="https://drafthouse.com/yonkers/show/movie-party-jurassic-park" class="film-link" target="_blank" rel="noopener"><em>Jurassic Park</em></a> <span class='year'>(1993)</span></span>
             
           </div>
-          <div class="movie-meta"><span class="reason">Spielberg masterpiece revival</span><span class="lb-badge lb-liked">👍 You rated this ★★★★</span></div>
+          <div class="movie-meta"><span class="reason">1993 Spielberg masterpiece revival</span><span class="lb-badge lb-liked">👍 You rated this ★★★★</span></div>
           <div class="showtimes"><span class="sd">📅 Sun Mar 8</span>  <span class="st">🕐 3:45 PM</span></div>
-          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Jurassic%20Park%20%281993%29%20%40%20&dates=20260308T154500/20260308T181500&location=175%20Main%20St%2C%20Yonkers%2C%20NY%2010701&details=Spielberg%20masterpiece%20revival%20--%20https%3A//drafthouse.com/yonkers/show/movie-party-jurassic-park" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
+          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Jurassic%20Park%20%281993%29%20%40%20&dates=20260308T154500/20260308T181500&location=175%20Main%20St%2C%20Yonkers%2C%20NY%2010701&details=1993%20Spielberg%20masterpiece%20revival%20--%20https%3A//drafthouse.com/yonkers/show/movie-party-jurassic-park" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
         </div>
         <div class="movie-card lb-new">
           <div class="movie-top">
             <span class="movie-title"><a href="https://drafthouse.com/yonkers/show/the-lord-of-the-rings-the-fellowship-of-the-ring-extended-edition" class="film-link" target="_blank" rel="noopener"><em>The Lord of the Rings: The Fellowship of the Ring: Extended Edition</em></a> <span class='year'>(2001)</span></span>
             
           </div>
-          <div class="movie-meta"><span class="reason">Special extended format</span><span class="lb-badge lb-new">🆕 New to you</span></div>
+          <div class="movie-meta"><span class="reason">2001 Jackson epic - extended edition</span><span class="lb-badge lb-new">🆕 New to you</span></div>
           <div class="showtimes"><span class="sd">📅 Sun Mar 8</span>  <span class="st">🕐 11:00 AM</span></div>
-          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=The%20Lord%20of%20the%20Rings%3A%20The%20Fellowship%20of%20the%20Ring%3A%20Extended%20Edition%20%282001%29%20%40%20&dates=20260308T110000/20260308T133000&location=175%20Main%20St%2C%20Yonkers%2C%20NY%2010701&details=Special%20extended%20format%20--%20https%3A//drafthouse.com/yonkers/show/the-lord-of-the-rings-the-fellowship-of-the-ring-extended-edition" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
+          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=The%20Lord%20of%20the%20Rings%3A%20The%20Fellowship%20of%20the%20Ring%3A%20Extended%20Edition%20%282001%29%20%40%20&dates=20260308T110000/20260308T133000&location=175%20Main%20St%2C%20Yonkers%2C%20NY%2010701&details=2001%20Jackson%20epic%20-%20extended%20edition%20--%20https%3A//drafthouse.com/yonkers/show/the-lord-of-the-rings-the-fellowship-of-the-ring-extended-edition" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
         </div>
         <div class="movie-card lb-seen">
           <div class="movie-top">
             <span class="movie-title"><a href="https://drafthouse.com/yonkers/show/guest-selects-bad-santa" class="film-link" target="_blank" rel="noopener"><em>Bad Santa</em></a> <span class='year'>(2003)</span></span>
             
           </div>
-          <div class="movie-meta"><span class="reason">Cult Christmas classic</span><span class="lb-badge lb-seen">👁 You've seen this</span></div>
+          <div class="movie-meta"><span class="reason">2003 cult Christmas comedy</span><span class="lb-badge lb-seen">👁 You've seen this</span></div>
           <div class="showtimes"><span class="sd">📅 Thu Mar 12</span>  <span class="st">🕐 7:00 PM</span></div>
-          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Bad%20Santa%20%282003%29%20%40%20&dates=20260312T190000/20260312T213000&location=175%20Main%20St%2C%20Yonkers%2C%20NY%2010701&details=Cult%20Christmas%20classic%20--%20https%3A//drafthouse.com/yonkers/show/guest-selects-bad-santa" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
+          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Bad%20Santa%20%282003%29%20%40%20&dates=20260312T190000/20260312T213000&location=175%20Main%20St%2C%20Yonkers%2C%20NY%2010701&details=2003%20cult%20Christmas%20comedy%20--%20https%3A//drafthouse.com/yonkers/show/guest-selects-bad-santa" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
         </div>
         <div class="movie-card lb-seen">
           <div class="movie-top">
             <span class="movie-title"><a href="https://drafthouse.com/yonkers/show/movie-party-the-lost-world-jurassic-park" class="film-link" target="_blank" rel="noopener"><em>The Lost World: Jurassic Park</em></a> <span class='year'>(1997)</span></span>
             
           </div>
-          <div class="movie-meta"><span class="reason">Spielberg sequel revival</span><span class="lb-badge lb-seen">👁 You've seen this</span></div>
+          <div class="movie-meta"><span class="reason">1997 Spielberg sequel revival</span><span class="lb-badge lb-seen">👁 You've seen this</span></div>
           <div class="showtimes"><span class="sd">📅 Fri Mar 13</span>  <span class="st">🕐 7:15 PM</span></div>
-          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=The%20Lost%20World%3A%20Jurassic%20Park%20%281997%29%20%40%20&dates=20260313T191500/20260313T214500&location=175%20Main%20St%2C%20Yonkers%2C%20NY%2010701&details=Spielberg%20sequel%20revival%20--%20https%3A//drafthouse.com/yonkers/show/movie-party-the-lost-world-jurassic-park" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
+          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=The%20Lost%20World%3A%20Jurassic%20Park%20%281997%29%20%40%20&dates=20260313T191500/20260313T214500&location=175%20Main%20St%2C%20Yonkers%2C%20NY%2010701&details=1997%20Spielberg%20sequel%20revival%20--%20https%3A//drafthouse.com/yonkers/show/movie-party-the-lost-world-jurassic-park" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
         </div>
         <div class="movie-card lb-seen">
           <div class="movie-top">
             <span class="movie-title"><a href="https://drafthouse.com/yonkers/show/greetings-from-twin-peaks-twin-peaks-the-return-parts-10-12" class="film-link" target="_blank" rel="noopener"><em>Twin Peaks: The Return</em></a> <span class='year'>(2017)</span></span>
             
           </div>
-          <div class="movie-meta"><span class="reason">Lynch television masterpiece</span><span class="lb-badge lb-seen">👁 You've seen this</span></div>
+          <div class="movie-meta"><span class="reason">2017 David Lynch series</span><span class="lb-badge lb-seen">👁 You've seen this</span></div>
           <div class="showtimes"><span class="sd">📅 Sat Mar 14 · Sat Mar 21 · Sat Mar 28</span>  <span class="st">🕐 12:00 PM</span></div>
-          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Twin%20Peaks%3A%20The%20Return%20%282017%29%20%40%20&dates=20260314T120000/20260314T143000&location=175%20Main%20St%2C%20Yonkers%2C%20NY%2010701&details=Lynch%20television%20masterpiece%20--%20https%3A//drafthouse.com/yonkers/show/greetings-from-twin-peaks-twin-peaks-the-return-parts-10-12" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
+          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Twin%20Peaks%3A%20The%20Return%20%282017%29%20%40%20&dates=20260314T120000/20260314T143000&location=175%20Main%20St%2C%20Yonkers%2C%20NY%2010701&details=2017%20David%20Lynch%20series%20--%20https%3A//drafthouse.com/yonkers/show/greetings-from-twin-peaks-twin-peaks-the-return-parts-10-12" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
         </div>
         <div class="movie-card lb-new">
           <div class="movie-top">
             <span class="movie-title"><a href="https://drafthouse.com/yonkers/show/movie-party-jurassic-park-iii" class="film-link" target="_blank" rel="noopener"><em>Jurassic Park III</em></a> <span class='year'>(2001)</span></span>
             
           </div>
-          <div class="movie-meta"><span class="reason">Franchise entry revival</span><span class="lb-badge lb-new">🆕 New to you</span></div>
+          <div class="movie-meta"><span class="reason">2001 franchise entry revival</span><span class="lb-badge lb-new">🆕 New to you</span></div>
           <div class="showtimes"><span class="sd">📅 Sun Mar 15</span>  <span class="st">🕐 3:30 PM</span></div>
-          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Jurassic%20Park%20III%20%282001%29%20%40%20&dates=20260315T153000/20260315T180000&location=175%20Main%20St%2C%20Yonkers%2C%20NY%2010701&details=Franchise%20entry%20revival%20--%20https%3A//drafthouse.com/yonkers/show/movie-party-jurassic-park-iii" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
+          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Jurassic%20Park%20III%20%282001%29%20%40%20&dates=20260315T153000/20260315T180000&location=175%20Main%20St%2C%20Yonkers%2C%20NY%2010701&details=2001%20franchise%20entry%20revival%20--%20https%3A//drafthouse.com/yonkers/show/movie-party-jurassic-park-iii" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
         </div>
         <div class="movie-card lb-new">
           <div class="movie-top">
             <span class="movie-title"><a href="https://drafthouse.com/yonkers/show/the-lord-of-the-rings-the-two-towers-extended-edition-2" class="film-link" target="_blank" rel="noopener"><em>The Lord of the Rings: The Two Towers: Extended Edition</em></a> <span class='year'>(2002)</span></span>
             
           </div>
-          <div class="movie-meta"><span class="reason">Special extended format</span><span class="lb-badge lb-new">🆕 New to you</span></div>
+          <div class="movie-meta"><span class="reason">2002 Jackson sequel - extended edition</span><span class="lb-badge lb-new">🆕 New to you</span></div>
           <div class="showtimes"><span class="sd">📅 Sun Mar 15</span>  <span class="st">🕐 11:00 AM</span></div>
-          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=The%20Lord%20of%20the%20Rings%3A%20The%20Two%20Towers%3A%20Extended%20Edition%20%282002%29%20%40%20&dates=20260315T110000/20260315T133000&location=175%20Main%20St%2C%20Yonkers%2C%20NY%2010701&details=Special%20extended%20format%20--%20https%3A//drafthouse.com/yonkers/show/the-lord-of-the-rings-the-two-towers-extended-edition-2" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
+          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=The%20Lord%20of%20the%20Rings%3A%20The%20Two%20Towers%3A%20Extended%20Edition%20%282002%29%20%40%20&dates=20260315T110000/20260315T133000&location=175%20Main%20St%2C%20Yonkers%2C%20NY%2010701&details=2002%20Jackson%20sequel%20-%20extended%20edition%20--%20https%3A//drafthouse.com/yonkers/show/the-lord-of-the-rings-the-two-towers-extended-edition-2" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
         </div>
         <div class="movie-card lb-seen">
           <div class="movie-top">
             <span class="movie-title"><a href="https://drafthouse.com/yonkers/show/terror-tuesday-maximum-overdrive" class="film-link" target="_blank" rel="noopener"><em>Maximum Overdrive</em></a> <span class='year'>(1986)</span></span>
             
           </div>
-          <div class="movie-meta"><span class="reason">Stephen King cult classic</span><span class="lb-badge lb-seen">👁 You've seen this (½)</span></div>
+          <div class="movie-meta"><span class="reason">1986 Stephen King cult film</span><span class="lb-badge lb-seen">👁 You've seen this (½)</span></div>
           <div class="showtimes"><span class="sd">📅 Tue Mar 17</span>  <span class="st">🕐 7:00 PM</span></div>
-          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Maximum%20Overdrive%20%281986%29%20%40%20&dates=20260317T190000/20260317T213000&location=175%20Main%20St%2C%20Yonkers%2C%20NY%2010701&details=Stephen%20King%20cult%20classic%20--%20https%3A//drafthouse.com/yonkers/show/terror-tuesday-maximum-overdrive" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
+          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Maximum%20Overdrive%20%281986%29%20%40%20&dates=20260317T190000/20260317T213000&location=175%20Main%20St%2C%20Yonkers%2C%20NY%2010701&details=1986%20Stephen%20King%20cult%20film%20--%20https%3A//drafthouse.com/yonkers/show/terror-tuesday-maximum-overdrive" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
         </div>
         <div class="movie-card lb-new">
           <div class="movie-top">
             <span class="movie-title"><a href="https://drafthouse.com/yonkers/show/guest-selects-britannia-hospital" class="film-link" target="_blank" rel="noopener"><em>Britannia Hospital</em></a> <span class='year'>(1982)</span></span>
             
           </div>
-          <div class="movie-meta"><span class="reason">Lindsay Anderson film revival</span><span class="lb-badge lb-new">🆕 New to you</span></div>
+          <div class="movie-meta"><span class="reason">1982 Lindsay Anderson film</span><span class="lb-badge lb-new">🆕 New to you</span></div>
           <div class="showtimes"><span class="sd">📅 Thu Mar 19</span>  <span class="st">🕐 7:00 PM</span></div>
-          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Britannia%20Hospital%20%281982%29%20%40%20&dates=20260319T190000/20260319T213000&location=175%20Main%20St%2C%20Yonkers%2C%20NY%2010701&details=Lindsay%20Anderson%20film%20revival%20--%20https%3A//drafthouse.com/yonkers/show/guest-selects-britannia-hospital" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
+          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Britannia%20Hospital%20%281982%29%20%40%20&dates=20260319T190000/20260319T213000&location=175%20Main%20St%2C%20Yonkers%2C%20NY%2010701&details=1982%20Lindsay%20Anderson%20film%20--%20https%3A//drafthouse.com/yonkers/show/guest-selects-britannia-hospital" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
         </div>
         <div class="movie-card lb-new">
           <div class="movie-top">
             <span class="movie-title"><a href="https://drafthouse.com/yonkers/show/queer-film-theory-101-daisies" class="film-link" target="_blank" rel="noopener"><em>Daisies</em></a> <span class='year'>(1966)</span></span>
             
           </div>
-          <div class="movie-meta"><span class="reason">Czech New Wave classic</span><span class="lb-badge lb-new">🆕 New to you</span></div>
+          <div class="movie-meta"><span class="reason">1966 Czech New Wave classic</span><span class="lb-badge lb-new">🆕 New to you</span></div>
           <div class="showtimes"><span class="sd">📅 Fri Mar 20</span>  <span class="st">🕐 10:00 PM</span></div>
-          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Daisies%20%281966%29%20%40%20&dates=20260320T220000/20260321T003000&location=175%20Main%20St%2C%20Yonkers%2C%20NY%2010701&details=Czech%20New%20Wave%20classic%20--%20https%3A//drafthouse.com/yonkers/show/queer-film-theory-101-daisies" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
+          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Daisies%20%281966%29%20%40%20&dates=20260320T220000/20260321T003000&location=175%20Main%20St%2C%20Yonkers%2C%20NY%2010701&details=1966%20Czech%20New%20Wave%20classic%20--%20https%3A//drafthouse.com/yonkers/show/queer-film-theory-101-daisies" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
         </div>
         <div class="movie-card lb-new">
           <div class="movie-top">
             <span class="movie-title"><a href="https://drafthouse.com/yonkers/show/the-lord-of-the-rings-the-return-of-the-king-extended-edition" class="film-link" target="_blank" rel="noopener"><em>The Lord of the Rings: The Return of the King: Extended Edition</em></a> <span class='year'>(2003)</span></span>
             
           </div>
-          <div class="movie-meta"><span class="reason">Special extended format</span><span class="lb-badge lb-new">🆕 New to you</span></div>
+          <div class="movie-meta"><span class="reason">2003 Jackson finale - extended edition</span><span class="lb-badge lb-new">🆕 New to you</span></div>
           <div class="showtimes"><span class="sd">📅 Sun Mar 22</span>  <span class="st">🕐 11:00 AM</span></div>
-          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=The%20Lord%20of%20the%20Rings%3A%20The%20Return%20of%20the%20King%3A%20Extended%20Edition%20%282003%29%20%40%20&dates=20260322T110000/20260322T133000&location=175%20Main%20St%2C%20Yonkers%2C%20NY%2010701&details=Special%20extended%20format%20--%20https%3A//drafthouse.com/yonkers/show/the-lord-of-the-rings-the-return-of-the-king-extended-edition" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
+          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=The%20Lord%20of%20the%20Rings%3A%20The%20Return%20of%20the%20King%3A%20Extended%20Edition%20%282003%29%20%40%20&dates=20260322T110000/20260322T133000&location=175%20Main%20St%2C%20Yonkers%2C%20NY%2010701&details=2003%20Jackson%20finale%20-%20extended%20edition%20--%20https%3A//drafthouse.com/yonkers/show/the-lord-of-the-rings-the-return-of-the-king-extended-edition" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
         </div>
         <div class="movie-card lb-seen">
           <div class="movie-top">
             <span class="movie-title"><a href="https://drafthouse.com/yonkers/show/unforgiven" class="film-link" target="_blank" rel="noopener"><em>Unforgiven</em></a> <span class='year'>(1992)</span></span>
             
           </div>
-          <div class="movie-meta"><span class="reason">Eastwood western masterpiece</span><span class="lb-badge lb-seen">👁 You've seen this</span></div>
+          <div class="movie-meta"><span class="reason">1992 Eastwood western masterpiece</span><span class="lb-badge lb-seen">👁 You've seen this</span></div>
           <div class="showtimes"><span class="sd">📅 Mon Mar 23</span>  <span class="st">🕐 7:00 PM</span></div>
-          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Unforgiven%20%281992%29%20%40%20&dates=20260323T190000/20260323T213000&location=175%20Main%20St%2C%20Yonkers%2C%20NY%2010701&details=Eastwood%20western%20masterpiece%20--%20https%3A//drafthouse.com/yonkers/show/unforgiven" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
+          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Unforgiven%20%281992%29%20%40%20&dates=20260323T190000/20260323T213000&location=175%20Main%20St%2C%20Yonkers%2C%20NY%2010701&details=1992%20Eastwood%20western%20masterpiece%20--%20https%3A//drafthouse.com/yonkers/show/unforgiven" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
         </div>
         <div class="movie-card lb-new">
           <div class="movie-top">
             <span class="movie-title"><a href="https://drafthouse.com/yonkers/show/sad-girl-cinema-club-melancholia" class="film-link" target="_blank" rel="noopener"><em>Melancholia</em></a> <span class='year'>(2011)</span></span>
             
           </div>
-          <div class="movie-meta"><span class="reason">Lars von Trier arthouse</span><span class="lb-badge lb-new">🆕 New to you</span></div>
+          <div class="movie-meta"><span class="reason">2011 Lars von Trier film</span><span class="lb-badge lb-new">🆕 New to you</span></div>
           <div class="showtimes"><span class="sd">📅 Tue Mar 24</span>  <span class="st">🕐 8:00 PM</span></div>
-          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Melancholia%20%282011%29%20%40%20&dates=20260324T200000/20260324T223000&location=175%20Main%20St%2C%20Yonkers%2C%20NY%2010701&details=Lars%20von%20Trier%20arthouse%20--%20https%3A//drafthouse.com/yonkers/show/sad-girl-cinema-club-melancholia" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
+          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Melancholia%20%282011%29%20%40%20&dates=20260324T200000/20260324T223000&location=175%20Main%20St%2C%20Yonkers%2C%20NY%2010701&details=2011%20Lars%20von%20Trier%20film%20--%20https%3A//drafthouse.com/yonkers/show/sad-girl-cinema-club-melancholia" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
         </div>
         <div class="movie-card lb-new">
           <div class="movie-top">
-            <span class="movie-title"><a href="https://drafthouse.com/yonkers/show/mystery-voyage" class="film-link" target="_blank" rel="noopener"><em>Mystery Voyage</em></a> <span class='year'>(1990)</span></span>
+            <span class="movie-title"><a href="https://drafthouse.com/yonkers/show/mystery-voyage" class="film-link" target="_blank" rel="noopener"><em>Mystery Voyage</em></a> <span class='year'>(1992)</span></span>
             
           </div>
-          <div class="movie-meta"><span class="reason">1990s Hong Kong cinema</span><span class="lb-badge lb-new">🆕 New to you</span></div>
+          <div class="movie-meta"><span class="reason">1990s Hong Kong kung fu film</span><span class="lb-badge lb-new">🆕 New to you</span></div>
           <div class="showtimes"><span class="sd">📅 Thu Mar 26</span>  <span class="st">🕐 7:15 PM</span></div>
-          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Mystery%20Voyage%20%281990%29%20%40%20&dates=20260326T191500/20260326T214500&location=175%20Main%20St%2C%20Yonkers%2C%20NY%2010701&details=1990s%20Hong%20Kong%20cinema%20--%20https%3A//drafthouse.com/yonkers/show/mystery-voyage" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
+          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Mystery%20Voyage%20%281992%29%20%40%20&dates=20260326T191500/20260326T214500&location=175%20Main%20St%2C%20Yonkers%2C%20NY%2010701&details=1990s%20Hong%20Kong%20kung%20fu%20film%20--%20https%3A//drafthouse.com/yonkers/show/mystery-voyage" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
         </div>
         <div class="movie-card lb-new">
           <div class="movie-top">
             <span class="movie-title"><a href="https://drafthouse.com/yonkers/show/lord-of-the-rings-extended-edition-trilogy-marathon" class="film-link" target="_blank" rel="noopener"><em>The Lord of the Rings Extended Edition Trilogy Marathon</em></a> <span class='year'>(2001)</span></span>
             
           </div>
-          <div class="movie-meta"><span class="reason">Special format marathon</span><span class="lb-badge lb-new">🆕 New to you</span></div>
+          <div class="movie-meta"><span class="reason">Jackson trilogy marathon screening</span><span class="lb-badge lb-new">🆕 New to you</span></div>
           <div class="showtimes"><span class="sd">📅 Sun Mar 29</span>  <span class="st">🕐 11:00 AM</span></div>
-          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=The%20Lord%20of%20the%20Rings%20Extended%20Edition%20Trilogy%20Marathon%20%282001%29%20%40%20&dates=20260329T110000/20260329T133000&location=175%20Main%20St%2C%20Yonkers%2C%20NY%2010701&details=Special%20format%20marathon%20--%20https%3A//drafthouse.com/yonkers/show/lord-of-the-rings-extended-edition-trilogy-marathon" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
+          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=The%20Lord%20of%20the%20Rings%20Extended%20Edition%20Trilogy%20Marathon%20%282001%29%20%40%20&dates=20260329T110000/20260329T133000&location=175%20Main%20St%2C%20Yonkers%2C%20NY%2010701&details=Jackson%20trilogy%20marathon%20screening%20--%20https%3A//drafthouse.com/yonkers/show/lord-of-the-rings-extended-edition-trilogy-marathon" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
         </div>
         <div class="movie-card lb-new">
           <div class="movie-top">
             <span class="movie-title"><a href="https://drafthouse.com/yonkers/show/movie-party-the-mummy-returns-25th-anniversary" class="film-link" target="_blank" rel="noopener"><em>The Mummy Returns: 25th Anniversary</em></a> <span class='year'>(2001)</span></span>
             
           </div>
-          <div class="movie-meta"><span class="reason">Anniversary screening</span><span class="lb-badge lb-new">🆕 New to you</span></div>
+          <div class="movie-meta"><span class="reason">2001 film - anniversary screening</span><span class="lb-badge lb-new">🆕 New to you</span></div>
           <div class="showtimes"><span class="sd">📅 Mon Mar 30</span>  <span class="st">🕐 7:30 PM</span></div>
-          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=The%20Mummy%20Returns%3A%2025th%20Anniversary%20%282001%29%20%40%20&dates=20260330T193000/20260330T220000&location=175%20Main%20St%2C%20Yonkers%2C%20NY%2010701&details=Anniversary%20screening%20--%20https%3A//drafthouse.com/yonkers/show/movie-party-the-mummy-returns-25th-anniversary" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
+          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=The%20Mummy%20Returns%3A%2025th%20Anniversary%20%282001%29%20%40%20&dates=20260330T193000/20260330T220000&location=175%20Main%20St%2C%20Yonkers%2C%20NY%2010701&details=2001%20film%20-%20anniversary%20screening%20--%20https%3A//drafthouse.com/yonkers/show/movie-party-the-mummy-returns-25th-anniversary" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
         </div>
         <div class="movie-card lb-seen">
           <div class="movie-top">
             <span class="movie-title"><a href="https://drafthouse.com/yonkers/show/the-man-who-knew-too-much" class="film-link" target="_blank" rel="noopener"><em>THE MAN WHO KNEW TOO MUCH</em></a> <span class='year'>(1956)</span></span>
             
           </div>
-          <div class="movie-meta"><span class="reason">Hitchcock thriller</span><span class="lb-badge lb-seen">👁 You've seen this</span></div>
+          <div class="movie-meta"><span class="reason">1956 Hitchcock thriller</span><span class="lb-badge lb-seen">👁 You've seen this</span></div>
           <div class="showtimes"><span class="sd">📅 Wed Apr 1</span>  <span class="st">🕐 7:00 PM</span></div>
-          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=THE%20MAN%20WHO%20KNEW%20TOO%20MUCH%20%281956%29%20%40%20&dates=20260401T190000/20260401T213000&location=175%20Main%20St%2C%20Yonkers%2C%20NY%2010701&details=Hitchcock%20thriller%20--%20https%3A//drafthouse.com/yonkers/show/the-man-who-knew-too-much" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
+          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=THE%20MAN%20WHO%20KNEW%20TOO%20MUCH%20%281956%29%20%40%20&dates=20260401T190000/20260401T213000&location=175%20Main%20St%2C%20Yonkers%2C%20NY%2010701&details=1956%20Hitchcock%20thriller%20--%20https%3A//drafthouse.com/yonkers/show/the-man-who-knew-too-much" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
         </div>
         <div class="movie-card lb-new">
           <div class="movie-top">
             <span class="movie-title"><a href="https://drafthouse.com/yonkers/show/marnie" class="film-link" target="_blank" rel="noopener"><em>GET HITCHED: MARNIE</em></a> <span class='year'>(1964)</span></span>
             
           </div>
-          <div class="movie-meta"><span class="reason">Hitchcock classic series</span><span class="lb-badge lb-new">🆕 New to you</span></div>
+          <div class="movie-meta"><span class="reason">1964 Hitchcock classic revival</span><span class="lb-badge lb-new">🆕 New to you</span></div>
           <div class="showtimes"><span class="sd">📅 Wed May 6</span>  <span class="st">🕐 7:00 PM</span></div>
-          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=GET%20HITCHED%3A%20MARNIE%20%281964%29%20%40%20&dates=20260506T190000/20260506T213000&location=175%20Main%20St%2C%20Yonkers%2C%20NY%2010701&details=Hitchcock%20classic%20series%20--%20https%3A//drafthouse.com/yonkers/show/marnie" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
+          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=GET%20HITCHED%3A%20MARNIE%20%281964%29%20%40%20&dates=20260506T190000/20260506T213000&location=175%20Main%20St%2C%20Yonkers%2C%20NY%2010701&details=1964%20Hitchcock%20classic%20revival%20--%20https%3A//drafthouse.com/yonkers/show/marnie" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
         </div></div>
       </div>
       <div class="theater-block ">
@@ -279,318 +278,318 @@ a.film-link:hover{color:var(--red);border-bottom-color:var(--red)}
         <div class="movie-list">
         <div class="movie-card lb-new">
           <div class="movie-top">
+            <span class="movie-title"><a href="https://burnsfilmcenter.org/booking/epic-elvis-presley-in-concert/" class="film-link" target="_blank" rel="noopener"><em>EPiC: Elvis Presley in Concert</em></a> <span class='year'>(1970)</span></span>
+            
+          </div>
+          <div class="movie-meta"><span class="reason">Vintage Elvis concert film</span><span class="lb-badge lb-new">🆕 New to you</span></div>
+          <div class="showtimes"><span class="sd">📅 Sat Feb 28 · Sat Mar 7 · Thu Mar 12</span></div>
+          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=EPiC%3A%20Elvis%20Presley%20in%20Concert%20%281970%29%20%40%20&dates=20260307/20260307&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=Vintage%20Elvis%20concert%20film%20--%20https%3A//burnsfilmcenter.org/booking/epic-elvis-presley-in-concert/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
+        </div>
+        <div class="movie-card lb-new">
+          <div class="movie-top">
             <span class="movie-title"><a href="https://burnsfilmcenter.org/booking/safety-last/" class="film-link" target="_blank" rel="noopener"><em>All Ages: Safety Last!</em></a> <span class='year'>(1923)</span></span>
             
           </div>
-          <div class="movie-meta"><span class="reason">Silent comedy classic</span><span class="lb-badge lb-new">🆕 New to you</span></div>
+          <div class="movie-meta"><span class="reason">1923 Harold Lloyd silent classic</span><span class="lb-badge lb-new">🆕 New to you</span></div>
           <div class="showtimes"><span class="sd">📅 Sat Mar 7</span>  <span class="st">🕐 11:00 AM</span></div>
-          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=All%20Ages%3A%20Safety%20Last%21%20%281923%29%20%40%20&dates=20260307T110000/20260307T133000&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=Silent%20comedy%20classic%20--%20https%3A//burnsfilmcenter.org/booking/safety-last/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
+          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=All%20Ages%3A%20Safety%20Last%21%20%281923%29%20%40%20&dates=20260307T110000/20260307T133000&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=1923%20Harold%20Lloyd%20silent%20classic%20--%20https%3A//burnsfilmcenter.org/booking/safety-last/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
         </div>
         <div class="movie-card lb-new">
           <div class="movie-top">
             <span class="movie-title"><a href="https://burnsfilmcenter.org/booking/safety-last/" class="film-link" target="_blank" rel="noopener"><em>Safety Last!</em></a> <span class='year'>(1923)</span></span>
             
           </div>
-          <div class="movie-meta"><span class="reason">Harold Lloyd silent classic</span><span class="lb-badge lb-new">🆕 New to you</span></div>
+          <div class="movie-meta"><span class="reason">1923 Harold Lloyd silent classic</span><span class="lb-badge lb-new">🆕 New to you</span></div>
           <div class="showtimes"><span class="sd">📅 Sat Mar 7 · Sun Mar 8</span></div>
-          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Safety%20Last%21%20%281923%29%20%40%20&dates=20260307/20260307&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=Harold%20Lloyd%20silent%20classic%20--%20https%3A//burnsfilmcenter.org/booking/safety-last/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
+          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Safety%20Last%21%20%281923%29%20%40%20&dates=20260307/20260307&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=1923%20Harold%20Lloyd%20silent%20classic%20--%20https%3A//burnsfilmcenter.org/booking/safety-last/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
         </div>
         <div class="movie-card lb-seen">
           <div class="movie-top">
             <span class="movie-title"><a href="https://burnsfilmcenter.org/booking/snow-white-and-the-seven-dwarfs/" class="film-link" target="_blank" rel="noopener"><em>Snow White and the Seven Dwarfs</em></a> <span class='year'>(1937)</span></span>
             
           </div>
-          <div class="movie-meta"><span class="reason">Disney animation classic</span><span class="lb-badge lb-seen">👁 You've seen this</span></div>
+          <div class="movie-meta"><span class="reason">1937 Disney animated classic</span><span class="lb-badge lb-seen">👁 You've seen this</span></div>
           <div class="showtimes"><span class="sd">📅 Sat Mar 14 · Sun Mar 15</span></div>
-          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Snow%20White%20and%20the%20Seven%20Dwarfs%20%281937%29%20%40%20&dates=20260314/20260314&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=Disney%20animation%20classic%20--%20https%3A//burnsfilmcenter.org/booking/snow-white-and-the-seven-dwarfs/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
-        </div>
-        <div class="movie-card lb-seen">
-          <div class="movie-top">
-            <span class="movie-title"><a href="https://burnsfilmcenter.org/booking/there-will-be-blood/" class="film-link" target="_blank" rel="noopener"><em>There Will Be Blood</em></a> <span class='year'>(2007)</span></span>
-            
-          </div>
-          <div class="movie-meta"><span class="reason">Paul Thomas Anderson masterpiece</span><span class="lb-badge lb-seen">👁 You've seen this</span></div>
-          <div class="showtimes"><span class="sd">📅 Wed Mar 18 · Sat Mar 21</span></div>
-          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=There%20Will%20Be%20Blood%20%282007%29%20%40%20&dates=20260318/20260318&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=Paul%20Thomas%20Anderson%20masterpiece%20--%20https%3A//burnsfilmcenter.org/booking/there-will-be-blood/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
+          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Snow%20White%20and%20the%20Seven%20Dwarfs%20%281937%29%20%40%20&dates=20260314/20260314&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=1937%20Disney%20animated%20classic%20--%20https%3A//burnsfilmcenter.org/booking/snow-white-and-the-seven-dwarfs/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
         </div>
         <div class="movie-card lb-seen">
           <div class="movie-top">
             <span class="movie-title"><a href="https://burnsfilmcenter.org/booking/no-country-for-old-men/" class="film-link" target="_blank" rel="noopener"><em>No Country for Old Men</em></a> <span class='year'>(2007)</span></span>
             
           </div>
-          <div class="movie-meta"><span class="reason">2007 Coen Brothers classic revival</span><span class="lb-badge lb-seen">👁 You've seen this</span></div>
+          <div class="movie-meta"><span class="reason">2007 Coen Brothers classic</span><span class="lb-badge lb-seen">👁 You've seen this</span></div>
           <div class="showtimes"><span class="sd">📅 Wed Mar 18 · Sat Mar 21</span></div>
-          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=No%20Country%20for%20Old%20Men%20%282007%29%20%40%20&dates=20260318/20260318&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=2007%20Coen%20Brothers%20classic%20revival%20--%20https%3A//burnsfilmcenter.org/booking/no-country-for-old-men/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
+          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=No%20Country%20for%20Old%20Men%20%282007%29%20%40%20&dates=20260318/20260318&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=2007%20Coen%20Brothers%20classic%20--%20https%3A//burnsfilmcenter.org/booking/no-country-for-old-men/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
         </div>
         <div class="movie-card lb-new">
           <div class="movie-top">
             <span class="movie-title"><a href="https://burnsfilmcenter.org/booking/who-killed-teddy-bear/" class="film-link" target="_blank" rel="noopener"><em>Who Killed Teddy Bear?</em></a> <span class='year'>(1965)</span></span>
             
           </div>
-          <div class="movie-meta"><span class="reason">1965 cult film revival</span><span class="lb-badge lb-new">🆕 New to you</span></div>
+          <div class="movie-meta"><span class="reason">1965 cult thriller</span><span class="lb-badge lb-new">🆕 New to you</span></div>
           <div class="showtimes"><span class="sd">📅 Thu Mar 19</span></div>
-          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Who%20Killed%20Teddy%20Bear%3F%20%281965%29%20%40%20&dates=20260319/20260319&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=1965%20cult%20film%20revival%20--%20https%3A//burnsfilmcenter.org/booking/who-killed-teddy-bear/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
+          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Who%20Killed%20Teddy%20Bear%3F%20%281965%29%20%40%20&dates=20260319/20260319&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=1965%20cult%20thriller%20--%20https%3A//burnsfilmcenter.org/booking/who-killed-teddy-bear/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
         </div>
         <div class="movie-card lb-new">
           <div class="movie-top">
             <span class="movie-title"><a href="https://burnsfilmcenter.org/booking/fantastic-mr-fox/" class="film-link" target="_blank" rel="noopener"><em>Fantastic Mr. Fox</em></a> <span class='year'>(2009)</span></span>
             
           </div>
-          <div class="movie-meta"><span class="reason">2009 Wes Anderson classic revival</span><span class="lb-badge lb-new">🆕 New to you</span></div>
+          <div class="movie-meta"><span class="reason">2009 Wes Anderson classic</span><span class="lb-badge lb-new">🆕 New to you</span></div>
           <div class="showtimes"><span class="sd">📅 Sat Mar 21 · Sun Mar 22</span></div>
-          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Fantastic%20Mr.%20Fox%20%282009%29%20%40%20&dates=20260321/20260321&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=2009%20Wes%20Anderson%20classic%20revival%20--%20https%3A//burnsfilmcenter.org/booking/fantastic-mr-fox/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
+          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Fantastic%20Mr.%20Fox%20%282009%29%20%40%20&dates=20260321/20260321&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=2009%20Wes%20Anderson%20classic%20--%20https%3A//burnsfilmcenter.org/booking/fantastic-mr-fox/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
         </div>
         <div class="movie-card lb-new">
           <div class="movie-top">
             <span class="movie-title"><a href="https://burnsfilmcenter.org/booking/the-immigrant/" class="film-link" target="_blank" rel="noopener"><em>The Immigrant</em></a> <span class='year'>(2013)</span></span>
             
           </div>
-          <div class="movie-meta"><span class="reason">2013 James Gray revival</span><span class="lb-badge lb-new">🆕 New to you</span></div>
+          <div class="movie-meta"><span class="reason">2013 James Gray film</span><span class="lb-badge lb-new">🆕 New to you</span></div>
           <div class="showtimes"><span class="sd">📅 Mon Mar 23 · Wed Apr 1</span></div>
-          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=The%20Immigrant%20%282013%29%20%40%20&dates=20260323/20260323&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=2013%20James%20Gray%20revival%20--%20https%3A//burnsfilmcenter.org/booking/the-immigrant/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
+          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=The%20Immigrant%20%282013%29%20%40%20&dates=20260323/20260323&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=2013%20James%20Gray%20film%20--%20https%3A//burnsfilmcenter.org/booking/the-immigrant/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
         </div>
         <div class="movie-card lb-new">
           <div class="movie-top">
             <span class="movie-title"><a href="https://burnsfilmcenter.org/booking/the-apprenticeship-of-duddy-kravitz-the-street/" class="film-link" target="_blank" rel="noopener"><em>The Apprenticeship of Duddy Kravitz + The Street</em></a> <span class='year'>(1974)</span></span>
             
           </div>
-          <div class="movie-meta"><span class="reason">1974 Canadian classic double feature</span><span class="lb-badge lb-new">🆕 New to you</span></div>
+          <div class="movie-meta"><span class="reason">1974 Canadian classic with short</span><span class="lb-badge lb-new">🆕 New to you</span></div>
           <div class="showtimes"><span class="sd">📅 Sat Mar 28</span></div>
-          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=The%20Apprenticeship%20of%20Duddy%20Kravitz%20%2B%20The%20Street%20%281974%29%20%40%20&dates=20260328/20260328&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=1974%20Canadian%20classic%20double%20feature%20--%20https%3A//burnsfilmcenter.org/booking/the-apprenticeship-of-duddy-kravitz-the-street/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
+          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=The%20Apprenticeship%20of%20Duddy%20Kravitz%20%2B%20The%20Street%20%281974%29%20%40%20&dates=20260328/20260328&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=1974%20Canadian%20classic%20with%20short%20--%20https%3A//burnsfilmcenter.org/booking/the-apprenticeship-of-duddy-kravitz-the-street/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
         </div>
         <div class="movie-card lb-new">
           <div class="movie-top">
             <span class="movie-title"><a href="https://burnsfilmcenter.org/booking/thats-entertainment/" class="film-link" target="_blank" rel="noopener"><em>That's Entertainment</em></a> <span class='year'>(1974)</span></span>
             
           </div>
-          <div class="movie-meta"><span class="reason">1974 MGM musical compilation classic</span><span class="lb-badge lb-new">🆕 New to you</span></div>
+          <div class="movie-meta"><span class="reason">1974 MGM musical compilation</span><span class="lb-badge lb-new">🆕 New to you</span></div>
           <div class="showtimes"><span class="sd">📅 Sat Mar 28 · Sun Mar 29</span></div>
-          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=That%27s%20Entertainment%20%281974%29%20%40%20&dates=20260328/20260328&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=1974%20MGM%20musical%20compilation%20classic%20--%20https%3A//burnsfilmcenter.org/booking/thats-entertainment/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
+          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=That%27s%20Entertainment%20%281974%29%20%40%20&dates=20260328/20260328&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=1974%20MGM%20musical%20compilation%20--%20https%3A//burnsfilmcenter.org/booking/thats-entertainment/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
         </div>
         <div class="movie-card lb-new">
           <div class="movie-top">
             <span class="movie-title"><a href="https://burnsfilmcenter.org/booking/our-children-on-35mm/" class="film-link" target="_blank" rel="noopener"><em>Our Children (on 35mm)</em></a> <span class='year'>(2012)</span></span>
             
           </div>
-          <div class="movie-meta"><span class="reason">35mm screening revival</span><span class="lb-badge lb-new">🆕 New to you</span></div>
+          <div class="movie-meta"><span class="reason">2012 film, 35mm screening</span><span class="lb-badge lb-new">🆕 New to you</span></div>
           <div class="showtimes"><span class="sd">📅 Sat Mar 28</span></div>
-          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Our%20Children%20%28on%2035mm%29%20%282012%29%20%40%20&dates=20260328/20260328&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=35mm%20screening%20revival%20--%20https%3A//burnsfilmcenter.org/booking/our-children-on-35mm/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
+          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Our%20Children%20%28on%2035mm%29%20%282012%29%20%40%20&dates=20260328/20260328&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=2012%20film%2C%2035mm%20screening%20--%20https%3A//burnsfilmcenter.org/booking/our-children-on-35mm/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
         </div>
         <div class="movie-card lb-new">
           <div class="movie-top">
             <span class="movie-title"><a href="https://burnsfilmcenter.org/booking/the-fleischer-brothers-betty-boop-cartoons/" class="film-link" target="_blank" rel="noopener"><em>The Fleischer Brothers' Betty Boop Cartoons</em></a> <span class='year'>(1930)</span></span>
             
           </div>
-          <div class="movie-meta"><span class="reason">1930s animation classics revival</span><span class="lb-badge lb-new">🆕 New to you</span></div>
+          <div class="movie-meta"><span class="reason">Classic animation from 1930s</span><span class="lb-badge lb-new">🆕 New to you</span></div>
           <div class="showtimes"><span class="sd">📅 Sun Mar 29</span></div>
-          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=The%20Fleischer%20Brothers%27%20Betty%20Boop%20Cartoons%20%281930%29%20%40%20&dates=20260329/20260329&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=1930s%20animation%20classics%20revival%20--%20https%3A//burnsfilmcenter.org/booking/the-fleischer-brothers-betty-boop-cartoons/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
+          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=The%20Fleischer%20Brothers%27%20Betty%20Boop%20Cartoons%20%281930%29%20%40%20&dates=20260329/20260329&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=Classic%20animation%20from%201930s%20--%20https%3A//burnsfilmcenter.org/booking/the-fleischer-brothers-betty-boop-cartoons/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
         </div>
         <div class="movie-card lb-new">
           <div class="movie-top">
-            <span class="movie-title"><a href="https://burnsfilmcenter.org/booking/his-wifes-lover-on-35mm-orchard-street/" class="film-link" target="_blank" rel="noopener"><em>His Wife's Lover (on 35mm) + Orchard Street</em></a> <span class='year'>(1999)</span></span>
+            <span class="movie-title"><a href="https://burnsfilmcenter.org/booking/his-wifes-lover-on-35mm-orchard-street/" class="film-link" target="_blank" rel="noopener"><em>His Wife's Lover (on 35mm) + Orchard Street</em></a> <span class='year'>(1931)</span></span>
             
           </div>
-          <div class="movie-meta"><span class="reason">35mm screening revival</span><span class="lb-badge lb-new">🆕 New to you</span></div>
+          <div class="movie-meta"><span class="reason">1931 film on 35mm with short</span><span class="lb-badge lb-new">🆕 New to you</span></div>
           <div class="showtimes"><span class="sd">📅 Sun Mar 29</span></div>
-          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=His%20Wife%27s%20Lover%20%28on%2035mm%29%20%2B%20Orchard%20Street%20%281999%29%20%40%20&dates=20260329/20260329&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=35mm%20screening%20revival%20--%20https%3A//burnsfilmcenter.org/booking/his-wifes-lover-on-35mm-orchard-street/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
+          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=His%20Wife%27s%20Lover%20%28on%2035mm%29%20%2B%20Orchard%20Street%20%281931%29%20%40%20&dates=20260329/20260329&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=1931%20film%20on%2035mm%20with%20short%20--%20https%3A//burnsfilmcenter.org/booking/his-wifes-lover-on-35mm-orchard-street/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
         </div>
         <div class="movie-card lb-new">
           <div class="movie-top">
-            <span class="movie-title"><a href="https://burnsfilmcenter.org/booking/all-i-had-was-nothingness-night-and-fog/" class="film-link" target="_blank" rel="noopener"><em>All I Had Was Nothingness + Night and Fog</em></a> <span class='year'>(1956)</span></span>
+            <span class="movie-title"><a href="https://burnsfilmcenter.org/booking/all-i-had-was-nothingness-night-and-fog/" class="film-link" target="_blank" rel="noopener"><em>All I Had Was Nothingness + Night and Fog</em></a> <span class='year'>(1955)</span></span>
             
           </div>
-          <div class="movie-meta"><span class="reason">1956 Resnais classic + contemporary work</span><span class="lb-badge lb-new">🆕 New to you</span></div>
+          <div class="movie-meta"><span class="reason">Includes 1955 Resnais classic</span><span class="lb-badge lb-new">🆕 New to you</span></div>
           <div class="showtimes"><span class="sd">📅 Mon Mar 30 · Mon Apr 6</span></div>
-          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=All%20I%20Had%20Was%20Nothingness%20%2B%20Night%20and%20Fog%20%281956%29%20%40%20&dates=20260330/20260330&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=1956%20Resnais%20classic%20%2B%20contemporary%20work%20--%20https%3A//burnsfilmcenter.org/booking/all-i-had-was-nothingness-night-and-fog/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
+          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=All%20I%20Had%20Was%20Nothingness%20%2B%20Night%20and%20Fog%20%281955%29%20%40%20&dates=20260330/20260330&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=Includes%201955%20Resnais%20classic%20--%20https%3A//burnsfilmcenter.org/booking/all-i-had-was-nothingness-night-and-fog/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
         </div>
         <div class="movie-card lb-new">
           <div class="movie-top">
             <span class="movie-title"><a href="https://burnsfilmcenter.org/booking/the-sound-of-music-sing-along/" class="film-link" target="_blank" rel="noopener"><em>The Sound of Music Sing-Along</em></a> <span class='year'>(1965)</span></span>
             
           </div>
-          <div class="movie-meta"><span class="reason">1965 musical classic special screening</span><span class="lb-badge lb-new">🆕 New to you</span></div>
+          <div class="movie-meta"><span class="reason">1965 musical classic, special screening</span><span class="lb-badge lb-new">🆕 New to you</span></div>
           <div class="showtimes"><span class="sd">📅 Sat Apr 4 · Sun Apr 5</span></div>
-          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=The%20Sound%20of%20Music%20Sing-Along%20%281965%29%20%40%20&dates=20260404/20260404&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=1965%20musical%20classic%20special%20screening%20--%20https%3A//burnsfilmcenter.org/booking/the-sound-of-music-sing-along/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
+          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=The%20Sound%20of%20Music%20Sing-Along%20%281965%29%20%40%20&dates=20260404/20260404&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=1965%20musical%20classic%2C%20special%20screening%20--%20https%3A//burnsfilmcenter.org/booking/the-sound-of-music-sing-along/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
         </div>
         <div class="movie-card lb-new">
           <div class="movie-top">
             <span class="movie-title"><a href="https://burnsfilmcenter.org/booking/shoah/" class="film-link" target="_blank" rel="noopener"><em>Shoah</em></a> <span class='year'>(1985)</span></span>
             
           </div>
-          <div class="movie-meta"><span class="reason">1985 Lanzmann masterpiece revival</span><span class="lb-badge lb-new">🆕 New to you</span></div>
+          <div class="movie-meta"><span class="reason">1985 Lanzmann masterpiece</span><span class="lb-badge lb-new">🆕 New to you</span></div>
           <div class="showtimes"><span class="sd">📅 Sun Apr 5</span></div>
-          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Shoah%20%281985%29%20%40%20&dates=20260405/20260405&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=1985%20Lanzmann%20masterpiece%20revival%20--%20https%3A//burnsfilmcenter.org/booking/shoah/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
+          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Shoah%20%281985%29%20%40%20&dates=20260405/20260405&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=1985%20Lanzmann%20masterpiece%20--%20https%3A//burnsfilmcenter.org/booking/shoah/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
         </div>
         <div class="movie-card lb-new">
           <div class="movie-top">
             <span class="movie-title"><a href="https://burnsfilmcenter.org/booking/high-school/" class="film-link" target="_blank" rel="noopener"><em>High School</em></a> <span class='year'>(1968)</span></span>
             
           </div>
-          <div class="movie-meta"><span class="reason">1968 Frederick Wiseman classic</span><span class="lb-badge lb-new">🆕 New to you</span></div>
+          <div class="movie-meta"><span class="reason">1968 Frederick Wiseman documentary</span><span class="lb-badge lb-new">🆕 New to you</span></div>
           <div class="showtimes"><span class="sd">📅 Wed Apr 8 · Thu Apr 9</span></div>
-          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=High%20School%20%281968%29%20%40%20&dates=20260408/20260408&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=1968%20Frederick%20Wiseman%20classic%20--%20https%3A//burnsfilmcenter.org/booking/high-school/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
+          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=High%20School%20%281968%29%20%40%20&dates=20260408/20260408&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=1968%20Frederick%20Wiseman%20documentary%20--%20https%3A//burnsfilmcenter.org/booking/high-school/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
         </div>
         <div class="movie-card lb-new">
           <div class="movie-top">
             <span class="movie-title"><a href="https://burnsfilmcenter.org/booking/law-and-order/" class="film-link" target="_blank" rel="noopener"><em>Law and Order</em></a> <span class='year'>(1969)</span></span>
             
           </div>
-          <div class="movie-meta"><span class="reason">1969 Frederick Wiseman classic</span><span class="lb-badge lb-new">🆕 New to you</span></div>
+          <div class="movie-meta"><span class="reason">1969 Frederick Wiseman documentary</span><span class="lb-badge lb-new">🆕 New to you</span></div>
           <div class="showtimes"><span class="sd">📅 Wed Apr 8 · Thu Apr 9</span></div>
-          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Law%20and%20Order%20%281969%29%20%40%20&dates=20260408/20260408&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=1969%20Frederick%20Wiseman%20classic%20--%20https%3A//burnsfilmcenter.org/booking/law-and-order/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
+          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Law%20and%20Order%20%281969%29%20%40%20&dates=20260408/20260408&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=1969%20Frederick%20Wiseman%20documentary%20--%20https%3A//burnsfilmcenter.org/booking/law-and-order/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
         </div>
         <div class="movie-card lb-new">
           <div class="movie-top">
             <span class="movie-title"><a href="https://burnsfilmcenter.org/booking/welfare/" class="film-link" target="_blank" rel="noopener"><em>Welfare</em></a> <span class='year'>(1975)</span></span>
             
           </div>
-          <div class="movie-meta"><span class="reason">1975 Frederick Wiseman classic</span><span class="lb-badge lb-new">🆕 New to you</span></div>
+          <div class="movie-meta"><span class="reason">1975 Frederick Wiseman documentary</span><span class="lb-badge lb-new">🆕 New to you</span></div>
           <div class="showtimes"><span class="sd">📅 Wed Apr 8 · Sun Apr 12</span></div>
-          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Welfare%20%281975%29%20%40%20&dates=20260408/20260408&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=1975%20Frederick%20Wiseman%20classic%20--%20https%3A//burnsfilmcenter.org/booking/welfare/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
+          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Welfare%20%281975%29%20%40%20&dates=20260408/20260408&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=1975%20Frederick%20Wiseman%20documentary%20--%20https%3A//burnsfilmcenter.org/booking/welfare/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
         </div>
         <div class="movie-card lb-new">
           <div class="movie-top">
-            <span class="movie-title"><a href="https://burnsfilmcenter.org/booking/melies-shorts/" class="film-link" target="_blank" rel="noopener"><em>Méliès Shorts</em></a> <span class='year'>(1896)</span></span>
+            <span class="movie-title"><a href="https://burnsfilmcenter.org/booking/melies-shorts/" class="film-link" target="_blank" rel="noopener"><em>Méliès Shorts</em></a> <span class='year'>(1902)</span></span>
             
           </div>
-          <div class="movie-meta"><span class="reason">Georges Méliès early cinema classics</span><span class="lb-badge lb-new">🆕 New to you</span></div>
+          <div class="movie-meta"><span class="reason">Early cinema pioneer shorts</span><span class="lb-badge lb-new">🆕 New to you</span></div>
           <div class="showtimes"><span class="sd">📅 Sat Apr 11 · Sun Apr 12</span></div>
-          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=M%C3%A9li%C3%A8s%20Shorts%20%281896%29%20%40%20&dates=20260411/20260411&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=Georges%20M%C3%A9li%C3%A8s%20early%20cinema%20classics%20--%20https%3A//burnsfilmcenter.org/booking/melies-shorts/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
+          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=M%C3%A9li%C3%A8s%20Shorts%20%281902%29%20%40%20&dates=20260411/20260411&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=Early%20cinema%20pioneer%20shorts%20--%20https%3A//burnsfilmcenter.org/booking/melies-shorts/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
         </div>
         <div class="movie-card lb-new">
           <div class="movie-top">
             <span class="movie-title"><a href="https://burnsfilmcenter.org/booking/the-story-of-a-three-day-pass/" class="film-link" target="_blank" rel="noopener"><em>The Story of a Three Day Pass</em></a> <span class='year'>(1967)</span></span>
             
           </div>
-          <div class="movie-meta"><span class="reason">1967 Melvin Van Peebles classic</span><span class="lb-badge lb-new">🆕 New to you</span></div>
+          <div class="movie-meta"><span class="reason">1967 Melvin Van Peebles film</span><span class="lb-badge lb-new">🆕 New to you</span></div>
           <div class="showtimes"><span class="sd">📅 Sun Apr 12</span></div>
-          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=The%20Story%20of%20a%20Three%20Day%20Pass%20%281967%29%20%40%20&dates=20260412/20260412&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=1967%20Melvin%20Van%20Peebles%20classic%20--%20https%3A//burnsfilmcenter.org/booking/the-story-of-a-three-day-pass/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
+          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=The%20Story%20of%20a%20Three%20Day%20Pass%20%281967%29%20%40%20&dates=20260412/20260412&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=1967%20Melvin%20Van%20Peebles%20film%20--%20https%3A//burnsfilmcenter.org/booking/the-story-of-a-three-day-pass/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
         </div>
         <div class="movie-card lb-new">
           <div class="movie-top">
             <span class="movie-title"><a href="https://burnsfilmcenter.org/booking/italianamerican/" class="film-link" target="_blank" rel="noopener"><em>Italianamerican</em></a> <span class='year'>(1974)</span></span>
             
           </div>
-          <div class="movie-meta"><span class="reason">1974 Scorsese documentary classic</span><span class="lb-badge lb-new">🆕 New to you</span></div>
+          <div class="movie-meta"><span class="reason">1974 Scorsese documentary</span><span class="lb-badge lb-new">🆕 New to you</span></div>
           <div class="showtimes"><span class="sd">📅 Mon Apr 13</span></div>
-          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Italianamerican%20%281974%29%20%40%20&dates=20260413/20260413&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=1974%20Scorsese%20documentary%20classic%20--%20https%3A//burnsfilmcenter.org/booking/italianamerican/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
+          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Italianamerican%20%281974%29%20%40%20&dates=20260413/20260413&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=1974%20Scorsese%20documentary%20--%20https%3A//burnsfilmcenter.org/booking/italianamerican/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
         </div>
         <div class="movie-card lb-new">
           <div class="movie-top">
             <span class="movie-title"><a href="https://burnsfilmcenter.org/booking/canal-zone/" class="film-link" target="_blank" rel="noopener"><em>Canal Zone</em></a> <span class='year'>(1977)</span></span>
             
           </div>
-          <div class="movie-meta"><span class="reason">1977 Frederick Wiseman classic</span><span class="lb-badge lb-new">🆕 New to you</span></div>
+          <div class="movie-meta"><span class="reason">1977 Frederick Wiseman documentary</span><span class="lb-badge lb-new">🆕 New to you</span></div>
           <div class="showtimes"><span class="sd">📅 Tue Apr 14 · Wed Apr 15</span></div>
-          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Canal%20Zone%20%281977%29%20%40%20&dates=20260414/20260414&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=1977%20Frederick%20Wiseman%20classic%20--%20https%3A//burnsfilmcenter.org/booking/canal-zone/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
+          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Canal%20Zone%20%281977%29%20%40%20&dates=20260414/20260414&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=1977%20Frederick%20Wiseman%20documentary%20--%20https%3A//burnsfilmcenter.org/booking/canal-zone/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
         </div>
         <div class="movie-card lb-new">
           <div class="movie-top">
             <span class="movie-title"><a href="https://burnsfilmcenter.org/booking/the-store/" class="film-link" target="_blank" rel="noopener"><em>The Store</em></a> <span class='year'>(1983)</span></span>
             
           </div>
-          <div class="movie-meta"><span class="reason">1983 Frederick Wiseman classic</span><span class="lb-badge lb-new">🆕 New to you</span></div>
+          <div class="movie-meta"><span class="reason">1983 Frederick Wiseman documentary</span><span class="lb-badge lb-new">🆕 New to you</span></div>
           <div class="showtimes"><span class="sd">📅 Wed Apr 15 · Fri Apr 17</span></div>
-          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=The%20Store%20%281983%29%20%40%20&dates=20260415/20260415&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=1983%20Frederick%20Wiseman%20classic%20--%20https%3A//burnsfilmcenter.org/booking/the-store/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
+          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=The%20Store%20%281983%29%20%40%20&dates=20260415/20260415&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=1983%20Frederick%20Wiseman%20documentary%20--%20https%3A//burnsfilmcenter.org/booking/the-store/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
         </div>
         <div class="movie-card lb-new">
           <div class="movie-top">
-            <span class="movie-title"><a href="https://burnsfilmcenter.org/booking/aspen/" class="film-link" target="_blank" rel="noopener"><em>Aspen</em></a> <span class='year'>(1973)</span></span>
+            <span class="movie-title"><a href="https://burnsfilmcenter.org/booking/aspen/" class="film-link" target="_blank" rel="noopener"><em>Aspen</em></a> <span class='year'>(1991)</span></span>
             
           </div>
-          <div class="movie-meta"><span class="reason">1973 Frederick Wiseman classic</span><span class="lb-badge lb-new">🆕 New to you</span></div>
+          <div class="movie-meta"><span class="reason">1991 Frederick Wiseman documentary</span><span class="lb-badge lb-new">🆕 New to you</span></div>
           <div class="showtimes"><span class="sd">📅 Fri Apr 17 · Sun Apr 19</span></div>
-          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Aspen%20%281973%29%20%40%20&dates=20260417/20260417&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=1973%20Frederick%20Wiseman%20classic%20--%20https%3A//burnsfilmcenter.org/booking/aspen/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
+          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Aspen%20%281991%29%20%40%20&dates=20260417/20260417&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=1991%20Frederick%20Wiseman%20documentary%20--%20https%3A//burnsfilmcenter.org/booking/aspen/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
         </div>
         <div class="movie-card lb-new">
           <div class="movie-top">
             <span class="movie-title"><a href="https://burnsfilmcenter.org/booking/howls-moving-castle-2/" class="film-link" target="_blank" rel="noopener"><em>Howl's Moving Castle</em></a> <span class='year'>(2004)</span></span>
             
           </div>
-          <div class="movie-meta"><span class="reason">2004 Miyazaki classic revival</span><span class="lb-badge lb-new">🆕 New to you</span></div>
+          <div class="movie-meta"><span class="reason">2004 Miyazaki classic</span><span class="lb-badge lb-new">🆕 New to you</span></div>
           <div class="showtimes"><span class="sd">📅 Sat Apr 18 · Sun Apr 19</span></div>
-          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Howl%27s%20Moving%20Castle%20%282004%29%20%40%20&dates=20260418/20260418&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=2004%20Miyazaki%20classic%20revival%20--%20https%3A//burnsfilmcenter.org/booking/howls-moving-castle-2/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
+          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Howl%27s%20Moving%20Castle%20%282004%29%20%40%20&dates=20260418/20260418&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=2004%20Miyazaki%20classic%20--%20https%3A//burnsfilmcenter.org/booking/howls-moving-castle-2/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
         </div>
         <div class="movie-card lb-new">
           <div class="movie-top">
             <span class="movie-title"><a href="https://burnsfilmcenter.org/booking/public-housing/" class="film-link" target="_blank" rel="noopener"><em>Public Housing</em></a> <span class='year'>(1997)</span></span>
             
           </div>
-          <div class="movie-meta"><span class="reason">Frederick Wiseman documentary classic</span><span class="lb-badge lb-new">🆕 New to you</span></div>
+          <div class="movie-meta"><span class="reason">1997 Frederick Wiseman documentary</span><span class="lb-badge lb-new">🆕 New to you</span></div>
           <div class="showtimes"><span class="sd">📅 Tue Apr 21 · Sat Apr 25</span></div>
-          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Public%20Housing%20%281997%29%20%40%20&dates=20260421/20260421&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=Frederick%20Wiseman%20documentary%20classic%20--%20https%3A//burnsfilmcenter.org/booking/public-housing/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
+          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Public%20Housing%20%281997%29%20%40%20&dates=20260421/20260421&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=1997%20Frederick%20Wiseman%20documentary%20--%20https%3A//burnsfilmcenter.org/booking/public-housing/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
         </div>
         <div class="movie-card lb-new">
           <div class="movie-top">
             <span class="movie-title"><a href="https://burnsfilmcenter.org/booking/the-piano-teacher/" class="film-link" target="_blank" rel="noopener"><em>The Piano Teacher</em></a> <span class='year'>(2001)</span></span>
             
           </div>
-          <div class="movie-meta"><span class="reason">Michael Haneke art house classic</span><span class="lb-badge lb-new">🆕 New to you</span></div>
+          <div class="movie-meta"><span class="reason">2001 Michael Haneke arthouse classic</span><span class="lb-badge lb-new">🆕 New to you</span></div>
           <div class="showtimes"><span class="sd">📅 Wed Apr 22</span></div>
-          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=The%20Piano%20Teacher%20%282001%29%20%40%20&dates=20260422/20260422&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=Michael%20Haneke%20art%20house%20classic%20--%20https%3A//burnsfilmcenter.org/booking/the-piano-teacher/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
+          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=The%20Piano%20Teacher%20%282001%29%20%40%20&dates=20260422/20260422&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=2001%20Michael%20Haneke%20arthouse%20classic%20--%20https%3A//burnsfilmcenter.org/booking/the-piano-teacher/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
         </div>
         <div class="movie-card lb-new">
           <div class="movie-top">
             <span class="movie-title"><a href="https://burnsfilmcenter.org/booking/fat-girl/" class="film-link" target="_blank" rel="noopener"><em>Fat Girl</em></a> <span class='year'>(2001)</span></span>
             
           </div>
-          <div class="movie-meta"><span class="reason">Catherine Breillat controversial classic</span><span class="lb-badge lb-new">🆕 New to you</span></div>
+          <div class="movie-meta"><span class="reason">2001 Catherine Breillat provocative classic</span><span class="lb-badge lb-new">🆕 New to you</span></div>
           <div class="showtimes"><span class="sd">📅 Wed Apr 22 · Sat Apr 25</span></div>
-          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Fat%20Girl%20%282001%29%20%40%20&dates=20260422/20260422&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=Catherine%20Breillat%20controversial%20classic%20--%20https%3A//burnsfilmcenter.org/booking/fat-girl/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
+          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Fat%20Girl%20%282001%29%20%40%20&dates=20260422/20260422&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=2001%20Catherine%20Breillat%20provocative%20classic%20--%20https%3A//burnsfilmcenter.org/booking/fat-girl/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
         </div>
         <div class="movie-card lb-new">
           <div class="movie-top">
             <span class="movie-title"><a href="https://burnsfilmcenter.org/booking/domestic-violence/" class="film-link" target="_blank" rel="noopener"><em>Domestic Violence</em></a> <span class='year'>(2001)</span></span>
             
           </div>
-          <div class="movie-meta"><span class="reason">Frederick Wiseman documentary</span><span class="lb-badge lb-new">🆕 New to you</span></div>
+          <div class="movie-meta"><span class="reason">2001 Frederick Wiseman documentary</span><span class="lb-badge lb-new">🆕 New to you</span></div>
           <div class="showtimes"><span class="sd">📅 Thu Apr 23 · Sun Apr 26</span></div>
-          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Domestic%20Violence%20%282001%29%20%40%20&dates=20260423/20260423&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=Frederick%20Wiseman%20documentary%20--%20https%3A//burnsfilmcenter.org/booking/domestic-violence/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
+          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Domestic%20Violence%20%282001%29%20%40%20&dates=20260423/20260423&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=2001%20Frederick%20Wiseman%20documentary%20--%20https%3A//burnsfilmcenter.org/booking/domestic-violence/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
         </div>
         <div class="movie-card lb-new">
           <div class="movie-top">
             <span class="movie-title"><a href="https://burnsfilmcenter.org/booking/belfast-maine/" class="film-link" target="_blank" rel="noopener"><em>Belfast, Maine</em></a> <span class='year'>(1999)</span></span>
             
           </div>
-          <div class="movie-meta"><span class="reason">Frederick Wiseman documentary</span><span class="lb-badge lb-new">🆕 New to you</span></div>
+          <div class="movie-meta"><span class="reason">1999 Frederick Wiseman documentary</span><span class="lb-badge lb-new">🆕 New to you</span></div>
           <div class="showtimes"><span class="sd">📅 Fri Apr 24</span></div>
-          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Belfast%2C%20Maine%20%281999%29%20%40%20&dates=20260424/20260424&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=Frederick%20Wiseman%20documentary%20--%20https%3A//burnsfilmcenter.org/booking/belfast-maine/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
+          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Belfast%2C%20Maine%20%281999%29%20%40%20&dates=20260424/20260424&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=1999%20Frederick%20Wiseman%20documentary%20--%20https%3A//burnsfilmcenter.org/booking/belfast-maine/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
         </div>
         <div class="movie-card lb-new">
           <div class="movie-top">
-            <span class="movie-title"><a href="https://burnsfilmcenter.org/booking/wallace-gromit-shorts-program/" class="film-link" target="_blank" rel="noopener"><em>Wallace & Gromit Shorts Program</em></a> <span class='year'>(1990)</span></span>
+            <span class="movie-title"><a href="https://burnsfilmcenter.org/booking/wallace-gromit-shorts-program/" class="film-link" target="_blank" rel="noopener"><em>Wallace & Gromit Shorts Program</em></a> <span class='year'>(1989)</span></span>
             
           </div>
-          <div class="movie-meta"><span class="reason">Classic British animation shorts</span><span class="lb-badge lb-new">🆕 New to you</span></div>
+          <div class="movie-meta"><span class="reason">classic British animation shorts</span><span class="lb-badge lb-new">🆕 New to you</span></div>
           <div class="showtimes"><span class="sd">📅 Sat Apr 25 · Sun Apr 26</span></div>
-          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Wallace%20%26%20Gromit%20Shorts%20Program%20%281990%29%20%40%20&dates=20260425/20260425&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=Classic%20British%20animation%20shorts%20--%20https%3A//burnsfilmcenter.org/booking/wallace-gromit-shorts-program/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
+          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Wallace%20%26%20Gromit%20Shorts%20Program%20%281989%29%20%40%20&dates=20260425/20260425&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=classic%20British%20animation%20shorts%20--%20https%3A//burnsfilmcenter.org/booking/wallace-gromit-shorts-program/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
         </div>
         <div class="movie-card lb-new">
           <div class="movie-top">
             <span class="movie-title"><a href="https://burnsfilmcenter.org/booking/in-jackson-heights/" class="film-link" target="_blank" rel="noopener"><em>In Jackson Heights</em></a> <span class='year'>(2015)</span></span>
             
           </div>
-          <div class="movie-meta"><span class="reason">Frederick Wiseman documentary classic</span><span class="lb-badge lb-new">🆕 New to you</span></div>
+          <div class="movie-meta"><span class="reason">2015 Frederick Wiseman documentary</span><span class="lb-badge lb-new">🆕 New to you</span></div>
           <div class="showtimes"><span class="sd">📅 Tue Apr 28 · Sat May 2</span></div>
-          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=In%20Jackson%20Heights%20%282015%29%20%40%20&dates=20260428/20260428&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=Frederick%20Wiseman%20documentary%20classic%20--%20https%3A//burnsfilmcenter.org/booking/in-jackson-heights/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
+          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=In%20Jackson%20Heights%20%282015%29%20%40%20&dates=20260428/20260428&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=2015%20Frederick%20Wiseman%20documentary%20--%20https%3A//burnsfilmcenter.org/booking/in-jackson-heights/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
         </div>
         <div class="movie-card lb-new">
           <div class="movie-top">
             <span class="movie-title"><a href="https://burnsfilmcenter.org/booking/ex-libris-the-new-york-public-library/" class="film-link" target="_blank" rel="noopener"><em>Ex Libris: The New York Public Library</em></a> <span class='year'>(2017)</span></span>
             
           </div>
-          <div class="movie-meta"><span class="reason">Frederick Wiseman documentary</span><span class="lb-badge lb-new">🆕 New to you</span></div>
+          <div class="movie-meta"><span class="reason">2017 Frederick Wiseman documentary</span><span class="lb-badge lb-new">🆕 New to you</span></div>
           <div class="showtimes"><span class="sd">📅 Thu Apr 30 · Fri May 1</span></div>
-          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Ex%20Libris%3A%20The%20New%20York%20Public%20Library%20%282017%29%20%40%20&dates=20260430/20260430&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=Frederick%20Wiseman%20documentary%20--%20https%3A//burnsfilmcenter.org/booking/ex-libris-the-new-york-public-library/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
+          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Ex%20Libris%3A%20The%20New%20York%20Public%20Library%20%282017%29%20%40%20&dates=20260430/20260430&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=2017%20Frederick%20Wiseman%20documentary%20--%20https%3A//burnsfilmcenter.org/booking/ex-libris-the-new-york-public-library/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
         </div>
         <div class="movie-card lb-new">
           <div class="movie-top">
             <span class="movie-title"><a href="https://burnsfilmcenter.org/booking/monrovia-indiana/" class="film-link" target="_blank" rel="noopener"><em>Monrovia, Indiana</em></a> <span class='year'>(2018)</span></span>
             
           </div>
-          <div class="movie-meta"><span class="reason">Frederick Wiseman documentary</span><span class="lb-badge lb-new">🆕 New to you</span></div>
+          <div class="movie-meta"><span class="reason">2018 Frederick Wiseman documentary</span><span class="lb-badge lb-new">🆕 New to you</span></div>
           <div class="showtimes"><span class="sd">📅 Fri May 1 · Sun May 3</span></div>
-          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Monrovia%2C%20Indiana%20%282018%29%20%40%20&dates=20260501/20260501&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=Frederick%20Wiseman%20documentary%20--%20https%3A//burnsfilmcenter.org/booking/monrovia-indiana/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
+          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Monrovia%2C%20Indiana%20%282018%29%20%40%20&dates=20260501/20260501&location=364%20Manville%20Rd%2C%20Pleasantville%2C%20NY%2010570&details=2018%20Frederick%20Wiseman%20documentary%20--%20https%3A//burnsfilmcenter.org/booking/monrovia-indiana/" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
         </div></div>
       </div>
       <div class="theater-block ">
@@ -599,28 +598,37 @@ a.film-link:hover{color:var(--red);border-bottom-color:var(--red)}
           <span class="theater-city">Mamaroneck, NY</span>
         </div>
         <div class="movie-list">
+        <div class="movie-card lb-new">
+          <div class="movie-top">
+            <span class="movie-title"><a href="https://www.fandango.com/epic-elvis-presley-in-concert-2026-243795/movie-overview" class="film-link" target="_blank" rel="noopener"><em>EPiC: Elvis Presley in Concert</em></a> <span class='year'>(1970)</span></span>
+            
+          </div>
+          <div class="movie-meta"><span class="reason">Vintage Elvis concert film</span><span class="lb-badge lb-new">🆕 New to you</span></div>
+          <div class="showtimes"><span class="sd">📅 Sun Mar 8 · Mon Mar 9 · Tue Mar 10 · Wed Mar 11 · Thu Mar 12</span>  <span class="st">🕐 5 o'clock PM · 7:20 PM · 4 o'clock PM · 6:30 PM · 7 o'clock PM</span></div>
+          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=EPiC%3A%20Elvis%20Presley%20in%20Concert%20%281970%29%20%40%20&dates=20260308/20260308&location=243%20Mamaroneck%20Ave%2C%20Mamaroneck%2C%20NY%2010543&details=Vintage%20Elvis%20concert%20film%20--%20https%3A//www.fandango.com/epic-elvis-presley-in-concert-2026-243795/movie-overview" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
+        </div>
         <div class="movie-card lb-seen">
           <div class="movie-top">
             <span class="movie-title"><a href="https://www.fandango.com/goodfellas-17286/movie-overview" class="film-link" target="_blank" rel="noopener"><em>Goodfellas</em></a> <span class='year'>(1990)</span></span>
             
           </div>
-          <div class="movie-meta"><span class="reason">Scorsese crime classic</span><span class="lb-badge lb-seen">👁 You've seen this</span></div>
+          <div class="movie-meta"><span class="reason">1990 Scorsese classic</span><span class="lb-badge lb-seen">👁 You've seen this</span></div>
           <div class="showtimes"><span class="sd">📅 Tue Mar 10</span>  <span class="st">🕐 7 o'clock PM</span></div>
-          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Goodfellas%20%281990%29%20%40%20&dates=20260310/20260310&location=243%20Mamaroneck%20Ave%2C%20Mamaroneck%2C%20NY%2010543&details=Scorsese%20crime%20classic%20--%20https%3A//www.fandango.com/goodfellas-17286/movie-overview" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
+          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Goodfellas%20%281990%29%20%40%20&dates=20260310/20260310&location=243%20Mamaroneck%20Ave%2C%20Mamaroneck%2C%20NY%2010543&details=1990%20Scorsese%20classic%20--%20https%3A//www.fandango.com/goodfellas-17286/movie-overview" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
         </div>
         <div class="movie-card lb-loved">
           <div class="movie-top">
             <span class="movie-title"><a href="https://www.fandango.com/boogie-nights-2227/movie-overview" class="film-link" target="_blank" rel="noopener"><em>Boogie Nights</em></a> <span class='year'>(1997)</span></span>
             
           </div>
-          <div class="movie-meta"><span class="reason">Paul Thomas Anderson classic</span><span class="lb-badge lb-loved">⭐ You rated this ★★★★★</span></div>
+          <div class="movie-meta"><span class="reason">1997 Paul Thomas Anderson classic</span><span class="lb-badge lb-loved">⭐ You rated this ★★★★★</span></div>
           <div class="showtimes"><span class="sd">📅 Thu Mar 12</span>  <span class="st">🕐 7 o'clock PM</span></div>
-          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Boogie%20Nights%20%281997%29%20%40%20&dates=20260312/20260312&location=243%20Mamaroneck%20Ave%2C%20Mamaroneck%2C%20NY%2010543&details=Paul%20Thomas%20Anderson%20classic%20--%20https%3A//www.fandango.com/boogie-nights-2227/movie-overview" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
+          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Boogie%20Nights%20%281997%29%20%40%20&dates=20260312/20260312&location=243%20Mamaroneck%20Ave%2C%20Mamaroneck%2C%20NY%2010543&details=1997%20Paul%20Thomas%20Anderson%20classic%20--%20https%3A//www.fandango.com/boogie-nights-2227/movie-overview" class="gcal-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Cal</a>
         </div></div>
       </div>
 </main>
 <footer class="footer">
-  Classic Cinema Calendar · Larchmont, NY · @mororke · AI by Claude · March 7, 2026 at 2:34 PM
+  Classic Cinema Calendar · Larchmont, NY · @mororke · AI by Claude · March 7, 2026 at 2:57 PM
 </footer>
 </body>
 </html>
