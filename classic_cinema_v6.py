@@ -654,6 +654,75 @@ def scrape_regal(theater_name, pw):
         print(f"    ✓ {len(movies)} films ({sum(1 for m in movies if m['dates'])} with dates)")
     except Exception as e:
         print(f"    ⚠ Atom Tickets error: {e}")
+
+    # Supplement with Fandango API for 60 days to catch films Atom Tickets misses
+    try:
+        from datetime import date as date_cls, timedelta
+        fandango_headers = {
+            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+            "Accept": "application/json",
+            "Referer": "https://www.fandango.com/regal-new-roc-4dx-imax-and-rpx-aanlc/theater-page",
+        }
+        existing_titles = {m["title"].lower() for m in movies}
+        fandango_grouped = {}
+        today = date_cls.today()
+        dates_to_fetch = [today + timedelta(days=i) for i in range(0, 61)]
+        skip = {"offers","nearby theaters","amenities details","new & coming soon",
+                "experience + explore","editorial features","videos","photos",
+                "follow us","get fandango apps","movie times calendar",
+                "filter movie times by screen format",
+                "calendar for movie times. today's date is selected."}
+        for fetch_date in dates_to_fetch:
+            date_str = fetch_date.isoformat()
+            try:
+                r = SESSION.get(
+                    "https://www.fandango.com/napi/theaterMovieShowtimes/AANLC",
+                    params={"date": date_str},
+                    headers=fandango_headers,
+                    timeout=15
+                )
+                if r.status_code != 200:
+                    continue
+                data = r.json()
+                film_list = data.get("viewModel",{}).get("movies") or []
+                for film in film_list:
+                    title = clean(film.get("title",""))
+                    if not title or title.lower() in skip: continue
+                    if any(x in title.lower() for x in [
+                        "filter","calendar","format","nearby","amenities",
+                        "coming soon","follow","apps","editorial","photos","videos"
+                    ]): continue
+                    mop = film.get("mopURI","")
+                    film_url = f"https://www.fandango.com{mop}" if mop else "https://www.fandango.com/regal-new-roc-4dx-imax-and-rpx-aanlc/theater-page"
+                    if title not in fandango_grouped:
+                        fandango_grouped[title] = make_movie(
+                            title, theater_name,
+                            url=film_url
+                        )
+                    if date_str not in fandango_grouped[title]["dates"]:
+                        fandango_grouped[title]["dates"].append(date_str)
+            except Exception:
+                continue
+
+        added = 0
+        for title, m in fandango_grouped.items():
+            if title.lower() not in existing_titles:
+                movies.append(m)
+                existing_titles.add(title.lower())
+                added += 1
+            else:
+                # Merge dates into existing movie
+                for existing in movies:
+                    if existing["title"].lower() == title.lower():
+                        for d in m["dates"]:
+                            if d not in existing["dates"]:
+                                existing["dates"].append(d)
+                        break
+        if added:
+            print(f"    + {added} extra films from Fandango (60 days)")
+    except Exception as e:
+        print(f"    ⚠ Fandango supplement error: {e}")
+
     return movies
 
 
