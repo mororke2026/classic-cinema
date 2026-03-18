@@ -1239,6 +1239,12 @@ def main():
     # ── Classify with Claude ──
     classics = classify_with_claude(all_movies) if not demo_mode else all_movies
 
+    # Filter out past screening dates
+    from datetime import date as date_cls
+    today_str = date_cls.today().isoformat()
+    for m in classics:
+        m["dates"] = [d for d in m["dates"] if d >= today_str]
+
     # ── Output ──
     print("\n── OUTPUT ────────────────────────────────────────────")
 
