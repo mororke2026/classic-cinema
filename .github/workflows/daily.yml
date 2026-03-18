@@ -3,7 +3,10 @@ name: Daily Classic Cinema Update
 on:
   schedule:
     - cron: '0 14 * * *'  # 10am ET daily
-  workflow_dispatch:        # allow manual trigger
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   update:
