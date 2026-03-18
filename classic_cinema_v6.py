@@ -658,10 +658,12 @@ def scrape_regal(theater_name, pw):
     # Supplement with Fandango API for 60 days to catch films Atom Tickets misses
     try:
         from datetime import date as date_cls, timedelta
+        fandango_id = THEATERS[theater_name].get("fandango_id","")
+        fandango_referer = THEATERS[theater_name].get("showtimes_url","https://www.fandango.com")
         fandango_headers = {
             "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
             "Accept": "application/json",
-            "Referer": "https://www.fandango.com/regal-new-roc-4dx-imax-and-rpx-aanlc/theater-page",
+            "Referer": fandango_referer,
         }
         existing_titles = {m["title"].lower() for m in movies}
         fandango_grouped = {}
@@ -676,7 +678,7 @@ def scrape_regal(theater_name, pw):
             date_str = fetch_date.isoformat()
             try:
                 r = SESSION.get(
-                    "https://www.fandango.com/napi/theaterMovieShowtimes/AANLC",
+                    f"https://www.fandango.com/napi/theaterMovieShowtimes/{fandango_id}",
                     params={"date": date_str},
                     headers=fandango_headers,
                     timeout=15
