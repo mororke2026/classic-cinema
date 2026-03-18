@@ -1,0 +1,35 @@
+Xname: Daily Classic Cinema Update
+
+on:
+  schedule:
+    - cron: '0 14 * * *'  # 10am ET daily
+  workflow_dispatch:        # allow manual trigger
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install requests beautifulsoup4 playwright anthropic
+          playwright install chromium
+          playwright install-deps chromium
+
+      - name: Run scraper
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python classic_cinema_v5.py
+
+      - name: Commit and push output
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add classic_cinema_calendar.html classic_cinema.ics classic_movies.json
+          git diff --staged --quiet || git commit -m "Auto-update $(date '+%Y-%m-%d')"
+          git push
