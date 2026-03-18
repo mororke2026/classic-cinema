@@ -140,7 +140,7 @@ def clean(t: str) -> str:
         t = t.replace(old, new)
     return t
 
-def make_movie(title, theater_name, dates=None, times=None, url=None, description=None):
+def make_movie(title, theater_name, dates=None, times=None, url=None, description=None, runtime_mins=None):
     cfg = THEATERS[theater_name]
     return {
         "title":        clean(title),
@@ -150,6 +150,7 @@ def make_movie(title, theater_name, dates=None, times=None, url=None, descriptio
         "times":        times or [],
         "source_url":   url or cfg.get("showtimes_url") or cfg["website"],
         "description":  description or "",
+        "runtime_mins": runtime_mins,
     }
 
 def pw_page(playwright, url: str, wait_for: str = None, timeout: int = 20000):
@@ -436,7 +437,8 @@ def scrape_pelham(theater_name, pw):
         slug     = movie.get("urlSlug", "")
         film_url = (f"https://www.thepicturehouse.org/movies/{slug}"
                     if slug else THEATER_URL)
-        desc     = movie.get("synopsis", "") or ""
+        desc         = movie.get("synopsis", "") or ""
+        runtime_mins = movie.get("duration") or None
 
         raw_time = showing.get("time", "")
         time_str = ""
@@ -456,7 +458,8 @@ def scrape_pelham(theater_name, pw):
         if title not in grouped:
             grouped[title] = make_movie(
                 title, theater_name,
-                dates=[], times=[], url=film_url, description=desc
+                dates=[], times=[], url=film_url, description=desc,
+                runtime_mins=runtime_mins
             )
         if date_str and date_str not in grouped[title]["dates"]:
             grouped[title]["dates"].append(date_str)
@@ -625,9 +628,20 @@ def scrape_regal(theater_name, pw):
                         dates.append(d)
 
             # Times: currently-showing films have inline time links
-            times = parse_times_from_text(film_li.get_text(" "))
+            li_text = film_li.get_text(" ")
+            times = parse_times_from_text(li_text)
 
-            movies.append(make_movie(title, theater_name, dates=dates, times=times, url=film_url))
+            # Runtime: parse "2hr 16m" or "1hr 45m" or "157m" from li text
+            runtime_mins = None
+            rm = re.search(r'(\d+)hr\s*(\d+)m', li_text)
+            if rm:
+                runtime_mins = int(rm.group(1)) * 60 + int(rm.group(2))
+            else:
+                rm2 = re.search(r'(\d+)hr', li_text)
+                if rm2:
+                    runtime_mins = int(rm2.group(1)) * 60
+
+            movies.append(make_movie(title, theater_name, dates=dates, times=times, url=film_url, runtime_mins=runtime_mins))
 
         print(f"    ✓ {len(movies)} films ({sum(1 for m in movies if m['dates'])} with dates)")
     except Exception as e:
@@ -681,7 +695,12 @@ def scrape_mamaroneck(theater_name, pw):
                 for variant in film.get("variants", []):
                     for ag in variant.get("amenityGroups", []):
                         for st in ag.get("showtimes", []):
-                            t = st.get("screenReaderTime", "")  # e.g. "3:45 PM"
+                            t = st.get("screenReaderTime", "")  # e.g. "3:45 PM" or "7 o'clock PM"
+                            if not t:
+                                continue
+                            # Fix screen-reader format: "7 o'clock PM" -> "7:00 PM"
+                            import re as _re
+                            t = _re.sub(r"(\d+)\s+o'clock\s+(AM|PM)", r"\1:00 \2", t, flags=_re.I)
                             if t and t not in times_for_film:
                                 times_for_film.append(t)
 
@@ -1135,13 +1154,21 @@ def generate_html(movies: list, lb_data: dict) -> str:
         details = quote(f"{m.get('reason','Classic/revival screening')} -- {m.get('source_url','')}")
         first_date = dates[0].replace("-", "")
         times = m.get("times", [])
+        runtime_mins = m.get("runtime_mins") or 120   # fallback 2hrs
+        total_mins   = runtime_mins + 30              # +30 min buffer
         if times:
             try:
-                from datetime import datetime as _dt
-                t     = _dt.strptime(times[0], "%I:%M %p")
-                start = f"{first_date}T{t.strftime('%H%M%S')}"
-                end_h = (t.hour + 2) % 24
-                end   = f"{first_date}T{end_h:02d}{t.minute:02d}00"
+                from datetime import datetime as _dt, timedelta as _td
+                t        = _dt.strptime(times[0], "%I:%M %p")
+                start    = f"{first_date}T{t.strftime('%H%M%S')}"
+                end_dt   = t + _td(minutes=total_mins)
+                # Handle midnight rollover
+                end_date = dates[0].replace("-","")
+                if end_dt.day != t.day:
+                    from datetime import date as _date
+                    next_day = (_date.fromisoformat(dates[0]) + _td(days=1)).strftime("%Y%m%d")
+                    end_date = next_day
+                end = f"{end_date}T{end_dt.strftime('%H%M%S')}"
             except Exception:
                 start = end = first_date
         else:
@@ -1218,25 +1245,29 @@ def generate_html(movies: list, lb_data: dict) -> str:
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Classic Cinema Calendar — Westchester Area</title>
+<title>Cinema Classics in Theaters — Westchester Area</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20100%20100%22%3E%3Crect%20width%3D%22100%22%20height%3D%22100%22%20rx%3D%2216%22%20fill%3D%22%231a1a1a%22/%3E%3Crect%20x%3D%2210%22%20y%3D%2235%22%20width%3D%2280%22%20height%3D%2252%22%20rx%3D%224%22%20fill%3D%22%23f4f4f4%22/%3E%3Crect%20x%3D%2210%22%20y%3D%2235%22%20width%3D%2280%22%20height%3D%2214%22%20fill%3D%22%23d4a853%22/%3E%3Cline%20x1%3D%2228%22%20y1%3D%2235%22%20x2%3D%2222%22%20y2%3D%2213%22%20stroke%3D%22%231a1a1a%22%20stroke-width%3D%224%22/%3E%3Cline%20x1%3D%2246%22%20y1%3D%2235%22%20x2%3D%2240%22%20y2%3D%2213%22%20stroke%3D%22%231a1a1a%22%20stroke-width%3D%224%22/%3E%3Cline%20x1%3D%2264%22%20y1%3D%2235%22%20x2%3D%2258%22%20y2%3D%2213%22%20stroke%3D%22%231a1a1a%22%20stroke-width%3D%224%22/%3E%3Cline%20x1%3D%2282%22%20y1%3D%2235%22%20x2%3D%2276%22%20y2%3D%2213%22%20stroke%3D%22%231a1a1a%22%20stroke-width%3D%224%22/%3E%3Crect%20x%3D%2210%22%20y%3D%2213%22%20width%3D%2280%22%20height%3D%2222%22%20rx%3D%223%22%20fill%3D%22none%22%20stroke%3D%22%23d4a853%22%20stroke-width%3D%223%22/%3E%3Crect%20x%3D%2210%22%20y%3D%2213%22%20width%3D%2280%22%20height%3D%2222%22%20rx%3D%223%22%20fill%3D%22%232a2a2a%22/%3E%3Cline%20x1%3D%2228%22%20y1%3D%2213%22%20x2%3D%2222%22%20y2%3D%2235%22%20stroke%3D%22%23d4a853%22%20stroke-width%3D%223.5%22/%3E%3Cline%20x1%3D%2246%22%20y1%3D%2213%22%20x2%3D%2240%22%20y2%3D%2235%22%20stroke%3D%22%23d4a853%22%20stroke-width%3D%223.5%22/%3E%3Cline%20x1%3D%2264%22%20y1%3D%2213%22%20x2%3D%2258%22%20y2%3D%2235%22%20stroke%3D%22%23d4a853%22%20stroke-width%3D%223.5%22/%3E%3Cline%20x1%3D%2282%22%20y1%3D%2213%22%20x2%3D%2276%22%20y2%3D%2235%22%20stroke%3D%22%23d4a853%22%20stroke-width%3D%223.5%22/%3E%3C/svg%3E">
+<link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20100%20100%22%3E%3Crect%20width%3D%22100%22%20height%3D%22100%22%20rx%3D%2216%22%20fill%3D%22%231a1a1a%22/%3E%3Crect%20x%3D%2210%22%20y%3D%2235%22%20width%3D%2280%22%20height%3D%2252%22%20rx%3D%224%22%20fill%3D%22%23f4f4f4%22/%3E%3Crect%20x%3D%2210%22%20y%3D%2235%22%20width%3D%2280%22%20height%3D%2214%22%20fill%3D%22%23d4a853%22/%3E%3Cline%20x1%3D%2228%22%20y1%3D%2235%22%20x2%3D%2222%22%20y2%3D%2213%22%20stroke%3D%22%231a1a1a%22%20stroke-width%3D%224%22/%3E%3Cline%20x1%3D%2246%22%20y1%3D%2235%22%20x2%3D%2240%22%20y2%3D%2213%22%20stroke%3D%22%231a1a1a%22%20stroke-width%3D%224%22/%3E%3Cline%20x1%3D%2264%22%20y1%3D%2235%22%20x2%3D%2258%22%20y2%3D%2213%22%20stroke%3D%22%231a1a1a%22%20stroke-width%3D%224%22/%3E%3Cline%20x1%3D%2282%22%20y1%3D%2235%22%20x2%3D%2276%22%20y2%3D%2213%22%20stroke%3D%22%231a1a1a%22%20stroke-width%3D%224%22/%3E%3Crect%20x%3D%2210%22%20y%3D%2213%22%20width%3D%2280%22%20height%3D%2222%22%20rx%3D%223%22%20fill%3D%22none%22%20stroke%3D%22%23d4a853%22%20stroke-width%3D%223%22/%3E%3Crect%20x%3D%2210%22%20y%3D%2213%22%20width%3D%2280%22%20height%3D%2222%22%20rx%3D%223%22%20fill%3D%22%232a2a2a%22/%3E%3Cline%20x1%3D%2228%22%20y1%3D%2213%22%20x2%3D%2222%22%20y2%3D%2235%22%20stroke%3D%22%23d4a853%22%20stroke-width%3D%223.5%22/%3E%3Cline%20x1%3D%2246%22%20y1%3D%2213%22%20x2%3D%2240%22%20y2%3D%2235%22%20stroke%3D%22%23d4a853%22%20stroke-width%3D%223.5%22/%3E%3Cline%20x1%3D%2264%22%20y1%3D%2213%22%20x2%3D%2258%22%20y2%3D%2235%22%20stroke%3D%22%23d4a853%22%20stroke-width%3D%223.5%22/%3E%3Cline%20x1%3D%2282%22%20y1%3D%2213%22%20x2%3D%2276%22%20y2%3D%2235%22%20stroke%3D%22%23d4a853%22%20stroke-width%3D%223.5%22/%3E%3C/svg%3E">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Cinema Classics">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Josefin+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Josefin+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
 <style>
 :root{{
-  --cream:#f5f0e8;--parchment:#ede6d3;--dark:#150f06;--brown:#3d2b1a;
+  --cream:#f4f4f4;--parchment:#ebebeb;--dark:#1a1a1a;--brown:#2a2a2a;
   --amber:#b8742a;--gold:#d4a853;--red:#8b1a1a;--muted:#7a6a55;
-  --border:#c8b89a;--regal-navy:#0f2340;--regal-gold:#c9a84c;
+  --border:#d0d0d0;--regal-navy:#0f2340;--regal-gold:#c9a84c;
   --lb-loved:#e8a020;--lb-liked:#5b8dd9;--lb-watchlist:#4caf7d;
   --lb-seen:#888;--lb-new:#9c6fb5;
 }}
 *,*::before,*::after{{box-sizing:border-box;margin:0;padding:0}}
-body{{background:var(--cream);background-image:repeating-linear-gradient(0deg,transparent,transparent 30px,rgba(100,70,30,.045) 30px,rgba(100,70,30,.045) 31px);color:var(--dark);font-family:'Libre Baskerville',Georgia,serif;min-height:100vh}}
+body{{background:var(--cream);color:var(--dark);font-family:'Inter',system-ui,sans-serif;min-height:100vh}}
 body::before{{content:'';position:fixed;inset:0;pointer-events:none;z-index:9999;opacity:.03;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");background-size:160px}}
 .masthead{{background:var(--dark);border-bottom:3px double var(--gold);padding:1.75rem 1.5rem 1.25rem;text-align:center;position:relative;overflow:hidden}}
 .masthead::after{{content:'';position:absolute;inset:0;pointer-events:none;background:repeating-linear-gradient(90deg,transparent,transparent 44px,rgba(212,168,83,.035) 44px,rgba(212,168,83,.035) 45px)}}
-.sprocket-strip{{display:flex;justify-content:center;gap:14px;margin-bottom:1rem}}
-.sprocket{{width:13px;height:13px;border:2px solid var(--gold);border-radius:3px;opacity:.45}}
-.masthead h1{{font-family:'Playfair Display',serif;font-size:clamp(1.9rem,5vw,3.4rem);font-weight:900;font-style:italic;color:var(--gold);letter-spacing:.06em;text-transform:uppercase;text-shadow:1px 2px 6px rgba(0,0,0,.6);line-height:1}}
+.sprocket-strip{{display:none}}.sprocket{{display:none}}
+.masthead h1{{font-family:'Josefin Sans',sans-serif;font-size:clamp(1.4rem,4vw,2.4rem);font-weight:700;font-style:normal;color:var(--gold);letter-spacing:.12em;text-transform:uppercase;text-shadow:1px 2px 6px rgba(0,0,0,.5);line-height:1}}
 .masthead .tagline{{font-family:'Josefin Sans',sans-serif;font-size:.72rem;letter-spacing:.28em;color:var(--border);text-transform:uppercase;margin-top:.5rem}}
 .masthead .generated{{font-family:'Josefin Sans',sans-serif;font-size:.62rem;letter-spacing:.14em;color:rgba(255,255,255,.25);margin-top:.6rem;text-transform:uppercase}}
 .cal-btn{{display:inline-block;margin-top:.75rem;font-family:'Josefin Sans',sans-serif;font-size:.65rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);border:1px solid var(--gold);padding:.3rem .9rem;text-decoration:none;opacity:.7;transition:opacity .2s;cursor:pointer}}
@@ -1255,7 +1286,7 @@ body::before{{content:'';position:fixed;inset:0;pointer-events:none;z-index:9999
 @keyframes fadeUp{{from{{opacity:0;transform:translateY(8px)}}to{{opacity:1;transform:translateY(0)}}}}
 .theater-header{{display:flex;align-items:center;flex-wrap:wrap;gap:.6rem;padding:.75rem 1.15rem;background:var(--parchment);border-bottom:1px solid var(--border)}}
 .regal-theater .theater-header{{background:linear-gradient(90deg,#e4e9f5,#ecf0fa)}}
-a.theater-name{{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--brown);text-decoration:none;border-bottom:1px solid transparent;transition:border-color .2s}}
+a.theater-name{{font-family:'Inter',sans-serif;font-size:.95rem;font-weight:700;color:var(--brown);text-decoration:none;border-bottom:1px solid transparent;transition:border-color .2s}}
 a.theater-name:hover{{border-bottom-color:var(--amber)}}
 .regal-theater a.theater-name{{color:var(--regal-navy);font-weight:900}}
 .theater-city{{font-family:'Josefin Sans',sans-serif;font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;color:#999;margin-left:auto}}
@@ -1270,7 +1301,7 @@ a.theater-name:hover{{border-bottom-color:var(--amber)}}
 .movie-card.lb-seen{{border-left-color:#ddd}}
 .movie-card.lb-new{{border-left-color:var(--lb-new)}}
 .movie-top{{display:flex;align-items:baseline;justify-content:space-between;gap:.75rem;flex-wrap:wrap}}
-.movie-title{{font-family:'Playfair Display',serif;font-size:.98rem;color:var(--dark)}}
+.movie-title{{font-family:'Inter',sans-serif;font-size:.95rem;font-weight:500;color:var(--dark)}}
 .movie-title .year{{font-family:'Josefin Sans',sans-serif;font-size:.7rem;color:var(--muted);font-style:normal;letter-spacing:.04em}}
 a.film-link{{color:var(--dark);text-decoration:none;border-bottom:1px solid var(--border);transition:border-color .2s,color .2s}}
 a.film-link:hover{{color:var(--red);border-bottom-color:var(--red)}}
@@ -1298,7 +1329,7 @@ a.film-link:hover{{color:var(--red);border-bottom-color:var(--red)}}
 <body>
 <header class="masthead">
   <div class="sprocket-strip">{sprockets}</div>
-  <h1>Classic Cinema Calendar</h1>
+  <h1>See Upcoming Cinema Classics in Theaters</h1>
   <div class="tagline">Revival &amp; Repertory Screenings — Westchester Area</div>
   <div class="generated">Generated {now}</div>
   <a class="cal-btn" href="classic_cinema.ics" download>📅 Add to Google Calendar (.ics)</a>
