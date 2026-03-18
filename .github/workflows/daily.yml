@@ -27,7 +27,7 @@ jobs:
       - name: Run scraper
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: python classic_cinema_v5.py
+        run: python classic_cinema_v6.py
 
       - name: Commit and push output
         run: |
