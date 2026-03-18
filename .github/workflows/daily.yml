@@ -33,6 +33,6 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add classic_cinema_calendar.html classic_cinema.ics classic_movies.json
+          git add index.html classic_cinema.ics classic_movies.json
           git diff --staged --quiet || git commit -m "Auto-update $(date '+%Y-%m-%d')"
           git push

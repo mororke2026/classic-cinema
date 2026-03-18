@@ -1501,7 +1501,7 @@ def main():
     print("\n── OUTPUT ────────────────────────────────────────────")
 
     html = generate_html(classics, lb_data)
-    html_path = os.path.join(OUTPUT_DIR, "classic_cinema_calendar.html")
+    html_path = os.path.join(OUTPUT_DIR, "index.html")
     with open(html_path, "w", encoding="utf-8") as f:
         f.write(html)
     print(f"  ✓ HTML  → {html_path}")
