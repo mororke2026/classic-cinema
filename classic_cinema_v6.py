@@ -68,6 +68,22 @@ THEATERS = {
     #         "showtimes_url": "https://nitehawkcinema.com/williamsburg/",
     #         "fandango_id": "AARVP", "is_regal": False,
     #     },
+    "Regal New Roc": {
+        "location": "suburbs", "city": "New Rochelle, NY",
+        "address": "33 LeCount Pl, New Rochelle, NY 10801",
+        "scrape_strategy": "regal",
+        "website": "https://www.regmovies.com",
+        "showtimes_url": "https://www.atomtickets.com/theaters/regal-new-roc/6565",
+        "fandango_id": "AANLC", "is_regal": True,
+    },
+    "Mamaroneck Cinemas": {
+        "location": "suburbs", "city": "Mamaroneck, NY",
+        "address": "243 Mamaroneck Ave, Mamaroneck, NY 10543",
+        "scrape_strategy": "mamaroneck",
+        "website": "https://www.mamaroneckcinemas.com",
+        "showtimes_url": "https://www.fandango.com/mamaroneck-cinemas-aablm/theater-page",
+        "fandango_id": "AABLM", "is_regal": False,
+    },
     "Alamo Drafthouse Yonkers": {
         "location": "suburbs", "city": "Yonkers, NY",
         "address": "175 Main St, Yonkers, NY 10701",
@@ -76,13 +92,13 @@ THEATERS = {
         "showtimes_url": "https://drafthouse.com/yonkers",
         "fandango_id": "AAWWC", "is_regal": False,
     },
-    "Regal New Roc": {
-        "location": "suburbs", "city": "New Rochelle, NY",
-        "address": "33 LeCount Pl, New Rochelle, NY 10801",
+    "AMC Port Chester 14": {
+        "location": "suburbs", "city": "Port Chester, NY",
+        "address": "40 Westchester Ave, Port Chester, NY 10573",
         "scrape_strategy": "regal",
-        "website": "https://www.regmovies.com",
-        "showtimes_url": "https://www.atomtickets.com/theaters/regal-new-roc/6565",
-        "fandango_id": "AANLC", "is_regal": True,
+        "website": "https://www.amctheatres.com/movie-theatres/port-chester/amc-port-chester-14",
+        "showtimes_url": "https://www.atomtickets.com/theaters/amc-port-chester-14/9849",
+        "fandango_id": None, "is_regal": False,
     },
     "Pelham Picture House": {
         "location": "suburbs", "city": "Pelham, NY",
@@ -99,30 +115,6 @@ THEATERS = {
         "website": "https://burnsfilmcenter.org",
         "showtimes_url": "https://burnsfilmcenter.org/film/",
         "fandango_id": "AAPXM", "is_regal": False,
-    },
-    "AMC Port Chester 14": {
-        "location": "suburbs", "city": "Port Chester, NY",
-        "address": "40 Westchester Ave, Port Chester, NY 10573",
-        "scrape_strategy": "fandango",
-        "website": "https://www.amctheatres.com/movie-theatres/port-chester/amc-port-chester-14",
-        "showtimes_url": "https://www.fandango.com/amc-port-chester-14-aaswq/theater-page",
-        "fandango_id": "AASWQ", "is_regal": False,
-    },
-    "AMC Port Chester 14": {
-        "location": "suburbs", "city": "Port Chester, NY",
-        "address": "40 Westchester Ave, Port Chester, NY 10573",
-        "scrape_strategy": "fandango",
-        "website": "https://www.amctheatres.com/movie-theatres/port-chester/amc-port-chester-14",
-        "showtimes_url": "https://www.fandango.com/amc-port-chester-14-aaswq/theater-page",
-        "fandango_id": "AASWQ", "is_regal": False,
-    },
-    "Mamaroneck Cinemas": {
-        "location": "suburbs", "city": "Mamaroneck, NY",
-        "address": "243 Mamaroneck Ave, Mamaroneck, NY 10543",
-        "scrape_strategy": "mamaroneck",
-        "website": "https://www.mamaroneckcinemas.com",
-        "showtimes_url": "https://www.fandango.com/mamaroneck-cinemas-aablm/theater-page",
-        "fandango_id": "AABLM", "is_regal": False,
     },
 }
 
@@ -611,7 +603,7 @@ def scrape_regal(theater_name, pw):
     time links for currently-showing films.
     """
     print(f"    → Regal New Roc (Atom Tickets)")
-    ATOM_URL = "https://www.atomtickets.com/theaters/regal-new-roc/6565"
+    ATOM_URL = THEATERS[theater_name]["showtimes_url"]
     movies = []
     try:
         html = pw_page(pw, ATOM_URL, wait_for=".showtime-panel-list, h2")
