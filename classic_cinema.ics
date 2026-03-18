@@ -7,128 +7,138 @@ X-WR-TIMEZONE:America/New_York
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
-UID:73d8ef4b-61fc-4b1c-b325-3e995d5a8497
-DTSTAMP:20260318T210233Z
-DTSTART;VALUE=DATE:20260319
-DTEND;VALUE=DATE:20260320
+UID:87f4205f-4b80-4a24-965f-1783b85a95c5
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260318
+DTEND;VALUE=DATE:20260319
 SUMMARY:🎬 TMNT II: The Secret of the Ooze 35th Anniversary (1991) @ Regal New Roc
-DESCRIPTION:1991 film\, 35th anniversary screening  |  🆕 New to you  |  Times: 6:00 PM  |  Showtimes: https://www.atomtickets.com/movies/tmnt-ii-the-secret-of-the-ooze-35th-anniversary/408970
+DESCRIPTION:35th anniversary screening  |  🆕 New to you  |  Times: 6:00 PM  |  Showtimes: https://www.atomtickets.com/movies/tmnt-ii-the-secret-of-the-ooze-35th-anniversary/408970
 LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
 URL:https://www.atomtickets.com/movies/tmnt-ii-the-secret-of-the-ooze-35th-anniversary/408970
 END:VEVENT
 BEGIN:VEVENT
-UID:2c403f1f-6d6a-4deb-be28-36eb7f8fa588
-DTSTAMP:20260318T210233Z
+UID:190ae22c-0b49-4960-a098-2f438369375f
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260319
+DTEND;VALUE=DATE:20260320
+SUMMARY:🎬 TMNT II: The Secret of the Ooze 35th Anniversary (1991) @ Regal New Roc
+DESCRIPTION:35th anniversary screening  |  🆕 New to you  |  Times: 6:00 PM  |  Showtimes: https://www.atomtickets.com/movies/tmnt-ii-the-secret-of-the-ooze-35th-anniversary/408970
+LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
+URL:https://www.atomtickets.com/movies/tmnt-ii-the-secret-of-the-ooze-35th-anniversary/408970
+END:VEVENT
+BEGIN:VEVENT
+UID:6e065b73-be30-40d3-a586-3a08c3785974
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260320
 DTEND;VALUE=DATE:20260321
 SUMMARY:🎬 Kiki's Delivery Service 4K (1989) @ Regal New Roc
-DESCRIPTION:1989 Miyazaki classic\, 4K restoration  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/kikis-delivery-service-4k/411633
+DESCRIPTION:Studio Ghibli classic\, 4K restoration  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/kikis-delivery-service-4k/411633
 LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
 URL:https://www.atomtickets.com/movies/kikis-delivery-service-4k/411633
 END:VEVENT
 BEGIN:VEVENT
-UID:b4ae3929-8823-418f-961f-c178eaf37e2d
-DTSTAMP:20260318T210233Z
+UID:ef14ab16-f7fb-45c3-a1cb-c9eadf2e9ed7
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260321
 DTEND;VALUE=DATE:20260322
 SUMMARY:🎬 Kiki's Delivery Service 4K (1989) @ Regal New Roc
-DESCRIPTION:1989 Miyazaki classic\, 4K restoration  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/kikis-delivery-service-4k/411633
+DESCRIPTION:Studio Ghibli classic\, 4K restoration  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/kikis-delivery-service-4k/411633
 LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
 URL:https://www.atomtickets.com/movies/kikis-delivery-service-4k/411633
 END:VEVENT
 BEGIN:VEVENT
-UID:0fb9ee6f-01cb-4ef3-9d45-b79a362e5974
-DTSTAMP:20260318T210233Z
+UID:5fdd05a5-1248-4ac1-a3aa-06d777eff86d
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260322
 DTEND;VALUE=DATE:20260323
 SUMMARY:🎬 Kiki's Delivery Service 4K (1989) @ Regal New Roc
-DESCRIPTION:1989 Miyazaki classic\, 4K restoration  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/kikis-delivery-service-4k/411633
+DESCRIPTION:Studio Ghibli classic\, 4K restoration  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/kikis-delivery-service-4k/411633
 LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
 URL:https://www.atomtickets.com/movies/kikis-delivery-service-4k/411633
 END:VEVENT
 BEGIN:VEVENT
-UID:7cd414a2-a4df-45c8-8e06-08b11dff3e0b
-DTSTAMP:20260318T210233Z
+UID:933cdff7-9869-4c36-9b0e-302bdcdc5f35
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260323
 DTEND;VALUE=DATE:20260324
 SUMMARY:🎬 Kiki's Delivery Service 4K (1989) @ Regal New Roc
-DESCRIPTION:1989 Miyazaki classic\, 4K restoration  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/kikis-delivery-service-4k/411633
+DESCRIPTION:Studio Ghibli classic\, 4K restoration  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/kikis-delivery-service-4k/411633
 LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
 URL:https://www.atomtickets.com/movies/kikis-delivery-service-4k/411633
 END:VEVENT
 BEGIN:VEVENT
-UID:19e94971-660b-4811-bf1f-61c25cbd2c75
-DTSTAMP:20260318T210233Z
+UID:4f87e004-08d6-4527-8e32-ac5b0fa0528a
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260324
 DTEND;VALUE=DATE:20260325
 SUMMARY:🎬 Kiki's Delivery Service 4K (1989) @ Regal New Roc
-DESCRIPTION:1989 Miyazaki classic\, 4K restoration  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/kikis-delivery-service-4k/411633
+DESCRIPTION:Studio Ghibli classic\, 4K restoration  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/kikis-delivery-service-4k/411633
 LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
 URL:https://www.atomtickets.com/movies/kikis-delivery-service-4k/411633
 END:VEVENT
 BEGIN:VEVENT
-UID:5e994a1c-cccd-41d3-96b5-087d04ac6cbf
-DTSTAMP:20260318T210233Z
+UID:58d5f9bc-5709-4e0e-b920-c596e5c625fa
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260325
 DTEND;VALUE=DATE:20260326
 SUMMARY:🎬 Kiki's Delivery Service 4K (1989) @ Regal New Roc
-DESCRIPTION:1989 Miyazaki classic\, 4K restoration  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/kikis-delivery-service-4k/411633
+DESCRIPTION:Studio Ghibli classic\, 4K restoration  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/kikis-delivery-service-4k/411633
 LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
 URL:https://www.atomtickets.com/movies/kikis-delivery-service-4k/411633
 END:VEVENT
 BEGIN:VEVENT
-UID:9685aed2-82e7-4dab-b1d2-dfcedf140eb0
-DTSTAMP:20260318T210233Z
+UID:c6d3bede-1a39-488a-8e3a-9603d39a06da
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260326
 DTEND;VALUE=DATE:20260327
 SUMMARY:🎬 Kiki's Delivery Service 4K (1989) @ Regal New Roc
-DESCRIPTION:1989 Miyazaki classic\, 4K restoration  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/kikis-delivery-service-4k/411633
+DESCRIPTION:Studio Ghibli classic\, 4K restoration  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/kikis-delivery-service-4k/411633
 LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
 URL:https://www.atomtickets.com/movies/kikis-delivery-service-4k/411633
 END:VEVENT
 BEGIN:VEVENT
-UID:63ba89c0-8f53-4045-9cbc-7959cbb913f9
-DTSTAMP:20260318T210233Z
+UID:b3701d0d-a6c5-4b01-bd6f-e62ecb8b9117
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260322
 DTEND;VALUE=DATE:20260323
 SUMMARY:🎬 Rad 40th Anniversary (1986) @ Regal New Roc
-DESCRIPTION:1986 film\, 40th anniversary screening  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/rad-40th-anniversary/410749
+DESCRIPTION:40th anniversary screening  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/rad-40th-anniversary/410749
 LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
 URL:https://www.atomtickets.com/movies/rad-40th-anniversary/410749
 END:VEVENT
 BEGIN:VEVENT
-UID:ce941a83-faa6-4793-a18d-4543ab87c85d
-DTSTAMP:20260318T210233Z
+UID:08818d38-8706-4f68-9f14-eecab6e76925
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260324
 DTEND;VALUE=DATE:20260325
 SUMMARY:🎬 Rad 40th Anniversary (1986) @ Regal New Roc
-DESCRIPTION:1986 film\, 40th anniversary screening  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/rad-40th-anniversary/410749
+DESCRIPTION:40th anniversary screening  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/rad-40th-anniversary/410749
 LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
 URL:https://www.atomtickets.com/movies/rad-40th-anniversary/410749
 END:VEVENT
 BEGIN:VEVENT
-UID:cd90af95-508f-495a-b436-78ab93c6e39e
-DTSTAMP:20260318T210233Z
+UID:299325fc-2e72-499e-b2d2-0e3295b892ce
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260419
 DTEND;VALUE=DATE:20260420
 SUMMARY:🎬 Rad 40th Anniversary (1986) @ Regal New Roc
-DESCRIPTION:1986 film\, 40th anniversary screening  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/rad-40th-anniversary/410749
+DESCRIPTION:40th anniversary screening  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/rad-40th-anniversary/410749
 LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
 URL:https://www.atomtickets.com/movies/rad-40th-anniversary/410749
 END:VEVENT
 BEGIN:VEVENT
-UID:69954cdb-e59e-45e8-b0a7-bc154cd71b13
-DTSTAMP:20260318T210233Z
+UID:7e58f37a-de9d-4020-b1ba-11f29df08c1a
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260422
 DTEND;VALUE=DATE:20260423
 SUMMARY:🎬 Rad 40th Anniversary (1986) @ Regal New Roc
-DESCRIPTION:1986 film\, 40th anniversary screening  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/rad-40th-anniversary/410749
+DESCRIPTION:40th anniversary screening  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/rad-40th-anniversary/410749
 LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
 URL:https://www.atomtickets.com/movies/rad-40th-anniversary/410749
 END:VEVENT
 BEGIN:VEVENT
-UID:8b3b0a9f-6c83-4758-94d4-541c71ec060c
-DTSTAMP:20260318T210233Z
+UID:462b0748-0380-42b6-bbbb-248e84805b03
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:🎬 The Maltese Falcon 85th Anniversary (1941) @ Regal New Roc
@@ -137,8 +147,8 @@ LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
 URL:https://www.atomtickets.com/movies/the-maltese-falcon-85th-anniversary/410306
 END:VEVENT
 BEGIN:VEVENT
-UID:955aebfd-4982-406a-b4af-013e27f4794b
-DTSTAMP:20260318T210233Z
+UID:17647a41-8bbe-424a-8ba1-2da67fb07a70
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
 SUMMARY:🎬 The Maltese Falcon 85th Anniversary (1941) @ Regal New Roc
@@ -147,8 +157,8 @@ LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
 URL:https://www.atomtickets.com/movies/the-maltese-falcon-85th-anniversary/410306
 END:VEVENT
 BEGIN:VEVENT
-UID:25bd97cb-3bf6-4ce6-9865-d5e222299830
-DTSTAMP:20260318T210233Z
+UID:2f032551-563f-47bf-b828-47215e6bfd15
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260802
 DTEND;VALUE=DATE:20260803
 SUMMARY:🎬 Willy Wonka & The Chocolate Factory 55th Anniversary (1971) @ Regal New Roc
@@ -157,8 +167,8 @@ LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
 URL:https://www.atomtickets.com/movies/willy-wonka-the-chocolate-factory-55th-anniversary/410303
 END:VEVENT
 BEGIN:VEVENT
-UID:b05e50df-6e84-4168-b077-86a938b17f32
-DTSTAMP:20260318T210233Z
+UID:097c90f2-4304-4177-8810-20a2f571fc77
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260805
 DTEND;VALUE=DATE:20260806
 SUMMARY:🎬 Willy Wonka & The Chocolate Factory 55th Anniversary (1971) @ Regal New Roc
@@ -167,388 +177,1028 @@ LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
 URL:https://www.atomtickets.com/movies/willy-wonka-the-chocolate-factory-55th-anniversary/410303
 END:VEVENT
 BEGIN:VEVENT
-UID:e42c4782-9d64-4b80-85d6-2d284f1f5ff1
-DTSTAMP:20260318T210233Z
+UID:7b1c8f3b-bf8b-40b4-b56b-aaddce3da6f3
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260705
 DTEND;VALUE=DATE:20260706
 SUMMARY:🎬 Citizen Kane 85th Anniversary (1941) @ Regal New Roc
-DESCRIPTION:1941 Welles masterpiece\, 85th anniversary  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/citizen-kane-85th-anniversary/410301
+DESCRIPTION:Welles masterpiece\, 85th anniversary  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/citizen-kane-85th-anniversary/410301
 LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
 URL:https://www.atomtickets.com/movies/citizen-kane-85th-anniversary/410301
 END:VEVENT
 BEGIN:VEVENT
-UID:1eb12b9a-fa79-4fd8-91f8-efa91d631c18
-DTSTAMP:20260318T210233Z
+UID:3ebda6cb-b045-4b4e-a313-0ab0703db3cf
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260708
 DTEND;VALUE=DATE:20260709
 SUMMARY:🎬 Citizen Kane 85th Anniversary (1941) @ Regal New Roc
-DESCRIPTION:1941 Welles masterpiece\, 85th anniversary  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/citizen-kane-85th-anniversary/410301
+DESCRIPTION:Welles masterpiece\, 85th anniversary  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/citizen-kane-85th-anniversary/410301
 LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
 URL:https://www.atomtickets.com/movies/citizen-kane-85th-anniversary/410301
 END:VEVENT
 BEGIN:VEVENT
-UID:2695b7bb-1ce0-4b70-83c8-cc6145ae4dd9
-DTSTAMP:20260318T210233Z
+UID:2102be67-f7aa-4f8f-b893-c08c05f16f00
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260607
 DTEND;VALUE=DATE:20260608
 SUMMARY:🎬 The Birdcage 30th Anniversary (1996) @ Regal New Roc
-DESCRIPTION:1996 film\, 30th anniversary screening  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/the-birdcage-30th-anniversary/410298
+DESCRIPTION:30th anniversary screening  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/the-birdcage-30th-anniversary/410298
 LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
 URL:https://www.atomtickets.com/movies/the-birdcage-30th-anniversary/410298
 END:VEVENT
 BEGIN:VEVENT
-UID:f5be3d3c-af44-43b5-8fc9-02b6613547de
-DTSTAMP:20260318T210233Z
+UID:d782f06b-62cc-4223-9ca3-92f2164b5925
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260610
 DTEND;VALUE=DATE:20260611
 SUMMARY:🎬 The Birdcage 30th Anniversary (1996) @ Regal New Roc
-DESCRIPTION:1996 film\, 30th anniversary screening  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/the-birdcage-30th-anniversary/410298
+DESCRIPTION:30th anniversary screening  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/the-birdcage-30th-anniversary/410298
 LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
 URL:https://www.atomtickets.com/movies/the-birdcage-30th-anniversary/410298
 END:VEVENT
 BEGIN:VEVENT
-UID:71a79ae7-b90a-467f-8e43-8299a698710c
-DTSTAMP:20260318T210233Z
+UID:77a7d8ae-6db5-4c4d-9b27-e24fbf7f6439
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 SUMMARY:🎬 It's A Wonderful Life 80th Anniversary (1946) @ Regal New Roc
-DESCRIPTION:1946 Capra classic\, 80th anniversary  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/its-a-wonderful-life-80th-anniversary/410307
+DESCRIPTION:Capra classic\, 80th anniversary  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/its-a-wonderful-life-80th-anniversary/410307
 LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
 URL:https://www.atomtickets.com/movies/its-a-wonderful-life-80th-anniversary/410307
 END:VEVENT
 BEGIN:VEVENT
-UID:8202146d-fa20-470f-a0e1-56998f9bfded
-DTSTAMP:20260318T210233Z
+UID:039421ed-360f-454e-99d8-642496a0ceaf
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:🎬 It's A Wonderful Life 80th Anniversary (1946) @ Regal New Roc
-DESCRIPTION:1946 Capra classic\, 80th anniversary  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/its-a-wonderful-life-80th-anniversary/410307
+DESCRIPTION:Capra classic\, 80th anniversary  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/its-a-wonderful-life-80th-anniversary/410307
 LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
 URL:https://www.atomtickets.com/movies/its-a-wonderful-life-80th-anniversary/410307
 END:VEVENT
 BEGIN:VEVENT
-UID:604f6df7-1e82-4a30-8b6f-95303f2b91bd
-DTSTAMP:20260318T210233Z
+UID:4440a423-b47e-4ab2-9841-c03bb9b6bdfe
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:🎬 It's A Wonderful Life 80th Anniversary (1946) @ Regal New Roc
-DESCRIPTION:1946 Capra classic\, 80th anniversary  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/its-a-wonderful-life-80th-anniversary/410307
+DESCRIPTION:Capra classic\, 80th anniversary  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/its-a-wonderful-life-80th-anniversary/410307
 LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
 URL:https://www.atomtickets.com/movies/its-a-wonderful-life-80th-anniversary/410307
 END:VEVENT
 BEGIN:VEVENT
-UID:6e02700a-fb92-4351-a959-55c66fd7515c
-DTSTAMP:20260318T210233Z
+UID:6c794e74-a7ca-4fcf-83a4-18099cfbeadf
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260405
 DTEND;VALUE=DATE:20260406
 SUMMARY:🎬 The Killer - Hong Kong Cinema Classics (1989) @ Regal New Roc
-DESCRIPTION:1989 John Woo classic\, retrospective series  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/the-killer-hong-kong-cinema-classics/407884
+DESCRIPTION:John Woo classic\, retrospective series  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/the-killer-hong-kong-cinema-classics/407884
 LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
 URL:https://www.atomtickets.com/movies/the-killer-hong-kong-cinema-classics/407884
 END:VEVENT
 BEGIN:VEVENT
-UID:88f4c577-f3cc-41c2-b8da-2be3addf57ac
-DTSTAMP:20260318T210233Z
+UID:f5d8abe1-6e3f-4ec0-82bf-b9c204c03cf9
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260406
 DTEND;VALUE=DATE:20260407
 SUMMARY:🎬 The Killer - Hong Kong Cinema Classics (1989) @ Regal New Roc
-DESCRIPTION:1989 John Woo classic\, retrospective series  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/the-killer-hong-kong-cinema-classics/407884
+DESCRIPTION:John Woo classic\, retrospective series  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/the-killer-hong-kong-cinema-classics/407884
 LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
 URL:https://www.atomtickets.com/movies/the-killer-hong-kong-cinema-classics/407884
 END:VEVENT
 BEGIN:VEVENT
-UID:b8c74681-6bfe-455e-bb8f-cd47cbcb8021
-DTSTAMP:20260318T210233Z
+UID:9473b126-8a12-4326-a096-06ff638211bb
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260408
 DTEND;VALUE=DATE:20260409
 SUMMARY:🎬 The Killer - Hong Kong Cinema Classics (1989) @ Regal New Roc
-DESCRIPTION:1989 John Woo classic\, retrospective series  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/the-killer-hong-kong-cinema-classics/407884
+DESCRIPTION:John Woo classic\, retrospective series  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/the-killer-hong-kong-cinema-classics/407884
 LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
 URL:https://www.atomtickets.com/movies/the-killer-hong-kong-cinema-classics/407884
 END:VEVENT
 BEGIN:VEVENT
-UID:854cabbd-90cc-47aa-a76f-989ccf1d1a85
-DTSTAMP:20260318T210233Z
+UID:df0db2db-cd1a-4c00-9571-fb6d287f98c7
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:🎬 A Beautiful Mind 25th Anniversary (2001) @ Regal New Roc
-DESCRIPTION:2001 film\, 25th anniversary screening  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/a-beautiful-mind-25th-anniversary/410305
+DESCRIPTION:25th anniversary screening  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/a-beautiful-mind-25th-anniversary/410305
 LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
 URL:https://www.atomtickets.com/movies/a-beautiful-mind-25th-anniversary/410305
 END:VEVENT
 BEGIN:VEVENT
-UID:65f639db-b43f-4cdd-8820-7bde444cb004
-DTSTAMP:20260318T210233Z
+UID:3c9f3a2b-538e-4752-b71f-563c74958dc8
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
 SUMMARY:🎬 A Beautiful Mind 25th Anniversary (2001) @ Regal New Roc
-DESCRIPTION:2001 film\, 25th anniversary screening  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/a-beautiful-mind-25th-anniversary/410305
+DESCRIPTION:25th anniversary screening  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/a-beautiful-mind-25th-anniversary/410305
 LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
 URL:https://www.atomtickets.com/movies/a-beautiful-mind-25th-anniversary/410305
 END:VEVENT
 BEGIN:VEVENT
-UID:c07c5eff-dc50-4c54-914e-07c2425326d8
-DTSTAMP:20260318T210233Z
+UID:c802fa39-fb66-48cd-bff1-681b7cc5f6cf
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260426
 DTEND;VALUE=DATE:20260427
 SUMMARY:🎬 The Silence of the Lambs 35th Anniversary (1991) @ Regal New Roc
-DESCRIPTION:1991 classic\, 35th anniversary  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/the-silence-of-the-lambs-35th-anniversary/410296
+DESCRIPTION:Classic thriller\, 35th anniversary  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/the-silence-of-the-lambs-35th-anniversary/410296
 LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
 URL:https://www.atomtickets.com/movies/the-silence-of-the-lambs-35th-anniversary/410296
 END:VEVENT
 BEGIN:VEVENT
-UID:0647e642-32a4-4f15-8c64-615c6e55e62b
-DTSTAMP:20260318T210233Z
+UID:0627710e-ee19-4fd2-9615-895690ca5c1b
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260429
 DTEND;VALUE=DATE:20260430
 SUMMARY:🎬 The Silence of the Lambs 35th Anniversary (1991) @ Regal New Roc
-DESCRIPTION:1991 classic\, 35th anniversary  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/the-silence-of-the-lambs-35th-anniversary/410296
+DESCRIPTION:Classic thriller\, 35th anniversary  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/the-silence-of-the-lambs-35th-anniversary/410296
 LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
 URL:https://www.atomtickets.com/movies/the-silence-of-the-lambs-35th-anniversary/410296
 END:VEVENT
 BEGIN:VEVENT
-UID:b62a80dc-5f4a-4156-b074-2d2d43fbac2f
-DTSTAMP:20260318T210233Z
+UID:24d5c241-7244-406f-b7f3-89d6f26270ae
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260621
 DTEND;VALUE=DATE:20260622
 SUMMARY:🎬 Ocean's Eleven 25th Anniversary (2001) @ Regal New Roc
-DESCRIPTION:Anniversary screening of 2001 film  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/oceans-eleven-25th-anniversary/410299
+DESCRIPTION:2001 film\, 25th anniversary screening  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/oceans-eleven-25th-anniversary/410299
 LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
 URL:https://www.atomtickets.com/movies/oceans-eleven-25th-anniversary/410299
 END:VEVENT
 BEGIN:VEVENT
-UID:eacb1ec3-e5d6-4c43-a51f-469e017573a0
-DTSTAMP:20260318T210233Z
+UID:e9d4d582-8039-4626-9d29-74a28fcba9fd
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260624
 DTEND;VALUE=DATE:20260625
 SUMMARY:🎬 Ocean's Eleven 25th Anniversary (2001) @ Regal New Roc
-DESCRIPTION:Anniversary screening of 2001 film  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/oceans-eleven-25th-anniversary/410299
+DESCRIPTION:2001 film\, 25th anniversary screening  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/oceans-eleven-25th-anniversary/410299
 LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
 URL:https://www.atomtickets.com/movies/oceans-eleven-25th-anniversary/410299
 END:VEVENT
 BEGIN:VEVENT
-UID:07809d7a-fa49-47a0-971a-569458e5899f
-DTSTAMP:20260318T210233Z
+UID:3d8c8a35-a1f6-4683-9e7d-033ec317c518
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260510
 DTEND;VALUE=DATE:20260511
 SUMMARY:🎬 Fried Green Tomatoes 35th Anniversary (1991) @ Regal New Roc
-DESCRIPTION:Anniversary screening of 1991 film  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/fried-green-tomatoes-35th-anniversary/410297
+DESCRIPTION:1991 film\, 35th anniversary screening  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/fried-green-tomatoes-35th-anniversary/410297
 LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
 URL:https://www.atomtickets.com/movies/fried-green-tomatoes-35th-anniversary/410297
 END:VEVENT
 BEGIN:VEVENT
-UID:90656a19-a881-4e1f-96c5-404340771904
-DTSTAMP:20260318T210233Z
+UID:ad77fc5e-ea5d-4ca1-886f-799de997d4bb
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260513
 DTEND;VALUE=DATE:20260514
 SUMMARY:🎬 Fried Green Tomatoes 35th Anniversary (1991) @ Regal New Roc
-DESCRIPTION:Anniversary screening of 1991 film  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/fried-green-tomatoes-35th-anniversary/410297
+DESCRIPTION:1991 film\, 35th anniversary screening  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/fried-green-tomatoes-35th-anniversary/410297
 LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
 URL:https://www.atomtickets.com/movies/fried-green-tomatoes-35th-anniversary/410297
 END:VEVENT
 BEGIN:VEVENT
-UID:a73e101e-0186-4a32-91eb-a8bb92d54001
-DTSTAMP:20260318T210233Z
+UID:254bd777-35a9-4b31-b645-6fde5e5d0ffb
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260328
 DTEND;VALUE=DATE:20260329
 SUMMARY:🎬 The Mummy Returns: 25th Anniversary (2001) @ Regal New Roc
-DESCRIPTION:Anniversary screening of 2001 film  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/the-mummy-returns-25th-anniversary/411023
+DESCRIPTION:2001 film\, 25th anniversary screening  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/the-mummy-returns-25th-anniversary/411023
 LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
 URL:https://www.atomtickets.com/movies/the-mummy-returns-25th-anniversary/411023
 END:VEVENT
 BEGIN:VEVENT
-UID:4e0c44da-2e49-451f-b7a1-a97d5a83a5ab
-DTSTAMP:20260318T210233Z
+UID:16d2633e-8933-451d-ba80-777289bb3717
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260329
 DTEND;VALUE=DATE:20260330
 SUMMARY:🎬 The Mummy Returns: 25th Anniversary (2001) @ Regal New Roc
-DESCRIPTION:Anniversary screening of 2001 film  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/the-mummy-returns-25th-anniversary/411023
+DESCRIPTION:2001 film\, 25th anniversary screening  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/the-mummy-returns-25th-anniversary/411023
 LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
 URL:https://www.atomtickets.com/movies/the-mummy-returns-25th-anniversary/411023
 END:VEVENT
 BEGIN:VEVENT
-UID:2d9ca8a8-3acf-43e1-8cd5-1dfbc435ae7b
-DTSTAMP:20260318T210233Z
+UID:d74a5d26-d50c-4198-a929-2e058cb56008
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260330
 DTEND;VALUE=DATE:20260331
 SUMMARY:🎬 The Mummy Returns: 25th Anniversary (2001) @ Regal New Roc
-DESCRIPTION:Anniversary screening of 2001 film  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/the-mummy-returns-25th-anniversary/411023
+DESCRIPTION:2001 film\, 25th anniversary screening  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/the-mummy-returns-25th-anniversary/411023
 LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
 URL:https://www.atomtickets.com/movies/the-mummy-returns-25th-anniversary/411023
 END:VEVENT
 BEGIN:VEVENT
-UID:3576a66a-e563-4a7a-a225-11eaef8e59e5
-DTSTAMP:20260318T210233Z
+UID:8b9b513f-4da2-4455-89ab-6cd88ebb091e
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260331
 DTEND;VALUE=DATE:20260401
 SUMMARY:🎬 The Mummy Returns: 25th Anniversary (2001) @ Regal New Roc
-DESCRIPTION:Anniversary screening of 2001 film  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/the-mummy-returns-25th-anniversary/411023
+DESCRIPTION:2001 film\, 25th anniversary screening  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/the-mummy-returns-25th-anniversary/411023
 LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
 URL:https://www.atomtickets.com/movies/the-mummy-returns-25th-anniversary/411023
 END:VEVENT
 BEGIN:VEVENT
-UID:fbec68ab-50a6-44d7-8845-b4cd2d23e3a9
-DTSTAMP:20260318T210233Z
+UID:6b9967f1-47b1-4cd8-acf0-7930a069e40a
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260327
 DTEND;VALUE=DATE:20260328
 SUMMARY:🎬 Stand by Me 40th Anniversary (1986) @ Regal New Roc
-DESCRIPTION:Anniversary screening of 1986 classic  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/stand-by-me-40th-anniversary/412457
+DESCRIPTION:1986 classic\, 40th anniversary screening  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/stand-by-me-40th-anniversary/412457
 LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
 URL:https://www.atomtickets.com/movies/stand-by-me-40th-anniversary/412457
 END:VEVENT
 BEGIN:VEVENT
-UID:eac49152-fdf5-47e4-98b3-38b835b0b67c
-DTSTAMP:20260318T210233Z
+UID:4d7a6b9a-a618-4ad9-8392-304e92d170a7
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260328
 DTEND;VALUE=DATE:20260329
 SUMMARY:🎬 Stand by Me 40th Anniversary (1986) @ Regal New Roc
-DESCRIPTION:Anniversary screening of 1986 classic  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/stand-by-me-40th-anniversary/412457
+DESCRIPTION:1986 classic\, 40th anniversary screening  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/stand-by-me-40th-anniversary/412457
 LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
 URL:https://www.atomtickets.com/movies/stand-by-me-40th-anniversary/412457
 END:VEVENT
 BEGIN:VEVENT
-UID:41584df0-d6a6-4bcc-93f7-279d4c33e9ba
-DTSTAMP:20260318T210233Z
+UID:d6e956e6-3ab0-428b-a298-99ed8febb46b
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260329
 DTEND;VALUE=DATE:20260330
 SUMMARY:🎬 Stand by Me 40th Anniversary (1986) @ Regal New Roc
-DESCRIPTION:Anniversary screening of 1986 classic  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/stand-by-me-40th-anniversary/412457
+DESCRIPTION:1986 classic\, 40th anniversary screening  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/stand-by-me-40th-anniversary/412457
 LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
 URL:https://www.atomtickets.com/movies/stand-by-me-40th-anniversary/412457
 END:VEVENT
 BEGIN:VEVENT
-UID:02ccf38b-5c8c-4292-86dc-37060db4468f
-DTSTAMP:20260318T210233Z
+UID:774f5f1c-9e8a-4411-88ef-8e2a11ec19b5
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260330
 DTEND;VALUE=DATE:20260331
 SUMMARY:🎬 Stand by Me 40th Anniversary (1986) @ Regal New Roc
-DESCRIPTION:Anniversary screening of 1986 classic  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/stand-by-me-40th-anniversary/412457
+DESCRIPTION:1986 classic\, 40th anniversary screening  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/stand-by-me-40th-anniversary/412457
 LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
 URL:https://www.atomtickets.com/movies/stand-by-me-40th-anniversary/412457
 END:VEVENT
 BEGIN:VEVENT
-UID:7a84eade-fece-4920-8700-e75085d1433a
-DTSTAMP:20260318T210233Z
+UID:4a122a39-f400-4c95-9b99-f06bbeb42338
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260331
 DTEND;VALUE=DATE:20260401
 SUMMARY:🎬 Stand by Me 40th Anniversary (1986) @ Regal New Roc
-DESCRIPTION:Anniversary screening of 1986 classic  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/stand-by-me-40th-anniversary/412457
+DESCRIPTION:1986 classic\, 40th anniversary screening  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/stand-by-me-40th-anniversary/412457
 LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
 URL:https://www.atomtickets.com/movies/stand-by-me-40th-anniversary/412457
 END:VEVENT
 BEGIN:VEVENT
-UID:39c296c3-1d97-495b-bc0b-56d57b95996e
-DTSTAMP:20260318T210233Z
+UID:d695b1e5-4492-413f-8615-73154f6e16f5
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260401
 DTEND;VALUE=DATE:20260402
 SUMMARY:🎬 Stand by Me 40th Anniversary (1986) @ Regal New Roc
-DESCRIPTION:Anniversary screening of 1986 classic  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/stand-by-me-40th-anniversary/412457
+DESCRIPTION:1986 classic\, 40th anniversary screening  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/stand-by-me-40th-anniversary/412457
 LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
 URL:https://www.atomtickets.com/movies/stand-by-me-40th-anniversary/412457
 END:VEVENT
 BEGIN:VEVENT
-UID:70bebf54-0ef5-4fd1-aa55-9ef2eed163ae
-DTSTAMP:20260318T210233Z
+UID:4508fe93-fa19-4204-bc52-9ef073443f65
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260402
 DTEND;VALUE=DATE:20260403
 SUMMARY:🎬 Stand by Me 40th Anniversary (1986) @ Regal New Roc
-DESCRIPTION:Anniversary screening of 1986 classic  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/stand-by-me-40th-anniversary/412457
+DESCRIPTION:1986 classic\, 40th anniversary screening  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/stand-by-me-40th-anniversary/412457
 LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
 URL:https://www.atomtickets.com/movies/stand-by-me-40th-anniversary/412457
 END:VEVENT
 BEGIN:VEVENT
-UID:4634091d-f078-42d6-a691-9df6412db452
-DTSTAMP:20260318T210233Z
+UID:c672b4c7-c196-49fd-8ed9-62134f5fd573
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260318
+DTEND;VALUE=DATE:20260319
+SUMMARY:🎬 Terms of Endearment (1983) @ Regal New Roc
+DESCRIPTION:1983 classic revival screening  |  ⭐ You rated this ★★★★★  |  Showtimes: https://www.fandango.com/terms-of-endearment-36463/movie-overview
+LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
+URL:https://www.fandango.com/terms-of-endearment-36463/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:951ad215-9827-4de2-9b02-87ea81409b00
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260319
+DTEND;VALUE=DATE:20260320
+SUMMARY:🎬 The English Patient (1996) @ Regal New Roc
+DESCRIPTION:1996 classic revival screening  |  👁 You've seen this  |  Showtimes: https://www.fandango.com/the-english-patient-55195/movie-overview
+LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
+URL:https://www.fandango.com/the-english-patient-55195/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:605d425c-beae-4b91-be05-093efba2d580
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260320
+DTEND;VALUE=DATE:20260321
+SUMMARY:🎬 Kiki's Delivery Service 4K (2026) (1989) @ Regal New Roc
+DESCRIPTION:Studio Ghibli classic\, 4K restoration  |  🆕 New to you  |  Showtimes: https://www.fandango.com/kikis-delivery-service-4k-2026-244544/movie-overview
+LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
+URL:https://www.fandango.com/kikis-delivery-service-4k-2026-244544/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:c310d541-92a1-4b58-9a60-7094d525f0ad
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260321
+DTEND;VALUE=DATE:20260322
+SUMMARY:🎬 Kiki's Delivery Service 4K (2026) (1989) @ Regal New Roc
+DESCRIPTION:Studio Ghibli classic\, 4K restoration  |  🆕 New to you  |  Showtimes: https://www.fandango.com/kikis-delivery-service-4k-2026-244544/movie-overview
+LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
+URL:https://www.fandango.com/kikis-delivery-service-4k-2026-244544/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:7064ac81-2ca0-4161-ad23-a92a6c175960
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260322
+DTEND;VALUE=DATE:20260323
+SUMMARY:🎬 Kiki's Delivery Service 4K (2026) (1989) @ Regal New Roc
+DESCRIPTION:Studio Ghibli classic\, 4K restoration  |  🆕 New to you  |  Showtimes: https://www.fandango.com/kikis-delivery-service-4k-2026-244544/movie-overview
+LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
+URL:https://www.fandango.com/kikis-delivery-service-4k-2026-244544/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:a3b10e2b-79a3-484a-b89e-744c15addfd2
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260323
+DTEND;VALUE=DATE:20260324
+SUMMARY:🎬 Kiki's Delivery Service 4K (2026) (1989) @ Regal New Roc
+DESCRIPTION:Studio Ghibli classic\, 4K restoration  |  🆕 New to you  |  Showtimes: https://www.fandango.com/kikis-delivery-service-4k-2026-244544/movie-overview
+LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
+URL:https://www.fandango.com/kikis-delivery-service-4k-2026-244544/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:ea910ffd-af93-4f85-ac71-d8dad19334df
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260324
+DTEND;VALUE=DATE:20260325
+SUMMARY:🎬 Kiki's Delivery Service 4K (2026) (1989) @ Regal New Roc
+DESCRIPTION:Studio Ghibli classic\, 4K restoration  |  🆕 New to you  |  Showtimes: https://www.fandango.com/kikis-delivery-service-4k-2026-244544/movie-overview
+LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
+URL:https://www.fandango.com/kikis-delivery-service-4k-2026-244544/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:e4b360ad-6ba3-4a95-b334-f36c3fa7f591
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260325
+DTEND;VALUE=DATE:20260326
+SUMMARY:🎬 Kiki's Delivery Service 4K (2026) (1989) @ Regal New Roc
+DESCRIPTION:Studio Ghibli classic\, 4K restoration  |  🆕 New to you  |  Showtimes: https://www.fandango.com/kikis-delivery-service-4k-2026-244544/movie-overview
+LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
+URL:https://www.fandango.com/kikis-delivery-service-4k-2026-244544/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:9db8c807-1127-4e40-91f7-b7aa034546d2
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260326
+DTEND;VALUE=DATE:20260327
+SUMMARY:🎬 Kiki's Delivery Service 4K (2026) (1989) @ Regal New Roc
+DESCRIPTION:Studio Ghibli classic\, 4K restoration  |  🆕 New to you  |  Showtimes: https://www.fandango.com/kikis-delivery-service-4k-2026-244544/movie-overview
+LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
+URL:https://www.fandango.com/kikis-delivery-service-4k-2026-244544/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:ebb4f032-d19c-4dec-86ce-d6031e63bd17
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260321
+DTEND;VALUE=DATE:20260322
+SUMMARY:🎬 Unforgiven (1992) @ Regal New Roc
+DESCRIPTION:1992 Eastwood Western classic  |  👁 You've seen this  |  Showtimes: https://www.fandango.com/unforgiven-1636/movie-overview
+LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
+URL:https://www.fandango.com/unforgiven-1636/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:465728cf-08c2-4bc3-b199-9440320847ee
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260323
+DTEND;VALUE=DATE:20260324
+SUMMARY:🎬 Mystery Movie Monday: Horror Edition @ Regal New Roc
+DESCRIPTION:Special screening series  |  🆕 New to you  |  Showtimes: https://www.fandango.com/mystery-movie-monday-horror-edition-242794/movie-overview
+LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
+URL:https://www.fandango.com/mystery-movie-monday-horror-edition-242794/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:f095b014-374d-43b7-85ec-4cecaed93738
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260330
+DTEND;VALUE=DATE:20260331
+SUMMARY:🎬 Mystery Movie Monday: Horror Edition @ Regal New Roc
+DESCRIPTION:Special screening series  |  🆕 New to you  |  Showtimes: https://www.fandango.com/mystery-movie-monday-horror-edition-242794/movie-overview
+LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
+URL:https://www.fandango.com/mystery-movie-monday-horror-edition-242794/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:e4117fa9-292b-40ef-8967-f9d9b72ba2c5
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260323
+DTEND;VALUE=DATE:20260324
+SUMMARY:🎬 Wings (1927) @ Regal New Roc
+DESCRIPTION:1927 silent classic\, first Best Picture winner  |  🆕 New to you  |  Showtimes: https://www.fandango.com/wings-34553/movie-overview
+LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
+URL:https://www.fandango.com/wings-34553/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:20df8457-0bbd-490a-88a9-4ab8c5aef217
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260325
+DTEND;VALUE=DATE:20260326
+SUMMARY:🎬 From Here to Eternity (1953) @ Regal New Roc
+DESCRIPTION:1953 classic  |  🆕 New to you  |  Showtimes: https://www.fandango.com/from-here-to-eternity-4597/movie-overview
+LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
+URL:https://www.fandango.com/from-here-to-eternity-4597/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:68df5375-4f50-4121-8fb2-cfc00c90f20e
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260326
+DTEND;VALUE=DATE:20260327
+SUMMARY:🎬 All Quiet on the Western Front (1930) (1930) @ Regal New Roc
+DESCRIPTION:1930 classic with year specified  |  👍 You rated this ★★★★  |  Showtimes: https://www.fandango.com/all-quiet-on-the-western-front-1930-14067/movie-overview
+LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
+URL:https://www.fandango.com/all-quiet-on-the-western-front-1930-14067/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:f331fe84-7f1e-40fa-8aff-ce7a3b50d545
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260327
+DTEND;VALUE=DATE:20260328
+SUMMARY:🎬 Stand By Me 40th Anniversary (2026) (1986) @ Regal New Roc
+DESCRIPTION:1986 classic\, anniversary screening  |  🆕 New to you  |  Showtimes: https://www.fandango.com/stand-by-me-40th-anniversary-2026-244647/movie-overview
+LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
+URL:https://www.fandango.com/stand-by-me-40th-anniversary-2026-244647/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:be8952e6-e5e7-46cd-b940-9d196154c867
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260328
+DTEND;VALUE=DATE:20260329
+SUMMARY:🎬 Stand By Me 40th Anniversary (2026) (1986) @ Regal New Roc
+DESCRIPTION:1986 classic\, anniversary screening  |  🆕 New to you  |  Showtimes: https://www.fandango.com/stand-by-me-40th-anniversary-2026-244647/movie-overview
+LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
+URL:https://www.fandango.com/stand-by-me-40th-anniversary-2026-244647/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:70e6c7a2-9b9d-4ab5-b885-548d4a58bf61
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260329
+DTEND;VALUE=DATE:20260330
+SUMMARY:🎬 Stand By Me 40th Anniversary (2026) (1986) @ Regal New Roc
+DESCRIPTION:1986 classic\, anniversary screening  |  🆕 New to you  |  Showtimes: https://www.fandango.com/stand-by-me-40th-anniversary-2026-244647/movie-overview
+LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
+URL:https://www.fandango.com/stand-by-me-40th-anniversary-2026-244647/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:0b2d2595-fae2-4b06-9366-4afb8c6bc0cd
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260330
+DTEND;VALUE=DATE:20260331
+SUMMARY:🎬 Stand By Me 40th Anniversary (2026) (1986) @ Regal New Roc
+DESCRIPTION:1986 classic\, anniversary screening  |  🆕 New to you  |  Showtimes: https://www.fandango.com/stand-by-me-40th-anniversary-2026-244647/movie-overview
+LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
+URL:https://www.fandango.com/stand-by-me-40th-anniversary-2026-244647/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:9ecf8844-223a-47c1-ab73-7f8a1f696ea3
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260331
+DTEND;VALUE=DATE:20260401
+SUMMARY:🎬 Stand By Me 40th Anniversary (2026) (1986) @ Regal New Roc
+DESCRIPTION:1986 classic\, anniversary screening  |  🆕 New to you  |  Showtimes: https://www.fandango.com/stand-by-me-40th-anniversary-2026-244647/movie-overview
+LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
+URL:https://www.fandango.com/stand-by-me-40th-anniversary-2026-244647/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:683b13a8-9615-42d5-814d-570f71fa79a5
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260401
+DTEND;VALUE=DATE:20260402
+SUMMARY:🎬 Stand By Me 40th Anniversary (2026) (1986) @ Regal New Roc
+DESCRIPTION:1986 classic\, anniversary screening  |  🆕 New to you  |  Showtimes: https://www.fandango.com/stand-by-me-40th-anniversary-2026-244647/movie-overview
+LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
+URL:https://www.fandango.com/stand-by-me-40th-anniversary-2026-244647/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:8f7dcd63-7712-4a31-8593-5b4a5270949f
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260402
+DTEND;VALUE=DATE:20260403
+SUMMARY:🎬 Stand By Me 40th Anniversary (2026) (1986) @ Regal New Roc
+DESCRIPTION:1986 classic\, anniversary screening  |  🆕 New to you  |  Showtimes: https://www.fandango.com/stand-by-me-40th-anniversary-2026-244647/movie-overview
+LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
+URL:https://www.fandango.com/stand-by-me-40th-anniversary-2026-244647/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:ee7ca0cd-5adb-4a75-9f57-07bea0a05075
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260328
+DTEND;VALUE=DATE:20260329
+SUMMARY:🎬 The Mummy Returns 25th Anniversary (2026) (2001) @ Regal New Roc
+DESCRIPTION:Anniversary screening  |  🆕 New to you  |  Showtimes: https://www.fandango.com/the-mummy-returns-25th-anniversary-2026-244346/movie-overview
+LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
+URL:https://www.fandango.com/the-mummy-returns-25th-anniversary-2026-244346/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:6a940ff7-4103-4b7c-909f-bcb5f05fc976
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260329
+DTEND;VALUE=DATE:20260330
+SUMMARY:🎬 The Mummy Returns 25th Anniversary (2026) (2001) @ Regal New Roc
+DESCRIPTION:Anniversary screening  |  🆕 New to you  |  Showtimes: https://www.fandango.com/the-mummy-returns-25th-anniversary-2026-244346/movie-overview
+LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
+URL:https://www.fandango.com/the-mummy-returns-25th-anniversary-2026-244346/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:5f9af07a-726d-4e99-901d-3c26a85ca838
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260330
+DTEND;VALUE=DATE:20260331
+SUMMARY:🎬 The Mummy Returns 25th Anniversary (2026) (2001) @ Regal New Roc
+DESCRIPTION:Anniversary screening  |  🆕 New to you  |  Showtimes: https://www.fandango.com/the-mummy-returns-25th-anniversary-2026-244346/movie-overview
+LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
+URL:https://www.fandango.com/the-mummy-returns-25th-anniversary-2026-244346/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:22b7c8a8-c8af-4c94-8661-835482f33f50
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260331
+DTEND;VALUE=DATE:20260401
+SUMMARY:🎬 The Mummy Returns 25th Anniversary (2026) (2001) @ Regal New Roc
+DESCRIPTION:Anniversary screening  |  🆕 New to you  |  Showtimes: https://www.fandango.com/the-mummy-returns-25th-anniversary-2026-244346/movie-overview
+LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
+URL:https://www.fandango.com/the-mummy-returns-25th-anniversary-2026-244346/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:5091c2ca-c995-4329-b10b-635280f06492
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260329
+DTEND;VALUE=DATE:20260330
+SUMMARY:🎬 No Country for Old Men (2007) @ Regal New Roc
+DESCRIPTION:2007 Coen Brothers classic  |  👁 You've seen this  |  Showtimes: https://www.fandango.com/no-country-for-old-men-102904/movie-overview
+LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
+URL:https://www.fandango.com/no-country-for-old-men-102904/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:2993eb77-c6dd-4642-a0c5-da9b11902f9c
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260330
+DTEND;VALUE=DATE:20260331
+SUMMARY:🎬 On the Waterfront (1954) (1954) @ Regal New Roc
+DESCRIPTION:1954 classic with year specified  |  🆕 New to you  |  Showtimes: https://www.fandango.com/on-the-waterfront-1954-2196/movie-overview
+LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
+URL:https://www.fandango.com/on-the-waterfront-1954-2196/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:0aa04e0f-e05f-45da-aaac-07c75bd0b309
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260331
+DTEND;VALUE=DATE:20260401
+SUMMARY:🎬 The Sting (1973) @ Regal New Roc
+DESCRIPTION:1973 classic  |  🆕 New to you  |  Showtimes: https://www.fandango.com/the-sting-2021/movie-overview
+LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
+URL:https://www.fandango.com/the-sting-2021/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:4b5da6d3-07ea-414e-abcf-c004bb3adc47
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260401
+DTEND;VALUE=DATE:20260402
+SUMMARY:🎬 April Fool's Day (1986) @ Regal New Roc
+DESCRIPTION:1986 cult horror film  |  👁 You've seen this  |  Showtimes: https://www.fandango.com/april-fools-day-114874/movie-overview
+LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
+URL:https://www.fandango.com/april-fools-day-114874/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:efef1e1b-6b45-4e61-a23e-cf2a852b6b72
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260402
+DTEND;VALUE=DATE:20260403
+SUMMARY:🎬 The Bad News Bears (1976) @ Regal New Roc
+DESCRIPTION:1976 classic  |  🆕 New to you  |  Showtimes: https://www.fandango.com/the-bad-news-bears-95546/movie-overview
+LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
+URL:https://www.fandango.com/the-bad-news-bears-95546/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:fcea5d60-e9d7-495c-aefd-9140a110a055
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260403
+DTEND;VALUE=DATE:20260404
+SUMMARY:🎬 Blazing Saddles (1974) @ Regal New Roc
+DESCRIPTION:1974 Mel Brooks classic  |  👁 You've seen this  |  Showtimes: https://www.fandango.com/blazing-saddles-1966/movie-overview
+LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
+URL:https://www.fandango.com/blazing-saddles-1966/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:0ad6bd95-57eb-450f-bc35-d47aa87a4d63
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260404
+DTEND;VALUE=DATE:20260405
+SUMMARY:🎬 Animal House (1978) @ Regal New Roc
+DESCRIPTION:1978 comedy classic  |  ⭐ You rated this ★★★★★  |  Showtimes: https://www.fandango.com/animal-house-1999/movie-overview
+LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
+URL:https://www.fandango.com/animal-house-1999/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:5c55a088-c563-4125-b1fd-be50380fe66c
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260405
+DTEND;VALUE=DATE:20260406
+SUMMARY:🎬 The Muppet Movie (1979) @ Regal New Roc
+DESCRIPTION:1979 classic  |  🆕 New to you  |  Showtimes: https://www.fandango.com/the-muppet-movie-32081/movie-overview
+LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
+URL:https://www.fandango.com/the-muppet-movie-32081/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:817619d9-d52c-49cc-9942-8fffb983024f
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260406
+DTEND;VALUE=DATE:20260407
+SUMMARY:🎬 The Jerk (1979) @ Regal New Roc
+DESCRIPTION:1979 Steve Martin classic  |  🆕 New to you  |  Showtimes: https://www.fandango.com/the-jerk-57459/movie-overview
+LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
+URL:https://www.fandango.com/the-jerk-57459/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:bfb45a09-0997-4f1d-8322-c9644dcad93d
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260407
+DTEND;VALUE=DATE:20260408
+SUMMARY:🎬 Smokey and the Bandit (1977) @ Regal New Roc
+DESCRIPTION:1977 classic  |  🆕 New to you  |  Showtimes: https://www.fandango.com/smokey-and-the-bandit-89770/movie-overview
+LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
+URL:https://www.fandango.com/smokey-and-the-bandit-89770/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:74a4322c-516f-4944-8301-f39f8e253268
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260408
+DTEND;VALUE=DATE:20260409
+SUMMARY:🎬 Airplane! (1980) @ Regal New Roc
+DESCRIPTION:1980 comedy classic  |  👁 You've seen this  |  Showtimes: https://www.fandango.com/airplane-987/movie-overview
+LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
+URL:https://www.fandango.com/airplane-987/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:41048039-1510-4131-ac9d-dd4972ecd1b6
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260409
+DTEND;VALUE=DATE:20260410
+SUMMARY:🎬 The 'Burbs (1989) @ Regal New Roc
+DESCRIPTION:1989 cult comedy  |  🆕 New to you  |  Showtimes: https://www.fandango.com/the-burbs-98752/movie-overview
+LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
+URL:https://www.fandango.com/the-burbs-98752/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:871aaa95-3997-425e-8e10-b1b452b4b42c
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260410
+DTEND;VALUE=DATE:20260411
+SUMMARY:🎬 National Lampoon's Vacation (1983) @ Regal New Roc
+DESCRIPTION:1983 comedy classic  |  👁 You've seen this  |  Showtimes: https://www.fandango.com/national-lampoons-vacation-36783/movie-overview
+LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
+URL:https://www.fandango.com/national-lampoons-vacation-36783/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:e4a1751c-aa0c-490a-b84e-336057b268f3
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260411
+DTEND;VALUE=DATE:20260412
+SUMMARY:🎬 Spy Kids (2001) (2001) @ Regal New Roc
+DESCRIPTION:2001 film with year specified  |  👁 You've seen this  |  Showtimes: https://www.fandango.com/spy-kids-2001-21930/movie-overview
+LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
+URL:https://www.fandango.com/spy-kids-2001-21930/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:8ccdf3ac-96cf-40e3-b6c5-8af3eb36edaf
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260412
+DTEND;VALUE=DATE:20260413
+SUMMARY:🎬 Spy Kids (2001) (2001) @ Regal New Roc
+DESCRIPTION:2001 film with year specified  |  👁 You've seen this  |  Showtimes: https://www.fandango.com/spy-kids-2001-21930/movie-overview
+LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
+URL:https://www.fandango.com/spy-kids-2001-21930/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:87ea286b-93d4-43fa-b07f-a93d41386456
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260411
+DTEND;VALUE=DATE:20260412
+SUMMARY:🎬 Ferris Bueller's Day Off (1986) (1986) @ Regal New Roc
+DESCRIPTION:1986 classic with year specified  |  👁 You've seen this  |  Showtimes: https://www.fandango.com/ferris-buellers-day-off-1986-28124/movie-overview
+LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
+URL:https://www.fandango.com/ferris-buellers-day-off-1986-28124/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:c9c3f81b-ff12-4770-ae0c-c8fe9caa90ec
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260412
+DTEND;VALUE=DATE:20260413
+SUMMARY:🎬 Caddyshack (1980) @ Regal New Roc
+DESCRIPTION:1980 comedy classic  |  👁 You've seen this  |  Showtimes: https://www.fandango.com/caddyshack-3601/movie-overview
+LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
+URL:https://www.fandango.com/caddyshack-3601/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:13a81bf3-28f0-4f3e-8417-8ce3c33293f9
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260413
+DTEND;VALUE=DATE:20260414
+SUMMARY:🎬 Better Off Dead (1985) @ Regal New Roc
+DESCRIPTION:1985 cult comedy  |  🆕 New to you  |  Showtimes: https://www.fandango.com/better-off-dead-30441/movie-overview
+LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
+URL:https://www.fandango.com/better-off-dead-30441/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:f6a0424b-9174-4c1e-b036-e0ae3f1d051c
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260414
+DTEND;VALUE=DATE:20260415
+SUMMARY:🎬 Beverly Hills Cop (1984) @ Regal New Roc
+DESCRIPTION:1984 classic  |  ⭐ You rated this ★★★★★  |  Showtimes: https://www.fandango.com/beverly-hills-cop-38919/movie-overview
+LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
+URL:https://www.fandango.com/beverly-hills-cop-38919/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:c7219422-ab34-4a2f-88b8-0ca64854282a
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260415
+DTEND;VALUE=DATE:20260416
+SUMMARY:🎬 Wayne's World (1992) @ Regal New Roc
+DESCRIPTION:1992 comedy classic  |  🆕 New to you  |  Showtimes: https://www.fandango.com/waynes-world-899/movie-overview
+LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
+URL:https://www.fandango.com/waynes-world-899/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:6571cd52-cc03-46db-8423-a6599474a255
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260416
+DTEND;VALUE=DATE:20260417
+SUMMARY:🎬 Austin Powers: International Man of Mystery (1997) @ Regal New Roc
+DESCRIPTION:1997 comedy with cultural standing  |  👁 You've seen this  |  Showtimes: https://www.fandango.com/austin-powers-international-man-of-mystery-664/movie-overview
+LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
+URL:https://www.fandango.com/austin-powers-international-man-of-mystery-664/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:c4a09c19-f943-4f30-9745-10f4c079b8ca
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260417
+DTEND;VALUE=DATE:20260418
+SUMMARY:🎬 The Big Lebowski (1998) (1998) @ Regal New Roc
+DESCRIPTION:1998 Coen Bros cult classic  |  👁 You've seen this  |  Showtimes: https://www.fandango.com/the-big-lebowski-1998-601/movie-overview
+LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
+URL:https://www.fandango.com/the-big-lebowski-1998-601/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:c3a3449c-56d1-47dc-a3c4-f7bf8b46bd8a
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260418
+DTEND;VALUE=DATE:20260419
+SUMMARY:🎬 Death Becomes Her (1992) @ Regal New Roc
+DESCRIPTION:1992 film with cultural standing  |  👁 You've seen this  |  Showtimes: https://www.fandango.com/death-becomes-her-118820/movie-overview
+LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
+URL:https://www.fandango.com/death-becomes-her-118820/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:4cb4f10a-e69b-494f-ab24-f5296d007347
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260418
+DTEND;VALUE=DATE:20260419
+SUMMARY:🎬 Rugrats in Paris: The Movie (2000) @ Regal New Roc
+DESCRIPTION:2000 animated film revival  |  🆕 New to you  |  Showtimes: https://www.fandango.com/rugrats-in-paris-the-movie-2043/movie-overview
+LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
+URL:https://www.fandango.com/rugrats-in-paris-the-movie-2043/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:37d668c5-b393-4a1c-8d26-d77a018d3830
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260419
+DTEND;VALUE=DATE:20260420
+SUMMARY:🎬 Rugrats in Paris: The Movie (2000) @ Regal New Roc
+DESCRIPTION:2000 animated film revival  |  🆕 New to you  |  Showtimes: https://www.fandango.com/rugrats-in-paris-the-movie-2043/movie-overview
+LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
+URL:https://www.fandango.com/rugrats-in-paris-the-movie-2043/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:af7d5fb6-7c13-4a65-a789-6ef3fe7280b4
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260419
+DTEND;VALUE=DATE:20260420
+SUMMARY:🎬 The Mask (1994) (1994) @ Regal New Roc
+DESCRIPTION:1994 comedy with cultural standing  |  👁 You've seen this  |  Showtimes: https://www.fandango.com/the-mask-1994-120112/movie-overview
+LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
+URL:https://www.fandango.com/the-mask-1994-120112/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:94cad39b-d04c-487b-bfe7-706e9d26f303
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260419
+DTEND;VALUE=DATE:20260420
+SUMMARY:🎬 Bridesmaids: 15th Anniversary (2026) (2011) @ Regal New Roc
+DESCRIPTION:2011 comedy anniversary screening  |  🆕 New to you  |  Showtimes: https://www.fandango.com/bridesmaids-15th-anniversary-2026-244815/movie-overview
+LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
+URL:https://www.fandango.com/bridesmaids-15th-anniversary-2026-244815/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:1c9e25ed-7c95-4f3d-8a2f-c40dc825e703
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260422
+DTEND;VALUE=DATE:20260423
+SUMMARY:🎬 Bridesmaids: 15th Anniversary (2026) (2011) @ Regal New Roc
+DESCRIPTION:2011 comedy anniversary screening  |  🆕 New to you  |  Showtimes: https://www.fandango.com/bridesmaids-15th-anniversary-2026-244815/movie-overview
+LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
+URL:https://www.fandango.com/bridesmaids-15th-anniversary-2026-244815/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:6ab579a2-6d45-4c62-9fd8-a883cbeff360
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260420
+DTEND;VALUE=DATE:20260421
+SUMMARY:🎬 Dazed and Confused (1993) (1993) @ Regal New Roc
+DESCRIPTION:1993 cult classic  |  ⭐ You rated this ★★★★★  |  Showtimes: https://www.fandango.com/dazed-and-confused-1993-2287/movie-overview
+LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
+URL:https://www.fandango.com/dazed-and-confused-1993-2287/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:d0c38db0-e1d9-4e4f-aee5-f4e9c35d3d42
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260421
+DTEND;VALUE=DATE:20260422
+SUMMARY:🎬 The First Wives Club (1996) @ Regal New Roc
+DESCRIPTION:1996 comedy with cultural standing  |  🆕 New to you  |  Showtimes: https://www.fandango.com/the-first-wives-club-62035/movie-overview
+LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
+URL:https://www.fandango.com/the-first-wives-club-62035/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:d6a10df9-2b12-4335-b1d7-111c55a81cb6
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260423
+DTEND;VALUE=DATE:20260424
+SUMMARY:🎬 Hot Fuzz (2007) @ Regal New Roc
+DESCRIPTION:2007 comedy with cultural standing  |  🆕 New to you  |  Showtimes: https://www.fandango.com/hot-fuzz-98247/movie-overview
+LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
+URL:https://www.fandango.com/hot-fuzz-98247/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:fb0d2109-a76d-4cfc-9c2d-e07afc89cb6d
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260424
+DTEND;VALUE=DATE:20260425
+SUMMARY:🎬 The Hangover (2009) @ Regal New Roc
+DESCRIPTION:2009 comedy with cultural standing  |  👍 You rated this ★★★★  |  Showtimes: https://www.fandango.com/the-hangover-118895/movie-overview
+LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
+URL:https://www.fandango.com/the-hangover-118895/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:adb9ee69-7bfb-4d0a-b48d-a15879c2c039
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260425
+DTEND;VALUE=DATE:20260426
+SUMMARY:🎬 Miss Congeniality (2000) (2000) @ Regal New Roc
+DESCRIPTION:2000 comedy with cultural standing  |  🆕 New to you  |  Showtimes: https://www.fandango.com/miss-congeniality-2000-14228/movie-overview
+LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
+URL:https://www.fandango.com/miss-congeniality-2000-14228/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:30df5ea1-592c-43ca-a609-d62c06cffce6
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260426
+DTEND;VALUE=DATE:20260427
+SUMMARY:🎬 Superbad (2007) @ Regal New Roc
+DESCRIPTION:2007 comedy with cultural standing  |  👁 You've seen this  |  Showtimes: https://www.fandango.com/superbad-102664/movie-overview
+LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
+URL:https://www.fandango.com/superbad-102664/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:e43408ea-973a-4272-be64-97944ba7382c
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260427
+DTEND;VALUE=DATE:20260428
+SUMMARY:🎬 Best in Show (2000) @ Regal New Roc
+DESCRIPTION:2000 mockumentary with cultural standing  |  👁 You've seen this  |  Showtimes: https://www.fandango.com/best-in-show-1592/movie-overview
+LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
+URL:https://www.fandango.com/best-in-show-1592/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:fb817ac5-d6c4-4b1b-aca5-26670ffb511a
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260428
+DTEND;VALUE=DATE:20260429
+SUMMARY:🎬 Step Brothers (2008) @ Regal New Roc
+DESCRIPTION:2008 comedy with cultural standing  |  👁 You've seen this  |  Showtimes: https://www.fandango.com/step-brothers-102722/movie-overview
+LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
+URL:https://www.fandango.com/step-brothers-102722/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:c46c7340-bfeb-4741-b816-71d0a8e55fd0
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260429
+DTEND;VALUE=DATE:20260430
+SUMMARY:🎬 Girls Trip (2017) @ Regal New Roc
+DESCRIPTION:2017 comedy with cultural standing  |  🆕 New to you  |  Showtimes: https://www.fandango.com/girls-trip-199441/movie-overview
+LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
+URL:https://www.fandango.com/girls-trip-199441/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:f0e87991-efb9-4f32-9ca9-70e847378857
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260430
+DTEND;VALUE=DATE:20260501
+SUMMARY:🎬 The Nice Guys (2016) @ Regal New Roc
+DESCRIPTION:2016 film with cultural standing  |  👍 You rated this ★★★★  |  Showtimes: https://www.fandango.com/the-nice-guys-179886/movie-overview
+LOCATION:33 LeCount Pl\, New Rochelle\, NY 10801
+URL:https://www.fandango.com/the-nice-guys-179886/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:06b14b5c-32fe-4165-bc9c-9664d0f02cf1
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260426
 DTEND;VALUE=DATE:20260427
 SUMMARY:🎬 Terror of Mechagodzilla (1975) @ Alamo Drafthouse Yonkers
-DESCRIPTION:1975 Toho kaiju classic revival  |  🆕 New to you  |  Times: 12:00 PM · 2:30 PM  |  Showtimes: https://drafthouse.com/yonkers/show/terror-of-mechagodzilla
+DESCRIPTION:1975 Toho kaiju classic  |  🆕 New to you  |  Times: 12:00 PM · 2:30 PM  |  Showtimes: https://drafthouse.com/yonkers/show/terror-of-mechagodzilla
 LOCATION:175 Main St\, Yonkers\, NY 10701
 URL:https://drafthouse.com/yonkers/show/terror-of-mechagodzilla
 END:VEVENT
 BEGIN:VEVENT
-UID:61432582-9420-48e5-bc88-a2e4f927e84a
-DTSTAMP:20260318T210233Z
+UID:3dbd0495-309c-471e-978b-8a3b257505f8
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260319
 DTEND;VALUE=DATE:20260320
 SUMMARY:🎬 Britannia Hospital (1982) @ Alamo Drafthouse Yonkers
-DESCRIPTION:1982 Lindsay Anderson film revival  |  🆕 New to you  |  Times: 7:00 PM  |  Showtimes: https://drafthouse.com/yonkers/show/guest-selects-britannia-hospital
+DESCRIPTION:1982 Lindsay Anderson film  |  🆕 New to you  |  Times: 7:00 PM  |  Showtimes: https://drafthouse.com/yonkers/show/guest-selects-britannia-hospital
 LOCATION:175 Main St\, Yonkers\, NY 10701
 URL:https://drafthouse.com/yonkers/show/guest-selects-britannia-hospital
 END:VEVENT
 BEGIN:VEVENT
-UID:e06a556f-33c1-4a1a-8f77-985f0a81dc9a
-DTSTAMP:20260318T210233Z
+UID:1cb190b4-592e-429c-a68f-92d684f5bb9c
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260425
 DTEND;VALUE=DATE:20260426
 SUMMARY:🎬 Miss Congeniality (2000) @ Alamo Drafthouse Yonkers
-DESCRIPTION:2000 comedy revival screening  |  🆕 New to you  |  Times: 3:00 PM  |  Showtimes: https://drafthouse.com/yonkers/show/movie-party-miss-congeniality
+DESCRIPTION:2000 comedy with cultural standing  |  🆕 New to you  |  Times: 3:00 PM  |  Showtimes: https://drafthouse.com/yonkers/show/movie-party-miss-congeniality
 LOCATION:175 Main St\, Yonkers\, NY 10701
 URL:https://drafthouse.com/yonkers/show/movie-party-miss-congeniality
 END:VEVENT
 BEGIN:VEVENT
-UID:04e5d781-9a1b-497a-ab20-83f13a4f5023
-DTSTAMP:20260318T210233Z
+UID:b10778f5-f9e1-4c77-aa1f-d8e9b0a18282
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260413
 DTEND;VALUE=DATE:20260414
 SUMMARY:🎬 Pride & Prejudice (2005) (2005) @ Alamo Drafthouse Yonkers
-DESCRIPTION:2005 film revival screening  |  👁 You've seen this  |  Times: 7:00 PM  |  Showtimes: https://drafthouse.com/yonkers/show/movie-party-pride-prejudice-2005
+DESCRIPTION:2005 period drama with cultural standing  |  👁 You've seen this  |  Times: 7:00 PM  |  Showtimes: https://drafthouse.com/yonkers/show/movie-party-pride-prejudice-2005
 LOCATION:175 Main St\, Yonkers\, NY 10701
 URL:https://drafthouse.com/yonkers/show/movie-party-pride-prejudice-2005
 END:VEVENT
 BEGIN:VEVENT
-UID:7eeff216-8c77-4899-9f36-2716a3ea6337
-DTSTAMP:20260318T210233Z
+UID:2b5c39b6-3481-4745-b25a-f3d542803900
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260420
 DTEND;VALUE=DATE:20260421
 SUMMARY:🎬 The Big Lebowski (1998) @ Alamo Drafthouse Yonkers
-DESCRIPTION:1998 Coen Bros classic revival  |  👁 You've seen this  |  Times: 7:00 PM  |  Showtimes: https://drafthouse.com/yonkers/show/movie-party-the-big-lebowski
+DESCRIPTION:1998 Coen Bros cult classic  |  👁 You've seen this  |  Times: 7:00 PM  |  Showtimes: https://drafthouse.com/yonkers/show/movie-party-the-big-lebowski
 LOCATION:175 Main St\, Yonkers\, NY 10701
 URL:https://drafthouse.com/yonkers/show/movie-party-the-big-lebowski
 END:VEVENT
 BEGIN:VEVENT
-UID:02e7b064-5c59-4ccc-881a-07428abeaef2
-DTSTAMP:20260318T210233Z
+UID:7ebf1029-b3a7-4eb8-9002-e998adbb3fc6
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260330
 DTEND;VALUE=DATE:20260331
 SUMMARY:🎬 The Mummy Returns: 25th Anniversary (2001) @ Alamo Drafthouse Yonkers
-DESCRIPTION:Anniversary screening of 2001 film  |  🆕 New to you  |  Times: 7:30 PM  |  Showtimes: https://drafthouse.com/yonkers/show/movie-party-the-mummy-returns-25th-anniversary
+DESCRIPTION:2001 film\, 25th anniversary screening  |  🆕 New to you  |  Times: 7:30 PM  |  Showtimes: https://drafthouse.com/yonkers/show/movie-party-the-mummy-returns-25th-anniversary
 LOCATION:175 Main St\, Yonkers\, NY 10701
 URL:https://drafthouse.com/yonkers/show/movie-party-the-mummy-returns-25th-anniversary
 END:VEVENT
 BEGIN:VEVENT
-UID:fa67bae6-800e-4549-b9c4-1309b3376fb8
-DTSTAMP:20260318T210233Z
+UID:90a17853-2ec4-4217-afaa-41840fe7b4f3
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260322
 DTEND;VALUE=DATE:20260323
 SUMMARY:🎬 The Lord of the Rings: The Return of the King: Extended Edition (2003) @ Alamo Drafthouse Yonkers
-DESCRIPTION:2003 classic\, special edition screening  |  🆕 New to you  |  Times: 11:00 AM  |  Showtimes: https://drafthouse.com/yonkers/show/the-lord-of-the-rings-the-return-of-the-king-extended-edition
+DESCRIPTION:2003 epic special edition screening  |  🆕 New to you  |  Times: 11:00 AM  |  Showtimes: https://drafthouse.com/yonkers/show/the-lord-of-the-rings-the-return-of-the-king-extended-edition
 LOCATION:175 Main St\, Yonkers\, NY 10701
 URL:https://drafthouse.com/yonkers/show/the-lord-of-the-rings-the-return-of-the-king-extended-edition
 END:VEVENT
 BEGIN:VEVENT
-UID:a63e977c-3898-4bdb-b84e-62289f6e3273
-DTSTAMP:20260318T210233Z
+UID:a2ccf7a2-f19e-414d-a2d9-3f54cc1ff97d
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260326
 DTEND;VALUE=DATE:20260327
 SUMMARY:🎬 Mystery Voyage (1990) @ Alamo Drafthouse Yonkers
-DESCRIPTION:1990s Hong Kong cult film revival  |  🆕 New to you  |  Times: 7:15 PM  |  Showtimes: https://drafthouse.com/yonkers/show/mystery-voyage
+DESCRIPTION:1990s Hong Kong action film revival  |  🆕 New to you  |  Times: 7:15 PM  |  Showtimes: https://drafthouse.com/yonkers/show/mystery-voyage
 LOCATION:175 Main St\, Yonkers\, NY 10701
 URL:https://drafthouse.com/yonkers/show/mystery-voyage
 END:VEVENT
 BEGIN:VEVENT
-UID:86361909-26ec-4c11-824e-f1d6c38331f1
-DTSTAMP:20260318T210233Z
+UID:a2507998-191d-4209-9ac4-a6c7dd4c6be2
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260427
 DTEND;VALUE=DATE:20260428
 SUMMARY:🎬 Céline and Julie Go Boating (1974) @ Alamo Drafthouse Yonkers
-DESCRIPTION:1974 Rivette French New Wave classic  |  🆕 New to you  |  Times: 6:15 PM  |  Showtimes: https://drafthouse.com/yonkers/show/queer-film-theory-101-celine-and-julie-go-boating
+DESCRIPTION:1974 Jacques Rivette French New Wave classic  |  🆕 New to you  |  Times: 6:15 PM  |  Showtimes: https://drafthouse.com/yonkers/show/queer-film-theory-101-celine-and-julie-go-boating
 LOCATION:175 Main St\, Yonkers\, NY 10701
 URL:https://drafthouse.com/yonkers/show/queer-film-theory-101-celine-and-julie-go-boating
 END:VEVENT
 BEGIN:VEVENT
-UID:2fe51988-32c3-4538-93ad-bad2fd318f42
-DTSTAMP:20260318T210233Z
+UID:ab091b0f-cb82-4c0f-ac67-c616ae6f252b
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260320
 DTEND;VALUE=DATE:20260321
 SUMMARY:🎬 Daisies (1966) @ Alamo Drafthouse Yonkers
@@ -557,88 +1207,98 @@ LOCATION:175 Main St\, Yonkers\, NY 10701
 URL:https://drafthouse.com/yonkers/show/queer-film-theory-101-daisies
 END:VEVENT
 BEGIN:VEVENT
-UID:051d3fbc-e3a0-4510-abc8-e01370da3fb3
-DTSTAMP:20260318T210233Z
+UID:fe0d5ab4-43b3-4df0-96f0-c15ed3a08396
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260324
 DTEND;VALUE=DATE:20260325
 SUMMARY:🎬 Melancholia (2011) @ Alamo Drafthouse Yonkers
-DESCRIPTION:2011 von Trier art house revival  |  🆕 New to you  |  Times: 8:00 PM  |  Showtimes: https://drafthouse.com/yonkers/show/sad-girl-cinema-club-melancholia
+DESCRIPTION:2011 Lars von Trier arthouse film  |  🆕 New to you  |  Times: 8:00 PM  |  Showtimes: https://drafthouse.com/yonkers/show/sad-girl-cinema-club-melancholia
 LOCATION:175 Main St\, Yonkers\, NY 10701
 URL:https://drafthouse.com/yonkers/show/sad-girl-cinema-club-melancholia
 END:VEVENT
 BEGIN:VEVENT
-UID:67da0c4e-a9d9-43c6-977d-2a12f72532b1
-DTSTAMP:20260318T210233Z
-DTSTART;VALUE=DATE:20260409
-DTEND;VALUE=DATE:20260410
-SUMMARY:🎬 City on Fire (1987) (1987) @ Alamo Drafthouse Yonkers
-DESCRIPTION:1987 Ringo Lam film\, 4K restoration  |  🆕 New to you  |  Times: 7:15 PM  |  Showtimes: https://drafthouse.com/yonkers/show/city-on-fire-1987
-LOCATION:175 Main St\, Yonkers\, NY 10701
-URL:https://drafthouse.com/yonkers/show/city-on-fire-1987
-END:VEVENT
-BEGIN:VEVENT
-UID:f04c9c7f-2e2d-4e7c-8568-026d67508d68
-DTSTAMP:20260318T210233Z
+UID:d778aa11-565f-49af-922a-fb3a191ffce0
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260423
 DTEND;VALUE=DATE:20260424
 SUMMARY:🎬 Face/Off (1997) @ Alamo Drafthouse Yonkers
-DESCRIPTION:1997 John Woo action classic revival  |  👁 You've seen this  |  Times: 6:30 PM  |  Showtimes: https://drafthouse.com/yonkers/show/face-off
+DESCRIPTION:1997 John Woo action classic  |  👁 You've seen this  |  Times: 6:30 PM  |  Showtimes: https://drafthouse.com/yonkers/show/face-off
 LOCATION:175 Main St\, Yonkers\, NY 10701
 URL:https://drafthouse.com/yonkers/show/face-off
 END:VEVENT
 BEGIN:VEVENT
-UID:0beb6602-6533-43ba-9fc9-df2aa70c497e
-DTSTAMP:20260318T210233Z
+UID:b1072da1-6e09-4e9f-99d1-017da6bdb9c7
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260410
 DTEND;VALUE=DATE:20260411
 SUMMARY:🎬 Ghost World (2001) @ Alamo Drafthouse Yonkers
-DESCRIPTION:2001 indie cult classic revival  |  🆕 New to you  |  Times: 9:45 PM  |  Showtimes: https://drafthouse.com/yonkers/show/ghost-world
+DESCRIPTION:2001 Terry Zwigoff cult classic  |  🆕 New to you  |  Times: 9:45 PM  |  Showtimes: https://drafthouse.com/yonkers/show/ghost-world
 LOCATION:175 Main St\, Yonkers\, NY 10701
 URL:https://drafthouse.com/yonkers/show/ghost-world
 END:VEVENT
 BEGIN:VEVENT
-UID:ddf1ce0c-f8ec-4833-af66-b64ea2b176a2
-DTSTAMP:20260318T210233Z
+UID:094752e6-dc59-4ffb-abeb-a1edb9cdf3ad
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260321
 DTEND;VALUE=DATE:20260322
 SUMMARY:🎬 Twin Peaks: The Return (2017) @ Alamo Drafthouse Yonkers
-DESCRIPTION:2017 Lynch series revival screening  |  👁 You've seen this  |  Times: 12:00 PM  |  Showtimes: https://drafthouse.com/yonkers/show/greetings-from-twin-peaks-twin-peaks-the-return-parts-13-15
+DESCRIPTION:2017 David Lynch series revival  |  👁 You've seen this  |  Times: 12:00 PM  |  Showtimes: https://drafthouse.com/yonkers/show/greetings-from-twin-peaks-twin-peaks-the-return-parts-13-15
 LOCATION:175 Main St\, Yonkers\, NY 10701
 URL:https://drafthouse.com/yonkers/show/greetings-from-twin-peaks-twin-peaks-the-return-parts-13-15
 END:VEVENT
 BEGIN:VEVENT
-UID:f84309e9-9f3c-4812-b10f-d04787cc1dee
-DTSTAMP:20260318T210233Z
+UID:933ae4e6-f109-49b2-9c95-6dc84ed5cbdd
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260328
 DTEND;VALUE=DATE:20260329
 SUMMARY:🎬 Twin Peaks: The Return (2017) @ Alamo Drafthouse Yonkers
-DESCRIPTION:2017 Lynch series revival screening  |  👁 You've seen this  |  Times: 12:00 PM  |  Showtimes: https://drafthouse.com/yonkers/show/greetings-from-twin-peaks-twin-peaks-the-return-parts-13-15
+DESCRIPTION:2017 David Lynch series revival  |  👁 You've seen this  |  Times: 12:00 PM  |  Showtimes: https://drafthouse.com/yonkers/show/greetings-from-twin-peaks-twin-peaks-the-return-parts-13-15
 LOCATION:175 Main St\, Yonkers\, NY 10701
 URL:https://drafthouse.com/yonkers/show/greetings-from-twin-peaks-twin-peaks-the-return-parts-13-15
 END:VEVENT
 BEGIN:VEVENT
-UID:fab02dd6-d3c8-4ad1-905b-cc015229ccc8
-DTSTAMP:20260318T210233Z
+UID:48429710-549e-48ed-97ea-f44a1d94f126
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260329
+DTEND;VALUE=DATE:20260330
+SUMMARY:🎬 The Lord of the Rings Extended Edition Trilogy Marathon (2001) @ Alamo Drafthouse Yonkers
+DESCRIPTION:2001-2003 Peter Jackson trilogy\, special presentation  |  🆕 New to you  |  Times: 11:00 AM  |  Showtimes: https://drafthouse.com/yonkers/show/lord-of-the-rings-extended-edition-trilogy-marathon
+LOCATION:175 Main St\, Yonkers\, NY 10701
+URL:https://drafthouse.com/yonkers/show/lord-of-the-rings-extended-edition-trilogy-marathon
+END:VEVENT
+BEGIN:VEVENT
+UID:aae56540-ae60-4e68-aa29-0281e725ba30
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260416
+DTEND;VALUE=DATE:20260417
+SUMMARY:🎬 Police Story (1985) @ Alamo Drafthouse Yonkers
+DESCRIPTION:1985 Jackie Chan classic  |  🆕 New to you  |  Times: 7:15 PM  |  Showtimes: https://drafthouse.com/yonkers/show/police-story
+LOCATION:175 Main St\, Yonkers\, NY 10701
+URL:https://drafthouse.com/yonkers/show/police-story
+END:VEVENT
+BEGIN:VEVENT
+UID:a62d4f96-0e67-458b-a924-5e62fd855427
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260411
 DTEND;VALUE=DATE:20260412
 SUMMARY:🎬 Something Wild (1986) @ Alamo Drafthouse Yonkers
-DESCRIPTION:1986 Jonathan Demme cult classic  |  👁 You've seen this  |  Times: 12:00 PM  |  Showtimes: https://drafthouse.com/yonkers/show/something-wild
+DESCRIPTION:1986 Jonathan Demme cult film  |  👁 You've seen this  |  Times: 12:00 PM  |  Showtimes: https://drafthouse.com/yonkers/show/something-wild
 LOCATION:175 Main St\, Yonkers\, NY 10701
 URL:https://drafthouse.com/yonkers/show/something-wild
 END:VEVENT
 BEGIN:VEVENT
-UID:33395d56-895b-4c90-bf47-dd7dc68a2113
-DTSTAMP:20260318T210233Z
+UID:7696b630-8126-484b-94b1-7e50d04d87fe
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260418
 DTEND;VALUE=DATE:20260419
 SUMMARY:🎬 The Master (2012) (2012) @ Alamo Drafthouse Yonkers
-DESCRIPTION:2012 Paul Thomas Anderson\, special screening  |  🆕 New to you  |  Times: 12:30 PM  |  Showtimes: https://drafthouse.com/yonkers/show/the-master-2012
+DESCRIPTION:2012 Paul Thomas Anderson\, art house revival  |  🆕 New to you  |  Times: 12:30 PM  |  Showtimes: https://drafthouse.com/yonkers/show/the-master-2012
 LOCATION:175 Main St\, Yonkers\, NY 10701
 URL:https://drafthouse.com/yonkers/show/the-master-2012
 END:VEVENT
 BEGIN:VEVENT
-UID:4f732bb5-9840-471c-b4c0-ea69f127b4ce
-DTSTAMP:20260318T210233Z
+UID:11621ebf-b935-4b3d-a004-1f3f3ae98ebd
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260430
 DTEND;VALUE=DATE:20260501
 SUMMARY:🎬 Tomorrow Never Dies (1997) @ Alamo Drafthouse Yonkers
@@ -647,188 +1307,198 @@ LOCATION:175 Main St\, Yonkers\, NY 10701
 URL:https://drafthouse.com/yonkers/show/tomorrow-never-dies
 END:VEVENT
 BEGIN:VEVENT
-UID:ab6dfab9-4528-4047-a9f6-d076ab66333c
-DTSTAMP:20260318T210233Z
+UID:7a842706-17af-4420-b4bf-e89adedc825b
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260323
 DTEND;VALUE=DATE:20260324
 SUMMARY:🎬 Unforgiven (1992) @ Alamo Drafthouse Yonkers
-DESCRIPTION:1992 Eastwood western classic  |  👁 You've seen this  |  Times: 7:00 PM  |  Showtimes: https://drafthouse.com/yonkers/show/unforgiven
+DESCRIPTION:1992 Eastwood Western classic  |  👁 You've seen this  |  Times: 7:00 PM  |  Showtimes: https://drafthouse.com/yonkers/show/unforgiven
 LOCATION:175 Main St\, Yonkers\, NY 10701
 URL:https://drafthouse.com/yonkers/show/unforgiven
 END:VEVENT
 BEGIN:VEVENT
-UID:fb9e4c49-16fb-448a-aa2c-87353701904a
-DTSTAMP:20260318T210233Z
+UID:5bad1028-cf0e-497e-95a2-5e6ceefe81e6
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260506
 DTEND;VALUE=DATE:20260507
 SUMMARY:🎬 GET HITCHED: MARNIE (1964) @ Alamo Drafthouse Yonkers
-DESCRIPTION:1964 Hitchcock retrospective series  |  🆕 New to you  |  Times: 7:00 PM  |  Showtimes: https://drafthouse.com/yonkers/show/marnie
+DESCRIPTION:1964 Hitchcock classic\, retrospective  |  🆕 New to you  |  Times: 7:00 PM  |  Showtimes: https://drafthouse.com/yonkers/show/marnie
 LOCATION:175 Main St\, Yonkers\, NY 10701
 URL:https://drafthouse.com/yonkers/show/marnie
 END:VEVENT
 BEGIN:VEVENT
-UID:d090cad5-379c-4d4e-99c0-2db3ba1b594d
-DTSTAMP:20260318T210233Z
+UID:d4109665-4223-455c-b02b-2bd77e3af306
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260401
 DTEND;VALUE=DATE:20260402
 SUMMARY:🎬 THE MAN WHO KNEW TOO MUCH (1956) @ Alamo Drafthouse Yonkers
-DESCRIPTION:1956 Hitchcock classic revival  |  👁 You've seen this  |  Times: 7:00 PM  |  Showtimes: https://drafthouse.com/yonkers/show/the-man-who-knew-too-much
+DESCRIPTION:1956 Hitchcock classic  |  👁 You've seen this  |  Times: 7:00 PM  |  Showtimes: https://drafthouse.com/yonkers/show/the-man-who-knew-too-much
 LOCATION:175 Main St\, Yonkers\, NY 10701
 URL:https://drafthouse.com/yonkers/show/the-man-who-knew-too-much
 END:VEVENT
 BEGIN:VEVENT
-UID:1e78264c-2bee-440f-a6fd-af9f5c25dbd3
-DTSTAMP:20260318T210233Z
+UID:ede4868d-5366-4c98-92a0-594e4310c02e
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260318
+DTEND;VALUE=DATE:20260319
+SUMMARY:🎬 TMNT II: The Secret of the Ooze 35th Anniversary (1991) @ AMC Port Chester 14
+DESCRIPTION:35th anniversary screening  |  🆕 New to you  |  Times: 2:00 PM · 4:30 PM · 7:00 PM  |  Showtimes: https://www.atomtickets.com/movies/tmnt-ii-the-secret-of-the-ooze-35th-anniversary/408970
+LOCATION:40 Westchester Ave\, Port Chester\, NY 10573
+URL:https://www.atomtickets.com/movies/tmnt-ii-the-secret-of-the-ooze-35th-anniversary/408970
+END:VEVENT
+BEGIN:VEVENT
+UID:f4116b61-1784-4666-9449-848dc09fb42c
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260319
 DTEND;VALUE=DATE:20260320
 SUMMARY:🎬 TMNT II: The Secret of the Ooze 35th Anniversary (1991) @ AMC Port Chester 14
-DESCRIPTION:1991 film\, 35th anniversary screening  |  🆕 New to you  |  Times: 2:00 PM · 4:30 PM · 7:00 PM  |  Showtimes: https://www.atomtickets.com/movies/tmnt-ii-the-secret-of-the-ooze-35th-anniversary/408970
+DESCRIPTION:35th anniversary screening  |  🆕 New to you  |  Times: 2:00 PM · 4:30 PM · 7:00 PM  |  Showtimes: https://www.atomtickets.com/movies/tmnt-ii-the-secret-of-the-ooze-35th-anniversary/408970
 LOCATION:40 Westchester Ave\, Port Chester\, NY 10573
 URL:https://www.atomtickets.com/movies/tmnt-ii-the-secret-of-the-ooze-35th-anniversary/408970
 END:VEVENT
 BEGIN:VEVENT
-UID:ca184802-b4aa-43d0-a2f2-54561feee01e
-DTSTAMP:20260318T210233Z
+UID:0e535ded-47c6-4935-985c-cc21177b70a7
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260320
 DTEND;VALUE=DATE:20260321
 SUMMARY:🎬 TMNT II: The Secret of the Ooze 35th Anniversary (1991) @ AMC Port Chester 14
-DESCRIPTION:1991 film\, 35th anniversary screening  |  🆕 New to you  |  Times: 2:00 PM · 4:30 PM · 7:00 PM  |  Showtimes: https://www.atomtickets.com/movies/tmnt-ii-the-secret-of-the-ooze-35th-anniversary/408970
+DESCRIPTION:35th anniversary screening  |  🆕 New to you  |  Times: 2:00 PM · 4:30 PM · 7:00 PM  |  Showtimes: https://www.atomtickets.com/movies/tmnt-ii-the-secret-of-the-ooze-35th-anniversary/408970
 LOCATION:40 Westchester Ave\, Port Chester\, NY 10573
 URL:https://www.atomtickets.com/movies/tmnt-ii-the-secret-of-the-ooze-35th-anniversary/408970
 END:VEVENT
 BEGIN:VEVENT
-UID:3fd8331c-79a3-4f59-befb-cd4bcdacd49f
-DTSTAMP:20260318T210233Z
+UID:f6ae73c0-8cd2-4713-8a0c-95e717157786
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260321
 DTEND;VALUE=DATE:20260322
 SUMMARY:🎬 TMNT II: The Secret of the Ooze 35th Anniversary (1991) @ AMC Port Chester 14
-DESCRIPTION:1991 film\, 35th anniversary screening  |  🆕 New to you  |  Times: 2:00 PM · 4:30 PM · 7:00 PM  |  Showtimes: https://www.atomtickets.com/movies/tmnt-ii-the-secret-of-the-ooze-35th-anniversary/408970
+DESCRIPTION:35th anniversary screening  |  🆕 New to you  |  Times: 2:00 PM · 4:30 PM · 7:00 PM  |  Showtimes: https://www.atomtickets.com/movies/tmnt-ii-the-secret-of-the-ooze-35th-anniversary/408970
 LOCATION:40 Westchester Ave\, Port Chester\, NY 10573
 URL:https://www.atomtickets.com/movies/tmnt-ii-the-secret-of-the-ooze-35th-anniversary/408970
 END:VEVENT
 BEGIN:VEVENT
-UID:f5fb4443-b2c9-4f7b-a157-89a99764e2aa
-DTSTAMP:20260318T210233Z
+UID:6a5ad079-ebeb-4eff-87ee-74af91a881cf
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260322
 DTEND;VALUE=DATE:20260323
 SUMMARY:🎬 TMNT II: The Secret of the Ooze 35th Anniversary (1991) @ AMC Port Chester 14
-DESCRIPTION:1991 film\, 35th anniversary screening  |  🆕 New to you  |  Times: 2:00 PM · 4:30 PM · 7:00 PM  |  Showtimes: https://www.atomtickets.com/movies/tmnt-ii-the-secret-of-the-ooze-35th-anniversary/408970
+DESCRIPTION:35th anniversary screening  |  🆕 New to you  |  Times: 2:00 PM · 4:30 PM · 7:00 PM  |  Showtimes: https://www.atomtickets.com/movies/tmnt-ii-the-secret-of-the-ooze-35th-anniversary/408970
 LOCATION:40 Westchester Ave\, Port Chester\, NY 10573
 URL:https://www.atomtickets.com/movies/tmnt-ii-the-secret-of-the-ooze-35th-anniversary/408970
 END:VEVENT
 BEGIN:VEVENT
-UID:99fdcfb5-3758-433e-9d2f-803a387ab463
-DTSTAMP:20260318T210233Z
+UID:1c23ea0b-ffd6-45b0-9b4b-3c8dadb81c75
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260323
 DTEND;VALUE=DATE:20260324
 SUMMARY:🎬 TMNT II: The Secret of the Ooze 35th Anniversary (1991) @ AMC Port Chester 14
-DESCRIPTION:1991 film\, 35th anniversary screening  |  🆕 New to you  |  Times: 2:00 PM · 4:30 PM · 7:00 PM  |  Showtimes: https://www.atomtickets.com/movies/tmnt-ii-the-secret-of-the-ooze-35th-anniversary/408970
+DESCRIPTION:35th anniversary screening  |  🆕 New to you  |  Times: 2:00 PM · 4:30 PM · 7:00 PM  |  Showtimes: https://www.atomtickets.com/movies/tmnt-ii-the-secret-of-the-ooze-35th-anniversary/408970
 LOCATION:40 Westchester Ave\, Port Chester\, NY 10573
 URL:https://www.atomtickets.com/movies/tmnt-ii-the-secret-of-the-ooze-35th-anniversary/408970
 END:VEVENT
 BEGIN:VEVENT
-UID:759174a0-509b-41e3-999e-67b851e0b87b
-DTSTAMP:20260318T210233Z
+UID:51abc4af-d070-49a8-8bb2-2dfb6a521d4e
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260324
 DTEND;VALUE=DATE:20260325
 SUMMARY:🎬 TMNT II: The Secret of the Ooze 35th Anniversary (1991) @ AMC Port Chester 14
-DESCRIPTION:1991 film\, 35th anniversary screening  |  🆕 New to you  |  Times: 2:00 PM · 4:30 PM · 7:00 PM  |  Showtimes: https://www.atomtickets.com/movies/tmnt-ii-the-secret-of-the-ooze-35th-anniversary/408970
+DESCRIPTION:35th anniversary screening  |  🆕 New to you  |  Times: 2:00 PM · 4:30 PM · 7:00 PM  |  Showtimes: https://www.atomtickets.com/movies/tmnt-ii-the-secret-of-the-ooze-35th-anniversary/408970
 LOCATION:40 Westchester Ave\, Port Chester\, NY 10573
 URL:https://www.atomtickets.com/movies/tmnt-ii-the-secret-of-the-ooze-35th-anniversary/408970
 END:VEVENT
 BEGIN:VEVENT
-UID:83a9e5d1-3db9-480c-a0b0-6baf04059b28
-DTSTAMP:20260318T210233Z
+UID:842ac504-12ee-4757-b4b4-b61edff1138a
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260325
 DTEND;VALUE=DATE:20260326
 SUMMARY:🎬 TMNT II: The Secret of the Ooze 35th Anniversary (1991) @ AMC Port Chester 14
-DESCRIPTION:1991 film\, 35th anniversary screening  |  🆕 New to you  |  Times: 2:00 PM · 4:30 PM · 7:00 PM  |  Showtimes: https://www.atomtickets.com/movies/tmnt-ii-the-secret-of-the-ooze-35th-anniversary/408970
+DESCRIPTION:35th anniversary screening  |  🆕 New to you  |  Times: 2:00 PM · 4:30 PM · 7:00 PM  |  Showtimes: https://www.atomtickets.com/movies/tmnt-ii-the-secret-of-the-ooze-35th-anniversary/408970
 LOCATION:40 Westchester Ave\, Port Chester\, NY 10573
 URL:https://www.atomtickets.com/movies/tmnt-ii-the-secret-of-the-ooze-35th-anniversary/408970
 END:VEVENT
 BEGIN:VEVENT
-UID:e6aa02d6-f35d-4b20-91ff-e5ef5156e658
-DTSTAMP:20260318T210233Z
+UID:078f3bb9-2fe8-4a18-9568-dd65601176d4
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260318
 DTEND;VALUE=DATE:20260319
 SUMMARY:🎬 The Revenant 10th Anniversary (2015) @ AMC Port Chester 14
-DESCRIPTION:2015 film anniversary screening  |  🆕 New to you  |  Times: 2:15 PM · 9:00 PM  |  Showtimes: https://www.atomtickets.com/movies/the-revenant-10th-anniversary/408030
+DESCRIPTION:2015 film\, anniversary screening  |  🆕 New to you  |  Times: 2:15 PM · 9:00 PM  |  Showtimes: https://www.atomtickets.com/movies/the-revenant-10th-anniversary/408030
 LOCATION:40 Westchester Ave\, Port Chester\, NY 10573
 URL:https://www.atomtickets.com/movies/the-revenant-10th-anniversary/408030
 END:VEVENT
 BEGIN:VEVENT
-UID:b7924fbe-3cad-40ea-8d1b-b2758d23b1f4
-DTSTAMP:20260318T210233Z
+UID:2e330569-f628-48b5-85da-e3895f5669aa
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260318
 DTEND;VALUE=DATE:20260319
 SUMMARY:🎬 Anaconda (1997) @ AMC Port Chester 14
-DESCRIPTION:1997 cult film revival  |  👁 You've seen this  |  Times: 3:00 PM · 5:50 PM  |  Showtimes: https://www.atomtickets.com/movies/anaconda/372875
+DESCRIPTION:1997 cult classic revival  |  👁 You've seen this  |  Times: 3:00 PM · 5:50 PM  |  Showtimes: https://www.atomtickets.com/movies/anaconda/372875
 LOCATION:40 Westchester Ave\, Port Chester\, NY 10573
 URL:https://www.atomtickets.com/movies/anaconda/372875
 END:VEVENT
 BEGIN:VEVENT
-UID:484b51a1-24ed-4a13-be8b-896c121c3207
-DTSTAMP:20260318T210233Z
+UID:ba627bbe-e491-41ee-b9c3-66848c1de1ea
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260320
 DTEND;VALUE=DATE:20260321
 SUMMARY:🎬 Kiki's Delivery Service 4K (1989) @ AMC Port Chester 14
-DESCRIPTION:1989 Miyazaki classic\, 4K restoration  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/kikis-delivery-service-4k/411633
+DESCRIPTION:Studio Ghibli classic\, 4K restoration  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/kikis-delivery-service-4k/411633
 LOCATION:40 Westchester Ave\, Port Chester\, NY 10573
 URL:https://www.atomtickets.com/movies/kikis-delivery-service-4k/411633
 END:VEVENT
 BEGIN:VEVENT
-UID:31cd5623-bc94-41fc-9082-28f3fbaa65bc
-DTSTAMP:20260318T210233Z
+UID:79c34f1e-0fe9-4a03-b5ab-ccce6e83693e
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260321
 DTEND;VALUE=DATE:20260322
 SUMMARY:🎬 Kiki's Delivery Service 4K (1989) @ AMC Port Chester 14
-DESCRIPTION:1989 Miyazaki classic\, 4K restoration  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/kikis-delivery-service-4k/411633
+DESCRIPTION:Studio Ghibli classic\, 4K restoration  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/kikis-delivery-service-4k/411633
 LOCATION:40 Westchester Ave\, Port Chester\, NY 10573
 URL:https://www.atomtickets.com/movies/kikis-delivery-service-4k/411633
 END:VEVENT
 BEGIN:VEVENT
-UID:72476085-6e0b-4100-b9c1-d3c7788ccda5
-DTSTAMP:20260318T210233Z
+UID:b301759d-179e-40cc-8457-c1b9a3898989
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260322
 DTEND;VALUE=DATE:20260323
 SUMMARY:🎬 Kiki's Delivery Service 4K (1989) @ AMC Port Chester 14
-DESCRIPTION:1989 Miyazaki classic\, 4K restoration  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/kikis-delivery-service-4k/411633
+DESCRIPTION:Studio Ghibli classic\, 4K restoration  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/kikis-delivery-service-4k/411633
 LOCATION:40 Westchester Ave\, Port Chester\, NY 10573
 URL:https://www.atomtickets.com/movies/kikis-delivery-service-4k/411633
 END:VEVENT
 BEGIN:VEVENT
-UID:4f14ecec-04cb-447d-975b-570f4acf9229
-DTSTAMP:20260318T210233Z
+UID:78d42b22-e781-4665-89c9-91b31ec7b378
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260323
 DTEND;VALUE=DATE:20260324
 SUMMARY:🎬 Kiki's Delivery Service 4K (1989) @ AMC Port Chester 14
-DESCRIPTION:1989 Miyazaki classic\, 4K restoration  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/kikis-delivery-service-4k/411633
+DESCRIPTION:Studio Ghibli classic\, 4K restoration  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/kikis-delivery-service-4k/411633
 LOCATION:40 Westchester Ave\, Port Chester\, NY 10573
 URL:https://www.atomtickets.com/movies/kikis-delivery-service-4k/411633
 END:VEVENT
 BEGIN:VEVENT
-UID:c9ab8096-7683-4dd5-9cd5-501c3f8c7edb
-DTSTAMP:20260318T210233Z
+UID:993c5367-069c-4cd1-93e2-a8e157e70631
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260324
 DTEND;VALUE=DATE:20260325
 SUMMARY:🎬 Kiki's Delivery Service 4K (1989) @ AMC Port Chester 14
-DESCRIPTION:1989 Miyazaki classic\, 4K restoration  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/kikis-delivery-service-4k/411633
+DESCRIPTION:Studio Ghibli classic\, 4K restoration  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/kikis-delivery-service-4k/411633
 LOCATION:40 Westchester Ave\, Port Chester\, NY 10573
 URL:https://www.atomtickets.com/movies/kikis-delivery-service-4k/411633
 END:VEVENT
 BEGIN:VEVENT
-UID:1c6c106f-b179-46ae-8a55-f1fc2476ff23
-DTSTAMP:20260318T210233Z
+UID:383ae9a2-310a-488e-a49f-e965a0c61672
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260325
 DTEND;VALUE=DATE:20260326
 SUMMARY:🎬 Kiki's Delivery Service 4K (1989) @ AMC Port Chester 14
-DESCRIPTION:1989 Miyazaki classic\, 4K restoration  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/kikis-delivery-service-4k/411633
+DESCRIPTION:Studio Ghibli classic\, 4K restoration  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/kikis-delivery-service-4k/411633
 LOCATION:40 Westchester Ave\, Port Chester\, NY 10573
 URL:https://www.atomtickets.com/movies/kikis-delivery-service-4k/411633
 END:VEVENT
 BEGIN:VEVENT
-UID:18b69fc4-342e-42c9-904f-62d2febd7552
-DTSTAMP:20260318T210233Z
+UID:cb5270bf-0319-4f83-bea2-7089f9d400de
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260321
 DTEND;VALUE=DATE:20260322
 SUMMARY:🎬 Hubble 3D (2010) @ AMC Port Chester 14
@@ -837,8 +1507,8 @@ LOCATION:40 Westchester Ave\, Port Chester\, NY 10573
 URL:https://www.atomtickets.com/movies/hubble-3d/99596
 END:VEVENT
 BEGIN:VEVENT
-UID:d69ab9c5-88bd-4bd9-b513-ee94d31f4d75
-DTSTAMP:20260318T210233Z
+UID:95419042-1f55-483a-be73-323d3fc4f7c2
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260802
 DTEND;VALUE=DATE:20260803
 SUMMARY:🎬 Willy Wonka & The Chocolate Factory 55th Anniversary (1971) @ AMC Port Chester 14
@@ -847,8 +1517,8 @@ LOCATION:40 Westchester Ave\, Port Chester\, NY 10573
 URL:https://www.atomtickets.com/movies/willy-wonka-the-chocolate-factory-55th-anniversary/410303
 END:VEVENT
 BEGIN:VEVENT
-UID:faf00b36-c9d9-45c4-aadd-56baf5dfa458
-DTSTAMP:20260318T210233Z
+UID:7b045490-e6ef-4452-ab6b-39b6f79703ea
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260805
 DTEND;VALUE=DATE:20260806
 SUMMARY:🎬 Willy Wonka & The Chocolate Factory 55th Anniversary (1971) @ AMC Port Chester 14
@@ -857,78 +1527,118 @@ LOCATION:40 Westchester Ave\, Port Chester\, NY 10573
 URL:https://www.atomtickets.com/movies/willy-wonka-the-chocolate-factory-55th-anniversary/410303
 END:VEVENT
 BEGIN:VEVENT
-UID:7b927588-d07e-41c7-85ac-69b744a678ce
-DTSTAMP:20260318T210233Z
+UID:3abae9ac-d438-4d39-9c6c-2081c8e7585d
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260327
+DTEND;VALUE=DATE:20260328
+SUMMARY:🎬 The Silence of the Lambs 35th Anniversary (1991) @ AMC Port Chester 14
+DESCRIPTION:Classic thriller\, 35th anniversary  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/the-silence-of-the-lambs-35th-anniversary/410296
+LOCATION:40 Westchester Ave\, Port Chester\, NY 10573
+URL:https://www.atomtickets.com/movies/the-silence-of-the-lambs-35th-anniversary/410296
+END:VEVENT
+BEGIN:VEVENT
+UID:0ba185c0-95b4-4587-8ae0-0e65d3bb2c62
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260328
+DTEND;VALUE=DATE:20260329
+SUMMARY:🎬 The Silence of the Lambs 35th Anniversary (1991) @ AMC Port Chester 14
+DESCRIPTION:Classic thriller\, 35th anniversary  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/the-silence-of-the-lambs-35th-anniversary/410296
+LOCATION:40 Westchester Ave\, Port Chester\, NY 10573
+URL:https://www.atomtickets.com/movies/the-silence-of-the-lambs-35th-anniversary/410296
+END:VEVENT
+BEGIN:VEVENT
+UID:9254580c-74ce-4f77-aeba-afe2a3cf7c7a
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260329
+DTEND;VALUE=DATE:20260330
+SUMMARY:🎬 The Silence of the Lambs 35th Anniversary (1991) @ AMC Port Chester 14
+DESCRIPTION:Classic thriller\, 35th anniversary  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/the-silence-of-the-lambs-35th-anniversary/410296
+LOCATION:40 Westchester Ave\, Port Chester\, NY 10573
+URL:https://www.atomtickets.com/movies/the-silence-of-the-lambs-35th-anniversary/410296
+END:VEVENT
+BEGIN:VEVENT
+UID:d5e3d6ec-dd6a-4988-82e7-3af99fe86e0c
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260330
+DTEND;VALUE=DATE:20260331
+SUMMARY:🎬 The Silence of the Lambs 35th Anniversary (1991) @ AMC Port Chester 14
+DESCRIPTION:Classic thriller\, 35th anniversary  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/the-silence-of-the-lambs-35th-anniversary/410296
+LOCATION:40 Westchester Ave\, Port Chester\, NY 10573
+URL:https://www.atomtickets.com/movies/the-silence-of-the-lambs-35th-anniversary/410296
+END:VEVENT
+BEGIN:VEVENT
+UID:3dd8dfc9-0247-4330-ab8b-1821787571c4
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260426
 DTEND;VALUE=DATE:20260427
 SUMMARY:🎬 The Silence of the Lambs 35th Anniversary (1991) @ AMC Port Chester 14
-DESCRIPTION:1991 classic\, 35th anniversary  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/the-silence-of-the-lambs-35th-anniversary/410296
+DESCRIPTION:Classic thriller\, 35th anniversary  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/the-silence-of-the-lambs-35th-anniversary/410296
 LOCATION:40 Westchester Ave\, Port Chester\, NY 10573
 URL:https://www.atomtickets.com/movies/the-silence-of-the-lambs-35th-anniversary/410296
 END:VEVENT
 BEGIN:VEVENT
-UID:af1b5f25-e404-4fb2-b375-4ddc134e689b
-DTSTAMP:20260318T210233Z
+UID:bbd94e28-b9f1-49bc-8804-e6c1aef536d4
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260429
 DTEND;VALUE=DATE:20260430
 SUMMARY:🎬 The Silence of the Lambs 35th Anniversary (1991) @ AMC Port Chester 14
-DESCRIPTION:1991 classic\, 35th anniversary  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/the-silence-of-the-lambs-35th-anniversary/410296
+DESCRIPTION:Classic thriller\, 35th anniversary  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/the-silence-of-the-lambs-35th-anniversary/410296
 LOCATION:40 Westchester Ave\, Port Chester\, NY 10573
 URL:https://www.atomtickets.com/movies/the-silence-of-the-lambs-35th-anniversary/410296
 END:VEVENT
 BEGIN:VEVENT
-UID:28be266f-7136-48f2-8544-04e42f779137
-DTSTAMP:20260318T210233Z
+UID:59513f10-1797-4046-aa3c-ae04c4354d9a
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260405
 DTEND;VALUE=DATE:20260406
 SUMMARY:🎬 The Killer (1989) (1989) @ AMC Port Chester 14
-DESCRIPTION:1989 John Woo classic revival  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/the-killer-1989/353427
+DESCRIPTION:1989 John Woo classic  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/the-killer-1989/353427
 LOCATION:40 Westchester Ave\, Port Chester\, NY 10573
 URL:https://www.atomtickets.com/movies/the-killer-1989/353427
 END:VEVENT
 BEGIN:VEVENT
-UID:4ca474cd-e25a-447b-b465-ec7b16a1ef3d
-DTSTAMP:20260318T210233Z
+UID:ed7f8a85-c42c-4cab-8489-f24933192457
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260406
 DTEND;VALUE=DATE:20260407
 SUMMARY:🎬 The Killer (1989) (1989) @ AMC Port Chester 14
-DESCRIPTION:1989 John Woo classic revival  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/the-killer-1989/353427
+DESCRIPTION:1989 John Woo classic  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/the-killer-1989/353427
 LOCATION:40 Westchester Ave\, Port Chester\, NY 10573
 URL:https://www.atomtickets.com/movies/the-killer-1989/353427
 END:VEVENT
 BEGIN:VEVENT
-UID:36498bf3-729d-4bde-9bf7-56f0a3bdf2f2
-DTSTAMP:20260318T210233Z
+UID:b7b6d6ad-5646-46de-b39e-3c1514792ce7
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260408
 DTEND;VALUE=DATE:20260409
 SUMMARY:🎬 The Killer (1989) (1989) @ AMC Port Chester 14
-DESCRIPTION:1989 John Woo classic revival  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/the-killer-1989/353427
+DESCRIPTION:1989 John Woo classic  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/the-killer-1989/353427
 LOCATION:40 Westchester Ave\, Port Chester\, NY 10573
 URL:https://www.atomtickets.com/movies/the-killer-1989/353427
 END:VEVENT
 BEGIN:VEVENT
-UID:7563c85f-5f51-4286-b810-729295b2b729
-DTSTAMP:20260318T210233Z
+UID:b5396b18-6208-4e0b-94e2-199938eeb91d
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260621
 DTEND;VALUE=DATE:20260622
 SUMMARY:🎬 Ocean's Eleven 25th Anniversary (2001) @ AMC Port Chester 14
-DESCRIPTION:Anniversary screening of 2001 film  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/oceans-eleven-25th-anniversary/410299
+DESCRIPTION:2001 film\, 25th anniversary screening  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/oceans-eleven-25th-anniversary/410299
 LOCATION:40 Westchester Ave\, Port Chester\, NY 10573
 URL:https://www.atomtickets.com/movies/oceans-eleven-25th-anniversary/410299
 END:VEVENT
 BEGIN:VEVENT
-UID:30259518-c854-406f-92ea-cc347ca7a949
-DTSTAMP:20260318T210233Z
+UID:7e3a8afd-8d54-462a-bc93-f966381ac9e8
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260624
 DTEND;VALUE=DATE:20260625
 SUMMARY:🎬 Ocean's Eleven 25th Anniversary (2001) @ AMC Port Chester 14
-DESCRIPTION:Anniversary screening of 2001 film  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/oceans-eleven-25th-anniversary/410299
+DESCRIPTION:2001 film\, 25th anniversary screening  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/oceans-eleven-25th-anniversary/410299
 LOCATION:40 Westchester Ave\, Port Chester\, NY 10573
 URL:https://www.atomtickets.com/movies/oceans-eleven-25th-anniversary/410299
 END:VEVENT
 BEGIN:VEVENT
-UID:dd86247e-4c53-4d32-8fbb-be7434fe2caa
-DTSTAMP:20260318T210233Z
+UID:3605e769-e0cc-4cc5-8049-afcf557e49a1
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260328
 DTEND;VALUE=DATE:20260329
 SUMMARY:🎬 Superpower Dogs (2019) @ AMC Port Chester 14
@@ -937,8 +1647,8 @@ LOCATION:40 Westchester Ave\, Port Chester\, NY 10573
 URL:https://www.atomtickets.com/movies/superpower-dogs/289307
 END:VEVENT
 BEGIN:VEVENT
-UID:81305392-e499-43df-a7c4-35b9d850eced
-DTSTAMP:20260318T210233Z
+UID:45e3dfda-73c5-42b0-80f4-c39ac0b680c9
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260404
 DTEND;VALUE=DATE:20260405
 SUMMARY:🎬 Pandas 3D (2018) @ AMC Port Chester 14
@@ -947,28 +1657,28 @@ LOCATION:40 Westchester Ave\, Port Chester\, NY 10573
 URL:https://www.atomtickets.com/movies/pandas-3d/264976
 END:VEVENT
 BEGIN:VEVENT
-UID:969a96b0-1051-4da3-bfd4-2f45c51739c1
-DTSTAMP:20260318T210233Z
+UID:b5d40be0-a5c4-4ec3-976f-abb0645646e5
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260510
 DTEND;VALUE=DATE:20260511
 SUMMARY:🎬 Fried Green Tomatoes 35th Anniversary (1991) @ AMC Port Chester 14
-DESCRIPTION:Anniversary screening of 1991 film  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/fried-green-tomatoes-35th-anniversary/410297
+DESCRIPTION:1991 film\, 35th anniversary screening  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/fried-green-tomatoes-35th-anniversary/410297
 LOCATION:40 Westchester Ave\, Port Chester\, NY 10573
 URL:https://www.atomtickets.com/movies/fried-green-tomatoes-35th-anniversary/410297
 END:VEVENT
 BEGIN:VEVENT
-UID:9ef35cf8-5f42-41f0-991e-00f221a111c7
-DTSTAMP:20260318T210233Z
+UID:31edb50a-95a3-4665-a545-e30bdd379b08
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260513
 DTEND;VALUE=DATE:20260514
 SUMMARY:🎬 Fried Green Tomatoes 35th Anniversary (1991) @ AMC Port Chester 14
-DESCRIPTION:Anniversary screening of 1991 film  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/fried-green-tomatoes-35th-anniversary/410297
+DESCRIPTION:1991 film\, 35th anniversary screening  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/fried-green-tomatoes-35th-anniversary/410297
 LOCATION:40 Westchester Ave\, Port Chester\, NY 10573
 URL:https://www.atomtickets.com/movies/fried-green-tomatoes-35th-anniversary/410297
 END:VEVENT
 BEGIN:VEVENT
-UID:a64abcd7-a86d-4a06-bbd2-003e014ff2af
-DTSTAMP:20260318T210233Z
+UID:dfbbe7a9-e89e-445a-8736-f1e43de53a8b
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260419
 DTEND;VALUE=DATE:20260420
 SUMMARY:🎬 Under the Sea (2009) @ AMC Port Chester 14
@@ -977,8 +1687,8 @@ LOCATION:40 Westchester Ave\, Port Chester\, NY 10573
 URL:https://www.atomtickets.com/movies/under-the-sea/71305
 END:VEVENT
 BEGIN:VEVENT
-UID:9f95c58b-2514-4ac9-8644-b424055602b5
-DTSTAMP:20260318T210233Z
+UID:8c73b494-2dfb-43ba-977a-9b770be5da10
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:🎬 The Maltese Falcon 85th Anniversary (1941) @ AMC Port Chester 14
@@ -987,8 +1697,8 @@ LOCATION:40 Westchester Ave\, Port Chester\, NY 10573
 URL:https://www.atomtickets.com/movies/the-maltese-falcon-85th-anniversary/410306
 END:VEVENT
 BEGIN:VEVENT
-UID:1bae73a8-058e-426a-b70f-db1f51baf17d
-DTSTAMP:20260318T210233Z
+UID:74984950-5d0b-42a0-88f1-8ecd4fa9fefa
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
 SUMMARY:🎬 The Maltese Falcon 85th Anniversary (1941) @ AMC Port Chester 14
@@ -997,48 +1707,48 @@ LOCATION:40 Westchester Ave\, Port Chester\, NY 10573
 URL:https://www.atomtickets.com/movies/the-maltese-falcon-85th-anniversary/410306
 END:VEVENT
 BEGIN:VEVENT
-UID:dcd2f846-6cf0-4c81-8cd3-4f356067a2c9
-DTSTAMP:20260318T210233Z
+UID:64396c41-692e-47a6-a518-c22becc61c35
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20261221
 DTEND;VALUE=DATE:20261222
 SUMMARY:🎬 It's A Wonderful Life 80th Anniversary (1946) @ AMC Port Chester 14
-DESCRIPTION:1946 Capra classic\, 80th anniversary  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/its-a-wonderful-life-80th-anniversary/410307
+DESCRIPTION:Capra classic\, 80th anniversary  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/its-a-wonderful-life-80th-anniversary/410307
 LOCATION:40 Westchester Ave\, Port Chester\, NY 10573
 URL:https://www.atomtickets.com/movies/its-a-wonderful-life-80th-anniversary/410307
 END:VEVENT
 BEGIN:VEVENT
-UID:2fd01975-4d04-4b18-98ca-5d7f6d4ecd67
-DTSTAMP:20260318T210233Z
+UID:d4253f1c-6096-49f4-bae9-9cf20778a59b
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20261222
 DTEND;VALUE=DATE:20261223
 SUMMARY:🎬 It's A Wonderful Life 80th Anniversary (1946) @ AMC Port Chester 14
-DESCRIPTION:1946 Capra classic\, 80th anniversary  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/its-a-wonderful-life-80th-anniversary/410307
+DESCRIPTION:Capra classic\, 80th anniversary  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/its-a-wonderful-life-80th-anniversary/410307
 LOCATION:40 Westchester Ave\, Port Chester\, NY 10573
 URL:https://www.atomtickets.com/movies/its-a-wonderful-life-80th-anniversary/410307
 END:VEVENT
 BEGIN:VEVENT
-UID:d3ff3b9f-c7e9-4705-ac79-18cb9bf0d7ac
-DTSTAMP:20260318T210233Z
+UID:d20f37ad-7ca0-4015-828c-1d22a58de0dc
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20261223
 DTEND;VALUE=DATE:20261224
 SUMMARY:🎬 It's A Wonderful Life 80th Anniversary (1946) @ AMC Port Chester 14
-DESCRIPTION:1946 Capra classic\, 80th anniversary  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/its-a-wonderful-life-80th-anniversary/410307
+DESCRIPTION:Capra classic\, 80th anniversary  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/its-a-wonderful-life-80th-anniversary/410307
 LOCATION:40 Westchester Ave\, Port Chester\, NY 10573
 URL:https://www.atomtickets.com/movies/its-a-wonderful-life-80th-anniversary/410307
 END:VEVENT
 BEGIN:VEVENT
-UID:400ea2de-9f8a-4ad8-9889-d66e0af99cf5
-DTSTAMP:20260318T210233Z
+UID:56da0c71-1957-4552-98fb-141fe242acd1
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20261224
 DTEND;VALUE=DATE:20261225
 SUMMARY:🎬 It's A Wonderful Life 80th Anniversary (1946) @ AMC Port Chester 14
-DESCRIPTION:1946 Capra classic\, 80th anniversary  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/its-a-wonderful-life-80th-anniversary/410307
+DESCRIPTION:Capra classic\, 80th anniversary  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/its-a-wonderful-life-80th-anniversary/410307
 LOCATION:40 Westchester Ave\, Port Chester\, NY 10573
 URL:https://www.atomtickets.com/movies/its-a-wonderful-life-80th-anniversary/410307
 END:VEVENT
 BEGIN:VEVENT
-UID:4ef5dc30-5377-45a0-a1c9-b15dfc5de8aa
-DTSTAMP:20260318T210233Z
+UID:23df6511-286e-4196-b207-b6560dbad5b1
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260411
 DTEND;VALUE=DATE:20260412
 SUMMARY:🎬 Space Station 3D (2002) @ AMC Port Chester 14
@@ -1047,98 +1757,268 @@ LOCATION:40 Westchester Ave\, Port Chester\, NY 10573
 URL:https://www.atomtickets.com/movies/space-station-3d/57855
 END:VEVENT
 BEGIN:VEVENT
-UID:5da7e7b0-e701-498a-a55e-00b6b5dac370
-DTSTAMP:20260318T210233Z
+UID:983446fb-b6a3-4bff-924f-11384340818e
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260708
 DTEND;VALUE=DATE:20260709
 SUMMARY:🎬 Citizen Kane 85th Anniversary (1941) @ AMC Port Chester 14
-DESCRIPTION:1941 Welles masterpiece\, 85th anniversary  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/citizen-kane-85th-anniversary/410301
+DESCRIPTION:Welles masterpiece\, 85th anniversary  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/citizen-kane-85th-anniversary/410301
 LOCATION:40 Westchester Ave\, Port Chester\, NY 10573
 URL:https://www.atomtickets.com/movies/citizen-kane-85th-anniversary/410301
 END:VEVENT
 BEGIN:VEVENT
-UID:5ba97a7f-4fde-4f74-97d2-e048b45234df
-DTSTAMP:20260318T210233Z
+UID:1fd4978e-616c-4a75-9a6b-93d852679971
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:🎬 A Beautiful Mind 25th Anniversary (2001) @ AMC Port Chester 14
-DESCRIPTION:2001 film\, 25th anniversary screening  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/a-beautiful-mind-25th-anniversary/410305
+DESCRIPTION:25th anniversary screening  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/a-beautiful-mind-25th-anniversary/410305
 LOCATION:40 Westchester Ave\, Port Chester\, NY 10573
 URL:https://www.atomtickets.com/movies/a-beautiful-mind-25th-anniversary/410305
 END:VEVENT
 BEGIN:VEVENT
-UID:a36ca746-26a0-48a4-ae12-53072f5cf5c5
-DTSTAMP:20260318T210233Z
+UID:c497b979-85c4-4d24-a353-32332fbc2558
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
 SUMMARY:🎬 A Beautiful Mind 25th Anniversary (2001) @ AMC Port Chester 14
-DESCRIPTION:2001 film\, 25th anniversary screening  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/a-beautiful-mind-25th-anniversary/410305
+DESCRIPTION:25th anniversary screening  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/a-beautiful-mind-25th-anniversary/410305
 LOCATION:40 Westchester Ave\, Port Chester\, NY 10573
 URL:https://www.atomtickets.com/movies/a-beautiful-mind-25th-anniversary/410305
 END:VEVENT
 BEGIN:VEVENT
-UID:0b723f5c-b702-4c87-83ba-96a08eb57423
-DTSTAMP:20260318T210233Z
+UID:66ae1293-238a-4000-ac3b-3b80a8e4c286
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260607
 DTEND;VALUE=DATE:20260608
 SUMMARY:🎬 The Birdcage 30th Anniversary (1996) @ AMC Port Chester 14
-DESCRIPTION:1996 film\, 30th anniversary screening  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/the-birdcage-30th-anniversary/410298
+DESCRIPTION:30th anniversary screening  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/the-birdcage-30th-anniversary/410298
 LOCATION:40 Westchester Ave\, Port Chester\, NY 10573
 URL:https://www.atomtickets.com/movies/the-birdcage-30th-anniversary/410298
 END:VEVENT
 BEGIN:VEVENT
-UID:69601ce8-ebe0-4950-af54-9618a1fa177f
-DTSTAMP:20260318T210233Z
+UID:2160731c-bd86-466a-88de-d82b1a2869e9
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260610
 DTEND;VALUE=DATE:20260611
 SUMMARY:🎬 The Birdcage 30th Anniversary (1996) @ AMC Port Chester 14
-DESCRIPTION:1996 film\, 30th anniversary screening  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/the-birdcage-30th-anniversary/410298
+DESCRIPTION:30th anniversary screening  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/the-birdcage-30th-anniversary/410298
 LOCATION:40 Westchester Ave\, Port Chester\, NY 10573
 URL:https://www.atomtickets.com/movies/the-birdcage-30th-anniversary/410298
 END:VEVENT
 BEGIN:VEVENT
-UID:22bb298d-ddf7-409b-b1a1-9143b65ef89b
-DTSTAMP:20260318T210233Z
+UID:cf8357d6-7c5f-4423-9e9d-83df9d5f7d3e
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260327
 DTEND;VALUE=DATE:20260328
 SUMMARY:🎬 The Mummy Returns: 25th Anniversary (2001) @ AMC Port Chester 14
-DESCRIPTION:Anniversary screening of 2001 film  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/the-mummy-returns-25th-anniversary/411023
+DESCRIPTION:2001 film\, 25th anniversary screening  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/the-mummy-returns-25th-anniversary/411023
 LOCATION:40 Westchester Ave\, Port Chester\, NY 10573
 URL:https://www.atomtickets.com/movies/the-mummy-returns-25th-anniversary/411023
 END:VEVENT
 BEGIN:VEVENT
-UID:1915832d-5d9e-4db0-a079-5edcc8bd45a4
-DTSTAMP:20260318T210233Z
+UID:d9b18d7d-24be-40c2-8a47-ec040042c3f4
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260328
 DTEND;VALUE=DATE:20260329
 SUMMARY:🎬 The Mummy Returns: 25th Anniversary (2001) @ AMC Port Chester 14
-DESCRIPTION:Anniversary screening of 2001 film  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/the-mummy-returns-25th-anniversary/411023
+DESCRIPTION:2001 film\, 25th anniversary screening  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/the-mummy-returns-25th-anniversary/411023
 LOCATION:40 Westchester Ave\, Port Chester\, NY 10573
 URL:https://www.atomtickets.com/movies/the-mummy-returns-25th-anniversary/411023
 END:VEVENT
 BEGIN:VEVENT
-UID:7ed5c3ae-e1ec-435d-93b8-2048f60cabce
-DTSTAMP:20260318T210233Z
+UID:e86ebd30-c065-4ea8-a774-1851ecd582ee
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260329
 DTEND;VALUE=DATE:20260330
 SUMMARY:🎬 The Mummy Returns: 25th Anniversary (2001) @ AMC Port Chester 14
-DESCRIPTION:Anniversary screening of 2001 film  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/the-mummy-returns-25th-anniversary/411023
+DESCRIPTION:2001 film\, 25th anniversary screening  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/the-mummy-returns-25th-anniversary/411023
 LOCATION:40 Westchester Ave\, Port Chester\, NY 10573
 URL:https://www.atomtickets.com/movies/the-mummy-returns-25th-anniversary/411023
 END:VEVENT
 BEGIN:VEVENT
-UID:e31f2cc5-7f73-4d9a-b50f-3703eaca6af6
-DTSTAMP:20260318T210233Z
+UID:9d044238-2e8a-491d-b999-07cf632fd17f
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260330
 DTEND;VALUE=DATE:20260331
 SUMMARY:🎬 The Mummy Returns: 25th Anniversary (2001) @ AMC Port Chester 14
-DESCRIPTION:Anniversary screening of 2001 film  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/the-mummy-returns-25th-anniversary/411023
+DESCRIPTION:2001 film\, 25th anniversary screening  |  🆕 New to you  |  Showtimes: https://www.atomtickets.com/movies/the-mummy-returns-25th-anniversary/411023
 LOCATION:40 Westchester Ave\, Port Chester\, NY 10573
 URL:https://www.atomtickets.com/movies/the-mummy-returns-25th-anniversary/411023
 END:VEVENT
 BEGIN:VEVENT
-UID:5fac1400-6911-4bb2-a298-54331fa13a71
-DTSTAMP:20260318T210233Z
+UID:3f1eff5b-baeb-40c1-9fc4-19b5b33504a4
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260320
+DTEND;VALUE=DATE:20260321
+SUMMARY:🎬 Kiki's Delivery Service 4K (2026) (1989) @ AMC Port Chester 14
+DESCRIPTION:Studio Ghibli classic\, 4K restoration  |  🆕 New to you  |  Showtimes: https://www.fandango.com/kikis-delivery-service-4k-2026-244544/movie-overview
+LOCATION:40 Westchester Ave\, Port Chester\, NY 10573
+URL:https://www.fandango.com/kikis-delivery-service-4k-2026-244544/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:05ef5fdc-2d57-4ea6-8158-77c5437c055c
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260321
+DTEND;VALUE=DATE:20260322
+SUMMARY:🎬 Kiki's Delivery Service 4K (2026) (1989) @ AMC Port Chester 14
+DESCRIPTION:Studio Ghibli classic\, 4K restoration  |  🆕 New to you  |  Showtimes: https://www.fandango.com/kikis-delivery-service-4k-2026-244544/movie-overview
+LOCATION:40 Westchester Ave\, Port Chester\, NY 10573
+URL:https://www.fandango.com/kikis-delivery-service-4k-2026-244544/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:ee2e01f6-07e1-4ed6-99b5-0dfdd4954a75
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260322
+DTEND;VALUE=DATE:20260323
+SUMMARY:🎬 Kiki's Delivery Service 4K (2026) (1989) @ AMC Port Chester 14
+DESCRIPTION:Studio Ghibli classic\, 4K restoration  |  🆕 New to you  |  Showtimes: https://www.fandango.com/kikis-delivery-service-4k-2026-244544/movie-overview
+LOCATION:40 Westchester Ave\, Port Chester\, NY 10573
+URL:https://www.fandango.com/kikis-delivery-service-4k-2026-244544/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:77d8bf41-7439-4993-b151-7c801d493d9a
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260323
+DTEND;VALUE=DATE:20260324
+SUMMARY:🎬 Kiki's Delivery Service 4K (2026) (1989) @ AMC Port Chester 14
+DESCRIPTION:Studio Ghibli classic\, 4K restoration  |  🆕 New to you  |  Showtimes: https://www.fandango.com/kikis-delivery-service-4k-2026-244544/movie-overview
+LOCATION:40 Westchester Ave\, Port Chester\, NY 10573
+URL:https://www.fandango.com/kikis-delivery-service-4k-2026-244544/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:ba606564-5a3e-4752-b2ea-ed0cc199419c
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260324
+DTEND;VALUE=DATE:20260325
+SUMMARY:🎬 Kiki's Delivery Service 4K (2026) (1989) @ AMC Port Chester 14
+DESCRIPTION:Studio Ghibli classic\, 4K restoration  |  🆕 New to you  |  Showtimes: https://www.fandango.com/kikis-delivery-service-4k-2026-244544/movie-overview
+LOCATION:40 Westchester Ave\, Port Chester\, NY 10573
+URL:https://www.fandango.com/kikis-delivery-service-4k-2026-244544/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:01e71810-1bbc-470c-9f39-cb6933dd3bb9
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260325
+DTEND;VALUE=DATE:20260326
+SUMMARY:🎬 Kiki's Delivery Service 4K (2026) (1989) @ AMC Port Chester 14
+DESCRIPTION:Studio Ghibli classic\, 4K restoration  |  🆕 New to you  |  Showtimes: https://www.fandango.com/kikis-delivery-service-4k-2026-244544/movie-overview
+LOCATION:40 Westchester Ave\, Port Chester\, NY 10573
+URL:https://www.fandango.com/kikis-delivery-service-4k-2026-244544/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:6f1fa7ff-772a-45d3-a342-f9917ad7c1e3
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260321
+DTEND;VALUE=DATE:20260322
+SUMMARY:🎬 Hubble (2010) @ AMC Port Chester 14
+DESCRIPTION:2010 IMAX documentary revival  |  🆕 New to you  |  Showtimes: https://www.fandango.com/hubble-132292/movie-overview
+LOCATION:40 Westchester Ave\, Port Chester\, NY 10573
+URL:https://www.fandango.com/hubble-132292/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:856c6870-cf34-4dd5-8e4c-f3d8963dd829
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260328
+DTEND;VALUE=DATE:20260329
+SUMMARY:🎬 Superpower Dogs: An IMAX 3D Experience (2019) @ AMC Port Chester 14
+DESCRIPTION:2019 IMAX documentary revival  |  🆕 New to you  |  Showtimes: https://www.fandango.com/superpower-dogs-an-imax-3d-experience-217775/movie-overview
+LOCATION:40 Westchester Ave\, Port Chester\, NY 10573
+URL:https://www.fandango.com/superpower-dogs-an-imax-3d-experience-217775/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:9b95359a-aeb9-4cbd-80e4-6d17a382a7b2
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260404
+DTEND;VALUE=DATE:20260405
+SUMMARY:🎬 Pandas (2018) @ AMC Port Chester 14
+DESCRIPTION:2018 IMAX documentary revival  |  🆕 New to you  |  Showtimes: https://www.fandango.com/pandas-208828/movie-overview
+LOCATION:40 Westchester Ave\, Port Chester\, NY 10573
+URL:https://www.fandango.com/pandas-208828/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:91efafba-d54c-4de7-9c1d-a246ce04661d
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260405
+DTEND;VALUE=DATE:20260406
+SUMMARY:🎬 The Killer - Hong Kong Cinema Classics (1989) @ AMC Port Chester 14
+DESCRIPTION:John Woo classic\, retrospective series  |  🆕 New to you  |  Showtimes: https://www.fandango.com/the-killer-hong-kong-cinema-classics-243680/movie-overview
+LOCATION:40 Westchester Ave\, Port Chester\, NY 10573
+URL:https://www.fandango.com/the-killer-hong-kong-cinema-classics-243680/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:8db311d0-d370-4df3-9fa9-5d550456ba39
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260406
+DTEND;VALUE=DATE:20260407
+SUMMARY:🎬 The Killer - Hong Kong Cinema Classics (1989) @ AMC Port Chester 14
+DESCRIPTION:John Woo classic\, retrospective series  |  🆕 New to you  |  Showtimes: https://www.fandango.com/the-killer-hong-kong-cinema-classics-243680/movie-overview
+LOCATION:40 Westchester Ave\, Port Chester\, NY 10573
+URL:https://www.fandango.com/the-killer-hong-kong-cinema-classics-243680/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:4b0952b6-ba50-4028-a6a6-b40826bf94ca
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260408
+DTEND;VALUE=DATE:20260409
+SUMMARY:🎬 The Killer - Hong Kong Cinema Classics (1989) @ AMC Port Chester 14
+DESCRIPTION:John Woo classic\, retrospective series  |  🆕 New to you  |  Showtimes: https://www.fandango.com/the-killer-hong-kong-cinema-classics-243680/movie-overview
+LOCATION:40 Westchester Ave\, Port Chester\, NY 10573
+URL:https://www.fandango.com/the-killer-hong-kong-cinema-classics-243680/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:66238bb1-99d1-41d0-a186-4d12aad21e44
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260411
+DTEND;VALUE=DATE:20260412
+SUMMARY:🎬 IMAX Space Station 3D (2002) @ AMC Port Chester 14
+DESCRIPTION:2002 IMAX documentary revival  |  🆕 New to you  |  Showtimes: https://www.fandango.com/imax-space-station-3d-222459/movie-overview
+LOCATION:40 Westchester Ave\, Port Chester\, NY 10573
+URL:https://www.fandango.com/imax-space-station-3d-222459/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:1aacb887-d06d-4618-9d33-2044d9724b7f
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260418
+DTEND;VALUE=DATE:20260419
+SUMMARY:🎬 Bridesmaids: 15th Anniversary (2026) (2011) @ AMC Port Chester 14
+DESCRIPTION:2011 comedy anniversary screening  |  🆕 New to you  |  Showtimes: https://www.fandango.com/bridesmaids-15th-anniversary-2026-244815/movie-overview
+LOCATION:40 Westchester Ave\, Port Chester\, NY 10573
+URL:https://www.fandango.com/bridesmaids-15th-anniversary-2026-244815/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:117e0132-af73-4021-906e-29011b9d13e7
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260419
+DTEND;VALUE=DATE:20260420
+SUMMARY:🎬 Bridesmaids: 15th Anniversary (2026) (2011) @ AMC Port Chester 14
+DESCRIPTION:2011 comedy anniversary screening  |  🆕 New to you  |  Showtimes: https://www.fandango.com/bridesmaids-15th-anniversary-2026-244815/movie-overview
+LOCATION:40 Westchester Ave\, Port Chester\, NY 10573
+URL:https://www.fandango.com/bridesmaids-15th-anniversary-2026-244815/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:b8424262-1ed8-4bf1-af60-1b44d1aee2e9
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260421
+DTEND;VALUE=DATE:20260422
+SUMMARY:🎬 Bridesmaids: 15th Anniversary (2026) (2011) @ AMC Port Chester 14
+DESCRIPTION:2011 comedy anniversary screening  |  🆕 New to you  |  Showtimes: https://www.fandango.com/bridesmaids-15th-anniversary-2026-244815/movie-overview
+LOCATION:40 Westchester Ave\, Port Chester\, NY 10573
+URL:https://www.fandango.com/bridesmaids-15th-anniversary-2026-244815/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:6a3ae0c3-c08e-4298-8afe-07db8266f643
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260418
+DTEND;VALUE=DATE:20260419
+SUMMARY:🎬 A Beautiful Planet IMAX (2016) @ AMC Port Chester 14
+DESCRIPTION:2016 IMAX documentary revival  |  🆕 New to you  |  Showtimes: https://www.fandango.com/a-beautiful-planet-imax-187787/movie-overview
+LOCATION:40 Westchester Ave\, Port Chester\, NY 10573
+URL:https://www.fandango.com/a-beautiful-planet-imax-187787/movie-overview
+END:VEVENT
+BEGIN:VEVENT
+UID:ce954872-f3c3-450e-94af-df2ad0b00aa3
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260318
 DTEND;VALUE=DATE:20260319
 SUMMARY:🎬 There Will Be Blood (2007) @ Jacob Burns Film Center
@@ -1147,8 +2027,8 @@ LOCATION:364 Manville Rd\, Pleasantville\, NY 10570
 URL:https://burnsfilmcenter.org/booking/there-will-be-blood/
 END:VEVENT
 BEGIN:VEVENT
-UID:9e3c3891-bccc-4613-887a-1ea1459e01b9
-DTSTAMP:20260318T210233Z
+UID:f20ddc2b-d301-4b82-a927-d3c85875dc24
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260321
 DTEND;VALUE=DATE:20260322
 SUMMARY:🎬 There Will Be Blood (2007) @ Jacob Burns Film Center
@@ -1157,8 +2037,8 @@ LOCATION:364 Manville Rd\, Pleasantville\, NY 10570
 URL:https://burnsfilmcenter.org/booking/there-will-be-blood/
 END:VEVENT
 BEGIN:VEVENT
-UID:ba0cf228-aeda-4d35-bd12-8aa07fe2665a
-DTSTAMP:20260318T210233Z
+UID:b5ff59e1-dd36-49be-ae1e-e1b0f411f3db
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260318
 DTEND;VALUE=DATE:20260319
 SUMMARY:🎬 No Country for Old Men (2007) @ Jacob Burns Film Center
@@ -1167,8 +2047,8 @@ LOCATION:364 Manville Rd\, Pleasantville\, NY 10570
 URL:https://burnsfilmcenter.org/booking/no-country-for-old-men/
 END:VEVENT
 BEGIN:VEVENT
-UID:75320d09-7ea5-4788-a6af-590149999840
-DTSTAMP:20260318T210233Z
+UID:7e0fd1f7-7809-4781-ae84-9f4f3b421d7c
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260321
 DTEND;VALUE=DATE:20260322
 SUMMARY:🎬 No Country for Old Men (2007) @ Jacob Burns Film Center
@@ -1177,88 +2057,88 @@ LOCATION:364 Manville Rd\, Pleasantville\, NY 10570
 URL:https://burnsfilmcenter.org/booking/no-country-for-old-men/
 END:VEVENT
 BEGIN:VEVENT
-UID:4c5e269b-764b-48da-ac6e-7b90381ea0d8
-DTSTAMP:20260318T210233Z
+UID:0340d099-076a-4b3b-84fd-71b42f1d39f6
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260318
 DTEND;VALUE=DATE:20260319
 SUMMARY:🎬 Days and Nights in the Forest (1970) @ Jacob Burns Film Center
-DESCRIPTION:1970 Satyajit Ray classic revival  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/days-and-nights-in-the-forest/
+DESCRIPTION:1970 Satyajit Ray classic  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/days-and-nights-in-the-forest/
 LOCATION:364 Manville Rd\, Pleasantville\, NY 10570
 URL:https://burnsfilmcenter.org/booking/days-and-nights-in-the-forest/
 END:VEVENT
 BEGIN:VEVENT
-UID:59ee071a-4c9d-4ac4-89e9-c8deded466c5
-DTSTAMP:20260318T210233Z
+UID:f1c45009-8d83-438c-9ef6-eadfa9941d42
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260323
 DTEND;VALUE=DATE:20260324
 SUMMARY:🎬 Days and Nights in the Forest (1970) @ Jacob Burns Film Center
-DESCRIPTION:1970 Satyajit Ray classic revival  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/days-and-nights-in-the-forest/
+DESCRIPTION:1970 Satyajit Ray classic  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/days-and-nights-in-the-forest/
 LOCATION:364 Manville Rd\, Pleasantville\, NY 10570
 URL:https://burnsfilmcenter.org/booking/days-and-nights-in-the-forest/
 END:VEVENT
 BEGIN:VEVENT
-UID:e74f94fd-7530-4e23-8803-bfd907805ad6
-DTSTAMP:20260318T210233Z
+UID:833f2dec-fc84-4490-a4aa-67e0efed8b8e
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260319
 DTEND;VALUE=DATE:20260320
 SUMMARY:🎬 Who Killed Teddy Bear? (1965) @ Jacob Burns Film Center
-DESCRIPTION:1965 cult film revival  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/who-killed-teddy-bear/
+DESCRIPTION:1965 cult thriller  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/who-killed-teddy-bear/
 LOCATION:364 Manville Rd\, Pleasantville\, NY 10570
 URL:https://burnsfilmcenter.org/booking/who-killed-teddy-bear/
 END:VEVENT
 BEGIN:VEVENT
-UID:cb0df7ae-5efb-41ea-8be1-30eb3591c8da
-DTSTAMP:20260318T210233Z
+UID:73c4c410-ed07-4401-9f68-b3505d87e655
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260321
 DTEND;VALUE=DATE:20260322
 SUMMARY:🎬 Fantastic Mr. Fox (2009) @ Jacob Burns Film Center
-DESCRIPTION:2009 Wes Anderson film revival  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/fantastic-mr-fox/
+DESCRIPTION:2009 Wes Anderson classic  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/fantastic-mr-fox/
 LOCATION:364 Manville Rd\, Pleasantville\, NY 10570
 URL:https://burnsfilmcenter.org/booking/fantastic-mr-fox/
 END:VEVENT
 BEGIN:VEVENT
-UID:da3d383d-32f6-4763-8ff9-798649dad4c4
-DTSTAMP:20260318T210233Z
+UID:956a7ab5-5515-4a8e-a0a0-2c73e1f15619
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260322
 DTEND;VALUE=DATE:20260323
 SUMMARY:🎬 Fantastic Mr. Fox (2009) @ Jacob Burns Film Center
-DESCRIPTION:2009 Wes Anderson film revival  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/fantastic-mr-fox/
+DESCRIPTION:2009 Wes Anderson classic  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/fantastic-mr-fox/
 LOCATION:364 Manville Rd\, Pleasantville\, NY 10570
 URL:https://burnsfilmcenter.org/booking/fantastic-mr-fox/
 END:VEVENT
 BEGIN:VEVENT
-UID:2128c17d-44c6-4108-a577-73af9b4dc0d6
-DTSTAMP:20260318T210233Z
+UID:1e43a8b5-0452-4201-9ac5-1ea928cc1acb
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260323
 DTEND;VALUE=DATE:20260324
 SUMMARY:🎬 The Immigrant (2013) @ Jacob Burns Film Center
-DESCRIPTION:2013 James Gray film revival  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/the-immigrant/
+DESCRIPTION:2013 James Gray film  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/the-immigrant/
 LOCATION:364 Manville Rd\, Pleasantville\, NY 10570
 URL:https://burnsfilmcenter.org/booking/the-immigrant/
 END:VEVENT
 BEGIN:VEVENT
-UID:608887cc-6345-4737-bff6-55e78c5d5c62
-DTSTAMP:20260318T210233Z
+UID:da21983f-514b-4e32-af7c-37573b271a76
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260401
 DTEND;VALUE=DATE:20260402
 SUMMARY:🎬 The Immigrant (2013) @ Jacob Burns Film Center
-DESCRIPTION:2013 James Gray film revival  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/the-immigrant/
+DESCRIPTION:2013 James Gray film  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/the-immigrant/
 LOCATION:364 Manville Rd\, Pleasantville\, NY 10570
 URL:https://burnsfilmcenter.org/booking/the-immigrant/
 END:VEVENT
 BEGIN:VEVENT
-UID:e631c407-f9a4-43c1-8ad7-1c5fcd46c32f
-DTSTAMP:20260318T210233Z
+UID:bc7dae6a-4fbd-41cb-a335-276a474e056e
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260328
 DTEND;VALUE=DATE:20260329
 SUMMARY:🎬 The Apprenticeship of Duddy Kravitz + The Street (1974) @ Jacob Burns Film Center
-DESCRIPTION:1974 Canadian classic double feature  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/the-apprenticeship-of-duddy-kravitz-the-street/
+DESCRIPTION:1974 classic plus short  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/the-apprenticeship-of-duddy-kravitz-the-street/
 LOCATION:364 Manville Rd\, Pleasantville\, NY 10570
 URL:https://burnsfilmcenter.org/booking/the-apprenticeship-of-duddy-kravitz-the-street/
 END:VEVENT
 BEGIN:VEVENT
-UID:2b11e13c-cf07-42df-9351-2d084f42167b
-DTSTAMP:20260318T210233Z
+UID:06d279c2-c512-4dc7-a003-a29fa145ac00
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260328
 DTEND;VALUE=DATE:20260329
 SUMMARY:🎬 That's Entertainment (1974) @ Jacob Burns Film Center
@@ -1267,8 +2147,8 @@ LOCATION:364 Manville Rd\, Pleasantville\, NY 10570
 URL:https://burnsfilmcenter.org/booking/thats-entertainment/
 END:VEVENT
 BEGIN:VEVENT
-UID:6f210d45-af10-43f0-968e-989d9e2c03e9
-DTSTAMP:20260318T210233Z
+UID:59a2e1ce-7482-433f-8f6c-775d7f3b3bd4
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260329
 DTEND;VALUE=DATE:20260330
 SUMMARY:🎬 That's Entertainment (1974) @ Jacob Burns Film Center
@@ -1277,58 +2157,78 @@ LOCATION:364 Manville Rd\, Pleasantville\, NY 10570
 URL:https://burnsfilmcenter.org/booking/thats-entertainment/
 END:VEVENT
 BEGIN:VEVENT
-UID:869a99ff-0836-4622-86fd-f3058fde8174
-DTSTAMP:20260318T210233Z
+UID:edfc9b43-fbeb-4d9f-bbe6-28bb385fb08c
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260328
+DTEND;VALUE=DATE:20260329
+SUMMARY:🎬 Our Children (on 35mm) (2012) @ Jacob Burns Film Center
+DESCRIPTION:35mm revival screening  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/our-children-on-35mm/
+LOCATION:364 Manville Rd\, Pleasantville\, NY 10570
+URL:https://burnsfilmcenter.org/booking/our-children-on-35mm/
+END:VEVENT
+BEGIN:VEVENT
+UID:a8d5b8ab-08fc-46b8-b86b-98fd92adbade
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260329
 DTEND;VALUE=DATE:20260330
 SUMMARY:🎬 The Fleischer Brothers' Betty Boop Cartoons (1930) @ Jacob Burns Film Center
-DESCRIPTION:1930s animation classics  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/the-fleischer-brothers-betty-boop-cartoons/
+DESCRIPTION:Classic animation shorts  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/the-fleischer-brothers-betty-boop-cartoons/
 LOCATION:364 Manville Rd\, Pleasantville\, NY 10570
 URL:https://burnsfilmcenter.org/booking/the-fleischer-brothers-betty-boop-cartoons/
 END:VEVENT
 BEGIN:VEVENT
-UID:23017315-04d6-4bb8-ba0d-3ee8c9181205
-DTSTAMP:20260318T210233Z
+UID:60fe18ea-d574-4641-8879-5893faf3aa9f
+DTSTAMP:20260318T211327Z
+DTSTART;VALUE=DATE:20260329
+DTEND;VALUE=DATE:20260330
+SUMMARY:🎬 His Wife's Lover (on 35mm) + Orchard Street @ Jacob Burns Film Center
+DESCRIPTION:35mm revival screening  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/his-wifes-lover-on-35mm-orchard-street/
+LOCATION:364 Manville Rd\, Pleasantville\, NY 10570
+URL:https://burnsfilmcenter.org/booking/his-wifes-lover-on-35mm-orchard-street/
+END:VEVENT
+BEGIN:VEVENT
+UID:dd99df98-3866-4fc6-a339-3b9a77edd889
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260330
 DTEND;VALUE=DATE:20260331
 SUMMARY:🎬 All I Had Was Nothingness + Night and Fog (1956) @ Jacob Burns Film Center
-DESCRIPTION:Includes Resnais' 1956 Holocaust classic  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/all-i-had-was-nothingness-night-and-fog/
+DESCRIPTION:Includes 1956 Resnais classic  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/all-i-had-was-nothingness-night-and-fog/
 LOCATION:364 Manville Rd\, Pleasantville\, NY 10570
 URL:https://burnsfilmcenter.org/booking/all-i-had-was-nothingness-night-and-fog/
 END:VEVENT
 BEGIN:VEVENT
-UID:06c06d2a-f13d-4adc-b614-dd50e9d15621
-DTSTAMP:20260318T210233Z
+UID:934f5d27-229a-4223-82f1-8d085d3d211c
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260406
 DTEND;VALUE=DATE:20260407
 SUMMARY:🎬 All I Had Was Nothingness + Night and Fog (1956) @ Jacob Burns Film Center
-DESCRIPTION:Includes Resnais' 1956 Holocaust classic  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/all-i-had-was-nothingness-night-and-fog/
+DESCRIPTION:Includes 1956 Resnais classic  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/all-i-had-was-nothingness-night-and-fog/
 LOCATION:364 Manville Rd\, Pleasantville\, NY 10570
 URL:https://burnsfilmcenter.org/booking/all-i-had-was-nothingness-night-and-fog/
 END:VEVENT
 BEGIN:VEVENT
-UID:3146ab2f-6140-4183-966f-cc97a0e0921c
-DTSTAMP:20260318T210233Z
+UID:67dc8817-2067-41a6-9265-05996addda2e
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260404
 DTEND;VALUE=DATE:20260405
 SUMMARY:🎬 The Sound of Music Sing-Along (1965) @ Jacob Burns Film Center
-DESCRIPTION:1965 musical classic\, special presentation  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/the-sound-of-music-sing-along/
+DESCRIPTION:1965 classic\, special presentation  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/the-sound-of-music-sing-along/
 LOCATION:364 Manville Rd\, Pleasantville\, NY 10570
 URL:https://burnsfilmcenter.org/booking/the-sound-of-music-sing-along/
 END:VEVENT
 BEGIN:VEVENT
-UID:08a15bea-1a9b-4245-af8c-6f0a59537b17
-DTSTAMP:20260318T210233Z
+UID:e5190f1e-6ae8-4e80-a28f-5a39e3aad4da
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260405
 DTEND;VALUE=DATE:20260406
 SUMMARY:🎬 The Sound of Music Sing-Along (1965) @ Jacob Burns Film Center
-DESCRIPTION:1965 musical classic\, special presentation  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/the-sound-of-music-sing-along/
+DESCRIPTION:1965 classic\, special presentation  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/the-sound-of-music-sing-along/
 LOCATION:364 Manville Rd\, Pleasantville\, NY 10570
 URL:https://burnsfilmcenter.org/booking/the-sound-of-music-sing-along/
 END:VEVENT
 BEGIN:VEVENT
-UID:351d5abf-7fbc-4ba6-9397-805281ae70f5
-DTSTAMP:20260318T210233Z
+UID:d2d17535-49af-4eda-916f-6a023742224b
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260405
 DTEND;VALUE=DATE:20260406
 SUMMARY:🎬 Shoah (1985) @ Jacob Burns Film Center
@@ -1337,98 +2237,98 @@ LOCATION:364 Manville Rd\, Pleasantville\, NY 10570
 URL:https://burnsfilmcenter.org/booking/shoah/
 END:VEVENT
 BEGIN:VEVENT
-UID:715394d8-1afb-4901-acdf-fe602c2bb2d2
-DTSTAMP:20260318T210233Z
+UID:485f18a1-ae35-429a-b6f3-50d13f6468b7
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260408
 DTEND;VALUE=DATE:20260409
 SUMMARY:🎬 High School (1968) @ Jacob Burns Film Center
-DESCRIPTION:1968 Wiseman documentary  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/high-school/
+DESCRIPTION:1968 Frederick Wiseman documentary  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/high-school/
 LOCATION:364 Manville Rd\, Pleasantville\, NY 10570
 URL:https://burnsfilmcenter.org/booking/high-school/
 END:VEVENT
 BEGIN:VEVENT
-UID:8bd81767-7863-4ccf-a036-6a061cf02023
-DTSTAMP:20260318T210233Z
+UID:da1c483f-d946-4900-a4f4-19516440e74e
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260409
 DTEND;VALUE=DATE:20260410
 SUMMARY:🎬 High School (1968) @ Jacob Burns Film Center
-DESCRIPTION:1968 Wiseman documentary  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/high-school/
+DESCRIPTION:1968 Frederick Wiseman documentary  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/high-school/
 LOCATION:364 Manville Rd\, Pleasantville\, NY 10570
 URL:https://burnsfilmcenter.org/booking/high-school/
 END:VEVENT
 BEGIN:VEVENT
-UID:2aafed80-de31-45ba-a9ec-fc8ed00e5c1a
-DTSTAMP:20260318T210233Z
+UID:f6c4dbc6-22ea-4276-83d3-6a3584493c72
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260408
 DTEND;VALUE=DATE:20260409
 SUMMARY:🎬 Law and Order (1969) @ Jacob Burns Film Center
-DESCRIPTION:1969 Wiseman documentary  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/law-and-order/
+DESCRIPTION:1969 Frederick Wiseman documentary  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/law-and-order/
 LOCATION:364 Manville Rd\, Pleasantville\, NY 10570
 URL:https://burnsfilmcenter.org/booking/law-and-order/
 END:VEVENT
 BEGIN:VEVENT
-UID:137cc9c1-d9b9-49b6-b93a-13c1e768fd23
-DTSTAMP:20260318T210233Z
+UID:bb013441-b826-4b0c-8ec4-cb1f942a411c
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260409
 DTEND;VALUE=DATE:20260410
 SUMMARY:🎬 Law and Order (1969) @ Jacob Burns Film Center
-DESCRIPTION:1969 Wiseman documentary  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/law-and-order/
+DESCRIPTION:1969 Frederick Wiseman documentary  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/law-and-order/
 LOCATION:364 Manville Rd\, Pleasantville\, NY 10570
 URL:https://burnsfilmcenter.org/booking/law-and-order/
 END:VEVENT
 BEGIN:VEVENT
-UID:56cab87c-685e-4acb-8907-ff6b73980820
-DTSTAMP:20260318T210233Z
+UID:7d84955e-a571-418a-b0b9-6f454934dd5f
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260408
 DTEND;VALUE=DATE:20260409
 SUMMARY:🎬 Welfare (1975) @ Jacob Burns Film Center
-DESCRIPTION:1975 Wiseman documentary  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/welfare/
+DESCRIPTION:1975 Frederick Wiseman documentary  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/welfare/
 LOCATION:364 Manville Rd\, Pleasantville\, NY 10570
 URL:https://burnsfilmcenter.org/booking/welfare/
 END:VEVENT
 BEGIN:VEVENT
-UID:198e04b3-65b0-4700-866b-b3d3667ff270
-DTSTAMP:20260318T210233Z
+UID:47a898cf-485f-4a9f-b2d2-ad10fb8ae779
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260412
 DTEND;VALUE=DATE:20260413
 SUMMARY:🎬 Welfare (1975) @ Jacob Burns Film Center
-DESCRIPTION:1975 Wiseman documentary  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/welfare/
+DESCRIPTION:1975 Frederick Wiseman documentary  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/welfare/
 LOCATION:364 Manville Rd\, Pleasantville\, NY 10570
 URL:https://burnsfilmcenter.org/booking/welfare/
 END:VEVENT
 BEGIN:VEVENT
-UID:e03ce9b9-0496-402e-8bcb-56646e8e4412
-DTSTAMP:20260318T210233Z
+UID:0c63a261-1787-4fb1-bc07-9a113ac00847
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260411
 DTEND;VALUE=DATE:20260412
-SUMMARY:🎬 Méliès Shorts (1900) @ Jacob Burns Film Center
-DESCRIPTION:Early cinema pioneer shorts  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/melies-shorts/
+SUMMARY:🎬 Méliès Shorts (1902) @ Jacob Burns Film Center
+DESCRIPTION:Georges Méliès early cinema classics  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/melies-shorts/
 LOCATION:364 Manville Rd\, Pleasantville\, NY 10570
 URL:https://burnsfilmcenter.org/booking/melies-shorts/
 END:VEVENT
 BEGIN:VEVENT
-UID:a30c2363-5b58-4276-8a01-49334a60ca9d
-DTSTAMP:20260318T210233Z
+UID:ab1e5918-c304-4b9e-81ed-89c29e6da22c
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260412
 DTEND;VALUE=DATE:20260413
-SUMMARY:🎬 Méliès Shorts (1900) @ Jacob Burns Film Center
-DESCRIPTION:Early cinema pioneer shorts  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/melies-shorts/
+SUMMARY:🎬 Méliès Shorts (1902) @ Jacob Burns Film Center
+DESCRIPTION:Georges Méliès early cinema classics  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/melies-shorts/
 LOCATION:364 Manville Rd\, Pleasantville\, NY 10570
 URL:https://burnsfilmcenter.org/booking/melies-shorts/
 END:VEVENT
 BEGIN:VEVENT
-UID:e1d36bf0-a8ce-4360-ab51-550e901b1000
-DTSTAMP:20260318T210233Z
+UID:f47eef7e-bd8c-4ca3-872c-2efc45257ea5
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260412
 DTEND;VALUE=DATE:20260413
 SUMMARY:🎬 The Story of a Three Day Pass (1967) @ Jacob Burns Film Center
-DESCRIPTION:1967 Van Peebles film  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/the-story-of-a-three-day-pass/
+DESCRIPTION:1967 Melvin Van Peebles film  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/the-story-of-a-three-day-pass/
 LOCATION:364 Manville Rd\, Pleasantville\, NY 10570
 URL:https://burnsfilmcenter.org/booking/the-story-of-a-three-day-pass/
 END:VEVENT
 BEGIN:VEVENT
-UID:7fa478e2-cbf0-4cbe-8f1e-b343770d0de6
-DTSTAMP:20260318T210233Z
+UID:abf23112-5a88-4bd0-bc7f-d5790e90d66b
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260413
 DTEND;VALUE=DATE:20260414
 SUMMARY:🎬 Italianamerican (1974) @ Jacob Burns Film Center
@@ -1437,278 +2337,278 @@ LOCATION:364 Manville Rd\, Pleasantville\, NY 10570
 URL:https://burnsfilmcenter.org/booking/italianamerican/
 END:VEVENT
 BEGIN:VEVENT
-UID:c2b60711-9c55-40c3-836b-2e8a9133530e
-DTSTAMP:20260318T210233Z
+UID:793536aa-e233-46d6-bbe9-1755f017fcd6
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260414
 DTEND;VALUE=DATE:20260415
 SUMMARY:🎬 Canal Zone (1977) @ Jacob Burns Film Center
-DESCRIPTION:1977 Wiseman documentary  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/canal-zone/
+DESCRIPTION:1977 Frederick Wiseman documentary  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/canal-zone/
 LOCATION:364 Manville Rd\, Pleasantville\, NY 10570
 URL:https://burnsfilmcenter.org/booking/canal-zone/
 END:VEVENT
 BEGIN:VEVENT
-UID:495206f8-fbb3-415e-a0c0-bde3800cab4e
-DTSTAMP:20260318T210233Z
+UID:a537d335-c25d-4f83-aa57-e3a781162175
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260415
 DTEND;VALUE=DATE:20260416
 SUMMARY:🎬 Canal Zone (1977) @ Jacob Burns Film Center
-DESCRIPTION:1977 Wiseman documentary  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/canal-zone/
+DESCRIPTION:1977 Frederick Wiseman documentary  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/canal-zone/
 LOCATION:364 Manville Rd\, Pleasantville\, NY 10570
 URL:https://burnsfilmcenter.org/booking/canal-zone/
 END:VEVENT
 BEGIN:VEVENT
-UID:9462bd43-c5f2-4977-94f5-c09e37bbb672
-DTSTAMP:20260318T210233Z
+UID:cbf3706f-677a-41d2-b413-1475a906fc03
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260415
 DTEND;VALUE=DATE:20260416
 SUMMARY:🎬 The Store (1983) @ Jacob Burns Film Center
-DESCRIPTION:1983 Wiseman documentary  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/the-store/
+DESCRIPTION:1983 Frederick Wiseman documentary  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/the-store/
 LOCATION:364 Manville Rd\, Pleasantville\, NY 10570
 URL:https://burnsfilmcenter.org/booking/the-store/
 END:VEVENT
 BEGIN:VEVENT
-UID:026f7ad6-24b9-4ef7-acd7-3bf17c76f7d1
-DTSTAMP:20260318T210233Z
+UID:b10d0c95-558d-4153-a9fb-d5a87ed08bea
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260417
 DTEND;VALUE=DATE:20260418
 SUMMARY:🎬 The Store (1983) @ Jacob Burns Film Center
-DESCRIPTION:1983 Wiseman documentary  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/the-store/
+DESCRIPTION:1983 Frederick Wiseman documentary  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/the-store/
 LOCATION:364 Manville Rd\, Pleasantville\, NY 10570
 URL:https://burnsfilmcenter.org/booking/the-store/
 END:VEVENT
 BEGIN:VEVENT
-UID:509c66cd-88ee-45e5-b5fa-2a6ca6d586d0
-DTSTAMP:20260318T210233Z
+UID:e6112f99-ddcb-4729-975d-8732f277f63a
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260417
 DTEND;VALUE=DATE:20260418
 SUMMARY:🎬 Aspen (1991) @ Jacob Burns Film Center
-DESCRIPTION:1991 Wiseman documentary  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/aspen/
+DESCRIPTION:1991 Frederick Wiseman documentary  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/aspen/
 LOCATION:364 Manville Rd\, Pleasantville\, NY 10570
 URL:https://burnsfilmcenter.org/booking/aspen/
 END:VEVENT
 BEGIN:VEVENT
-UID:b134bcc2-089c-436b-b0a2-e1d4f71d54a7
-DTSTAMP:20260318T210233Z
+UID:eb546e06-ec26-43a4-9032-004005946ba9
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260419
 DTEND;VALUE=DATE:20260420
 SUMMARY:🎬 Aspen (1991) @ Jacob Burns Film Center
-DESCRIPTION:1991 Wiseman documentary  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/aspen/
+DESCRIPTION:1991 Frederick Wiseman documentary  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/aspen/
 LOCATION:364 Manville Rd\, Pleasantville\, NY 10570
 URL:https://burnsfilmcenter.org/booking/aspen/
 END:VEVENT
 BEGIN:VEVENT
-UID:e1093f00-1c24-4784-878d-4a041e9d81ce
-DTSTAMP:20260318T210233Z
+UID:177275e6-5a8f-4567-a282-7cbb924ae3c2
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260418
 DTEND;VALUE=DATE:20260419
 SUMMARY:🎬 Howl's Moving Castle (2004) @ Jacob Burns Film Center
-DESCRIPTION:2004 Miyazaki anime classic  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/howls-moving-castle-2/
+DESCRIPTION:2004 Miyazaki animated classic  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/howls-moving-castle-2/
 LOCATION:364 Manville Rd\, Pleasantville\, NY 10570
 URL:https://burnsfilmcenter.org/booking/howls-moving-castle-2/
 END:VEVENT
 BEGIN:VEVENT
-UID:6ff6e9ef-45df-4333-9517-7b8bf541b778
-DTSTAMP:20260318T210233Z
+UID:787f6fef-89db-4890-90bd-09251125f5f1
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260419
 DTEND;VALUE=DATE:20260420
 SUMMARY:🎬 Howl's Moving Castle (2004) @ Jacob Burns Film Center
-DESCRIPTION:2004 Miyazaki anime classic  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/howls-moving-castle-2/
+DESCRIPTION:2004 Miyazaki animated classic  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/howls-moving-castle-2/
 LOCATION:364 Manville Rd\, Pleasantville\, NY 10570
 URL:https://burnsfilmcenter.org/booking/howls-moving-castle-2/
 END:VEVENT
 BEGIN:VEVENT
-UID:f6b193be-3f92-422b-a0f5-f3b7020929d9
-DTSTAMP:20260318T210233Z
+UID:6d13125c-22f1-46f8-a8cd-f33eede2cebb
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260418
 DTEND;VALUE=DATE:20260419
 SUMMARY:🎬 Alphaville (1965) @ Jacob Burns Film Center
-DESCRIPTION:1965 Godard classic  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/alphaville/
+DESCRIPTION:1965 Godard sci-fi classic  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/alphaville/
 LOCATION:364 Manville Rd\, Pleasantville\, NY 10570
 URL:https://burnsfilmcenter.org/booking/alphaville/
 END:VEVENT
 BEGIN:VEVENT
-UID:28d8c043-e359-4053-b8ad-20c79bfb619f
-DTSTAMP:20260318T210233Z
+UID:875edcfa-51f0-463d-ab38-a460abf46da8
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260418
 DTEND;VALUE=DATE:20260419
 SUMMARY:🎬 Her (2013) @ Jacob Burns Film Center
-DESCRIPTION:2013 Jonze film\, cultural standing  |  👁 You've seen this  |  Showtimes: https://burnsfilmcenter.org/booking/her/
+DESCRIPTION:2013 Spike Jonze film with cultural standing  |  👁 You've seen this  |  Showtimes: https://burnsfilmcenter.org/booking/her/
 LOCATION:364 Manville Rd\, Pleasantville\, NY 10570
 URL:https://burnsfilmcenter.org/booking/her/
 END:VEVENT
 BEGIN:VEVENT
-UID:ff99c5eb-b472-4327-ad6d-eec04fa9ec7f
-DTSTAMP:20260318T210233Z
+UID:2c74e2cd-160a-4da1-8117-aff5b27c8db8
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260421
 DTEND;VALUE=DATE:20260422
 SUMMARY:🎬 Public Housing (1997) @ Jacob Burns Film Center
-DESCRIPTION:1997 Wiseman documentary  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/public-housing/
+DESCRIPTION:1997 Frederick Wiseman documentary  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/public-housing/
 LOCATION:364 Manville Rd\, Pleasantville\, NY 10570
 URL:https://burnsfilmcenter.org/booking/public-housing/
 END:VEVENT
 BEGIN:VEVENT
-UID:dfe14bf9-8ce5-48f5-a4c3-cd3679bf42de
-DTSTAMP:20260318T210233Z
+UID:1f6189a9-071c-4fb8-b575-a33b5b8291d2
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260425
 DTEND;VALUE=DATE:20260426
 SUMMARY:🎬 Public Housing (1997) @ Jacob Burns Film Center
-DESCRIPTION:1997 Wiseman documentary  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/public-housing/
+DESCRIPTION:1997 Frederick Wiseman documentary  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/public-housing/
 LOCATION:364 Manville Rd\, Pleasantville\, NY 10570
 URL:https://burnsfilmcenter.org/booking/public-housing/
 END:VEVENT
 BEGIN:VEVENT
-UID:036023b5-8ff5-4bb0-b44b-c0e0f2f7dbc7
-DTSTAMP:20260318T210233Z
+UID:cf7abe37-0590-484f-b858-e50f311422c2
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260422
 DTEND;VALUE=DATE:20260423
 SUMMARY:🎬 The Piano Teacher (2001) @ Jacob Burns Film Center
-DESCRIPTION:2001 Haneke classic  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/the-piano-teacher/
+DESCRIPTION:2001 Michael Haneke Palme d'Or winner  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/the-piano-teacher/
 LOCATION:364 Manville Rd\, Pleasantville\, NY 10570
 URL:https://burnsfilmcenter.org/booking/the-piano-teacher/
 END:VEVENT
 BEGIN:VEVENT
-UID:d7b2e61d-07b1-469a-9147-1552378f6900
-DTSTAMP:20260318T210233Z
+UID:73a04f42-e85c-45c5-bd23-764f59d71316
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260422
 DTEND;VALUE=DATE:20260423
 SUMMARY:🎬 Fat Girl (2001) @ Jacob Burns Film Center
-DESCRIPTION:2001 Catherine Breillat art house classic  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/fat-girl/
+DESCRIPTION:2001 Catherine Breillat film  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/fat-girl/
 LOCATION:364 Manville Rd\, Pleasantville\, NY 10570
 URL:https://burnsfilmcenter.org/booking/fat-girl/
 END:VEVENT
 BEGIN:VEVENT
-UID:af9c4c90-06f8-4b44-a802-efad30b44de0
-DTSTAMP:20260318T210233Z
+UID:50a91779-9bd0-4922-aa38-f5c5650b295b
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260425
 DTEND;VALUE=DATE:20260426
 SUMMARY:🎬 Fat Girl (2001) @ Jacob Burns Film Center
-DESCRIPTION:2001 Catherine Breillat art house classic  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/fat-girl/
+DESCRIPTION:2001 Catherine Breillat film  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/fat-girl/
 LOCATION:364 Manville Rd\, Pleasantville\, NY 10570
 URL:https://burnsfilmcenter.org/booking/fat-girl/
 END:VEVENT
 BEGIN:VEVENT
-UID:b26d54b2-3f4d-4e24-9f9a-103c240ce832
-DTSTAMP:20260318T210233Z
+UID:b62be129-aeb0-4dd7-a34c-f1a4bf38c69b
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260423
 DTEND;VALUE=DATE:20260424
 SUMMARY:🎬 Domestic Violence (2001) @ Jacob Burns Film Center
-DESCRIPTION:2001 Frederick Wiseman documentary classic  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/domestic-violence/
+DESCRIPTION:2001 Frederick Wiseman documentary  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/domestic-violence/
 LOCATION:364 Manville Rd\, Pleasantville\, NY 10570
 URL:https://burnsfilmcenter.org/booking/domestic-violence/
 END:VEVENT
 BEGIN:VEVENT
-UID:baf41796-2f2a-45cf-b16b-be464552b697
-DTSTAMP:20260318T210233Z
+UID:b68325b7-6a5a-4788-a2bb-c4a8f5bfff51
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260426
 DTEND;VALUE=DATE:20260427
 SUMMARY:🎬 Domestic Violence (2001) @ Jacob Burns Film Center
-DESCRIPTION:2001 Frederick Wiseman documentary classic  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/domestic-violence/
+DESCRIPTION:2001 Frederick Wiseman documentary  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/domestic-violence/
 LOCATION:364 Manville Rd\, Pleasantville\, NY 10570
 URL:https://burnsfilmcenter.org/booking/domestic-violence/
 END:VEVENT
 BEGIN:VEVENT
-UID:19ec7ad3-79a1-4c98-b2f9-aba50a8d3f9a
-DTSTAMP:20260318T210233Z
+UID:9d15c025-5db3-49c5-99f4-bbb6b98719b6
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260424
 DTEND;VALUE=DATE:20260425
 SUMMARY:🎬 Belfast\, Maine (1999) @ Jacob Burns Film Center
-DESCRIPTION:1999 Frederick Wiseman documentary classic  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/belfast-maine/
+DESCRIPTION:1999 Frederick Wiseman documentary  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/belfast-maine/
 LOCATION:364 Manville Rd\, Pleasantville\, NY 10570
 URL:https://burnsfilmcenter.org/booking/belfast-maine/
 END:VEVENT
 BEGIN:VEVENT
-UID:4320ce15-d407-42ec-8831-cbeea9d4898d
-DTSTAMP:20260318T210233Z
+UID:3c2172d2-81cf-4522-a2cf-89268edba47f
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260425
 DTEND;VALUE=DATE:20260426
 SUMMARY:🎬 Wallace & Gromit Shorts Program (1989) @ Jacob Burns Film Center
-DESCRIPTION:Classic British animation shorts retrospective  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/wallace-gromit-shorts-program/
+DESCRIPTION:Classic Nick Park animated shorts  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/wallace-gromit-shorts-program/
 LOCATION:364 Manville Rd\, Pleasantville\, NY 10570
 URL:https://burnsfilmcenter.org/booking/wallace-gromit-shorts-program/
 END:VEVENT
 BEGIN:VEVENT
-UID:c5ff8024-8080-46b6-bdcb-fccefaabbcb1
-DTSTAMP:20260318T210233Z
+UID:4c66ff8f-1e71-493e-a206-879e6ab05207
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260426
 DTEND;VALUE=DATE:20260427
 SUMMARY:🎬 Wallace & Gromit Shorts Program (1989) @ Jacob Burns Film Center
-DESCRIPTION:Classic British animation shorts retrospective  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/wallace-gromit-shorts-program/
+DESCRIPTION:Classic Nick Park animated shorts  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/wallace-gromit-shorts-program/
 LOCATION:364 Manville Rd\, Pleasantville\, NY 10570
 URL:https://burnsfilmcenter.org/booking/wallace-gromit-shorts-program/
 END:VEVENT
 BEGIN:VEVENT
-UID:86dda54b-6816-45a2-a72b-13f165d01ade
-DTSTAMP:20260318T210233Z
+UID:df809355-913b-411e-9eff-9d24221ef7ef
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260428
 DTEND;VALUE=DATE:20260429
 SUMMARY:🎬 In Jackson Heights (2015) @ Jacob Burns Film Center
-DESCRIPTION:2015 Frederick Wiseman documentary revival  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/in-jackson-heights/
+DESCRIPTION:2015 Frederick Wiseman documentary  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/in-jackson-heights/
 LOCATION:364 Manville Rd\, Pleasantville\, NY 10570
 URL:https://burnsfilmcenter.org/booking/in-jackson-heights/
 END:VEVENT
 BEGIN:VEVENT
-UID:fac4ef65-8fdc-4311-a4b2-0d8ba0f036bf
-DTSTAMP:20260318T210233Z
+UID:f6ca6c9f-177f-45f9-809f-f63007359b57
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260502
 DTEND;VALUE=DATE:20260503
 SUMMARY:🎬 In Jackson Heights (2015) @ Jacob Burns Film Center
-DESCRIPTION:2015 Frederick Wiseman documentary revival  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/in-jackson-heights/
+DESCRIPTION:2015 Frederick Wiseman documentary  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/in-jackson-heights/
 LOCATION:364 Manville Rd\, Pleasantville\, NY 10570
 URL:https://burnsfilmcenter.org/booking/in-jackson-heights/
 END:VEVENT
 BEGIN:VEVENT
-UID:de4f7351-cb35-4a63-911a-3c593bff7e34
-DTSTAMP:20260318T210233Z
+UID:306a1695-8811-4645-823a-420710473662
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260430
 DTEND;VALUE=DATE:20260501
 SUMMARY:🎬 Ex Libris: The New York Public Library (2017) @ Jacob Burns Film Center
-DESCRIPTION:2017 Frederick Wiseman documentary revival  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/ex-libris-the-new-york-public-library/
+DESCRIPTION:2017 Frederick Wiseman documentary  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/ex-libris-the-new-york-public-library/
 LOCATION:364 Manville Rd\, Pleasantville\, NY 10570
 URL:https://burnsfilmcenter.org/booking/ex-libris-the-new-york-public-library/
 END:VEVENT
 BEGIN:VEVENT
-UID:37164ef1-4fae-4e7e-97d1-e819f4ba83a7
-DTSTAMP:20260318T210233Z
+UID:3edad4c6-e9cf-43ff-b864-39ab9e517d2d
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260501
 DTEND;VALUE=DATE:20260502
 SUMMARY:🎬 Ex Libris: The New York Public Library (2017) @ Jacob Burns Film Center
-DESCRIPTION:2017 Frederick Wiseman documentary revival  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/ex-libris-the-new-york-public-library/
+DESCRIPTION:2017 Frederick Wiseman documentary  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/ex-libris-the-new-york-public-library/
 LOCATION:364 Manville Rd\, Pleasantville\, NY 10570
 URL:https://burnsfilmcenter.org/booking/ex-libris-the-new-york-public-library/
 END:VEVENT
 BEGIN:VEVENT
-UID:fc615542-1619-436d-9b0e-34802bf933eb
-DTSTAMP:20260318T210233Z
+UID:b4694a17-a831-4f26-b838-1b5767b80fa3
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260501
 DTEND;VALUE=DATE:20260502
 SUMMARY:🎬 Monrovia\, Indiana (2018) @ Jacob Burns Film Center
-DESCRIPTION:2018 Frederick Wiseman documentary revival  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/monrovia-indiana/
+DESCRIPTION:2018 Frederick Wiseman documentary  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/monrovia-indiana/
 LOCATION:364 Manville Rd\, Pleasantville\, NY 10570
 URL:https://burnsfilmcenter.org/booking/monrovia-indiana/
 END:VEVENT
 BEGIN:VEVENT
-UID:fe3dfa2e-4bf9-4fe9-82a3-5dceda92a247
-DTSTAMP:20260318T210233Z
+UID:c40e38a5-6cb8-45a2-8858-c5f6f92d26d1
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260503
 DTEND;VALUE=DATE:20260504
 SUMMARY:🎬 Monrovia\, Indiana (2018) @ Jacob Burns Film Center
-DESCRIPTION:2018 Frederick Wiseman documentary revival  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/monrovia-indiana/
+DESCRIPTION:2018 Frederick Wiseman documentary  |  🆕 New to you  |  Showtimes: https://burnsfilmcenter.org/booking/monrovia-indiana/
 LOCATION:364 Manville Rd\, Pleasantville\, NY 10570
 URL:https://burnsfilmcenter.org/booking/monrovia-indiana/
 END:VEVENT
 BEGIN:VEVENT
-UID:9abb824f-ba9b-4cf4-aed4-f4e892762880
-DTSTAMP:20260318T210233Z
+UID:0ea0695c-1825-4c9b-8b6b-912c5fac49ba
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260520
 DTEND;VALUE=DATE:20260521
 SUMMARY:🎬 The Tree of Life (2011) @ Jacob Burns Film Center
-DESCRIPTION:2011 Terrence Malick Palme d'Or winner revival  |  👁 You've seen this  |  Showtimes: https://burnsfilmcenter.org/booking/the-tree-of-life/
+DESCRIPTION:2011 Terrence Malick Palme d'Or winner  |  👁 You've seen this  |  Showtimes: https://burnsfilmcenter.org/booking/the-tree-of-life/
 LOCATION:364 Manville Rd\, Pleasantville\, NY 10570
 URL:https://burnsfilmcenter.org/booking/the-tree-of-life/
 END:VEVENT
 BEGIN:VEVENT
-UID:ec41982d-3c12-43b0-9794-58ce8eccd929
-DTSTAMP:20260318T210233Z
+UID:49b338df-cf60-44b9-9109-1a040cc656c7
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260520
 DTEND;VALUE=DATE:20260521
 SUMMARY:🎬 Uncle Boonmee Who Can Recall His Past Lives (2010) @ Jacob Burns Film Center
@@ -1717,8 +2617,8 @@ LOCATION:364 Manville Rd\, Pleasantville\, NY 10570
 URL:https://burnsfilmcenter.org/booking/uncle-boonmee-who-can-recall-his-past-lives/
 END:VEVENT
 BEGIN:VEVENT
-UID:7545fe9c-8754-4f1c-8ac1-369231ace023
-DTSTAMP:20260318T210233Z
+UID:86f2de67-c494-47d1-abbd-19f8480a1bef
+DTSTAMP:20260318T211327Z
 DTSTART;VALUE=DATE:20260523
 DTEND;VALUE=DATE:20260524
 SUMMARY:🎬 Uncle Boonmee Who Can Recall His Past Lives (2010) @ Jacob Burns Film Center

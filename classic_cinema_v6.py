@@ -98,7 +98,7 @@ THEATERS = {
         "scrape_strategy": "regal",
         "website": "https://www.amctheatres.com/movie-theatres/port-chester/amc-port-chester-14",
         "showtimes_url": "https://www.atomtickets.com/theaters/amc-port-chester-14/9849",
-        "fandango_id": None, "is_regal": False,
+        "fandango_id": "AASWQ", "is_regal": False,
     },
     "Pelham Picture House": {
         "location": "suburbs", "city": "Pelham, NY",
@@ -659,11 +659,13 @@ def scrape_regal(theater_name, pw):
     try:
         from datetime import date as date_cls, timedelta
         fandango_id = THEATERS[theater_name].get("fandango_id","")
-        fandango_referer = THEATERS[theater_name].get("showtimes_url","https://www.fandango.com")
+        if not fandango_id:
+            return movies
+        fandango_referer = f"https://www.fandango.com/theater-page-{fandango_id.lower()}"
         fandango_headers = {
             "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
             "Accept": "application/json",
-            "Referer": fandango_referer,
+            "Referer": "https://www.fandango.com",
         }
         existing_titles = {m["title"].lower() for m in movies}
         fandango_grouped = {}
