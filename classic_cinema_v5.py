@@ -992,6 +992,8 @@ def generate_html(movies: list, lb_data: dict) -> str:
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎬</text></svg>">
+  <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎬</text></svg>">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <title>Classic Cinema Calendar — Westchester Area</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
