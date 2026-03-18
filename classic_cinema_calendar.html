@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Classic Cinema Calendar — Westchester Area</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Josefin+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --cream:#f5f0e8;--parchment:#ede6d3;--dark:#150f06;--brown:#3d2b1a;
+  --amber:#b8742a;--gold:#d4a853;--red:#8b1a1a;--muted:#7a6a55;
+  --border:#c8b89a;--regal-navy:#0f2340;--regal-gold:#c9a84c;
+  --lb-loved:#e8a020;--lb-liked:#5b8dd9;--lb-watchlist:#4caf7d;
+  --lb-seen:#888;--lb-new:#9c6fb5;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--cream);background-image:repeating-linear-gradient(0deg,transparent,transparent 30px,rgba(100,70,30,.045) 30px,rgba(100,70,30,.045) 31px);color:var(--dark);font-family:'Libre Baskerville',Georgia,serif;min-height:100vh}
+body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:9999;opacity:.03;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");background-size:160px}
+.masthead{background:var(--dark);border-bottom:3px double var(--gold);padding:1.75rem 1.5rem 1.25rem;text-align:center;position:relative;overflow:hidden}
+.masthead::after{content:'';position:absolute;inset:0;pointer-events:none;background:repeating-linear-gradient(90deg,transparent,transparent 44px,rgba(212,168,83,.035) 44px,rgba(212,168,83,.035) 45px)}
+.sprocket-strip{display:flex;justify-content:center;gap:14px;margin-bottom:1rem}
+.sprocket{width:13px;height:13px;border:2px solid var(--gold);border-radius:3px;opacity:.45}
+.masthead h1{font-family:'Playfair Display',serif;font-size:clamp(1.9rem,5vw,3.4rem);font-weight:900;font-style:italic;color:var(--gold);letter-spacing:.06em;text-transform:uppercase;text-shadow:1px 2px 6px rgba(0,0,0,.6);line-height:1}
+.masthead .tagline{font-family:'Josefin Sans',sans-serif;font-size:.72rem;letter-spacing:.28em;color:var(--border);text-transform:uppercase;margin-top:.5rem}
+.masthead .generated{font-family:'Josefin Sans',sans-serif;font-size:.62rem;letter-spacing:.14em;color:rgba(255,255,255,.25);margin-top:.6rem;text-transform:uppercase}
+.cal-btn{display:inline-block;margin-top:.75rem;font-family:'Josefin Sans',sans-serif;font-size:.65rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);border:1px solid var(--gold);padding:.3rem .9rem;text-decoration:none;opacity:.7;transition:opacity .2s;cursor:pointer}
+.cal-btn:hover{opacity:1}
+.container{max-width:860px;margin:0 auto;padding:2rem 1.25rem}
+.stats-bar{display:flex;justify-content:center;flex-wrap:wrap;gap:1.5rem;background:var(--parchment);border:1px solid var(--border);padding:.7rem 1.5rem;margin-bottom:1.5rem;font-family:'Josefin Sans',sans-serif;font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--brown)}
+.stats-bar strong{color:var(--red);font-size:.85rem}
+.legend{display:flex;flex-wrap:wrap;gap:.5rem .9rem;justify-content:center;margin-bottom:2rem;font-family:'Josefin Sans',sans-serif;font-size:.65rem;letter-spacing:.08em;text-transform:uppercase}
+.legend-item{display:flex;align-items:center;gap:.35rem}
+.legend-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0}
+.section-label{display:flex;align-items:center;gap:.75rem;margin:2.5rem 0 1.25rem}
+.section-label::before,.section-label::after{content:'';flex:1;height:1px;background:var(--amber)}
+.section-label span{font-family:'Josefin Sans',sans-serif;font-size:.68rem;font-weight:700;letter-spacing:.28em;text-transform:uppercase;color:var(--amber);white-space:nowrap;padding:0 .4rem}
+.theater-block{background:white;border:1px solid var(--border);border-top:3px solid var(--amber);margin-bottom:1.4rem;box-shadow:1px 3px 10px rgba(0,0,0,.065);animation:fadeUp .35s ease both}
+.theater-block.regal-theater{border-top:3px solid var(--regal-navy);background:linear-gradient(135deg,#f5f7fc 0%,white 25%)}
+@keyframes fadeUp{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+.theater-header{display:flex;align-items:center;flex-wrap:wrap;gap:.6rem;padding:.75rem 1.15rem;background:var(--parchment);border-bottom:1px solid var(--border)}
+.regal-theater .theater-header{background:linear-gradient(90deg,#e4e9f5,#ecf0fa)}
+a.theater-name{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--brown);text-decoration:none;border-bottom:1px solid transparent;transition:border-color .2s}
+a.theater-name:hover{border-bottom-color:var(--amber)}
+.regal-theater a.theater-name{color:var(--regal-navy);font-weight:900}
+.theater-city{font-family:'Josefin Sans',sans-serif;font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;color:#999;margin-left:auto}
+.regal-badge{background:var(--regal-navy);color:var(--regal-gold);font-family:'Josefin Sans',sans-serif;font-size:.58rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;padding:.18rem .5rem;border:1px solid var(--regal-gold);border-radius:2px}
+.movie-list{padding:.15rem 0}
+.movie-card{padding:.8rem 1.15rem;border-bottom:1px dashed var(--border);transition:background .15s;border-left:3px solid transparent}
+.movie-card:last-child{border-bottom:none}
+.movie-card:hover{background:#fdf9f3}
+.movie-card.lb-loved{border-left-color:var(--lb-loved)}
+.movie-card.lb-liked{border-left-color:var(--lb-liked)}
+.movie-card.lb-watchlist{border-left-color:var(--lb-watchlist)}
+.movie-card.lb-seen{border-left-color:#ddd}
+.movie-card.lb-new{border-left-color:var(--lb-new)}
+.movie-top{display:flex;align-items:baseline;justify-content:space-between;gap:.75rem;flex-wrap:wrap}
+.movie-title{font-family:'Playfair Display',serif;font-size:.98rem;color:var(--dark)}
+.movie-title .year{font-family:'Josefin Sans',sans-serif;font-size:.7rem;color:var(--muted);font-style:normal;letter-spacing:.04em}
+a.film-link{color:var(--dark);text-decoration:none;border-bottom:1px solid var(--border);transition:border-color .2s,color .2s}
+a.film-link:hover{color:var(--red);border-bottom-color:var(--red)}
+.movie-meta{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;margin-top:.25rem}
+.reason{font-family:'Josefin Sans',sans-serif;font-size:.63rem;letter-spacing:.1em;text-transform:uppercase;color:var(--amber)}
+.lb-badge{display:inline-block;font-family:'Josefin Sans',sans-serif;font-size:.6rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:.15rem .45rem;border-radius:2px;border:1px solid currentColor;white-space:nowrap}
+.lb-badge.lb-loved{color:var(--lb-loved);background:#fff8ec}
+.lb-badge.lb-liked{color:var(--lb-liked);background:#eef3fc}
+.lb-badge.lb-watchlist{color:var(--lb-watchlist);background:#edfaf4}
+.lb-badge.lb-seen{color:var(--lb-seen);background:#f5f5f5}
+.lb-badge.lb-new{color:var(--lb-new);background:#f8f0fc}
+.showtimes{font-family:'Josefin Sans',sans-serif;font-size:.68rem;letter-spacing:.04em;margin-top:.35rem;display:flex;flex-wrap:wrap;gap:.25rem .75rem;align-items:center}
+.sd{color:#666}
+.st{color:var(--amber);font-weight:700;letter-spacing:.06em}
+.more{color:#aaa;font-style:italic}
+.showtimes-link{font-family:'Josefin Sans',sans-serif;font-size:.63rem;letter-spacing:.1em;text-transform:uppercase;color:var(--red);text-decoration:none;border-bottom:1px solid var(--red);white-space:nowrap;transition:opacity .2s;flex-shrink:0}
+.showtimes-link:hover{opacity:.55}
+.empty-state{font-family:'Josefin Sans',sans-serif;font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;color:#bbb;text-align:center;padding:1.75rem;border:1px dashed var(--border)}
+.footer{text-align:center;padding:2rem;border-top:1px solid var(--border);margin-top:3rem;font-family:'Josefin Sans',sans-serif;font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;color:#bbb}
+@media(max-width:580px){.stats-bar{flex-direction:column;align-items:center}.theater-header{flex-direction:column;align-items:flex-start}.theater-city{margin-left:0}.movie-top{flex-direction:column}}
+</style>
+</head>
+<body>
+<header class="masthead">
+  <div class="sprocket-strip"><div class="sprocket"></div><div class="sprocket"></div><div class="sprocket"></div><div class="sprocket"></div><div class="sprocket"></div><div class="sprocket"></div><div class="sprocket"></div><div class="sprocket"></div><div class="sprocket"></div><div class="sprocket"></div><div class="sprocket"></div></div>
+  <h1>Classic Cinema Calendar</h1>
+  <div class="tagline">Revival &amp; Repertory Screenings — Westchester Area</div>
+  <div class="generated">Generated March 17, 2026 at 11:56 PM</div>
+  <a class="cal-btn" href="classic_cinema.ics" download>📅 Add to Google Calendar (.ics)</a>
+</header>
+<main class="container">
+  <div class="stats-bar">
+    <span><strong>26</strong> Classic Screenings</span>
+    <span><strong>0</strong> In The City</span>
+    <span><strong>26</strong> In The Suburbs</span>
+  </div>
+  <div class="legend">
+    <div class="legend-item"><div class="legend-dot" style="background:var(--lb-loved)"></div><span>You loved it (★★★★½–★★★★★)</span></div>
+    <div class="legend-item"><div class="legend-dot" style="background:var(--lb-liked)"></div><span>You liked it (★★★½–★★★★)</span></div>
+    <div class="legend-item"><div class="legend-dot" style="background:var(--lb-watchlist)"></div><span>On your watchlist</span></div>
+    <div class="legend-item"><div class="legend-dot" style="background:var(--lb-seen)"></div><span>You've seen it</span></div>
+    <div class="legend-item"><div class="legend-dot" style="background:var(--lb-new)"></div><span>New to you</span></div>
+  </div>
+  <div class="section-label"><span>✦ Westchester &amp; Suburbs</span></div>
+      <div class="theater-block ">
+        <div class="theater-header">
+          <a href="https://drafthouse.com/yonkers" class="theater-name" target="_blank" rel="noopener">Alamo Drafthouse Yonkers</a>
+          <span class="theater-city">Yonkers, NY</span>
+        </div>
+        <div class="movie-list">
+        <div class="movie-card lb-new">
+          <div class="movie-top">
+            <span class="movie-title"><a href="https://drafthouse.com/yonkers/show/guest-selects-britannia-hospital" class="film-link" target="_blank" rel="noopener"><em>Britannia Hospital</em></a> <span class='year'>(1982)</span></span>
+            
+          </div>
+          <div class="movie-meta"><span class="reason">1982 Lindsay Anderson film revival</span><span class="lb-badge lb-new">🆕 New to you</span></div>
+          <div class="showtimes"><span class="sd">📅 Thu Mar 19</span>  <span class="st">🕐 7:00 PM</span></div>
+        </div>
+        <div class="movie-card lb-new">
+          <div class="movie-top">
+            <span class="movie-title"><a href="https://drafthouse.com/yonkers/show/queer-film-theory-101-daisies" class="film-link" target="_blank" rel="noopener"><em>Daisies</em></a> <span class='year'>(1966)</span></span>
+            
+          </div>
+          <div class="movie-meta"><span class="reason">Czech New Wave classic</span><span class="lb-badge lb-new">🆕 New to you</span></div>
+          <div class="showtimes"><span class="sd">📅 Fri Mar 20</span>  <span class="st">🕐 10:00 PM</span></div>
+        </div>
+        <div class="movie-card lb-seen">
+          <div class="movie-top">
+            <span class="movie-title"><a href="https://drafthouse.com/yonkers/show/greetings-from-twin-peaks-twin-peaks-the-return-parts-13-15" class="film-link" target="_blank" rel="noopener"><em>Twin Peaks: The Return</em></a> <span class='year'>(2017)</span></span>
+            
+          </div>
+          <div class="movie-meta"><span class="reason">Lynch television masterpiece</span><span class="lb-badge lb-seen">👁 You've seen this</span></div>
+          <div class="showtimes"><span class="sd">📅 Sat Mar 21 · Sat Mar 28</span>  <span class="st">🕐 12:00 PM</span></div>
+        </div>
+        <div class="movie-card lb-new">
+          <div class="movie-top">
+            <span class="movie-title"><a href="https://drafthouse.com/yonkers/show/the-lord-of-the-rings-the-return-of-the-king-extended-edition" class="film-link" target="_blank" rel="noopener"><em>The Lord of the Rings: The Return of the King: Extended Edition</em></a> <span class='year'>(2003)</span></span>
+            
+          </div>
+          <div class="movie-meta"><span class="reason">Extended edition special screening</span><span class="lb-badge lb-new">🆕 New to you</span></div>
+          <div class="showtimes"><span class="sd">📅 Sun Mar 22</span>  <span class="st">🕐 11:00 AM</span></div>
+        </div>
+        <div class="movie-card lb-seen">
+          <div class="movie-top">
+            <span class="movie-title"><a href="https://drafthouse.com/yonkers/show/unforgiven" class="film-link" target="_blank" rel="noopener"><em>Unforgiven</em></a> <span class='year'>(1992)</span></span>
+            
+          </div>
+          <div class="movie-meta"><span class="reason">Eastwood western masterpiece</span><span class="lb-badge lb-seen">👁 You've seen this</span></div>
+          <div class="showtimes"><span class="sd">📅 Mon Mar 23</span>  <span class="st">🕐 7:00 PM</span></div>
+        </div>
+        <div class="movie-card lb-new">
+          <div class="movie-top">
+            <span class="movie-title"><a href="https://drafthouse.com/yonkers/show/sad-girl-cinema-club-melancholia" class="film-link" target="_blank" rel="noopener"><em>Melancholia</em></a> <span class='year'>(2011)</span></span>
+            
+          </div>
+          <div class="movie-meta"><span class="reason">Lars von Trier art house revival</span><span class="lb-badge lb-new">🆕 New to you</span></div>
+          <div class="showtimes"><span class="sd">📅 Tue Mar 24</span>  <span class="st">🕐 8:00 PM</span></div>
+        </div>
+        <div class="movie-card lb-new">
+          <div class="movie-top">
+            <span class="movie-title"><a href="https://drafthouse.com/yonkers/show/mystery-voyage" class="film-link" target="_blank" rel="noopener"><em>Mystery Voyage</em></a> <span class='year'>(1990)</span></span>
+            
+          </div>
+          <div class="movie-meta"><span class="reason">1990s Hong Kong genre revival</span><span class="lb-badge lb-new">🆕 New to you</span></div>
+          <div class="showtimes"><span class="sd">📅 Thu Mar 26</span>  <span class="st">🕐 7:15 PM</span></div>
+        </div>
+        <div class="movie-card lb-new">
+          <div class="movie-top">
+            <span class="movie-title"><a href="https://drafthouse.com/yonkers/show/lord-of-the-rings-extended-edition-trilogy-marathon" class="film-link" target="_blank" rel="noopener"><em>The Lord of the Rings Extended Edition Trilogy Marathon</em></a> <span class='year'>(2001)</span></span>
+            
+          </div>
+          <div class="movie-meta"><span class="reason">Special marathon screening</span><span class="lb-badge lb-new">🆕 New to you</span></div>
+          <div class="showtimes"><span class="sd">📅 Sun Mar 29</span>  <span class="st">🕐 11:00 AM</span></div>
+        </div>
+        <div class="movie-card lb-new">
+          <div class="movie-top">
+            <span class="movie-title"><a href="https://drafthouse.com/yonkers/show/movie-party-the-mummy-returns-25th-anniversary" class="film-link" target="_blank" rel="noopener"><em>The Mummy Returns: 25th Anniversary</em></a> <span class='year'>(2001)</span></span>
+            
+          </div>
+          <div class="movie-meta"><span class="reason">Anniversary retrospective screening</span><span class="lb-badge lb-new">🆕 New to you</span></div>
+          <div class="showtimes"><span class="sd">📅 Mon Mar 30</span>  <span class="st">🕐 7:30 PM</span></div>
+        </div>
+        <div class="movie-card lb-seen">
+          <div class="movie-top">
+            <span class="movie-title"><a href="https://drafthouse.com/yonkers/show/the-man-who-knew-too-much" class="film-link" target="_blank" rel="noopener"><em>THE MAN WHO KNEW TOO MUCH</em></a> <span class='year'>(1956)</span></span>
+            
+          </div>
+          <div class="movie-meta"><span class="reason">Hitchcock thriller classic</span><span class="lb-badge lb-seen">👁 You've seen this</span></div>
+          <div class="showtimes"><span class="sd">📅 Wed Apr 1</span>  <span class="st">🕐 7:00 PM</span></div>
+        </div>
+        <div class="movie-card lb-new">
+          <div class="movie-top">
+            <span class="movie-title"><a href="https://drafthouse.com/yonkers/show/city-on-fire-1987" class="film-link" target="_blank" rel="noopener"><em>City on Fire (1987)</em></a> <span class='year'>(1987)</span></span>
+            
+          </div>
+          <div class="movie-meta"><span class="reason">Ringo Lam classic, 4K restoration</span><span class="lb-badge lb-new">🆕 New to you</span></div>
+          <div class="showtimes"><span class="sd">📅 Thu Apr 9</span>  <span class="st">🕐 7:15 PM</span></div>
+        </div>
+        <div class="movie-card lb-new">
+          <div class="movie-top">
+            <span class="movie-title"><a href="https://drafthouse.com/yonkers/show/ghost-world" class="film-link" target="_blank" rel="noopener"><em>Ghost World</em></a> <span class='year'>(2001)</span></span>
+            
+          </div>
+          <div class="movie-meta"><span class="reason">2001 Terry Zwigoff indie classic</span><span class="lb-badge lb-new">🆕 New to you</span></div>
+          <div class="showtimes"><span class="sd">📅 Fri Apr 10</span>  <span class="st">🕐 9:45 PM</span></div>
+        </div>
+        <div class="movie-card lb-seen">
+          <div class="movie-top">
+            <span class="movie-title"><a href="https://drafthouse.com/yonkers/show/something-wild" class="film-link" target="_blank" rel="noopener"><em>Something Wild</em></a> <span class='year'>(1986)</span></span>
+            
+          </div>
+          <div class="movie-meta"><span class="reason">1986 Jonathan Demme film</span><span class="lb-badge lb-seen">👁 You've seen this</span></div>
+          <div class="showtimes"><span class="sd">📅 Sat Apr 11</span>  <span class="st">🕐 12:00 PM</span></div>
+        </div>
+        <div class="movie-card lb-seen">
+          <div class="movie-top">
+            <span class="movie-title"><a href="https://drafthouse.com/yonkers/show/movie-party-pride-prejudice-2005" class="film-link" target="_blank" rel="noopener"><em>Pride & Prejudice (2005)</em></a> <span class='year'>(2005)</span></span>
+            
+          </div>
+          <div class="movie-meta"><span class="reason">2005 adaptation, repertory screening</span><span class="lb-badge lb-seen">👁 You've seen this</span></div>
+          <div class="showtimes"><span class="sd">📅 Mon Apr 13</span>  <span class="st">🕐 7:00 PM</span></div>
+        </div>
+        <div class="movie-card lb-new">
+          <div class="movie-top">
+            <span class="movie-title"><a href="https://drafthouse.com/yonkers/show/police-story" class="film-link" target="_blank" rel="noopener"><em>Police Story</em></a> <span class='year'>(1985)</span></span>
+            
+          </div>
+          <div class="movie-meta"><span class="reason">Jackie Chan action classic</span><span class="lb-badge lb-new">🆕 New to you</span></div>
+          <div class="showtimes"><span class="sd">📅 Thu Apr 16</span>  <span class="st">🕐 7:15 PM</span></div>
+        </div>
+        <div class="movie-card lb-new">
+          <div class="movie-top">
+            <span class="movie-title"><a href="https://drafthouse.com/yonkers/show/the-master-2012" class="film-link" target="_blank" rel="noopener"><em>The Master (2012)</em></a> <span class='year'>(2012)</span></span>
+            
+          </div>
+          <div class="movie-meta"><span class="reason">Paul Thomas Anderson masterpiece</span><span class="lb-badge lb-new">🆕 New to you</span></div>
+          <div class="showtimes"><span class="sd">📅 Sat Apr 18</span>  <span class="st">🕐 12:30 PM</span></div>
+        </div>
+        <div class="movie-card lb-seen">
+          <div class="movie-top">
+            <span class="movie-title"><a href="https://drafthouse.com/yonkers/show/movie-party-the-big-lebowski" class="film-link" target="_blank" rel="noopener"><em>The Big Lebowski</em></a> <span class='year'>(1998)</span></span>
+            
+          </div>
+          <div class="movie-meta"><span class="reason">Coen Brothers cult classic</span><span class="lb-badge lb-seen">👁 You've seen this</span></div>
+          <div class="showtimes"><span class="sd">📅 Mon Apr 20</span>  <span class="st">🕐 7:00 PM</span></div>
+        </div>
+        <div class="movie-card lb-seen">
+          <div class="movie-top">
+            <span class="movie-title"><a href="https://drafthouse.com/yonkers/show/face-off" class="film-link" target="_blank" rel="noopener"><em>Face/Off</em></a> <span class='year'>(1997)</span></span>
+            
+          </div>
+          <div class="movie-meta"><span class="reason">1997 John Woo action classic</span><span class="lb-badge lb-seen">👁 You've seen this</span></div>
+          <div class="showtimes"><span class="sd">📅 Thu Apr 23</span>  <span class="st">🕐 6:30 PM</span></div>
+        </div>
+        <div class="movie-card lb-new">
+          <div class="movie-top">
+            <span class="movie-title"><a href="https://drafthouse.com/yonkers/show/movie-party-miss-congeniality" class="film-link" target="_blank" rel="noopener"><em>Miss Congeniality</em></a> <span class='year'>(2000)</span></span>
+            
+          </div>
+          <div class="movie-meta"><span class="reason">2000 comedy classic revival</span><span class="lb-badge lb-new">🆕 New to you</span></div>
+          <div class="showtimes"><span class="sd">📅 Sat Apr 25</span>  <span class="st">🕐 3:00 PM</span></div>
+        </div>
+        <div class="movie-card lb-new">
+          <div class="movie-top">
+            <span class="movie-title"><a href="https://drafthouse.com/yonkers/show/terror-of-mechagodzilla" class="film-link" target="_blank" rel="noopener"><em>Terror of Mechagodzilla</em></a> <span class='year'>(1975)</span></span>
+            
+          </div>
+          <div class="movie-meta"><span class="reason">1975 Toho kaiju classic revival</span><span class="lb-badge lb-new">🆕 New to you</span></div>
+          <div class="showtimes"><span class="sd">📅 Sun Apr 26</span>  <span class="st">🕐 12:00 PM · 2:30 PM</span></div>
+        </div>
+        <div class="movie-card lb-new">
+          <div class="movie-top">
+            <span class="movie-title"><a href="https://drafthouse.com/yonkers/show/queer-film-theory-101-celine-and-julie-go-boating" class="film-link" target="_blank" rel="noopener"><em>Céline and Julie Go Boating</em></a> <span class='year'>(1974)</span></span>
+            
+          </div>
+          <div class="movie-meta"><span class="reason">Rivette French New Wave classic</span><span class="lb-badge lb-new">🆕 New to you</span></div>
+          <div class="showtimes"><span class="sd">📅 Mon Apr 27</span>  <span class="st">🕐 6:15 PM</span></div>
+        </div>
+        <div class="movie-card lb-seen">
+          <div class="movie-top">
+            <span class="movie-title"><a href="https://drafthouse.com/yonkers/show/tomorrow-never-dies" class="film-link" target="_blank" rel="noopener"><em>Tomorrow Never Dies</em></a> <span class='year'>(1997)</span></span>
+            
+          </div>
+          <div class="movie-meta"><span class="reason">1997 Bond film revival</span><span class="lb-badge lb-seen">👁 You've seen this</span></div>
+          <div class="showtimes"><span class="sd">📅 Thu Apr 30</span>  <span class="st">🕐 7:15 PM</span></div>
+        </div>
+        <div class="movie-card lb-new">
+          <div class="movie-top">
+            <span class="movie-title"><a href="https://drafthouse.com/yonkers/show/marnie" class="film-link" target="_blank" rel="noopener"><em>GET HITCHED: MARNIE</em></a> <span class='year'>(1964)</span></span>
+            
+          </div>
+          <div class="movie-meta"><span class="reason">Hitchcock classic retrospective</span><span class="lb-badge lb-new">🆕 New to you</span></div>
+          <div class="showtimes"><span class="sd">📅 Wed May 6</span>  <span class="st">🕐 7:00 PM</span></div>
+        </div></div>
+      </div>
+      <div class="theater-block regal-theater">
+        <div class="theater-header">
+          <a href="https://www.fandango.com/regal-new-roc-4dx-imax-and-rpx-aanlc/theater-page" class="theater-name" target="_blank" rel="noopener">Regal New Roc</a><span class="regal-badge">★ YOUR REGAL SUBSCRIPTION</span>
+          <span class="theater-city">New Rochelle, NY</span>
+        </div>
+        <div class="movie-list">
+        <div class="movie-card lb-loved">
+          <div class="movie-top">
+            <span class="movie-title"><a href="https://www.fandango.com/regal-new-roc-4dx-imax-and-rpx-aanlc/theater-page" class="film-link" target="_blank" rel="noopener"><em>Terms of Endearment</em></a> <span class='year'>(1983)</span></span>
+            <a href="https://www.fandango.com/regal-new-roc-4dx-imax-and-rpx-aanlc/theater-page" class="showtimes-link" target="_blank" rel="noopener">See showtimes →</a>
+          </div>
+          <div class="movie-meta"><span class="reason">1983 Oscar winner revival</span><span class="lb-badge lb-loved">⭐ You rated this ★★★★★</span></div>
+          
+        </div>
+        <div class="movie-card lb-new">
+          <div class="movie-top">
+            <span class="movie-title"><a href="https://www.fandango.com/regal-new-roc-4dx-imax-and-rpx-aanlc/theater-page" class="film-link" target="_blank" rel="noopener"><em>TMNT II: The Secret of the Ooze 35th Anniversary</em></a> <span class='year'>(1991)</span></span>
+            <a href="https://www.fandango.com/regal-new-roc-4dx-imax-and-rpx-aanlc/theater-page" class="showtimes-link" target="_blank" rel="noopener">See showtimes →</a>
+          </div>
+          <div class="movie-meta"><span class="reason">Anniversary retrospective screening</span><span class="lb-badge lb-new">🆕 New to you</span></div>
+          
+        </div>
+        <div class="movie-card lb-new">
+          <div class="movie-top">
+            <span class="movie-title"><a href="https://www.fandango.com/regal-new-roc-4dx-imax-and-rpx-aanlc/theater-page" class="film-link" target="_blank" rel="noopener"><em>The Revenant 10th Anniversary Re-Release (2026)</em></a> <span class='year'>(2015)</span></span>
+            <a href="https://www.fandango.com/regal-new-roc-4dx-imax-and-rpx-aanlc/theater-page" class="showtimes-link" target="_blank" rel="noopener">See showtimes →</a>
+          </div>
+          <div class="movie-meta"><span class="reason">Anniversary re-release</span><span class="lb-badge lb-new">🆕 New to you</span></div>
+          
+        </div></div>
+      </div>
+</main>
+<footer class="footer">
+  Classic Cinema Calendar · Larchmont, NY · @mororke · AI by Claude · March 17, 2026 at 11:56 PM
+</footer>
+</body>
+</html>

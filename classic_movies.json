@@ -1,28 +1,29 @@
 [
   {
-    "title": "Bad Santa",
-    "year": 2003,
-    "reason": "Cult Christmas classic",
+    "title": "Terror of Mechagodzilla",
+    "year": 1975,
+    "reason": "1975 Toho kaiju classic revival",
     "theater": "Alamo Drafthouse Yonkers",
     "location": "suburbs",
     "city": "Yonkers, NY",
     "address": "175 Main St, Yonkers, NY 10701",
     "is_regal": false,
     "dates": [
-      "2026-03-12"
+      "2026-04-26"
     ],
     "times": [
-      "7:00 PM"
+      "12:00 PM",
+      "2:30 PM"
     ],
-    "source_url": "https://drafthouse.com/yonkers/show/guest-selects-bad-santa",
-    "lb_status": "seen",
-    "lb_label": "\ud83d\udc41 You've seen this",
+    "source_url": "https://drafthouse.com/yonkers/show/terror-of-mechagodzilla",
+    "lb_status": "new",
+    "lb_label": "\ud83c\udd95 New to you",
     "lb_rating": null
   },
   {
     "title": "Britannia Hospital",
     "year": 1982,
-    "reason": "Lindsay Anderson film revival",
+    "reason": "1982 Lindsay Anderson film revival",
     "theater": "Alamo Drafthouse Yonkers",
     "location": "suburbs",
     "city": "Yonkers, NY",
@@ -40,61 +41,61 @@
     "lb_rating": null
   },
   {
-    "title": "Jurassic Park",
-    "year": 1993,
-    "reason": "Spielberg masterpiece revival",
+    "title": "Miss Congeniality",
+    "year": 2000,
+    "reason": "2000 comedy classic revival",
     "theater": "Alamo Drafthouse Yonkers",
     "location": "suburbs",
     "city": "Yonkers, NY",
     "address": "175 Main St, Yonkers, NY 10701",
     "is_regal": false,
     "dates": [
-      "2026-03-08"
+      "2026-04-25"
     ],
     "times": [
-      "3:45 PM"
+      "3:00 PM"
     ],
-    "source_url": "https://drafthouse.com/yonkers/show/movie-party-jurassic-park",
-    "lb_status": "liked",
-    "lb_label": "\ud83d\udc4d You rated this \u2605\u2605\u2605\u2605",
-    "lb_rating": 4.0
-  },
-  {
-    "title": "Jurassic Park III",
-    "year": 2001,
-    "reason": "Franchise entry revival",
-    "theater": "Alamo Drafthouse Yonkers",
-    "location": "suburbs",
-    "city": "Yonkers, NY",
-    "address": "175 Main St, Yonkers, NY 10701",
-    "is_regal": false,
-    "dates": [
-      "2026-03-15"
-    ],
-    "times": [
-      "3:30 PM"
-    ],
-    "source_url": "https://drafthouse.com/yonkers/show/movie-party-jurassic-park-iii",
+    "source_url": "https://drafthouse.com/yonkers/show/movie-party-miss-congeniality",
     "lb_status": "new",
     "lb_label": "\ud83c\udd95 New to you",
     "lb_rating": null
   },
   {
-    "title": "The Lost World: Jurassic Park",
-    "year": 1997,
-    "reason": "Spielberg sequel revival",
+    "title": "Pride & Prejudice (2005)",
+    "year": 2005,
+    "reason": "2005 adaptation, repertory screening",
     "theater": "Alamo Drafthouse Yonkers",
     "location": "suburbs",
     "city": "Yonkers, NY",
     "address": "175 Main St, Yonkers, NY 10701",
     "is_regal": false,
     "dates": [
-      "2026-03-13"
+      "2026-04-13"
     ],
     "times": [
-      "7:15 PM"
+      "7:00 PM"
     ],
-    "source_url": "https://drafthouse.com/yonkers/show/movie-party-the-lost-world-jurassic-park",
+    "source_url": "https://drafthouse.com/yonkers/show/movie-party-pride-prejudice-2005",
+    "lb_status": "seen",
+    "lb_label": "\ud83d\udc41 You've seen this",
+    "lb_rating": null
+  },
+  {
+    "title": "The Big Lebowski",
+    "year": 1998,
+    "reason": "Coen Brothers cult classic",
+    "theater": "Alamo Drafthouse Yonkers",
+    "location": "suburbs",
+    "city": "Yonkers, NY",
+    "address": "175 Main St, Yonkers, NY 10701",
+    "is_regal": false,
+    "dates": [
+      "2026-04-20"
+    ],
+    "times": [
+      "7:00 PM"
+    ],
+    "source_url": "https://drafthouse.com/yonkers/show/movie-party-the-big-lebowski",
     "lb_status": "seen",
     "lb_label": "\ud83d\udc41 You've seen this",
     "lb_rating": null
@@ -102,7 +103,7 @@
   {
     "title": "The Mummy Returns: 25th Anniversary",
     "year": 2001,
-    "reason": "Anniversary screening",
+    "reason": "Anniversary retrospective screening",
     "theater": "Alamo Drafthouse Yonkers",
     "location": "suburbs",
     "city": "Yonkers, NY",
@@ -120,9 +121,29 @@
     "lb_rating": null
   },
   {
+    "title": "The Lord of the Rings: The Return of the King: Extended Edition",
+    "year": 2003,
+    "reason": "Extended edition special screening",
+    "theater": "Alamo Drafthouse Yonkers",
+    "location": "suburbs",
+    "city": "Yonkers, NY",
+    "address": "175 Main St, Yonkers, NY 10701",
+    "is_regal": false,
+    "dates": [
+      "2026-03-22"
+    ],
+    "times": [
+      "11:00 AM"
+    ],
+    "source_url": "https://drafthouse.com/yonkers/show/the-lord-of-the-rings-the-return-of-the-king-extended-edition",
+    "lb_status": "new",
+    "lb_label": "\ud83c\udd95 New to you",
+    "lb_rating": null
+  },
+  {
     "title": "Mystery Voyage",
     "year": 1990,
-    "reason": "1990s Hong Kong cinema",
+    "reason": "1990s Hong Kong genre revival",
     "theater": "Alamo Drafthouse Yonkers",
     "location": "suburbs",
     "city": "Yonkers, NY",
@@ -135,6 +156,26 @@
       "7:15 PM"
     ],
     "source_url": "https://drafthouse.com/yonkers/show/mystery-voyage",
+    "lb_status": "new",
+    "lb_label": "\ud83c\udd95 New to you",
+    "lb_rating": null
+  },
+  {
+    "title": "C\u00e9line and Julie Go Boating",
+    "year": 1974,
+    "reason": "Rivette French New Wave classic",
+    "theater": "Alamo Drafthouse Yonkers",
+    "location": "suburbs",
+    "city": "Yonkers, NY",
+    "address": "175 Main St, Yonkers, NY 10701",
+    "is_regal": false,
+    "dates": [
+      "2026-04-27"
+    ],
+    "times": [
+      "6:15 PM"
+    ],
+    "source_url": "https://drafthouse.com/yonkers/show/queer-film-theory-101-celine-and-julie-go-boating",
     "lb_status": "new",
     "lb_label": "\ud83c\udd95 New to you",
     "lb_rating": null
@@ -162,7 +203,7 @@
   {
     "title": "Melancholia",
     "year": 2011,
-    "reason": "Lars von Trier arthouse",
+    "reason": "Lars von Trier art house revival",
     "theater": "Alamo Drafthouse Yonkers",
     "location": "suburbs",
     "city": "Yonkers, NY",
@@ -180,24 +221,64 @@
     "lb_rating": null
   },
   {
-    "title": "Maximum Overdrive",
-    "year": 1986,
-    "reason": "Stephen King cult classic",
+    "title": "City on Fire (1987)",
+    "year": 1987,
+    "reason": "Ringo Lam classic, 4K restoration",
     "theater": "Alamo Drafthouse Yonkers",
     "location": "suburbs",
     "city": "Yonkers, NY",
     "address": "175 Main St, Yonkers, NY 10701",
     "is_regal": false,
     "dates": [
-      "2026-03-17"
+      "2026-04-09"
     ],
     "times": [
-      "7:00 PM"
+      "7:15 PM"
     ],
-    "source_url": "https://drafthouse.com/yonkers/show/terror-tuesday-maximum-overdrive",
+    "source_url": "https://drafthouse.com/yonkers/show/city-on-fire-1987",
+    "lb_status": "new",
+    "lb_label": "\ud83c\udd95 New to you",
+    "lb_rating": null
+  },
+  {
+    "title": "Face/Off",
+    "year": 1997,
+    "reason": "1997 John Woo action classic",
+    "theater": "Alamo Drafthouse Yonkers",
+    "location": "suburbs",
+    "city": "Yonkers, NY",
+    "address": "175 Main St, Yonkers, NY 10701",
+    "is_regal": false,
+    "dates": [
+      "2026-04-23"
+    ],
+    "times": [
+      "6:30 PM"
+    ],
+    "source_url": "https://drafthouse.com/yonkers/show/face-off",
     "lb_status": "seen",
-    "lb_label": "\ud83d\udc41 You've seen this (\u00bd)",
-    "lb_rating": 0.5
+    "lb_label": "\ud83d\udc41 You've seen this",
+    "lb_rating": null
+  },
+  {
+    "title": "Ghost World",
+    "year": 2001,
+    "reason": "2001 Terry Zwigoff indie classic",
+    "theater": "Alamo Drafthouse Yonkers",
+    "location": "suburbs",
+    "city": "Yonkers, NY",
+    "address": "175 Main St, Yonkers, NY 10701",
+    "is_regal": false,
+    "dates": [
+      "2026-04-10"
+    ],
+    "times": [
+      "9:45 PM"
+    ],
+    "source_url": "https://drafthouse.com/yonkers/show/ghost-world",
+    "lb_status": "new",
+    "lb_label": "\ud83c\udd95 New to you",
+    "lb_rating": null
   },
   {
     "title": "Twin Peaks: The Return",
@@ -209,14 +290,13 @@
     "address": "175 Main St, Yonkers, NY 10701",
     "is_regal": false,
     "dates": [
-      "2026-03-14",
       "2026-03-21",
       "2026-03-28"
     ],
     "times": [
       "12:00 PM"
     ],
-    "source_url": "https://drafthouse.com/yonkers/show/greetings-from-twin-peaks-twin-peaks-the-return-parts-10-12",
+    "source_url": "https://drafthouse.com/yonkers/show/greetings-from-twin-peaks-twin-peaks-the-return-parts-13-15",
     "lb_status": "seen",
     "lb_label": "\ud83d\udc41 You've seen this",
     "lb_rating": null
@@ -224,7 +304,7 @@
   {
     "title": "The Lord of the Rings Extended Edition Trilogy Marathon",
     "year": 2001,
-    "reason": "Special format marathon",
+    "reason": "Special marathon screening",
     "theater": "Alamo Drafthouse Yonkers",
     "location": "suburbs",
     "city": "Yonkers, NY",
@@ -242,63 +322,83 @@
     "lb_rating": null
   },
   {
-    "title": "The Lord of the Rings: The Fellowship of the Ring: Extended Edition",
-    "year": 2001,
-    "reason": "Special extended format",
+    "title": "Police Story",
+    "year": 1985,
+    "reason": "Jackie Chan action classic",
     "theater": "Alamo Drafthouse Yonkers",
     "location": "suburbs",
     "city": "Yonkers, NY",
     "address": "175 Main St, Yonkers, NY 10701",
     "is_regal": false,
     "dates": [
-      "2026-03-08"
+      "2026-04-16"
     ],
     "times": [
-      "11:00 AM"
+      "7:15 PM"
     ],
-    "source_url": "https://drafthouse.com/yonkers/show/the-lord-of-the-rings-the-fellowship-of-the-ring-extended-edition",
+    "source_url": "https://drafthouse.com/yonkers/show/police-story",
     "lb_status": "new",
     "lb_label": "\ud83c\udd95 New to you",
     "lb_rating": null
   },
   {
-    "title": "The Lord of the Rings: The Return of the King: Extended Edition",
-    "year": 2003,
-    "reason": "Special extended format",
+    "title": "Something Wild",
+    "year": 1986,
+    "reason": "1986 Jonathan Demme film",
     "theater": "Alamo Drafthouse Yonkers",
     "location": "suburbs",
     "city": "Yonkers, NY",
     "address": "175 Main St, Yonkers, NY 10701",
     "is_regal": false,
     "dates": [
-      "2026-03-22"
+      "2026-04-11"
     ],
     "times": [
-      "11:00 AM"
+      "12:00 PM"
     ],
-    "source_url": "https://drafthouse.com/yonkers/show/the-lord-of-the-rings-the-return-of-the-king-extended-edition",
+    "source_url": "https://drafthouse.com/yonkers/show/something-wild",
+    "lb_status": "seen",
+    "lb_label": "\ud83d\udc41 You've seen this",
+    "lb_rating": null
+  },
+  {
+    "title": "The Master (2012)",
+    "year": 2012,
+    "reason": "Paul Thomas Anderson masterpiece",
+    "theater": "Alamo Drafthouse Yonkers",
+    "location": "suburbs",
+    "city": "Yonkers, NY",
+    "address": "175 Main St, Yonkers, NY 10701",
+    "is_regal": false,
+    "dates": [
+      "2026-04-18"
+    ],
+    "times": [
+      "12:30 PM"
+    ],
+    "source_url": "https://drafthouse.com/yonkers/show/the-master-2012",
     "lb_status": "new",
     "lb_label": "\ud83c\udd95 New to you",
     "lb_rating": null
   },
   {
-    "title": "The Lord of the Rings: The Two Towers: Extended Edition",
-    "year": 2002,
-    "reason": "Special extended format",
+    "title": "Tomorrow Never Dies",
+    "year": 1997,
+    "reason": "1997 Bond film revival",
     "theater": "Alamo Drafthouse Yonkers",
     "location": "suburbs",
     "city": "Yonkers, NY",
     "address": "175 Main St, Yonkers, NY 10701",
     "is_regal": false,
     "dates": [
-      "2026-03-15"
+      "2026-04-30"
     ],
     "times": [
-      "11:00 AM"
+      "7:15 PM"
     ],
-    "source_url": "https://drafthouse.com/yonkers/show/the-lord-of-the-rings-the-two-towers-extended-edition-2",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
+    "source_url": "https://drafthouse.com/yonkers/show/tomorrow-never-dies",
+    "lb_status": "seen",
+    "lb_label": "\ud83d\udc41 You've seen this",
     "lb_rating": null
   },
   {
@@ -324,7 +424,7 @@
   {
     "title": "GET HITCHED: MARNIE",
     "year": 1964,
-    "reason": "Hitchcock classic series",
+    "reason": "Hitchcock classic retrospective",
     "theater": "Alamo Drafthouse Yonkers",
     "location": "suburbs",
     "city": "Yonkers, NY",
@@ -344,7 +444,7 @@
   {
     "title": "THE MAN WHO KNEW TOO MUCH",
     "year": 1956,
-    "reason": "Hitchcock thriller",
+    "reason": "Hitchcock thriller classic",
     "theater": "Alamo Drafthouse Yonkers",
     "location": "suburbs",
     "city": "Yonkers, NY",
@@ -362,699 +462,51 @@
     "lb_rating": null
   },
   {
-    "title": "All Ages: Safety Last!",
-    "year": 1923,
-    "reason": "Silent comedy classic",
-    "theater": "Jacob Burns Film Center",
-    "location": "suburbs",
-    "city": "Pleasantville, NY",
-    "address": "364 Manville Rd, Pleasantville, NY 10570",
-    "is_regal": false,
-    "dates": [
-      "2026-03-07"
-    ],
-    "times": [
-      "11:00 AM"
-    ],
-    "source_url": "https://burnsfilmcenter.org/booking/safety-last/",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "Safety Last!",
-    "year": 1923,
-    "reason": "Harold Lloyd silent classic",
-    "theater": "Jacob Burns Film Center",
-    "location": "suburbs",
-    "city": "Pleasantville, NY",
-    "address": "364 Manville Rd, Pleasantville, NY 10570",
-    "is_regal": false,
-    "dates": [
-      "2026-03-07",
-      "2026-03-08"
-    ],
-    "times": [],
-    "source_url": "https://burnsfilmcenter.org/booking/safety-last/",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "Snow White and the Seven Dwarfs",
-    "year": 1937,
-    "reason": "Disney animation classic",
-    "theater": "Jacob Burns Film Center",
-    "location": "suburbs",
-    "city": "Pleasantville, NY",
-    "address": "364 Manville Rd, Pleasantville, NY 10570",
-    "is_regal": false,
-    "dates": [
-      "2026-03-14",
-      "2026-03-15"
-    ],
-    "times": [],
-    "source_url": "https://burnsfilmcenter.org/booking/snow-white-and-the-seven-dwarfs/",
-    "lb_status": "seen",
-    "lb_label": "\ud83d\udc41 You've seen this",
-    "lb_rating": null
-  },
-  {
-    "title": "There Will Be Blood",
-    "year": 2007,
-    "reason": "Paul Thomas Anderson masterpiece",
-    "theater": "Jacob Burns Film Center",
-    "location": "suburbs",
-    "city": "Pleasantville, NY",
-    "address": "364 Manville Rd, Pleasantville, NY 10570",
-    "is_regal": false,
-    "dates": [
-      "2026-03-18",
-      "2026-03-21"
-    ],
-    "times": [],
-    "source_url": "https://burnsfilmcenter.org/booking/there-will-be-blood/",
-    "lb_status": "seen",
-    "lb_label": "\ud83d\udc41 You've seen this",
-    "lb_rating": null
-  },
-  {
-    "title": "No Country for Old Men",
-    "year": 2007,
-    "reason": "2007 Coen Brothers classic revival",
-    "theater": "Jacob Burns Film Center",
-    "location": "suburbs",
-    "city": "Pleasantville, NY",
-    "address": "364 Manville Rd, Pleasantville, NY 10570",
-    "is_regal": false,
-    "dates": [
-      "2026-03-18",
-      "2026-03-21"
-    ],
-    "times": [],
-    "source_url": "https://burnsfilmcenter.org/booking/no-country-for-old-men/",
-    "lb_status": "seen",
-    "lb_label": "\ud83d\udc41 You've seen this",
-    "lb_rating": null
-  },
-  {
-    "title": "Who Killed Teddy Bear?",
-    "year": 1965,
-    "reason": "1965 cult film revival",
-    "theater": "Jacob Burns Film Center",
-    "location": "suburbs",
-    "city": "Pleasantville, NY",
-    "address": "364 Manville Rd, Pleasantville, NY 10570",
-    "is_regal": false,
-    "dates": [
-      "2026-03-19"
-    ],
-    "times": [],
-    "source_url": "https://burnsfilmcenter.org/booking/who-killed-teddy-bear/",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "Fantastic Mr. Fox",
-    "year": 2009,
-    "reason": "2009 Wes Anderson classic revival",
-    "theater": "Jacob Burns Film Center",
-    "location": "suburbs",
-    "city": "Pleasantville, NY",
-    "address": "364 Manville Rd, Pleasantville, NY 10570",
-    "is_regal": false,
-    "dates": [
-      "2026-03-21",
-      "2026-03-22"
-    ],
-    "times": [],
-    "source_url": "https://burnsfilmcenter.org/booking/fantastic-mr-fox/",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "The Immigrant",
-    "year": 2013,
-    "reason": "2013 James Gray revival",
-    "theater": "Jacob Burns Film Center",
-    "location": "suburbs",
-    "city": "Pleasantville, NY",
-    "address": "364 Manville Rd, Pleasantville, NY 10570",
-    "is_regal": false,
-    "dates": [
-      "2026-03-23",
-      "2026-04-01"
-    ],
-    "times": [],
-    "source_url": "https://burnsfilmcenter.org/booking/the-immigrant/",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "The Apprenticeship of Duddy Kravitz + The Street",
-    "year": 1974,
-    "reason": "1974 Canadian classic double feature",
-    "theater": "Jacob Burns Film Center",
-    "location": "suburbs",
-    "city": "Pleasantville, NY",
-    "address": "364 Manville Rd, Pleasantville, NY 10570",
-    "is_regal": false,
-    "dates": [
-      "2026-03-28"
-    ],
-    "times": [],
-    "source_url": "https://burnsfilmcenter.org/booking/the-apprenticeship-of-duddy-kravitz-the-street/",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "That's Entertainment",
-    "year": 1974,
-    "reason": "1974 MGM musical compilation classic",
-    "theater": "Jacob Burns Film Center",
-    "location": "suburbs",
-    "city": "Pleasantville, NY",
-    "address": "364 Manville Rd, Pleasantville, NY 10570",
-    "is_regal": false,
-    "dates": [
-      "2026-03-28",
-      "2026-03-29"
-    ],
-    "times": [],
-    "source_url": "https://burnsfilmcenter.org/booking/thats-entertainment/",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "Our Children (on 35mm)",
-    "year": 2012,
-    "reason": "35mm screening revival",
-    "theater": "Jacob Burns Film Center",
-    "location": "suburbs",
-    "city": "Pleasantville, NY",
-    "address": "364 Manville Rd, Pleasantville, NY 10570",
-    "is_regal": false,
-    "dates": [
-      "2026-03-28"
-    ],
-    "times": [],
-    "source_url": "https://burnsfilmcenter.org/booking/our-children-on-35mm/",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "The Fleischer Brothers' Betty Boop Cartoons",
-    "year": 1930,
-    "reason": "1930s animation classics revival",
-    "theater": "Jacob Burns Film Center",
-    "location": "suburbs",
-    "city": "Pleasantville, NY",
-    "address": "364 Manville Rd, Pleasantville, NY 10570",
-    "is_regal": false,
-    "dates": [
-      "2026-03-29"
-    ],
-    "times": [],
-    "source_url": "https://burnsfilmcenter.org/booking/the-fleischer-brothers-betty-boop-cartoons/",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "His Wife's Lover (on 35mm) + Orchard Street",
-    "year": 1999,
-    "reason": "35mm screening revival",
-    "theater": "Jacob Burns Film Center",
-    "location": "suburbs",
-    "city": "Pleasantville, NY",
-    "address": "364 Manville Rd, Pleasantville, NY 10570",
-    "is_regal": false,
-    "dates": [
-      "2026-03-29"
-    ],
-    "times": [],
-    "source_url": "https://burnsfilmcenter.org/booking/his-wifes-lover-on-35mm-orchard-street/",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "All I Had Was Nothingness + Night and Fog",
-    "year": 1956,
-    "reason": "1956 Resnais classic + contemporary work",
-    "theater": "Jacob Burns Film Center",
-    "location": "suburbs",
-    "city": "Pleasantville, NY",
-    "address": "364 Manville Rd, Pleasantville, NY 10570",
-    "is_regal": false,
-    "dates": [
-      "2026-03-30",
-      "2026-04-06"
-    ],
-    "times": [],
-    "source_url": "https://burnsfilmcenter.org/booking/all-i-had-was-nothingness-night-and-fog/",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "The Sound of Music Sing-Along",
-    "year": 1965,
-    "reason": "1965 musical classic special screening",
-    "theater": "Jacob Burns Film Center",
-    "location": "suburbs",
-    "city": "Pleasantville, NY",
-    "address": "364 Manville Rd, Pleasantville, NY 10570",
-    "is_regal": false,
-    "dates": [
-      "2026-04-04",
-      "2026-04-05"
-    ],
-    "times": [],
-    "source_url": "https://burnsfilmcenter.org/booking/the-sound-of-music-sing-along/",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "Shoah",
-    "year": 1985,
-    "reason": "1985 Lanzmann masterpiece revival",
-    "theater": "Jacob Burns Film Center",
-    "location": "suburbs",
-    "city": "Pleasantville, NY",
-    "address": "364 Manville Rd, Pleasantville, NY 10570",
-    "is_regal": false,
-    "dates": [
-      "2026-04-05"
-    ],
-    "times": [],
-    "source_url": "https://burnsfilmcenter.org/booking/shoah/",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "High School",
-    "year": 1968,
-    "reason": "1968 Frederick Wiseman classic",
-    "theater": "Jacob Burns Film Center",
-    "location": "suburbs",
-    "city": "Pleasantville, NY",
-    "address": "364 Manville Rd, Pleasantville, NY 10570",
-    "is_regal": false,
-    "dates": [
-      "2026-04-08",
-      "2026-04-09"
-    ],
-    "times": [],
-    "source_url": "https://burnsfilmcenter.org/booking/high-school/",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "Law and Order",
-    "year": 1969,
-    "reason": "1969 Frederick Wiseman classic",
-    "theater": "Jacob Burns Film Center",
-    "location": "suburbs",
-    "city": "Pleasantville, NY",
-    "address": "364 Manville Rd, Pleasantville, NY 10570",
-    "is_regal": false,
-    "dates": [
-      "2026-04-08",
-      "2026-04-09"
-    ],
-    "times": [],
-    "source_url": "https://burnsfilmcenter.org/booking/law-and-order/",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "Welfare",
-    "year": 1975,
-    "reason": "1975 Frederick Wiseman classic",
-    "theater": "Jacob Burns Film Center",
-    "location": "suburbs",
-    "city": "Pleasantville, NY",
-    "address": "364 Manville Rd, Pleasantville, NY 10570",
-    "is_regal": false,
-    "dates": [
-      "2026-04-08",
-      "2026-04-12"
-    ],
-    "times": [],
-    "source_url": "https://burnsfilmcenter.org/booking/welfare/",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "M\u00e9li\u00e8s Shorts",
-    "year": 1896,
-    "reason": "Georges M\u00e9li\u00e8s early cinema classics",
-    "theater": "Jacob Burns Film Center",
-    "location": "suburbs",
-    "city": "Pleasantville, NY",
-    "address": "364 Manville Rd, Pleasantville, NY 10570",
-    "is_regal": false,
-    "dates": [
-      "2026-04-11",
-      "2026-04-12"
-    ],
-    "times": [],
-    "source_url": "https://burnsfilmcenter.org/booking/melies-shorts/",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "The Story of a Three Day Pass",
-    "year": 1967,
-    "reason": "1967 Melvin Van Peebles classic",
-    "theater": "Jacob Burns Film Center",
-    "location": "suburbs",
-    "city": "Pleasantville, NY",
-    "address": "364 Manville Rd, Pleasantville, NY 10570",
-    "is_regal": false,
-    "dates": [
-      "2026-04-12"
-    ],
-    "times": [],
-    "source_url": "https://burnsfilmcenter.org/booking/the-story-of-a-three-day-pass/",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "Italianamerican",
-    "year": 1974,
-    "reason": "1974 Scorsese documentary classic",
-    "theater": "Jacob Burns Film Center",
-    "location": "suburbs",
-    "city": "Pleasantville, NY",
-    "address": "364 Manville Rd, Pleasantville, NY 10570",
-    "is_regal": false,
-    "dates": [
-      "2026-04-13"
-    ],
-    "times": [],
-    "source_url": "https://burnsfilmcenter.org/booking/italianamerican/",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "Canal Zone",
-    "year": 1977,
-    "reason": "1977 Frederick Wiseman classic",
-    "theater": "Jacob Burns Film Center",
-    "location": "suburbs",
-    "city": "Pleasantville, NY",
-    "address": "364 Manville Rd, Pleasantville, NY 10570",
-    "is_regal": false,
-    "dates": [
-      "2026-04-14",
-      "2026-04-15"
-    ],
-    "times": [],
-    "source_url": "https://burnsfilmcenter.org/booking/canal-zone/",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "The Store",
+    "title": "Terms of Endearment",
     "year": 1983,
-    "reason": "1983 Frederick Wiseman classic",
-    "theater": "Jacob Burns Film Center",
+    "reason": "1983 Oscar winner revival",
+    "theater": "Regal New Roc",
     "location": "suburbs",
-    "city": "Pleasantville, NY",
-    "address": "364 Manville Rd, Pleasantville, NY 10570",
-    "is_regal": false,
-    "dates": [
-      "2026-04-15",
-      "2026-04-17"
-    ],
+    "city": "New Rochelle, NY",
+    "address": "33 LeCount Pl, New Rochelle, NY 10801",
+    "is_regal": true,
+    "dates": [],
     "times": [],
-    "source_url": "https://burnsfilmcenter.org/booking/the-store/",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "Aspen",
-    "year": 1973,
-    "reason": "1973 Frederick Wiseman classic",
-    "theater": "Jacob Burns Film Center",
-    "location": "suburbs",
-    "city": "Pleasantville, NY",
-    "address": "364 Manville Rd, Pleasantville, NY 10570",
-    "is_regal": false,
-    "dates": [
-      "2026-04-17",
-      "2026-04-19"
-    ],
-    "times": [],
-    "source_url": "https://burnsfilmcenter.org/booking/aspen/",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "Howl's Moving Castle",
-    "year": 2004,
-    "reason": "2004 Miyazaki classic revival",
-    "theater": "Jacob Burns Film Center",
-    "location": "suburbs",
-    "city": "Pleasantville, NY",
-    "address": "364 Manville Rd, Pleasantville, NY 10570",
-    "is_regal": false,
-    "dates": [
-      "2026-04-18",
-      "2026-04-19"
-    ],
-    "times": [],
-    "source_url": "https://burnsfilmcenter.org/booking/howls-moving-castle-2/",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "Public Housing",
-    "year": 1997,
-    "reason": "Frederick Wiseman documentary classic",
-    "theater": "Jacob Burns Film Center",
-    "location": "suburbs",
-    "city": "Pleasantville, NY",
-    "address": "364 Manville Rd, Pleasantville, NY 10570",
-    "is_regal": false,
-    "dates": [
-      "2026-04-21",
-      "2026-04-25"
-    ],
-    "times": [],
-    "source_url": "https://burnsfilmcenter.org/booking/public-housing/",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "The Piano Teacher",
-    "year": 2001,
-    "reason": "Michael Haneke art house classic",
-    "theater": "Jacob Burns Film Center",
-    "location": "suburbs",
-    "city": "Pleasantville, NY",
-    "address": "364 Manville Rd, Pleasantville, NY 10570",
-    "is_regal": false,
-    "dates": [
-      "2026-04-22"
-    ],
-    "times": [],
-    "source_url": "https://burnsfilmcenter.org/booking/the-piano-teacher/",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "Fat Girl",
-    "year": 2001,
-    "reason": "Catherine Breillat controversial classic",
-    "theater": "Jacob Burns Film Center",
-    "location": "suburbs",
-    "city": "Pleasantville, NY",
-    "address": "364 Manville Rd, Pleasantville, NY 10570",
-    "is_regal": false,
-    "dates": [
-      "2026-04-22",
-      "2026-04-25"
-    ],
-    "times": [],
-    "source_url": "https://burnsfilmcenter.org/booking/fat-girl/",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "Domestic Violence",
-    "year": 2001,
-    "reason": "Frederick Wiseman documentary",
-    "theater": "Jacob Burns Film Center",
-    "location": "suburbs",
-    "city": "Pleasantville, NY",
-    "address": "364 Manville Rd, Pleasantville, NY 10570",
-    "is_regal": false,
-    "dates": [
-      "2026-04-23",
-      "2026-04-26"
-    ],
-    "times": [],
-    "source_url": "https://burnsfilmcenter.org/booking/domestic-violence/",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "Belfast, Maine",
-    "year": 1999,
-    "reason": "Frederick Wiseman documentary",
-    "theater": "Jacob Burns Film Center",
-    "location": "suburbs",
-    "city": "Pleasantville, NY",
-    "address": "364 Manville Rd, Pleasantville, NY 10570",
-    "is_regal": false,
-    "dates": [
-      "2026-04-24"
-    ],
-    "times": [],
-    "source_url": "https://burnsfilmcenter.org/booking/belfast-maine/",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "Wallace & Gromit Shorts Program",
-    "year": 1990,
-    "reason": "Classic British animation shorts",
-    "theater": "Jacob Burns Film Center",
-    "location": "suburbs",
-    "city": "Pleasantville, NY",
-    "address": "364 Manville Rd, Pleasantville, NY 10570",
-    "is_regal": false,
-    "dates": [
-      "2026-04-25",
-      "2026-04-26"
-    ],
-    "times": [],
-    "source_url": "https://burnsfilmcenter.org/booking/wallace-gromit-shorts-program/",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "In Jackson Heights",
-    "year": 2015,
-    "reason": "Frederick Wiseman documentary classic",
-    "theater": "Jacob Burns Film Center",
-    "location": "suburbs",
-    "city": "Pleasantville, NY",
-    "address": "364 Manville Rd, Pleasantville, NY 10570",
-    "is_regal": false,
-    "dates": [
-      "2026-04-28",
-      "2026-05-02"
-    ],
-    "times": [],
-    "source_url": "https://burnsfilmcenter.org/booking/in-jackson-heights/",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "Ex Libris: The New York Public Library",
-    "year": 2017,
-    "reason": "Frederick Wiseman documentary",
-    "theater": "Jacob Burns Film Center",
-    "location": "suburbs",
-    "city": "Pleasantville, NY",
-    "address": "364 Manville Rd, Pleasantville, NY 10570",
-    "is_regal": false,
-    "dates": [
-      "2026-04-30",
-      "2026-05-01"
-    ],
-    "times": [],
-    "source_url": "https://burnsfilmcenter.org/booking/ex-libris-the-new-york-public-library/",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "Monrovia, Indiana",
-    "year": 2018,
-    "reason": "Frederick Wiseman documentary",
-    "theater": "Jacob Burns Film Center",
-    "location": "suburbs",
-    "city": "Pleasantville, NY",
-    "address": "364 Manville Rd, Pleasantville, NY 10570",
-    "is_regal": false,
-    "dates": [
-      "2026-05-01",
-      "2026-05-03"
-    ],
-    "times": [],
-    "source_url": "https://burnsfilmcenter.org/booking/monrovia-indiana/",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "Goodfellas",
-    "year": 1990,
-    "reason": "Scorsese crime classic",
-    "theater": "Mamaroneck Cinemas",
-    "location": "suburbs",
-    "city": "Mamaroneck, NY",
-    "address": "243 Mamaroneck Ave, Mamaroneck, NY 10543",
-    "is_regal": false,
-    "dates": [
-      "2026-03-10"
-    ],
-    "times": [
-      "7 o'clock PM"
-    ],
-    "source_url": "https://www.fandango.com/goodfellas-17286/movie-overview",
-    "lb_status": "seen",
-    "lb_label": "\ud83d\udc41 You've seen this",
-    "lb_rating": null
-  },
-  {
-    "title": "Boogie Nights",
-    "year": 1997,
-    "reason": "Paul Thomas Anderson classic",
-    "theater": "Mamaroneck Cinemas",
-    "location": "suburbs",
-    "city": "Mamaroneck, NY",
-    "address": "243 Mamaroneck Ave, Mamaroneck, NY 10543",
-    "is_regal": false,
-    "dates": [
-      "2026-03-12"
-    ],
-    "times": [
-      "7 o'clock PM"
-    ],
-    "source_url": "https://www.fandango.com/boogie-nights-2227/movie-overview",
+    "source_url": "https://www.fandango.com/regal-new-roc-4dx-imax-and-rpx-aanlc/theater-page",
     "lb_status": "loved",
     "lb_label": "\u2b50 You rated this \u2605\u2605\u2605\u2605\u2605",
     "lb_rating": 5.0
+  },
+  {
+    "title": "TMNT II: The Secret of the Ooze 35th Anniversary",
+    "year": 1991,
+    "reason": "Anniversary retrospective screening",
+    "theater": "Regal New Roc",
+    "location": "suburbs",
+    "city": "New Rochelle, NY",
+    "address": "33 LeCount Pl, New Rochelle, NY 10801",
+    "is_regal": true,
+    "dates": [],
+    "times": [],
+    "source_url": "https://www.fandango.com/regal-new-roc-4dx-imax-and-rpx-aanlc/theater-page",
+    "lb_status": "new",
+    "lb_label": "\ud83c\udd95 New to you",
+    "lb_rating": null
+  },
+  {
+    "title": "The Revenant 10th Anniversary Re-Release (2026)",
+    "year": 2015,
+    "reason": "Anniversary re-release",
+    "theater": "Regal New Roc",
+    "location": "suburbs",
+    "city": "New Rochelle, NY",
+    "address": "33 LeCount Pl, New Rochelle, NY 10801",
+    "is_regal": true,
+    "dates": [],
+    "times": [],
+    "source_url": "https://www.fandango.com/regal-new-roc-4dx-imax-and-rpx-aanlc/theater-page",
+    "lb_status": "new",
+    "lb_label": "\ud83c\udd95 New to you",
+    "lb_rating": null
   }
 ]
