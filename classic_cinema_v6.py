@@ -100,6 +100,22 @@ THEATERS = {
         "showtimes_url": "https://burnsfilmcenter.org/film/",
         "fandango_id": "AAPXM", "is_regal": False,
     },
+    "AMC Port Chester 14": {
+        "location": "suburbs", "city": "Port Chester, NY",
+        "address": "40 Westchester Ave, Port Chester, NY 10573",
+        "scrape_strategy": "fandango",
+        "website": "https://www.amctheatres.com/movie-theatres/port-chester/amc-port-chester-14",
+        "showtimes_url": "https://www.fandango.com/amc-port-chester-14-aaswq/theater-page",
+        "fandango_id": "AASWQ", "is_regal": False,
+    },
+    "AMC Port Chester 14": {
+        "location": "suburbs", "city": "Port Chester, NY",
+        "address": "40 Westchester Ave, Port Chester, NY 10573",
+        "scrape_strategy": "fandango",
+        "website": "https://www.amctheatres.com/movie-theatres/port-chester/amc-port-chester-14",
+        "showtimes_url": "https://www.fandango.com/amc-port-chester-14-aaswq/theater-page",
+        "fandango_id": "AASWQ", "is_regal": False,
+    },
     "Mamaroneck Cinemas": {
         "location": "suburbs", "city": "Mamaroneck, NY",
         "address": "243 Mamaroneck Ave, Mamaroneck, NY 10543",
@@ -732,6 +748,8 @@ def scrape_fandango_pw(theater_name, fandango_id, pw):
         "AAPXM": "https://www.fandango.com/jacob-burns-film-center-aapxm/theater-page",
         "AARVP": "https://www.fandango.com/nitehawk-cinema-williamsburg-aarvp/theater-page",
         "AABLM": "https://www.fandango.com/mamaroneck-cinemas-aablm/theater-page",
+        "AASWQ": "https://www.fandango.com/amc-port-chester-14-aaswq/theater-page",
+        "AASWQ": "https://www.fandango.com/amc-port-chester-14-aaswq/theater-page",
     }
     base_url = base_urls.get(fandango_id, "")
     if not base_url: return []

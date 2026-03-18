@@ -43,7 +43,7 @@
   {
     "title": "Miss Congeniality",
     "year": 2000,
-    "reason": "2000 comedy classic revival",
+    "reason": "2000 comedy revival",
     "theater": "Alamo Drafthouse Yonkers",
     "location": "suburbs",
     "city": "Yonkers, NY",
@@ -63,7 +63,7 @@
   {
     "title": "Pride & Prejudice (2005)",
     "year": 2005,
-    "reason": "2005 Joe Wright adaptation",
+    "reason": "2005 film with year specified",
     "theater": "Alamo Drafthouse Yonkers",
     "location": "suburbs",
     "city": "Yonkers, NY",
@@ -83,7 +83,7 @@
   {
     "title": "The Big Lebowski",
     "year": 1998,
-    "reason": "1998 Coen Bros cult classic",
+    "reason": "1998 Coen Brothers cult classic",
     "theater": "Alamo Drafthouse Yonkers",
     "location": "suburbs",
     "city": "Yonkers, NY",
@@ -103,7 +103,7 @@
   {
     "title": "The Mummy Returns: 25th Anniversary",
     "year": 2001,
-    "reason": "2001 film, anniversary screening",
+    "reason": "Anniversary screening",
     "theater": "Alamo Drafthouse Yonkers",
     "location": "suburbs",
     "city": "Yonkers, NY",
@@ -123,7 +123,7 @@
   {
     "title": "The Lord of the Rings: The Return of the King: Extended Edition",
     "year": 2003,
-    "reason": "2003 Jackson epic, extended cut",
+    "reason": "Extended edition revival",
     "theater": "Alamo Drafthouse Yonkers",
     "location": "suburbs",
     "city": "Yonkers, NY",
@@ -143,7 +143,7 @@
   {
     "title": "Mystery Voyage",
     "year": 1990,
-    "reason": "1990s Hong Kong kung fu film",
+    "reason": "1990s Hong Kong action film",
     "theater": "Alamo Drafthouse Yonkers",
     "location": "suburbs",
     "city": "Yonkers, NY",
@@ -163,7 +163,7 @@
   {
     "title": "C\u00e9line and Julie Go Boating",
     "year": 1974,
-    "reason": "1974 Jacques Rivette New Wave classic",
+    "reason": "1974 French New Wave classic",
     "theater": "Alamo Drafthouse Yonkers",
     "location": "suburbs",
     "city": "Yonkers, NY",
@@ -183,7 +183,7 @@
   {
     "title": "Daisies",
     "year": 1966,
-    "reason": "1966 V\u011bra Chytilov\u00e1 Czech New Wave",
+    "reason": "1966 Czech New Wave classic",
     "theater": "Alamo Drafthouse Yonkers",
     "location": "suburbs",
     "city": "Yonkers, NY",
@@ -223,7 +223,7 @@
   {
     "title": "City on Fire (1987)",
     "year": 1987,
-    "reason": "1987 Ringo Lam, 4K restoration",
+    "reason": "1987 Hong Kong classic, 4K restoration",
     "theater": "Alamo Drafthouse Yonkers",
     "location": "suburbs",
     "city": "Yonkers, NY",
@@ -263,7 +263,7 @@
   {
     "title": "Ghost World",
     "year": 2001,
-    "reason": "2001 Terry Zwigoff cult film",
+    "reason": "2001 indie classic",
     "theater": "Alamo Drafthouse Yonkers",
     "location": "suburbs",
     "city": "Yonkers, NY",
@@ -283,7 +283,7 @@
   {
     "title": "Twin Peaks: The Return",
     "year": 2017,
-    "reason": "2017 Lynch series revival",
+    "reason": "2017 Lynch series",
     "theater": "Alamo Drafthouse Yonkers",
     "location": "suburbs",
     "city": "Yonkers, NY",
@@ -304,7 +304,7 @@
   {
     "title": "The Lord of the Rings Extended Edition Trilogy Marathon",
     "year": 2001,
-    "reason": "2001-2003 Jackson trilogy marathon",
+    "reason": "Extended edition marathon",
     "theater": "Alamo Drafthouse Yonkers",
     "location": "suburbs",
     "city": "Yonkers, NY",
@@ -362,29 +362,9 @@
     "lb_rating": null
   },
   {
-    "title": "That Time I Got Reincarnated As a Slime The Movie: Scarlet Bond (Subtitled)",
-    "year": 2022,
-    "reason": "2022 anime film",
-    "theater": "Alamo Drafthouse Yonkers",
-    "location": "suburbs",
-    "city": "Yonkers, NY",
-    "address": "175 Main St, Yonkers, NY 10701",
-    "is_regal": false,
-    "dates": [
-      "2026-04-20"
-    ],
-    "times": [
-      "7:15 PM"
-    ],
-    "source_url": "https://drafthouse.com/yonkers/show/that-time-i-got-reincarnated-as-a-slime-the-movie-scarlet-bond-subtitled",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
     "title": "The Master (2012)",
     "year": 2012,
-    "reason": "2012 Paul Thomas Anderson epic",
+    "reason": "Paul Thomas Anderson film with year specified",
     "theater": "Alamo Drafthouse Yonkers",
     "location": "suburbs",
     "city": "Yonkers, NY",
@@ -464,7 +444,7 @@
   {
     "title": "THE MAN WHO KNEW TOO MUCH",
     "year": 1956,
-    "reason": "1956 Hitchcock thriller",
+    "reason": "Hitchcock classic",
     "theater": "Alamo Drafthouse Yonkers",
     "location": "suburbs",
     "city": "Yonkers, NY",
@@ -528,7 +508,7 @@
   {
     "title": "Rad 40th Anniversary",
     "year": 1986,
-    "reason": "1986 film, 40th anniversary screening",
+    "reason": "1986 cult film, anniversary screening",
     "theater": "Regal New Roc",
     "location": "suburbs",
     "city": "New Rochelle, NY",
@@ -606,7 +586,7 @@
   {
     "title": "The Birdcage 30th Anniversary",
     "year": 1996,
-    "reason": "1996 film, 30th anniversary screening",
+    "reason": "1996 film, anniversary screening",
     "theater": "Regal New Roc",
     "location": "suburbs",
     "city": "New Rochelle, NY",
@@ -665,7 +645,7 @@
   {
     "title": "A Beautiful Mind 25th Anniversary",
     "year": 2001,
-    "reason": "2001 film, 25th anniversary screening",
+    "reason": "2001 film, anniversary screening",
     "theater": "Regal New Roc",
     "location": "suburbs",
     "city": "New Rochelle, NY",
@@ -703,7 +683,7 @@
   {
     "title": "Ocean's Eleven 25th Anniversary",
     "year": 2001,
-    "reason": "2001 film, 25th anniversary screening",
+    "reason": "2001 film, anniversary screening",
     "theater": "Regal New Roc",
     "location": "suburbs",
     "city": "New Rochelle, NY",
@@ -722,7 +702,7 @@
   {
     "title": "Fried Green Tomatoes 35th Anniversary",
     "year": 1991,
-    "reason": "1991 film, 35th anniversary screening",
+    "reason": "1991 film, anniversary screening",
     "theater": "Regal New Roc",
     "location": "suburbs",
     "city": "New Rochelle, NY",
@@ -741,7 +721,7 @@
   {
     "title": "The Mummy Returns: 25th Anniversary",
     "year": 2001,
-    "reason": "2001 film, anniversary screening",
+    "reason": "Anniversary screening",
     "theater": "Regal New Roc",
     "location": "suburbs",
     "city": "New Rochelle, NY",
@@ -762,7 +742,7 @@
   {
     "title": "There Will Be Blood",
     "year": 2007,
-    "reason": "P.T. Anderson classic revival",
+    "reason": "Paul Thomas Anderson classic",
     "theater": "Jacob Burns Film Center",
     "location": "suburbs",
     "city": "Pleasantville, NY",
@@ -781,7 +761,7 @@
   {
     "title": "No Country for Old Men",
     "year": 2007,
-    "reason": "Coen Brothers classic revival",
+    "reason": "Coen Brothers classic",
     "theater": "Jacob Burns Film Center",
     "location": "suburbs",
     "city": "Pleasantville, NY",
@@ -800,7 +780,7 @@
   {
     "title": "Days and Nights in the Forest",
     "year": 1970,
-    "reason": "Satyajit Ray classic revival",
+    "reason": "Satyajit Ray classic",
     "theater": "Jacob Burns Film Center",
     "location": "suburbs",
     "city": "Pleasantville, NY",
@@ -819,7 +799,7 @@
   {
     "title": "Who Killed Teddy Bear?",
     "year": 1965,
-    "reason": "1960s cult film revival",
+    "reason": "Cult film revival",
     "theater": "Jacob Burns Film Center",
     "location": "suburbs",
     "city": "Pleasantville, NY",
@@ -837,7 +817,7 @@
   {
     "title": "Fantastic Mr. Fox",
     "year": 2009,
-    "reason": "Wes Anderson revival",
+    "reason": "Wes Anderson film",
     "theater": "Jacob Burns Film Center",
     "location": "suburbs",
     "city": "Pleasantville, NY",
@@ -856,7 +836,7 @@
   {
     "title": "The Immigrant",
     "year": 2013,
-    "reason": "James Gray film revival",
+    "reason": "James Gray art film",
     "theater": "Jacob Burns Film Center",
     "location": "suburbs",
     "city": "Pleasantville, NY",
@@ -875,7 +855,7 @@
   {
     "title": "The Apprenticeship of Duddy Kravitz + The Street",
     "year": 1974,
-    "reason": "1970s Canadian classic double feature",
+    "reason": "Canadian classic double feature",
     "theater": "Jacob Burns Film Center",
     "location": "suburbs",
     "city": "Pleasantville, NY",
@@ -893,7 +873,7 @@
   {
     "title": "That's Entertainment",
     "year": 1974,
-    "reason": "MGM musical compilation classic",
+    "reason": "MGM documentary classic",
     "theater": "Jacob Burns Film Center",
     "location": "suburbs",
     "city": "Pleasantville, NY",
@@ -912,7 +892,7 @@
   {
     "title": "Our Children (on 35mm)",
     "year": 2012,
-    "reason": "35mm special presentation",
+    "reason": "Art film on 35mm",
     "theater": "Jacob Burns Film Center",
     "location": "suburbs",
     "city": "Pleasantville, NY",
@@ -930,7 +910,7 @@
   {
     "title": "The Fleischer Brothers' Betty Boop Cartoons",
     "year": 1930,
-    "reason": "1930s animation classic retrospective",
+    "reason": "Classic animation revival",
     "theater": "Jacob Burns Film Center",
     "location": "suburbs",
     "city": "Pleasantville, NY",
@@ -966,7 +946,7 @@
   {
     "title": "All I Had Was Nothingness + Night and Fog",
     "year": 1956,
-    "reason": "Night and Fog is Resnais documentary classic",
+    "reason": "Resnais classic documentary",
     "theater": "Jacob Burns Film Center",
     "location": "suburbs",
     "city": "Pleasantville, NY",
@@ -985,7 +965,7 @@
   {
     "title": "The Sound of Music Sing-Along",
     "year": 1965,
-    "reason": "1965 classic in special sing-along format",
+    "reason": "Classic musical special screening",
     "theater": "Jacob Burns Film Center",
     "location": "suburbs",
     "city": "Pleasantville, NY",
@@ -1004,7 +984,7 @@
   {
     "title": "Shoah",
     "year": 1985,
-    "reason": "Lanzmann's monumental Holocaust documentary",
+    "reason": "Lanzmann documentary classic",
     "theater": "Jacob Burns Film Center",
     "location": "suburbs",
     "city": "Pleasantville, NY",
@@ -1022,7 +1002,7 @@
   {
     "title": "High School",
     "year": 1968,
-    "reason": "Frederick Wiseman documentary classic",
+    "reason": "Wiseman documentary classic",
     "theater": "Jacob Burns Film Center",
     "location": "suburbs",
     "city": "Pleasantville, NY",
@@ -1041,7 +1021,7 @@
   {
     "title": "Law and Order",
     "year": 1969,
-    "reason": "Frederick Wiseman documentary",
+    "reason": "Wiseman documentary classic",
     "theater": "Jacob Burns Film Center",
     "location": "suburbs",
     "city": "Pleasantville, NY",
@@ -1060,7 +1040,7 @@
   {
     "title": "Welfare",
     "year": 1975,
-    "reason": "Frederick Wiseman documentary",
+    "reason": "Wiseman documentary classic",
     "theater": "Jacob Burns Film Center",
     "location": "suburbs",
     "city": "Pleasantville, NY",
@@ -1079,7 +1059,7 @@
   {
     "title": "M\u00e9li\u00e8s Shorts",
     "year": 1902,
-    "reason": "Georges M\u00e9li\u00e8s early cinema classics",
+    "reason": "Early cinema pioneer classics",
     "theater": "Jacob Burns Film Center",
     "location": "suburbs",
     "city": "Pleasantville, NY",
@@ -1098,7 +1078,7 @@
   {
     "title": "The Story of a Three Day Pass",
     "year": 1967,
-    "reason": "Melvin Van Peebles film classic",
+    "reason": "Van Peebles classic",
     "theater": "Jacob Burns Film Center",
     "location": "suburbs",
     "city": "Pleasantville, NY",
@@ -1116,7 +1096,7 @@
   {
     "title": "Italianamerican",
     "year": 1974,
-    "reason": "Early Scorsese documentary",
+    "reason": "Scorsese documentary",
     "theater": "Jacob Burns Film Center",
     "location": "suburbs",
     "city": "Pleasantville, NY",
@@ -1133,7 +1113,7 @@
   },
   {
     "title": "Canal Zone",
-    "year": 1977,
+    "year": 2004,
     "reason": "Frederick Wiseman documentary",
     "theater": "Jacob Burns Film Center",
     "location": "suburbs",
@@ -1153,7 +1133,7 @@
   {
     "title": "The Store",
     "year": 1983,
-    "reason": "Frederick Wiseman documentary",
+    "reason": "Wiseman documentary classic",
     "theater": "Jacob Burns Film Center",
     "location": "suburbs",
     "city": "Pleasantville, NY",
@@ -1171,8 +1151,8 @@
   },
   {
     "title": "Aspen",
-    "year": 1973,
-    "reason": "Frederick Wiseman documentary",
+    "year": 1991,
+    "reason": "Wiseman documentary",
     "theater": "Jacob Burns Film Center",
     "location": "suburbs",
     "city": "Pleasantville, NY",
@@ -1191,7 +1171,7 @@
   {
     "title": "Howl's Moving Castle",
     "year": 2004,
-    "reason": "Miyazaki animated classic",
+    "reason": "Miyazaki anime classic",
     "theater": "Jacob Burns Film Center",
     "location": "suburbs",
     "city": "Pleasantville, NY",
@@ -1210,7 +1190,7 @@
   {
     "title": "Alphaville",
     "year": 1965,
-    "reason": "Godard sci-fi classic",
+    "reason": "Godard classic",
     "theater": "Jacob Burns Film Center",
     "location": "suburbs",
     "city": "Pleasantville, NY",
@@ -1228,7 +1208,7 @@
   {
     "title": "Her",
     "year": 2013,
-    "reason": "Spike Jonze film with cultural standing",
+    "reason": "Jonze film with cultural standing",
     "theater": "Jacob Burns Film Center",
     "location": "suburbs",
     "city": "Pleasantville, NY",
@@ -1246,7 +1226,7 @@
   {
     "title": "Public Housing",
     "year": 1997,
-    "reason": "Frederick Wiseman documentary",
+    "reason": "Wiseman documentary",
     "theater": "Jacob Burns Film Center",
     "location": "suburbs",
     "city": "Pleasantville, NY",
@@ -1265,7 +1245,7 @@
   {
     "title": "The Piano Teacher",
     "year": 2001,
-    "reason": "Haneke Palme d'Or winner",
+    "reason": "Haneke classic",
     "theater": "Jacob Burns Film Center",
     "location": "suburbs",
     "city": "Pleasantville, NY",
@@ -1283,7 +1263,7 @@
   {
     "title": "Fat Girl",
     "year": 2001,
-    "reason": "Catherine Breillat provocative classic",
+    "reason": "Breillat art house classic",
     "theater": "Jacob Burns Film Center",
     "location": "suburbs",
     "city": "Pleasantville, NY",
@@ -1302,7 +1282,7 @@
   {
     "title": "Domestic Violence",
     "year": 2001,
-    "reason": "Frederick Wiseman documentary",
+    "reason": "Wiseman documentary",
     "theater": "Jacob Burns Film Center",
     "location": "suburbs",
     "city": "Pleasantville, NY",
@@ -1321,7 +1301,7 @@
   {
     "title": "Belfast, Maine",
     "year": 1999,
-    "reason": "Frederick Wiseman documentary",
+    "reason": "Wiseman documentary",
     "theater": "Jacob Burns Film Center",
     "location": "suburbs",
     "city": "Pleasantville, NY",
@@ -1339,7 +1319,7 @@
   {
     "title": "Wallace & Gromit Shorts Program",
     "year": 1989,
-    "reason": "Nick Park animated classics program",
+    "reason": "Beloved animation classics",
     "theater": "Jacob Burns Film Center",
     "location": "suburbs",
     "city": "Pleasantville, NY",
@@ -1358,7 +1338,7 @@
   {
     "title": "In Jackson Heights",
     "year": 2015,
-    "reason": "Frederick Wiseman documentary",
+    "reason": "Wiseman documentary",
     "theater": "Jacob Burns Film Center",
     "location": "suburbs",
     "city": "Pleasantville, NY",
@@ -1377,7 +1357,7 @@
   {
     "title": "OTHELLO",
     "year": null,
-    "reason": "Shakespeare adaptation, likely classic version",
+    "reason": "Shakespeare classic adaptation",
     "theater": "Jacob Burns Film Center",
     "location": "suburbs",
     "city": "Pleasantville, NY",
@@ -1395,7 +1375,7 @@
   {
     "title": "Ex Libris: The New York Public Library",
     "year": 2017,
-    "reason": "Frederick Wiseman documentary",
+    "reason": "Wiseman documentary",
     "theater": "Jacob Burns Film Center",
     "location": "suburbs",
     "city": "Pleasantville, NY",
@@ -1414,7 +1394,7 @@
   {
     "title": "Monrovia, Indiana",
     "year": 2018,
-    "reason": "Frederick Wiseman documentary",
+    "reason": "Wiseman documentary",
     "theater": "Jacob Burns Film Center",
     "location": "suburbs",
     "city": "Pleasantville, NY",
