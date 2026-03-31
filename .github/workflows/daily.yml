@@ -1,8 +1,8 @@
-name: Daily Classic Cinema Update
+name: Classic Cinema Update
 
 on:
   schedule:
-    - cron: '0 14 * * *'  # 10am ET daily
+    - cron: '0 14 */3 * *'  # Every 3 days at 10am ET
   workflow_dispatch:
 
 permissions:
