@@ -667,7 +667,13 @@ def scrape_regal(theater_name, pw):
             "Accept": "application/json",
             "Referer": "https://www.fandango.com",
         }
-        existing_titles = {m["title"].lower() for m in movies}
+        import re as _re
+        def norm_title(t):
+            """Normalize for dedup: lowercase, strip trailing (year)."""
+            t = t.lower().strip()
+            t = _re.sub(r'\s*\(\d{4}\)\s*$', '', t).strip()
+            return t
+        existing_titles = {norm_title(m["title"]) for m in movies}
         fandango_grouped = {}
         today = date_cls.today()
         dates_to_fetch = [today + timedelta(days=i) for i in range(0, 61)]
@@ -710,14 +716,14 @@ def scrape_regal(theater_name, pw):
 
         added = 0
         for title, m in fandango_grouped.items():
-            if title.lower() not in existing_titles:
+            if norm_title(title) not in existing_titles:
                 movies.append(m)
-                existing_titles.add(title.lower())
+                existing_titles.add(norm_title(title))
                 added += 1
             else:
                 # Merge dates into existing movie
                 for existing in movies:
-                    if existing["title"].lower() == title.lower():
+                    if norm_title(existing["title"]) == norm_title(title):
                         for d in m["dates"]:
                             if d not in existing["dates"]:
                                 existing["dates"].append(d)
