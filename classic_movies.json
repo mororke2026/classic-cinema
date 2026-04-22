@@ -1,381 +1,27 @@
 [
   {
-    "title": "Stand by Me 40th Anniversary",
-    "year": 1986,
-    "reason": "1986 classic, anniversary screening",
+    "title": "Fight Club 4K Remaster",
+    "year": 1999,
+    "reason": "1999 classic, 4K restoration",
     "theater": "Regal New Roc",
     "location": "suburbs",
     "city": "New Rochelle, NY",
     "address": "33 LeCount Pl, New Rochelle, NY 10801",
     "is_regal": true,
     "dates": [
-      "2026-03-31"
+      "2026-04-22",
+      "2026-04-23",
+      "2026-04-24",
+      "2026-04-25",
+      "2026-04-26",
+      "2026-04-27",
+      "2026-04-28",
+      "2026-04-29"
     ],
     "times": [
-      "6:25 PM"
+      "7:00 PM"
     ],
-    "source_url": "https://www.atomtickets.com/movies/stand-by-me-40th-anniversary/412457",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "Happy Feet",
-    "year": 2006,
-    "reason": "2006 revival screening",
-    "theater": "Regal New Roc",
-    "location": "suburbs",
-    "city": "New Rochelle, NY",
-    "address": "33 LeCount Pl, New Rochelle, NY 10801",
-    "is_regal": true,
-    "dates": [],
-    "times": [
-      "10:50 AM"
-    ],
-    "source_url": "https://www.atomtickets.com/movies/happy-feet/49425",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "Paddington 2",
-    "year": 2017,
-    "reason": "2017 revival screening",
-    "theater": "Regal New Roc",
-    "location": "suburbs",
-    "city": "New Rochelle, NY",
-    "address": "33 LeCount Pl, New Rochelle, NY 10801",
-    "is_regal": true,
-    "dates": [],
-    "times": [
-      "11:25 AM"
-    ],
-    "source_url": "https://www.atomtickets.com/movies/paddington-2/234474",
-    "lb_status": "loved",
-    "lb_label": "\u2b50 You rated this \u2605\u2605\u2605\u2605\u2605",
-    "lb_rating": 5.0
-  },
-  {
-    "title": "The Sting",
-    "year": 1973,
-    "reason": "1973 classic revival",
-    "theater": "Regal New Roc",
-    "location": "suburbs",
-    "city": "New Rochelle, NY",
-    "address": "33 LeCount Pl, New Rochelle, NY 10801",
-    "is_regal": true,
-    "dates": [
-      "2026-03-31"
-    ],
-    "times": [
-      "12:05 PM",
-      "3:15 PM",
-      "6:25 PM",
-      "9:35 PM"
-    ],
-    "source_url": "https://www.atomtickets.com/movies/the-sting/11496",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "The Mummy Returns: 25th Anniversary",
-    "year": 2001,
-    "reason": "2001 anniversary screening",
-    "theater": "Regal New Roc",
-    "location": "suburbs",
-    "city": "New Rochelle, NY",
-    "address": "33 LeCount Pl, New Rochelle, NY 10801",
-    "is_regal": true,
-    "dates": [],
-    "times": [
-      "6:20 PM"
-    ],
-    "source_url": "https://www.atomtickets.com/movies/the-mummy-returns-25th-anniversary/411023",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "Blazing Saddles",
-    "year": 1974,
-    "reason": "1974 comedy classic",
-    "theater": "Regal New Roc",
-    "location": "suburbs",
-    "city": "New Rochelle, NY",
-    "address": "33 LeCount Pl, New Rochelle, NY 10801",
-    "is_regal": true,
-    "dates": [
-      "2026-04-03"
-    ],
-    "times": [],
-    "source_url": "https://www.atomtickets.com/movies/blazing-saddles/4803",
-    "lb_status": "seen",
-    "lb_label": "\ud83d\udc41 You've seen this",
-    "lb_rating": null
-  },
-  {
-    "title": "April Fool's Day",
-    "year": 1986,
-    "reason": "1986 cult horror revival",
-    "theater": "Regal New Roc",
-    "location": "suburbs",
-    "city": "New Rochelle, NY",
-    "address": "33 LeCount Pl, New Rochelle, NY 10801",
-    "is_regal": true,
-    "dates": [
-      "2026-04-01"
-    ],
-    "times": [],
-    "source_url": "https://www.atomtickets.com/movies/april-fools-day/74354",
-    "lb_status": "seen",
-    "lb_label": "\ud83d\udc41 You've seen this",
-    "lb_rating": null
-  },
-  {
-    "title": "The Bad News Bears (1976)",
-    "year": 1976,
-    "reason": "1976 classic with year specified",
-    "theater": "Regal New Roc",
-    "location": "suburbs",
-    "city": "New Rochelle, NY",
-    "address": "33 LeCount Pl, New Rochelle, NY 10801",
-    "is_regal": true,
-    "dates": [
-      "2026-04-02"
-    ],
-    "times": [],
-    "source_url": "https://www.atomtickets.com/movies/the-bad-news-bears-1976/36948",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "National Lampoon's Animal House",
-    "year": 1978,
-    "reason": "1978 comedy classic",
-    "theater": "Regal New Roc",
-    "location": "suburbs",
-    "city": "New Rochelle, NY",
-    "address": "33 LeCount Pl, New Rochelle, NY 10801",
-    "is_regal": true,
-    "dates": [
-      "2026-04-04"
-    ],
-    "times": [],
-    "source_url": "https://www.atomtickets.com/movies/national-lampoons-animal-house/37722",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "The Muppet Movie",
-    "year": 1979,
-    "reason": "1979 classic revival",
-    "theater": "Regal New Roc",
-    "location": "suburbs",
-    "city": "New Rochelle, NY",
-    "address": "33 LeCount Pl, New Rochelle, NY 10801",
-    "is_regal": true,
-    "dates": [
-      "2026-04-05"
-    ],
-    "times": [],
-    "source_url": "https://www.atomtickets.com/movies/the-muppet-movie/31939",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "The Killer - Hong Kong Cinema Classics",
-    "year": 1989,
-    "reason": "1989 John Woo classic, retrospective series",
-    "theater": "Regal New Roc",
-    "location": "suburbs",
-    "city": "New Rochelle, NY",
-    "address": "33 LeCount Pl, New Rochelle, NY 10801",
-    "is_regal": true,
-    "dates": [
-      "2026-04-05",
-      "2026-04-06",
-      "2026-04-08"
-    ],
-    "times": [],
-    "source_url": "https://www.atomtickets.com/movies/the-killer-hong-kong-cinema-classics/407884",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "Rugrats in Paris: The Movie",
-    "year": 2000,
-    "reason": "2000 animated revival",
-    "theater": "Regal New Roc",
-    "location": "suburbs",
-    "city": "New Rochelle, NY",
-    "address": "33 LeCount Pl, New Rochelle, NY 10801",
-    "is_regal": true,
-    "dates": [
-      "2026-04-18",
-      "2026-04-19"
-    ],
-    "times": [],
-    "source_url": "https://www.atomtickets.com/movies/rugrats-in-paris-the-movie/27273",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "Citizen Kane 85th Anniversary",
-    "year": 1941,
-    "reason": "1941 Welles masterpiece, anniversary",
-    "theater": "Regal New Roc",
-    "location": "suburbs",
-    "city": "New Rochelle, NY",
-    "address": "33 LeCount Pl, New Rochelle, NY 10801",
-    "is_regal": true,
-    "dates": [
-      "2026-07-05",
-      "2026-07-08"
-    ],
-    "times": [],
-    "source_url": "https://www.atomtickets.com/movies/citizen-kane-85th-anniversary/410301",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "The Mask",
-    "year": 1994,
-    "reason": "1994 revival screening",
-    "theater": "Regal New Roc",
-    "location": "suburbs",
-    "city": "New Rochelle, NY",
-    "address": "33 LeCount Pl, New Rochelle, NY 10801",
-    "is_regal": true,
-    "dates": [
-      "2026-04-19"
-    ],
-    "times": [],
-    "source_url": "https://www.atomtickets.com/movies/the-mask/94",
-    "lb_status": "seen",
-    "lb_label": "\ud83d\udc41 You've seen this",
-    "lb_rating": null
-  },
-  {
-    "title": "Airplane! (1980)",
-    "year": 1980,
-    "reason": "1980 comedy classic with year specified",
-    "theater": "Regal New Roc",
-    "location": "suburbs",
-    "city": "New Rochelle, NY",
-    "address": "33 LeCount Pl, New Rochelle, NY 10801",
-    "is_regal": true,
-    "dates": [
-      "2026-04-08"
-    ],
-    "times": [],
-    "source_url": "https://www.atomtickets.com/movies/airplane-1980/6937",
-    "lb_status": "seen",
-    "lb_label": "\ud83d\udc41 You've seen this",
-    "lb_rating": null
-  },
-  {
-    "title": "The Birdcage 30th Anniversary",
-    "year": 1996,
-    "reason": "1996 anniversary screening",
-    "theater": "Regal New Roc",
-    "location": "suburbs",
-    "city": "New Rochelle, NY",
-    "address": "33 LeCount Pl, New Rochelle, NY 10801",
-    "is_regal": true,
-    "dates": [
-      "2026-06-07",
-      "2026-06-10"
-    ],
-    "times": [],
-    "source_url": "https://www.atomtickets.com/movies/the-birdcage-30th-anniversary/410298",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "The Breadwinner",
-    "year": 2017,
-    "reason": "2017 animated revival",
-    "theater": "Regal New Roc",
-    "location": "suburbs",
-    "city": "New Rochelle, NY",
-    "address": "33 LeCount Pl, New Rochelle, NY 10801",
-    "is_regal": true,
-    "dates": [
-      "2026-05-28",
-      "2026-05-29",
-      "2026-05-30",
-      "2026-05-31",
-      "2026-06-01",
-      "2026-06-02",
-      "2026-06-03",
-      "2026-06-04"
-    ],
-    "times": [],
-    "source_url": "https://www.atomtickets.com/movies/the-breadwinner/379414",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "Superbad",
-    "year": 2007,
-    "reason": "2007 comedy classic revival",
-    "theater": "Regal New Roc",
-    "location": "suburbs",
-    "city": "New Rochelle, NY",
-    "address": "33 LeCount Pl, New Rochelle, NY 10801",
-    "is_regal": true,
-    "dates": [
-      "2026-04-26"
-    ],
-    "times": [],
-    "source_url": "https://www.atomtickets.com/movies/superbad/55584",
-    "lb_status": "seen",
-    "lb_label": "\ud83d\udc41 You've seen this",
-    "lb_rating": null
-  },
-  {
-    "title": "Willy Wonka & The Chocolate Factory 55th Anniversary",
-    "year": 1971,
-    "reason": "1971 classic, 55th anniversary screening",
-    "theater": "Regal New Roc",
-    "location": "suburbs",
-    "city": "New Rochelle, NY",
-    "address": "33 LeCount Pl, New Rochelle, NY 10801",
-    "is_regal": true,
-    "dates": [
-      "2026-08-02",
-      "2026-08-05"
-    ],
-    "times": [],
-    "source_url": "https://www.atomtickets.com/movies/willy-wonka-the-chocolate-factory-55th-anniversary/410303",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "A Beautiful Mind 25th Anniversary",
-    "year": 2001,
-    "reason": "2001 Oscar winner, 25th anniversary",
-    "theater": "Regal New Roc",
-    "location": "suburbs",
-    "city": "New Rochelle, NY",
-    "address": "33 LeCount Pl, New Rochelle, NY 10801",
-    "is_regal": true,
-    "dates": [
-      "2026-11-22",
-      "2026-11-23"
-    ],
-    "times": [],
-    "source_url": "https://www.atomtickets.com/movies/a-beautiful-mind-25th-anniversary/410305",
+    "source_url": "https://www.atomtickets.com/movies/fight-club-4k-remaster/414845",
     "lb_status": "new",
     "lb_label": "\ud83c\udd95 New to you",
     "lb_rating": null
@@ -392,81 +38,33 @@
     "dates": [
       "2026-04-22"
     ],
-    "times": [],
+    "times": [
+      "3:10 PM",
+      "6:10 PM",
+      "9:10 PM"
+    ],
     "source_url": "https://www.atomtickets.com/movies/this-is-the-end/134575",
     "lb_status": "seen",
     "lb_label": "\ud83d\udc41 You've seen this",
     "lb_rating": null
   },
   {
-    "title": "Best in Show",
-    "year": 2000,
-    "reason": "2000 Christopher Guest classic",
+    "title": "Bridesmaids: 15th Anniversary",
+    "year": 2011,
+    "reason": "2011 comedy, anniversary screening",
     "theater": "Regal New Roc",
     "location": "suburbs",
     "city": "New Rochelle, NY",
     "address": "33 LeCount Pl, New Rochelle, NY 10801",
     "is_regal": true,
     "dates": [
-      "2026-04-27"
+      "2026-04-22"
     ],
-    "times": [],
-    "source_url": "https://www.atomtickets.com/movies/best-in-show/26554",
-    "lb_status": "seen",
-    "lb_label": "\ud83d\udc41 You've seen this",
-    "lb_rating": null
-  },
-  {
-    "title": "Better Off Dead",
-    "year": 1985,
-    "reason": "1985 cult comedy classic",
-    "theater": "Regal New Roc",
-    "location": "suburbs",
-    "city": "New Rochelle, NY",
-    "address": "33 LeCount Pl, New Rochelle, NY 10801",
-    "is_regal": true,
-    "dates": [
-      "2026-04-13"
+    "times": [
+      "12:40 PM",
+      "6:40 PM"
     ],
-    "times": [],
-    "source_url": "https://www.atomtickets.com/movies/better-off-dead/27708",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "Spy Kids",
-    "year": 2001,
-    "reason": "2001 family classic revival",
-    "theater": "Regal New Roc",
-    "location": "suburbs",
-    "city": "New Rochelle, NY",
-    "address": "33 LeCount Pl, New Rochelle, NY 10801",
-    "is_regal": true,
-    "dates": [
-      "2026-04-11",
-      "2026-04-12"
-    ],
-    "times": [],
-    "source_url": "https://www.atomtickets.com/movies/spy-kids/30447",
-    "lb_status": "seen",
-    "lb_label": "\ud83d\udc41 You've seen this",
-    "lb_rating": null
-  },
-  {
-    "title": "The 'Burbs",
-    "year": 1989,
-    "reason": "1989 cult comedy classic",
-    "theater": "Regal New Roc",
-    "location": "suburbs",
-    "city": "New Rochelle, NY",
-    "address": "33 LeCount Pl, New Rochelle, NY 10801",
-    "is_regal": true,
-    "dates": [
-      "2026-04-09"
-    ],
-    "times": [],
-    "source_url": "https://www.atomtickets.com/movies/the-burbs/14322",
+    "source_url": "https://www.atomtickets.com/movies/bridesmaids-15th-anniversary/402379",
     "lb_status": "new",
     "lb_label": "\ud83c\udd95 New to you",
     "lb_rating": null
@@ -474,7 +72,7 @@
   {
     "title": "Miss Congeniality",
     "year": 2000,
-    "reason": "2000 comedy classic revival",
+    "reason": "2000 comedy revival",
     "theater": "Regal New Roc",
     "location": "suburbs",
     "city": "New Rochelle, NY",
@@ -490,45 +88,63 @@
     "lb_rating": null
   },
   {
-    "title": "Fight Club 4K Remaster",
-    "year": 1999,
-    "reason": "1999 classic, 4K restoration",
+    "title": "Superbad",
+    "year": 2007,
+    "reason": "2007 comedy revival",
     "theater": "Regal New Roc",
     "location": "suburbs",
     "city": "New Rochelle, NY",
     "address": "33 LeCount Pl, New Rochelle, NY 10801",
     "is_regal": true,
     "dates": [
-      "2026-04-22"
+      "2026-04-26"
     ],
     "times": [],
-    "source_url": "https://www.atomtickets.com/movies/fight-club-4k-remaster/414845",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
+    "source_url": "https://www.atomtickets.com/movies/superbad/55584",
+    "lb_status": "seen",
+    "lb_label": "\ud83d\udc41 You've seen this",
     "lb_rating": null
   },
   {
-    "title": "Smokey and the Bandit",
-    "year": 1977,
-    "reason": "1977 classic revival",
+    "title": "The Hangover",
+    "year": 2009,
+    "reason": "2009 comedy revival",
     "theater": "Regal New Roc",
     "location": "suburbs",
     "city": "New Rochelle, NY",
     "address": "33 LeCount Pl, New Rochelle, NY 10801",
     "is_regal": true,
     "dates": [
-      "2026-04-07"
+      "2026-04-24"
     ],
     "times": [],
-    "source_url": "https://www.atomtickets.com/movies/smokey-and-the-bandit/21013",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
+    "source_url": "https://www.atomtickets.com/movies/the-hangover/66772",
+    "lb_status": "liked",
+    "lb_label": "\ud83d\udc4d You rated this \u2605\u2605\u2605\u2605",
+    "lb_rating": 4.0
+  },
+  {
+    "title": "Best in Show",
+    "year": 2000,
+    "reason": "2000 cult comedy revival",
+    "theater": "Regal New Roc",
+    "location": "suburbs",
+    "city": "New Rochelle, NY",
+    "address": "33 LeCount Pl, New Rochelle, NY 10801",
+    "is_regal": true,
+    "dates": [
+      "2026-04-27"
+    ],
+    "times": [],
+    "source_url": "https://www.atomtickets.com/movies/best-in-show/26554",
+    "lb_status": "seen",
+    "lb_label": "\ud83d\udc41 You've seen this",
     "lb_rating": null
   },
   {
     "title": "Hot Fuzz",
     "year": 2007,
-    "reason": "2007 Edgar Wright classic",
+    "reason": "2007 cult action-comedy revival",
     "theater": "Regal New Roc",
     "location": "suburbs",
     "city": "New Rochelle, NY",
@@ -541,210 +157,6 @@
     "source_url": "https://www.atomtickets.com/movies/hot-fuzz/54709",
     "lb_status": "new",
     "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "The Jerk",
-    "year": 1979,
-    "reason": "1979 Steve Martin classic",
-    "theater": "Regal New Roc",
-    "location": "suburbs",
-    "city": "New Rochelle, NY",
-    "address": "33 LeCount Pl, New Rochelle, NY 10801",
-    "is_regal": true,
-    "dates": [
-      "2026-04-06"
-    ],
-    "times": [],
-    "source_url": "https://www.atomtickets.com/movies/the-jerk/23263",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "The Maltese Falcon 85th Anniversary",
-    "year": 1941,
-    "reason": "1941 Huston classic, 85th anniversary",
-    "theater": "Regal New Roc",
-    "location": "suburbs",
-    "city": "New Rochelle, NY",
-    "address": "33 LeCount Pl, New Rochelle, NY 10801",
-    "is_regal": true,
-    "dates": [
-      "2026-12-06",
-      "2026-12-09"
-    ],
-    "times": [],
-    "source_url": "https://www.atomtickets.com/movies/the-maltese-falcon-85th-anniversary/410306",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "Death Becomes Her",
-    "year": 1992,
-    "reason": "1992 cult classic revival",
-    "theater": "Regal New Roc",
-    "location": "suburbs",
-    "city": "New Rochelle, NY",
-    "address": "33 LeCount Pl, New Rochelle, NY 10801",
-    "is_regal": true,
-    "dates": [
-      "2026-04-18"
-    ],
-    "times": [],
-    "source_url": "https://www.atomtickets.com/movies/death-becomes-her/66838",
-    "lb_status": "seen",
-    "lb_label": "\ud83d\udc41 You've seen this",
-    "lb_rating": null
-  },
-  {
-    "title": "The Big Lebowski",
-    "year": 1998,
-    "reason": "1998 Coen Brothers cult classic",
-    "theater": "Regal New Roc",
-    "location": "suburbs",
-    "city": "New Rochelle, NY",
-    "address": "33 LeCount Pl, New Rochelle, NY 10801",
-    "is_regal": true,
-    "dates": [
-      "2026-04-17"
-    ],
-    "times": [],
-    "source_url": "https://www.atomtickets.com/movies/the-big-lebowski/14551",
-    "lb_status": "seen",
-    "lb_label": "\ud83d\udc41 You've seen this",
-    "lb_rating": null
-  },
-  {
-    "title": "It's A Wonderful Life 80th Anniversary",
-    "year": 1946,
-    "reason": "1946 Capra classic, 80th anniversary",
-    "theater": "Regal New Roc",
-    "location": "suburbs",
-    "city": "New Rochelle, NY",
-    "address": "33 LeCount Pl, New Rochelle, NY 10801",
-    "is_regal": true,
-    "dates": [
-      "2026-12-18",
-      "2026-12-19",
-      "2026-12-20"
-    ],
-    "times": [],
-    "source_url": "https://www.atomtickets.com/movies/its-a-wonderful-life-80th-anniversary/410307",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "Bridesmaids: 15th Anniversary",
-    "year": 2011,
-    "reason": "2011 comedy classic, 15th anniversary",
-    "theater": "Regal New Roc",
-    "location": "suburbs",
-    "city": "New Rochelle, NY",
-    "address": "33 LeCount Pl, New Rochelle, NY 10801",
-    "is_regal": true,
-    "dates": [
-      "2026-04-19",
-      "2026-04-22"
-    ],
-    "times": [],
-    "source_url": "https://www.atomtickets.com/movies/bridesmaids-15th-anniversary/402379",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "Ferris Bueller's Day Off",
-    "year": 1986,
-    "reason": "1986 John Hughes classic",
-    "theater": "Regal New Roc",
-    "location": "suburbs",
-    "city": "New Rochelle, NY",
-    "address": "33 LeCount Pl, New Rochelle, NY 10801",
-    "is_regal": true,
-    "dates": [
-      "2026-04-11"
-    ],
-    "times": [],
-    "source_url": "https://www.atomtickets.com/movies/ferris-buellers-day-off/6534",
-    "lb_status": "seen",
-    "lb_label": "\ud83d\udc41 You've seen this",
-    "lb_rating": null
-  },
-  {
-    "title": "Austin Powers: International Man of Mystery",
-    "year": 1997,
-    "reason": "1997 comedy classic revival",
-    "theater": "Regal New Roc",
-    "location": "suburbs",
-    "city": "New Rochelle, NY",
-    "address": "33 LeCount Pl, New Rochelle, NY 10801",
-    "is_regal": true,
-    "dates": [
-      "2026-04-16"
-    ],
-    "times": [],
-    "source_url": "https://www.atomtickets.com/movies/austin-powers-international-man-of-mystery/8850",
-    "lb_status": "seen",
-    "lb_label": "\ud83d\udc41 You've seen this",
-    "lb_rating": null
-  },
-  {
-    "title": "Ocean's Eleven 25th Anniversary",
-    "year": 2001,
-    "reason": "2001 Soderbergh film, 25th anniversary",
-    "theater": "Regal New Roc",
-    "location": "suburbs",
-    "city": "New Rochelle, NY",
-    "address": "33 LeCount Pl, New Rochelle, NY 10801",
-    "is_regal": true,
-    "dates": [
-      "2026-06-21",
-      "2026-06-24"
-    ],
-    "times": [],
-    "source_url": "https://www.atomtickets.com/movies/oceans-eleven-25th-anniversary/410299",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "Fried Green Tomatoes 35th Anniversary",
-    "year": 1991,
-    "reason": "1991 film, 35th anniversary screening",
-    "theater": "Regal New Roc",
-    "location": "suburbs",
-    "city": "New Rochelle, NY",
-    "address": "33 LeCount Pl, New Rochelle, NY 10801",
-    "is_regal": true,
-    "dates": [
-      "2026-05-10",
-      "2026-05-13"
-    ],
-    "times": [],
-    "source_url": "https://www.atomtickets.com/movies/fried-green-tomatoes-35th-anniversary/410297",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "Caddyshack",
-    "year": 1980,
-    "reason": "1980 comedy classic revival",
-    "theater": "Regal New Roc",
-    "location": "suburbs",
-    "city": "New Rochelle, NY",
-    "address": "33 LeCount Pl, New Rochelle, NY 10801",
-    "is_regal": true,
-    "dates": [
-      "2026-04-12"
-    ],
-    "times": [],
-    "source_url": "https://www.atomtickets.com/movies/caddyshack/7452",
-    "lb_status": "seen",
-    "lb_label": "\ud83d\udc41 You've seen this",
     "lb_rating": null
   },
   {
@@ -767,155 +179,9 @@
     "lb_rating": null
   },
   {
-    "title": "Wayne's World",
-    "year": 1992,
-    "reason": "1992 comedy classic with cultural standing",
-    "theater": "Regal New Roc",
-    "location": "suburbs",
-    "city": "New Rochelle, NY",
-    "address": "33 LeCount Pl, New Rochelle, NY 10801",
-    "is_regal": true,
-    "dates": [
-      "2026-04-15"
-    ],
-    "times": [],
-    "source_url": "https://www.atomtickets.com/movies/waynes-world/8731",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "Beverly Hills Cop",
-    "year": 1984,
-    "reason": "1984 classic action comedy",
-    "theater": "Regal New Roc",
-    "location": "suburbs",
-    "city": "New Rochelle, NY",
-    "address": "33 LeCount Pl, New Rochelle, NY 10801",
-    "is_regal": true,
-    "dates": [
-      "2026-04-14"
-    ],
-    "times": [],
-    "source_url": "https://www.atomtickets.com/movies/beverly-hills-cop/11148",
-    "lb_status": "loved",
-    "lb_label": "\u2b50 You rated this \u2605\u2605\u2605\u2605\u2605",
-    "lb_rating": 5.0
-  },
-  {
-    "title": "The First Wives Club",
-    "year": 1996,
-    "reason": "1996 comedy with cultural standing",
-    "theater": "Regal New Roc",
-    "location": "suburbs",
-    "city": "New Rochelle, NY",
-    "address": "33 LeCount Pl, New Rochelle, NY 10801",
-    "is_regal": true,
-    "dates": [
-      "2026-04-21"
-    ],
-    "times": [],
-    "source_url": "https://www.atomtickets.com/movies/the-first-wives-club/6015",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "Jerry Maguire 30th Anniversary",
-    "year": 1996,
-    "reason": "1996 film, 30th anniversary screening",
-    "theater": "Regal New Roc",
-    "location": "suburbs",
-    "city": "New Rochelle, NY",
-    "address": "33 LeCount Pl, New Rochelle, NY 10801",
-    "is_regal": true,
-    "dates": [
-      "2026-04-12",
-      "2026-04-14",
-      "2026-04-15"
-    ],
-    "times": [],
-    "source_url": "https://www.atomtickets.com/movies/jerry-maguire-30th-anniversary/414076",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "Dazed and Confused",
-    "year": 1993,
-    "reason": "1993 cult classic",
-    "theater": "Regal New Roc",
-    "location": "suburbs",
-    "city": "New Rochelle, NY",
-    "address": "33 LeCount Pl, New Rochelle, NY 10801",
-    "is_regal": true,
-    "dates": [
-      "2026-04-20"
-    ],
-    "times": [],
-    "source_url": "https://www.atomtickets.com/movies/dazed-and-confused/5983",
-    "lb_status": "loved",
-    "lb_label": "\u2b50 You rated this \u2605\u2605\u2605\u2605\u2605",
-    "lb_rating": 5.0
-  },
-  {
-    "title": "Step Brothers",
-    "year": 2008,
-    "reason": "2008 comedy with cult status",
-    "theater": "Regal New Roc",
-    "location": "suburbs",
-    "city": "New Rochelle, NY",
-    "address": "33 LeCount Pl, New Rochelle, NY 10801",
-    "is_regal": true,
-    "dates": [
-      "2026-04-28"
-    ],
-    "times": [],
-    "source_url": "https://www.atomtickets.com/movies/step-brothers/56513",
-    "lb_status": "seen",
-    "lb_label": "\ud83d\udc41 You've seen this",
-    "lb_rating": null
-  },
-  {
-    "title": "The Hangover",
-    "year": 2009,
-    "reason": "2009 comedy with cultural impact",
-    "theater": "Regal New Roc",
-    "location": "suburbs",
-    "city": "New Rochelle, NY",
-    "address": "33 LeCount Pl, New Rochelle, NY 10801",
-    "is_regal": true,
-    "dates": [
-      "2026-04-24"
-    ],
-    "times": [],
-    "source_url": "https://www.atomtickets.com/movies/the-hangover/66772",
-    "lb_status": "liked",
-    "lb_label": "\ud83d\udc4d You rated this \u2605\u2605\u2605\u2605",
-    "lb_rating": 4.0
-  },
-  {
-    "title": "National Lampoon's Vacation",
-    "year": 1983,
-    "reason": "1983 comedy classic",
-    "theater": "Regal New Roc",
-    "location": "suburbs",
-    "city": "New Rochelle, NY",
-    "address": "33 LeCount Pl, New Rochelle, NY 10801",
-    "is_regal": true,
-    "dates": [
-      "2026-04-10"
-    ],
-    "times": [],
-    "source_url": "https://www.atomtickets.com/movies/national-lampoons-vacation/33487",
-    "lb_status": "seen",
-    "lb_label": "\ud83d\udc41 You've seen this",
-    "lb_rating": null
-  },
-  {
     "title": "The Silence of the Lambs 35th Anniversary",
     "year": 1991,
-    "reason": "1991 classic, 35th anniversary",
+    "reason": "1991 thriller classic, anniversary screening",
     "theater": "Regal New Roc",
     "location": "suburbs",
     "city": "New Rochelle, NY",
@@ -932,37 +198,665 @@
     "lb_rating": null
   },
   {
-    "title": "The Mummy Returns 25th Anniversary (2026)",
-    "year": 2001,
-    "reason": "2001 film, 25th anniversary screening",
+    "title": "Footloose (1984)",
+    "year": 1984,
+    "reason": "1984 classic revival",
     "theater": "Regal New Roc",
     "location": "suburbs",
     "city": "New Rochelle, NY",
     "address": "33 LeCount Pl, New Rochelle, NY 10801",
     "is_regal": true,
     "dates": [
-      "2026-03-31"
+      "2026-05-17"
     ],
     "times": [],
-    "source_url": "https://www.fandango.com/the-mummy-returns-25th-anniversary-2026-244346/movie-overview",
+    "source_url": "https://www.atomtickets.com/movies/footloose-1984/10611",
+    "lb_status": "seen",
+    "lb_label": "\ud83d\udc41 You've seen this",
+    "lb_rating": null
+  },
+  {
+    "title": "Popstar: Never Stop Never Stopping",
+    "year": 2016,
+    "reason": "2016 comedy revival",
+    "theater": "Regal New Roc",
+    "location": "suburbs",
+    "city": "New Rochelle, NY",
+    "address": "33 LeCount Pl, New Rochelle, NY 10801",
+    "is_regal": true,
+    "dates": [
+      "2026-05-27"
+    ],
+    "times": [],
+    "source_url": "https://www.atomtickets.com/movies/popstar-never-stop-never-stopping/212416",
     "lb_status": "new",
     "lb_label": "\ud83c\udd95 New to you",
     "lb_rating": null
   },
   {
-    "title": "Animal House",
-    "year": 1978,
-    "reason": "1978 comedy classic",
+    "title": "Top Gun: Maverick (2026 Re-release)",
+    "year": 2022,
+    "reason": "2022 blockbuster re-release",
     "theater": "Regal New Roc",
     "location": "suburbs",
     "city": "New Rochelle, NY",
     "address": "33 LeCount Pl, New Rochelle, NY 10801",
     "is_regal": true,
     "dates": [
-      "2026-04-04"
+      "2026-05-13",
+      "2026-05-15",
+      "2026-05-17",
+      "2026-05-19"
     ],
     "times": [],
-    "source_url": "https://www.fandango.com/animal-house-1999/movie-overview",
+    "source_url": "https://www.atomtickets.com/movies/top-gun-maverick-2026-re-release/415322",
+    "lb_status": "loved",
+    "lb_label": "\u2b50 You rated this \u2605\u2605\u2605\u2605\u2605",
+    "lb_rating": 5.0
+  },
+  {
+    "title": "The Maltese Falcon 85th Anniversary",
+    "year": 1941,
+    "reason": "1941 classic, anniversary screening",
+    "theater": "Regal New Roc",
+    "location": "suburbs",
+    "city": "New Rochelle, NY",
+    "address": "33 LeCount Pl, New Rochelle, NY 10801",
+    "is_regal": true,
+    "dates": [
+      "2026-12-06",
+      "2026-12-09"
+    ],
+    "times": [],
+    "source_url": "https://www.atomtickets.com/movies/the-maltese-falcon-85th-anniversary/410306",
+    "lb_status": "new",
+    "lb_label": "\ud83c\udd95 New to you",
+    "lb_rating": null
+  },
+  {
+    "title": "Willy Wonka & The Chocolate Factory 55th Anniversary",
+    "year": 1971,
+    "reason": "1971 classic, anniversary screening",
+    "theater": "Regal New Roc",
+    "location": "suburbs",
+    "city": "New Rochelle, NY",
+    "address": "33 LeCount Pl, New Rochelle, NY 10801",
+    "is_regal": true,
+    "dates": [
+      "2026-08-02",
+      "2026-08-05"
+    ],
+    "times": [],
+    "source_url": "https://www.atomtickets.com/movies/willy-wonka-the-chocolate-factory-55th-anniversary/410303",
+    "lb_status": "new",
+    "lb_label": "\ud83c\udd95 New to you",
+    "lb_rating": null
+  },
+  {
+    "title": "The Phantom of the Opera (2004)",
+    "year": 2004,
+    "reason": "2004 film, revival screening",
+    "theater": "Regal New Roc",
+    "location": "suburbs",
+    "city": "New Rochelle, NY",
+    "address": "33 LeCount Pl, New Rochelle, NY 10801",
+    "is_regal": true,
+    "dates": [
+      "2026-05-13"
+    ],
+    "times": [],
+    "source_url": "https://www.atomtickets.com/movies/the-phantom-of-the-opera-2004/10225",
+    "lb_status": "new",
+    "lb_label": "\ud83c\udd95 New to you",
+    "lb_rating": null
+  },
+  {
+    "title": "Singin' in the Rain (1952)",
+    "year": 1952,
+    "reason": "1952 classic musical",
+    "theater": "Regal New Roc",
+    "location": "suburbs",
+    "city": "New Rochelle, NY",
+    "address": "33 LeCount Pl, New Rochelle, NY 10801",
+    "is_regal": true,
+    "dates": [
+      "2026-05-19"
+    ],
+    "times": [],
+    "source_url": "https://www.atomtickets.com/movies/singin-in-the-rain-1952/2129",
+    "lb_status": "loved",
+    "lb_label": "\u2b50 You rated this \u2605\u2605\u2605\u2605\u2605",
+    "lb_rating": 5.0
+  },
+  {
+    "title": "Straight Outta Compton",
+    "year": 2015,
+    "reason": "2015 film, revival screening",
+    "theater": "Regal New Roc",
+    "location": "suburbs",
+    "city": "New Rochelle, NY",
+    "address": "33 LeCount Pl, New Rochelle, NY 10801",
+    "is_regal": true,
+    "dates": [
+      "2026-05-22"
+    ],
+    "times": [],
+    "source_url": "https://www.atomtickets.com/movies/straight-outta-compton/190018",
+    "lb_status": "seen",
+    "lb_label": "\ud83d\udc41 You've seen this",
+    "lb_rating": null
+  },
+  {
+    "title": "The Breadwinner",
+    "year": 2017,
+    "reason": "2017 animated film, revival",
+    "theater": "Regal New Roc",
+    "location": "suburbs",
+    "city": "New Rochelle, NY",
+    "address": "33 LeCount Pl, New Rochelle, NY 10801",
+    "is_regal": true,
+    "dates": [
+      "2026-05-28",
+      "2026-05-29",
+      "2026-05-30",
+      "2026-05-31",
+      "2026-06-01",
+      "2026-06-02",
+      "2026-06-03",
+      "2026-06-04"
+    ],
+    "times": [],
+    "source_url": "https://www.atomtickets.com/movies/the-breadwinner/379414",
+    "lb_status": "new",
+    "lb_label": "\ud83c\udd95 New to you",
+    "lb_rating": null
+  },
+  {
+    "title": "Top Gun 40th Anniversary",
+    "year": 1986,
+    "reason": "1986 classic, anniversary screening",
+    "theater": "Regal New Roc",
+    "location": "suburbs",
+    "city": "New Rochelle, NY",
+    "address": "33 LeCount Pl, New Rochelle, NY 10801",
+    "is_regal": true,
+    "dates": [
+      "2026-05-13",
+      "2026-05-14",
+      "2026-05-16",
+      "2026-05-18",
+      "2026-05-20"
+    ],
+    "times": [],
+    "source_url": "https://www.atomtickets.com/movies/top-gun-40th-anniversary/407464",
+    "lb_status": "new",
+    "lb_label": "\ud83c\udd95 New to you",
+    "lb_rating": null
+  },
+  {
+    "title": "The Blues Brothers",
+    "year": 1980,
+    "reason": "1980 cult classic",
+    "theater": "Regal New Roc",
+    "location": "suburbs",
+    "city": "New Rochelle, NY",
+    "address": "33 LeCount Pl, New Rochelle, NY 10801",
+    "is_regal": true,
+    "dates": [
+      "2026-05-25"
+    ],
+    "times": [],
+    "source_url": "https://www.atomtickets.com/movies/the-blues-brothers/7257",
+    "lb_status": "seen",
+    "lb_label": "\ud83d\udc41 You've seen this",
+    "lb_rating": null
+  },
+  {
+    "title": "The Nice Guys",
+    "year": 2016,
+    "reason": "2016 film, revival screening",
+    "theater": "Regal New Roc",
+    "location": "suburbs",
+    "city": "New Rochelle, NY",
+    "address": "33 LeCount Pl, New Rochelle, NY 10801",
+    "is_regal": true,
+    "dates": [
+      "2026-04-30"
+    ],
+    "times": [],
+    "source_url": "https://www.atomtickets.com/movies/the-nice-guys/194197",
+    "lb_status": "liked",
+    "lb_label": "\ud83d\udc4d You rated this \u2605\u2605\u2605\u2605",
+    "lb_rating": 4.0
+  },
+  {
+    "title": "Cadillac Records",
+    "year": 2008,
+    "reason": "2008 film, revival screening",
+    "theater": "Regal New Roc",
+    "location": "suburbs",
+    "city": "New Rochelle, NY",
+    "address": "33 LeCount Pl, New Rochelle, NY 10801",
+    "is_regal": true,
+    "dates": [
+      "2026-05-04"
+    ],
+    "times": [],
+    "source_url": "https://www.atomtickets.com/movies/cadillac-records/67405",
+    "lb_status": "new",
+    "lb_label": "\ud83c\udd95 New to you",
+    "lb_rating": null
+  },
+  {
+    "title": "A Beautiful Mind 25th Anniversary",
+    "year": 2001,
+    "reason": "2001 film, anniversary screening",
+    "theater": "Regal New Roc",
+    "location": "suburbs",
+    "city": "New Rochelle, NY",
+    "address": "33 LeCount Pl, New Rochelle, NY 10801",
+    "is_regal": true,
+    "dates": [
+      "2026-11-22",
+      "2026-11-23"
+    ],
+    "times": [],
+    "source_url": "https://www.atomtickets.com/movies/a-beautiful-mind-25th-anniversary/410305",
+    "lb_status": "new",
+    "lb_label": "\ud83c\udd95 New to you",
+    "lb_rating": null
+  },
+  {
+    "title": "Mamma Mia! (2008)",
+    "year": 2008,
+    "reason": "2008 musical, revival screening",
+    "theater": "Regal New Roc",
+    "location": "suburbs",
+    "city": "New Rochelle, NY",
+    "address": "33 LeCount Pl, New Rochelle, NY 10801",
+    "is_regal": true,
+    "dates": [
+      "2026-05-10"
+    ],
+    "times": [],
+    "source_url": "https://www.atomtickets.com/movies/mamma-mia-2008/58169",
+    "lb_status": "new",
+    "lb_label": "\ud83c\udd95 New to you",
+    "lb_rating": null
+  },
+  {
+    "title": "Labyrinth",
+    "year": 1986,
+    "reason": "1986 cult classic",
+    "theater": "Regal New Roc",
+    "location": "suburbs",
+    "city": "New Rochelle, NY",
+    "address": "33 LeCount Pl, New Rochelle, NY 10801",
+    "is_regal": true,
+    "dates": [
+      "2026-05-10",
+      "2026-05-11"
+    ],
+    "times": [],
+    "source_url": "https://www.atomtickets.com/movies/labyrinth/403443",
+    "lb_status": "seen",
+    "lb_label": "\ud83d\udc41 You've seen this",
+    "lb_rating": null
+  },
+  {
+    "title": "Shrek: 25th Anniversary",
+    "year": 2001,
+    "reason": "2001 animated classic, anniversary",
+    "theater": "Regal New Roc",
+    "location": "suburbs",
+    "city": "New Rochelle, NY",
+    "address": "33 LeCount Pl, New Rochelle, NY 10801",
+    "is_regal": true,
+    "dates": [
+      "2026-05-14",
+      "2026-05-15",
+      "2026-05-16",
+      "2026-05-17",
+      "2026-05-18",
+      "2026-05-19",
+      "2026-05-20",
+      "2026-05-21"
+    ],
+    "times": [],
+    "source_url": "https://www.atomtickets.com/movies/shrek-25th-anniversary/414413",
+    "lb_status": "new",
+    "lb_label": "\ud83c\udd95 New to you",
+    "lb_rating": null
+  },
+  {
+    "title": "Legally Blonde 25th Anniversary",
+    "year": 2001,
+    "reason": "2001 comedy, anniversary screening",
+    "theater": "Regal New Roc",
+    "location": "suburbs",
+    "city": "New Rochelle, NY",
+    "address": "33 LeCount Pl, New Rochelle, NY 10801",
+    "is_regal": true,
+    "dates": [
+      "2026-05-24",
+      "2026-05-27"
+    ],
+    "times": [],
+    "source_url": "https://www.atomtickets.com/movies/legally-blonde-25th-anniversary/414776",
+    "lb_status": "new",
+    "lb_label": "\ud83c\udd95 New to you",
+    "lb_rating": null
+  },
+  {
+    "title": "Lyle, Lyle, Crocodile",
+    "year": 2022,
+    "reason": "2022 film, recent revival",
+    "theater": "Regal New Roc",
+    "location": "suburbs",
+    "city": "New Rochelle, NY",
+    "address": "33 LeCount Pl, New Rochelle, NY 10801",
+    "is_regal": true,
+    "dates": [
+      "2026-05-09",
+      "2026-05-10"
+    ],
+    "times": [],
+    "source_url": "https://www.atomtickets.com/movies/lyle-lyle-crocodile/318740",
+    "lb_status": "new",
+    "lb_label": "\ud83c\udd95 New to you",
+    "lb_rating": null
+  },
+  {
+    "title": "The Birdcage 30th Anniversary",
+    "year": 1996,
+    "reason": "1996 comedy, anniversary screening",
+    "theater": "Regal New Roc",
+    "location": "suburbs",
+    "city": "New Rochelle, NY",
+    "address": "33 LeCount Pl, New Rochelle, NY 10801",
+    "is_regal": true,
+    "dates": [
+      "2026-06-07",
+      "2026-06-10"
+    ],
+    "times": [],
+    "source_url": "https://www.atomtickets.com/movies/the-birdcage-30th-anniversary/410298",
+    "lb_status": "new",
+    "lb_label": "\ud83c\udd95 New to you",
+    "lb_rating": null
+  },
+  {
+    "title": "Trolls World Tour",
+    "year": 2020,
+    "reason": "2020 animated film, revival",
+    "theater": "Regal New Roc",
+    "location": "suburbs",
+    "city": "New Rochelle, NY",
+    "address": "33 LeCount Pl, New Rochelle, NY 10801",
+    "is_regal": true,
+    "dates": [
+      "2026-05-02",
+      "2026-05-03"
+    ],
+    "times": [],
+    "source_url": "https://www.atomtickets.com/movies/trolls-world-tour/240912",
+    "lb_status": "new",
+    "lb_label": "\ud83c\udd95 New to you",
+    "lb_rating": null
+  },
+  {
+    "title": "Ocean's Eleven 25th Anniversary",
+    "year": 2001,
+    "reason": "2001 film, anniversary screening",
+    "theater": "Regal New Roc",
+    "location": "suburbs",
+    "city": "New Rochelle, NY",
+    "address": "33 LeCount Pl, New Rochelle, NY 10801",
+    "is_regal": true,
+    "dates": [
+      "2026-06-21",
+      "2026-06-24"
+    ],
+    "times": [],
+    "source_url": "https://www.atomtickets.com/movies/oceans-eleven-25th-anniversary/410299",
+    "lb_status": "new",
+    "lb_label": "\ud83c\udd95 New to you",
+    "lb_rating": null
+  },
+  {
+    "title": "Almost Famous",
+    "year": 2000,
+    "reason": "2000 film, revival screening",
+    "theater": "Regal New Roc",
+    "location": "suburbs",
+    "city": "New Rochelle, NY",
+    "address": "33 LeCount Pl, New Rochelle, NY 10801",
+    "is_regal": true,
+    "dates": [
+      "2026-05-21"
+    ],
+    "times": [],
+    "source_url": "https://www.atomtickets.com/movies/almost-famous/26765",
+    "lb_status": "seen",
+    "lb_label": "\ud83d\udc41 You've seen this",
+    "lb_rating": null
+  },
+  {
+    "title": "8 Mile",
+    "year": 2002,
+    "reason": "2002 film, revival screening",
+    "theater": "Regal New Roc",
+    "location": "suburbs",
+    "city": "New Rochelle, NY",
+    "address": "33 LeCount Pl, New Rochelle, NY 10801",
+    "is_regal": true,
+    "dates": [
+      "2026-05-01"
+    ],
+    "times": [],
+    "source_url": "https://www.atomtickets.com/movies/8-mile/37183",
+    "lb_status": "seen",
+    "lb_label": "\ud83d\udc41 You've seen this",
+    "lb_rating": null
+  },
+  {
+    "title": "Grease",
+    "year": 1978,
+    "reason": "1978 musical classic",
+    "theater": "Regal New Roc",
+    "location": "suburbs",
+    "city": "New Rochelle, NY",
+    "address": "33 LeCount Pl, New Rochelle, NY 10801",
+    "is_regal": true,
+    "dates": [
+      "2026-05-09"
+    ],
+    "times": [],
+    "source_url": "https://www.atomtickets.com/movies/grease/3300",
+    "lb_status": "seen",
+    "lb_label": "\ud83d\udc41 You've seen this",
+    "lb_rating": null
+  },
+  {
+    "title": "Rocketman",
+    "year": 2019,
+    "reason": "2019 biographical musical, revival",
+    "theater": "Regal New Roc",
+    "location": "suburbs",
+    "city": "New Rochelle, NY",
+    "address": "33 LeCount Pl, New Rochelle, NY 10801",
+    "is_regal": true,
+    "dates": [
+      "2026-05-26"
+    ],
+    "times": [],
+    "source_url": "https://www.atomtickets.com/movies/rocketman/280677",
+    "lb_status": "new",
+    "lb_label": "\ud83c\udd95 New to you",
+    "lb_rating": null
+  },
+  {
+    "title": "Purple Rain",
+    "year": 1984,
+    "reason": "1984 Prince classic with cultural standing",
+    "theater": "Regal New Roc",
+    "location": "suburbs",
+    "city": "New Rochelle, NY",
+    "address": "33 LeCount Pl, New Rochelle, NY 10801",
+    "is_regal": true,
+    "dates": [
+      "2026-05-03"
+    ],
+    "times": [],
+    "source_url": "https://www.atomtickets.com/movies/purple-rain/11828",
+    "lb_status": "seen",
+    "lb_label": "\ud83d\udc41 You've seen this",
+    "lb_rating": null
+  },
+  {
+    "title": "Fried Green Tomatoes 35th Anniversary",
+    "year": 1991,
+    "reason": "35th anniversary screening",
+    "theater": "Regal New Roc",
+    "location": "suburbs",
+    "city": "New Rochelle, NY",
+    "address": "33 LeCount Pl, New Rochelle, NY 10801",
+    "is_regal": true,
+    "dates": [
+      "2026-05-10",
+      "2026-05-13"
+    ],
+    "times": [],
+    "source_url": "https://www.atomtickets.com/movies/fried-green-tomatoes-35th-anniversary/410297",
+    "lb_status": "new",
+    "lb_label": "\ud83c\udd95 New to you",
+    "lb_rating": null
+  },
+  {
+    "title": "Hairspray (1988)",
+    "year": 1988,
+    "reason": "1988 John Waters cult classic",
+    "theater": "Regal New Roc",
+    "location": "suburbs",
+    "city": "New Rochelle, NY",
+    "address": "33 LeCount Pl, New Rochelle, NY 10801",
+    "is_regal": true,
+    "dates": [
+      "2026-05-15"
+    ],
+    "times": [],
+    "source_url": "https://www.atomtickets.com/movies/hairspray-1988/11345",
+    "lb_status": "seen",
+    "lb_label": "\ud83d\udc41 You've seen this",
+    "lb_rating": null
+  },
+  {
+    "title": "An American in Paris (1951)",
+    "year": 1951,
+    "reason": "1951 MGM musical classic",
+    "theater": "Regal New Roc",
+    "location": "suburbs",
+    "city": "New Rochelle, NY",
+    "address": "33 LeCount Pl, New Rochelle, NY 10801",
+    "is_regal": true,
+    "dates": [
+      "2026-05-18"
+    ],
+    "times": [],
+    "source_url": "https://www.atomtickets.com/movies/an-american-in-paris-1951/5827",
+    "lb_status": "new",
+    "lb_label": "\ud83c\udd95 New to you",
+    "lb_rating": null
+  },
+  {
+    "title": "It's A Wonderful Life 80th Anniversary",
+    "year": 1946,
+    "reason": "80th anniversary of Capra classic",
+    "theater": "Regal New Roc",
+    "location": "suburbs",
+    "city": "New Rochelle, NY",
+    "address": "33 LeCount Pl, New Rochelle, NY 10801",
+    "is_regal": true,
+    "dates": [
+      "2026-12-18",
+      "2026-12-19",
+      "2026-12-20"
+    ],
+    "times": [],
+    "source_url": "https://www.atomtickets.com/movies/its-a-wonderful-life-80th-anniversary/410307",
+    "lb_status": "new",
+    "lb_label": "\ud83c\udd95 New to you",
+    "lb_rating": null
+  },
+  {
+    "title": "Citizen Kane 85th Anniversary",
+    "year": 1941,
+    "reason": "85th anniversary of Welles masterpiece",
+    "theater": "Regal New Roc",
+    "location": "suburbs",
+    "city": "New Rochelle, NY",
+    "address": "33 LeCount Pl, New Rochelle, NY 10801",
+    "is_regal": true,
+    "dates": [
+      "2026-07-05",
+      "2026-07-08"
+    ],
+    "times": [],
+    "source_url": "https://www.atomtickets.com/movies/citizen-kane-85th-anniversary/410301",
+    "lb_status": "new",
+    "lb_label": "\ud83c\udd95 New to you",
+    "lb_rating": null
+  },
+  {
+    "title": "Little Shop of Horrors",
+    "year": 1986,
+    "reason": "1986 cult musical classic",
+    "theater": "Regal New Roc",
+    "location": "suburbs",
+    "city": "New Rochelle, NY",
+    "address": "33 LeCount Pl, New Rochelle, NY 10801",
+    "is_regal": true,
+    "dates": [
+      "2026-05-31"
+    ],
+    "times": [],
+    "source_url": "https://www.atomtickets.com/movies/little-shop-of-horrors/4804",
+    "lb_status": "seen",
+    "lb_label": "\ud83d\udc41 You've seen this",
+    "lb_rating": null
+  },
+  {
+    "title": "Repo! The Genetic Opera",
+    "year": 2008,
+    "reason": "Cult midnight movie revival",
+    "theater": "Regal New Roc",
+    "location": "suburbs",
+    "city": "New Rochelle, NY",
+    "address": "33 LeCount Pl, New Rochelle, NY 10801",
+    "is_regal": true,
+    "dates": [
+      "2026-05-29"
+    ],
+    "times": [],
+    "source_url": "https://www.atomtickets.com/movies/repo-the-genetic-opera/60981",
+    "lb_status": "new",
+    "lb_label": "\ud83c\udd95 New to you",
+    "lb_rating": null
+  },
+  {
+    "title": "Cabaret (1972)",
+    "year": 1972,
+    "reason": "1972 Fosse musical classic",
+    "theater": "Regal New Roc",
+    "location": "suburbs",
+    "city": "New Rochelle, NY",
+    "address": "33 LeCount Pl, New Rochelle, NY 10801",
+    "is_regal": true,
+    "dates": [
+      "2026-05-11"
+    ],
+    "times": [],
+    "source_url": "https://www.fandango.com/cabaret-1972-104412/movie-overview",
     "lb_status": "loved",
     "lb_label": "\u2b50 You rated this \u2605\u2605\u2605\u2605\u2605",
     "lb_rating": 5.0
@@ -970,7 +864,7 @@
   {
     "title": "Shrek 25th Anniversary (2026)",
     "year": 2001,
-    "reason": "2001 animated classic, 25th anniversary",
+    "reason": "25th anniversary screening",
     "theater": "Regal New Roc",
     "location": "suburbs",
     "city": "New Rochelle, NY",
@@ -993,25 +887,25 @@
     "lb_rating": null
   },
   {
-    "title": "The Godfather",
-    "year": 1972,
-    "reason": "1972 Coppola masterpiece",
+    "title": "The Godfather, Part II",
+    "year": 1974,
+    "reason": "1974 Coppola classic",
     "theater": "Mamaroneck Cinemas",
     "location": "suburbs",
     "city": "Mamaroneck, NY",
     "address": "243 Mamaroneck Ave, Mamaroneck, NY 10543",
     "is_regal": false,
     "dates": [
-      "2026-04-06"
+      "2026-04-27"
     ],
     "times": [
-      "3:30 PM",
+      "3:00 PM",
       "7:00 PM"
     ],
-    "source_url": "https://www.fandango.com/the-godfather-1463/movie-overview",
-    "lb_status": "loved",
-    "lb_label": "\u2b50 You rated this \u2605\u2605\u2605\u2605\u2605",
-    "lb_rating": 5.0
+    "source_url": "https://www.fandango.com/the-godfather-part-ii-1975-2848/movie-overview",
+    "lb_status": "new",
+    "lb_label": "\ud83c\udd95 New to you",
+    "lb_rating": null
   },
   {
     "title": "Terror of Mechagodzilla",
@@ -1023,13 +917,23 @@
     "address": "175 Main St, Yonkers, NY 10701",
     "is_regal": false,
     "dates": [
+      "2026-04-24",
       "2026-04-25",
-      "2026-04-26"
+      "2026-04-26",
+      "2026-04-27",
+      "2026-04-29"
     ],
     "times": [
+      "3:45 PM",
+      "6:30 PM",
+      "9:00 PM",
       "12:30 PM",
+      "10:30 PM",
       "12:00 PM",
-      "2:30 PM"
+      "2:30 PM",
+      "5:00 PM",
+      "7:30 PM",
+      "4:30 PM"
     ],
     "source_url": "https://drafthouse.com/yonkers/show/terror-of-mechagodzilla",
     "lb_status": "new",
@@ -1037,21 +941,85 @@
     "lb_rating": null
   },
   {
-    "title": "Bridesmaids: 15th Anniversary",
-    "year": 2011,
-    "reason": "2011 comedy classic, 15th anniversary",
+    "title": "Trainspotting",
+    "year": 1996,
+    "reason": "1996 Danny Boyle classic",
     "theater": "Alamo Drafthouse Yonkers",
     "location": "suburbs",
     "city": "Yonkers, NY",
     "address": "175 Main St, Yonkers, NY 10701",
     "is_regal": false,
     "dates": [
-      "2026-04-19"
+      "2026-06-04",
+      "2026-06-07"
+    ],
+    "times": [
+      "6:30 PM",
+      "9:10 PM",
+      "4:00 PM",
+      "6:45 PM"
+    ],
+    "source_url": "https://drafthouse.com/yonkers/show/special-event-trainspotting-30th-anniversary",
+    "lb_status": "seen",
+    "lb_label": "\ud83d\udc41 You've seen this",
+    "lb_rating": null
+  },
+  {
+    "title": "The Handmaiden",
+    "year": 2016,
+    "reason": "2016 Park Chan-wook classic",
+    "theater": "Alamo Drafthouse Yonkers",
+    "location": "suburbs",
+    "city": "Yonkers, NY",
+    "address": "175 Main St, Yonkers, NY 10701",
+    "is_regal": false,
+    "dates": [
+      "2026-05-30"
+    ],
+    "times": [
+      "3:00 PM"
+    ],
+    "source_url": "https://drafthouse.com/yonkers/show/alamo-drafthouse-movie-book-club-the-handmaiden",
+    "lb_status": "new",
+    "lb_label": "\ud83c\udd95 New to you",
+    "lb_rating": null
+  },
+  {
+    "title": "Death Becomes Her",
+    "year": 1992,
+    "reason": "1992 cult classic",
+    "theater": "Alamo Drafthouse Yonkers",
+    "location": "suburbs",
+    "city": "Yonkers, NY",
+    "address": "175 Main St, Yonkers, NY 10701",
+    "is_regal": false,
+    "dates": [
+      "2026-06-03"
+    ],
+    "times": [
+      "6:30 PM"
+    ],
+    "source_url": "https://drafthouse.com/yonkers/show/movie-party-death-becomes-her",
+    "lb_status": "seen",
+    "lb_label": "\ud83d\udc41 You've seen this",
+    "lb_rating": null
+  },
+  {
+    "title": "Mamma Mia!",
+    "year": 2008,
+    "reason": "2008 musical classic",
+    "theater": "Alamo Drafthouse Yonkers",
+    "location": "suburbs",
+    "city": "Yonkers, NY",
+    "address": "175 Main St, Yonkers, NY 10701",
+    "is_regal": false,
+    "dates": [
+      "2026-05-10"
     ],
     "times": [
       "12:00 PM"
     ],
-    "source_url": "https://drafthouse.com/yonkers/show/movie-party-bridesmaids-15th-anniversary",
+    "source_url": "https://drafthouse.com/yonkers/show/movie-party-mamma-mia",
     "lb_status": "new",
     "lb_label": "\ud83c\udd95 New to you",
     "lb_rating": null
@@ -1059,7 +1027,7 @@
   {
     "title": "Miss Congeniality",
     "year": 2000,
-    "reason": "2000 comedy classic revival",
+    "reason": "2000 comedy revival",
     "theater": "Alamo Drafthouse Yonkers",
     "location": "suburbs",
     "city": "Yonkers, NY",
@@ -1077,121 +1045,63 @@
     "lb_rating": null
   },
   {
-    "title": "Pride & Prejudice (2005)",
-    "year": 2005,
-    "reason": "2005 period drama with cultural standing",
+    "title": "Shrek: 25th Anniversary",
+    "year": 2001,
+    "reason": "2001 animated classic, anniversary",
     "theater": "Alamo Drafthouse Yonkers",
     "location": "suburbs",
     "city": "Yonkers, NY",
     "address": "175 Main St, Yonkers, NY 10701",
     "is_regal": false,
     "dates": [
-      "2026-04-13"
+      "2026-05-16"
     ],
     "times": [
-      "7:00 PM"
+      "12:30 PM"
     ],
-    "source_url": "https://drafthouse.com/yonkers/show/movie-party-pride-prejudice-2005",
-    "lb_status": "seen",
-    "lb_label": "\ud83d\udc41 You've seen this",
-    "lb_rating": null
-  },
-  {
-    "title": "The Big Lebowski",
-    "year": 1998,
-    "reason": "1998 Coen Brothers cult classic",
-    "theater": "Alamo Drafthouse Yonkers",
-    "location": "suburbs",
-    "city": "Yonkers, NY",
-    "address": "175 Main St, Yonkers, NY 10701",
-    "is_regal": false,
-    "dates": [
-      "2026-04-20"
-    ],
-    "times": [
-      "7:00 PM"
-    ],
-    "source_url": "https://drafthouse.com/yonkers/show/movie-party-the-big-lebowski",
-    "lb_status": "seen",
-    "lb_label": "\ud83d\udc41 You've seen this",
-    "lb_rating": null
-  },
-  {
-    "title": "High Plains Drifter",
-    "year": 1973,
-    "reason": "1973 Eastwood western classic",
-    "theater": "Alamo Drafthouse Yonkers",
-    "location": "suburbs",
-    "city": "Yonkers, NY",
-    "address": "175 Main St, Yonkers, NY 10701",
-    "is_regal": false,
-    "dates": [
-      "2026-04-14"
-    ],
-    "times": [
-      "6:30 PM"
-    ],
-    "source_url": "https://drafthouse.com/yonkers/show/guest-selects-high-plains-drifter",
+    "source_url": "https://drafthouse.com/yonkers/show/movie-party-shrek-25th-anniversary",
     "lb_status": "new",
     "lb_label": "\ud83c\udd95 New to you",
     "lb_rating": null
   },
   {
-    "title": "The Getaway (1972)",
-    "year": 1972,
-    "reason": "1972 Peckinpah crime classic",
+    "title": "Tomorrow Never Dies",
+    "year": 1997,
+    "reason": "1997 Bond classic",
     "theater": "Alamo Drafthouse Yonkers",
     "location": "suburbs",
     "city": "Yonkers, NY",
     "address": "175 Main St, Yonkers, NY 10701",
     "is_regal": false,
     "dates": [
-      "2026-04-12"
+      "2026-04-24",
+      "2026-04-30"
     ],
     "times": [
-      "4:00 PM"
-    ],
-    "source_url": "https://drafthouse.com/yonkers/show/guest-selects-the-getaway-1972",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "C\u00e9line and Julie Go Boating",
-    "year": 1974,
-    "reason": "1974 Rivette French New Wave classic",
-    "theater": "Alamo Drafthouse Yonkers",
-    "location": "suburbs",
-    "city": "Yonkers, NY",
-    "address": "175 Main St, Yonkers, NY 10701",
-    "is_regal": false,
-    "dates": [
-      "2026-04-27"
-    ],
-    "times": [
-      "6:15 PM"
-    ],
-    "source_url": "https://drafthouse.com/yonkers/show/queer-film-theory-101-celine-and-julie-go-boating",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "City on Fire (1987)",
-    "year": 1987,
-    "reason": "1987 Ringo Lam film, 4K restoration",
-    "theater": "Alamo Drafthouse Yonkers",
-    "location": "suburbs",
-    "city": "Yonkers, NY",
-    "address": "175 Main St, Yonkers, NY 10701",
-    "is_regal": false,
-    "dates": [
-      "2026-04-09"
-    ],
-    "times": [
+      "12:40 PM",
       "7:15 PM"
     ],
-    "source_url": "https://drafthouse.com/yonkers/show/city-on-fire-1987",
+    "source_url": "https://drafthouse.com/yonkers/show/tomorrow-never-dies",
+    "lb_status": "seen",
+    "lb_label": "\ud83d\udc41 You've seen this",
+    "lb_rating": null
+  },
+  {
+    "title": "Mystery Voyage",
+    "year": 1990,
+    "reason": "1990s Hong Kong kung fu classic",
+    "theater": "Alamo Drafthouse Yonkers",
+    "location": "suburbs",
+    "city": "Yonkers, NY",
+    "address": "175 Main St, Yonkers, NY 10701",
+    "is_regal": false,
+    "dates": [
+      "2026-06-01"
+    ],
+    "times": [
+      "10:15 PM"
+    ],
+    "source_url": "https://drafthouse.com/yonkers/show/agfadrome-mystery-voyage-may-2026",
     "lb_status": "new",
     "lb_label": "\ud83c\udd95 New to you",
     "lb_rating": null
@@ -1199,7 +1109,7 @@
   {
     "title": "Face/Off",
     "year": 1997,
-    "reason": "1997 John Woo action classic revival",
+    "reason": "1997 John Woo classic",
     "theater": "Alamo Drafthouse Yonkers",
     "location": "suburbs",
     "city": "Yonkers, NY",
@@ -1217,101 +1127,241 @@
     "lb_rating": null
   },
   {
-    "title": "Ghost World",
-    "year": 2001,
-    "reason": "2001 Terry Zwigoff cult classic",
+    "title": "Godzilla vs. Hedorah",
+    "year": 1971,
+    "reason": "1971 Toho kaiju classic",
     "theater": "Alamo Drafthouse Yonkers",
     "location": "suburbs",
     "city": "Yonkers, NY",
     "address": "175 Main St, Yonkers, NY 10701",
     "is_regal": false,
     "dates": [
-      "2026-04-10"
+      "2026-05-31"
     ],
     "times": [
-      "9:45 PM"
+      "4:00 PM"
     ],
-    "source_url": "https://drafthouse.com/yonkers/show/ghost-world",
+    "source_url": "https://drafthouse.com/yonkers/show/godzilla-vs-hedorah",
     "lb_status": "new",
     "lb_label": "\ud83c\udd95 New to you",
     "lb_rating": null
   },
   {
-    "title": "Police Story",
+    "title": "Mishima: A Life in Four Chapters",
     "year": 1985,
-    "reason": "1985 Jackie Chan Hong Kong classic",
+    "reason": "1985 Paul Schrader art film",
     "theater": "Alamo Drafthouse Yonkers",
     "location": "suburbs",
     "city": "Yonkers, NY",
     "address": "175 Main St, Yonkers, NY 10701",
     "is_regal": false,
     "dates": [
-      "2026-04-16"
+      "2026-05-03"
     ],
     "times": [
-      "7:15 PM"
+      "3:30 PM"
     ],
-    "source_url": "https://drafthouse.com/yonkers/show/police-story",
+    "source_url": "https://drafthouse.com/yonkers/show/guest-selects-mishima-a-life-in-four-chapters",
     "lb_status": "new",
     "lb_label": "\ud83c\udd95 New to you",
     "lb_rating": null
   },
   {
-    "title": "Something Wild",
-    "year": 1986,
-    "reason": "1986 Jonathan Demme film revival",
+    "title": "C\u00e9line and Julie Go Boating",
+    "year": 1974,
+    "reason": "1974 French New Wave classic",
     "theater": "Alamo Drafthouse Yonkers",
     "location": "suburbs",
     "city": "Yonkers, NY",
     "address": "175 Main St, Yonkers, NY 10701",
     "is_regal": false,
     "dates": [
-      "2026-04-11"
+      "2026-04-27"
     ],
     "times": [
-      "12:00 PM"
+      "6:15 PM"
     ],
-    "source_url": "https://drafthouse.com/yonkers/show/something-wild",
+    "source_url": "https://drafthouse.com/yonkers/show/queer-film-theory-101-celine-and-julie-go-boating",
+    "lb_status": "new",
+    "lb_label": "\ud83c\udd95 New to you",
+    "lb_rating": null
+  },
+  {
+    "title": "Funeral Parade of Roses",
+    "year": 1969,
+    "reason": "1969 Japanese underground classic",
+    "theater": "Alamo Drafthouse Yonkers",
+    "location": "suburbs",
+    "city": "Yonkers, NY",
+    "address": "175 Main St, Yonkers, NY 10701",
+    "is_regal": false,
+    "dates": [
+      "2026-05-25"
+    ],
+    "times": [
+      "7:30 PM"
+    ],
+    "source_url": "https://drafthouse.com/yonkers/show/queer-film-theory-101-funeral-parade-of-roses",
+    "lb_status": "new",
+    "lb_label": "\ud83c\udd95 New to you",
+    "lb_rating": null
+  },
+  {
+    "title": "Frances Ha",
+    "year": 2012,
+    "reason": "2012 Gerwig/Baumbach classic",
+    "theater": "Alamo Drafthouse Yonkers",
+    "location": "suburbs",
+    "city": "Yonkers, NY",
+    "address": "175 Main St, Yonkers, NY 10701",
+    "is_regal": false,
+    "dates": [
+      "2026-05-31"
+    ],
+    "times": [
+      "6:45 PM"
+    ],
+    "source_url": "https://drafthouse.com/yonkers/show/sad-girl-cinema-club-frances-ha",
     "lb_status": "seen",
     "lb_label": "\ud83d\udc41 You've seen this",
     "lb_rating": null
   },
   {
-    "title": "The Master (2012)",
-    "year": 2012,
-    "reason": "Paul Thomas Anderson film, arthouse revival",
+    "title": "Sorry to Bother You",
+    "year": 2018,
+    "reason": "2018 Boots Riley cult classic",
     "theater": "Alamo Drafthouse Yonkers",
     "location": "suburbs",
     "city": "Yonkers, NY",
     "address": "175 Main St, Yonkers, NY 10701",
     "is_regal": false,
     "dates": [
-      "2026-04-18"
+      "2026-05-17"
     ],
     "times": [
-      "12:30 PM"
+      "3:15 PM"
     ],
-    "source_url": "https://drafthouse.com/yonkers/show/the-master-2012",
+    "source_url": "https://drafthouse.com/yonkers/show/sorry-to-bother-you",
     "lb_status": "new",
     "lb_label": "\ud83c\udd95 New to you",
     "lb_rating": null
   },
   {
-    "title": "Tomorrow Never Dies",
-    "year": 1997,
-    "reason": "1997 James Bond film revival",
+    "title": "Hello Mary Lou: Prom Night II",
+    "year": 1987,
+    "reason": "1987 horror classic, 35mm",
     "theater": "Alamo Drafthouse Yonkers",
     "location": "suburbs",
     "city": "Yonkers, NY",
     "address": "175 Main St, Yonkers, NY 10701",
     "is_regal": false,
     "dates": [
-      "2026-04-30"
+      "2026-05-12"
+    ],
+    "times": [
+      "7:30 PM"
+    ],
+    "source_url": "https://drafthouse.com/yonkers/show/terror-tuesday-hello-mary-lou-prom-night-ii",
+    "lb_status": "new",
+    "lb_label": "\ud83c\udd95 New to you",
+    "lb_rating": null
+  },
+  {
+    "title": "Adaptation.",
+    "year": 2002,
+    "reason": "2002 Kaufman/Jonze classic",
+    "theater": "Alamo Drafthouse Yonkers",
+    "location": "suburbs",
+    "city": "Yonkers, NY",
+    "address": "175 Main St, Yonkers, NY 10701",
+    "is_regal": false,
+    "dates": [
+      "2026-05-23"
+    ],
+    "times": [
+      "3:00 PM"
+    ],
+    "source_url": "https://drafthouse.com/yonkers/show/adaptation",
+    "lb_status": "seen",
+    "lb_label": "\ud83d\udc41 You've seen this",
+    "lb_rating": null
+  },
+  {
+    "title": "Carrie (1976)",
+    "year": 1976,
+    "reason": "1976 De Palma classic",
+    "theater": "Alamo Drafthouse Yonkers",
+    "location": "suburbs",
+    "city": "Yonkers, NY",
+    "address": "175 Main St, Yonkers, NY 10701",
+    "is_regal": false,
+    "dates": [
+      "2026-05-24"
+    ],
+    "times": [
+      "4:00 PM"
+    ],
+    "source_url": "https://drafthouse.com/yonkers/show/carrie",
+    "lb_status": "seen",
+    "lb_label": "\ud83d\udc41 You've seen this",
+    "lb_rating": null
+  },
+  {
+    "title": "Mission: Impossible",
+    "year": 1996,
+    "reason": "1996 De Palma franchise starter",
+    "theater": "Alamo Drafthouse Yonkers",
+    "location": "suburbs",
+    "city": "Yonkers, NY",
+    "address": "175 Main St, Yonkers, NY 10701",
+    "is_regal": false,
+    "dates": [
+      "2026-06-01"
     ],
     "times": [
       "7:15 PM"
     ],
-    "source_url": "https://drafthouse.com/yonkers/show/tomorrow-never-dies",
+    "source_url": "https://drafthouse.com/yonkers/show/mission-impossible",
+    "lb_status": "liked",
+    "lb_label": "\ud83d\udc4d You rated this \u2605\u2605\u2605\u2605",
+    "lb_rating": 4.0
+  },
+  {
+    "title": "Serial Mom",
+    "year": 1994,
+    "reason": "1994 John Waters classic",
+    "theater": "Alamo Drafthouse Yonkers",
+    "location": "suburbs",
+    "city": "Yonkers, NY",
+    "address": "175 Main St, Yonkers, NY 10701",
+    "is_regal": false,
+    "dates": [
+      "2026-05-09"
+    ],
+    "times": [
+      "1:15 PM"
+    ],
+    "source_url": "https://drafthouse.com/yonkers/show/serial-mom",
+    "lb_status": "seen",
+    "lb_label": "\ud83d\udc41 You've seen this",
+    "lb_rating": null
+  },
+  {
+    "title": "The Bridges of Madison County",
+    "year": 1995,
+    "reason": "1995 Eastwood classic",
+    "theater": "Alamo Drafthouse Yonkers",
+    "location": "suburbs",
+    "city": "Yonkers, NY",
+    "address": "175 Main St, Yonkers, NY 10701",
+    "is_regal": false,
+    "dates": [
+      "2026-05-16"
+    ],
+    "times": [
+      "3:20 PM"
+    ],
+    "source_url": "https://drafthouse.com/yonkers/show/the-bridges-of-madison-county",
     "lb_status": "seen",
     "lb_label": "\ud83d\udc41 You've seen this",
     "lb_rating": null
@@ -1319,7 +1369,7 @@
   {
     "title": "GET HITCHED: MARNIE",
     "year": 1964,
-    "reason": "1964 Hitchcock classic retrospective",
+    "reason": "1964 Hitchcock classic, special series",
     "theater": "Alamo Drafthouse Yonkers",
     "location": "suburbs",
     "city": "Yonkers, NY",
@@ -1337,29 +1387,29 @@
     "lb_rating": null
   },
   {
-    "title": "THE MAN WHO KNEW TOO MUCH",
-    "year": 1956,
-    "reason": "Hitchcock classic revival",
+    "title": "ROBOCOP in 35mm",
+    "year": 1987,
+    "reason": "1987 Verhoeven classic, 35mm",
     "theater": "Alamo Drafthouse Yonkers",
     "location": "suburbs",
     "city": "Yonkers, NY",
     "address": "175 Main St, Yonkers, NY 10701",
     "is_regal": false,
     "dates": [
-      "2026-04-01"
+      "2026-04-27"
     ],
     "times": [
       "7:00 PM"
     ],
-    "source_url": "https://drafthouse.com/yonkers/show/the-man-who-knew-too-much",
-    "lb_status": "seen",
-    "lb_label": "\ud83d\udc41 You've seen this",
+    "source_url": "https://drafthouse.com/yonkers/show/robocop",
+    "lb_status": "new",
+    "lb_label": "\ud83c\udd95 New to you",
     "lb_rating": null
   },
   {
-    "title": "The Mummy Returns: 25th Anniversary",
-    "year": 2001,
-    "reason": "2001 anniversary screening",
+    "title": "Ferris Bueller's Day Off - 40th Anniversary Event",
+    "year": 1986,
+    "reason": "1986 classic, anniversary screening",
     "theater": "AMC Port Chester 14",
     "location": "suburbs",
     "city": "Port Chester, NY",
@@ -1367,172 +1417,37 @@
     "is_regal": false,
     "dates": [],
     "times": [
-      "2:00 PM",
-      "8:10 PM"
+      "3:15 PM",
+      "9:20 PM"
     ],
-    "source_url": "https://www.atomtickets.com/movies/the-mummy-returns-25th-anniversary/411023",
+    "source_url": "https://www.atomtickets.com/movies/ferris-buellers-day-off-40th-anniversary-event/414489",
     "lb_status": "new",
     "lb_label": "\ud83c\udd95 New to you",
     "lb_rating": null
   },
   {
-    "title": "The Killer (1989)",
-    "year": 1989,
-    "reason": "1989 John Woo Hong Kong classic",
+    "title": "Fight Club 4K Remaster",
+    "year": 1999,
+    "reason": "1999 classic, 4K restoration",
     "theater": "AMC Port Chester 14",
     "location": "suburbs",
     "city": "Port Chester, NY",
     "address": "40 Westchester Ave, Port Chester, NY 10573",
     "is_regal": false,
     "dates": [
-      "2026-04-05",
-      "2026-04-06",
-      "2026-04-08"
+      "2026-04-22",
+      "2026-04-23",
+      "2026-04-24",
+      "2026-04-25",
+      "2026-04-26",
+      "2026-04-27",
+      "2026-04-28",
+      "2026-04-29"
     ],
-    "times": [],
-    "source_url": "https://www.atomtickets.com/movies/the-killer-1989/353427",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "The Birdcage 30th Anniversary",
-    "year": 1996,
-    "reason": "1996 anniversary screening",
-    "theater": "AMC Port Chester 14",
-    "location": "suburbs",
-    "city": "Port Chester, NY",
-    "address": "40 Westchester Ave, Port Chester, NY 10573",
-    "is_regal": false,
-    "dates": [
-      "2026-06-07",
-      "2026-06-10"
+    "times": [
+      "6:00 PM"
     ],
-    "times": [],
-    "source_url": "https://www.atomtickets.com/movies/the-birdcage-30th-anniversary/410298",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "Faces of Death",
-    "year": 1978,
-    "reason": "1978 cult exploitation revival",
-    "theater": "AMC Port Chester 14",
-    "location": "suburbs",
-    "city": "Port Chester, NY",
-    "address": "40 Westchester Ave, Port Chester, NY 10573",
-    "is_regal": false,
-    "dates": [
-      "2026-04-09",
-      "2026-04-10",
-      "2026-04-11",
-      "2026-04-12",
-      "2026-04-13",
-      "2026-04-14",
-      "2026-04-15",
-      "2026-04-16"
-    ],
-    "times": [],
-    "source_url": "https://www.atomtickets.com/movies/faces-of-death/362561",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "A Beautiful Mind 25th Anniversary",
-    "year": 2001,
-    "reason": "2001 Oscar winner, 25th anniversary",
-    "theater": "AMC Port Chester 14",
-    "location": "suburbs",
-    "city": "Port Chester, NY",
-    "address": "40 Westchester Ave, Port Chester, NY 10573",
-    "is_regal": false,
-    "dates": [
-      "2026-11-22",
-      "2026-11-23"
-    ],
-    "times": [],
-    "source_url": "https://www.atomtickets.com/movies/a-beautiful-mind-25th-anniversary/410305",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "Citizen Kane 85th Anniversary",
-    "year": 1941,
-    "reason": "1941 Welles masterpiece, anniversary",
-    "theater": "AMC Port Chester 14",
-    "location": "suburbs",
-    "city": "Port Chester, NY",
-    "address": "40 Westchester Ave, Port Chester, NY 10573",
-    "is_regal": false,
-    "dates": [
-      "2026-07-08"
-    ],
-    "times": [],
-    "source_url": "https://www.atomtickets.com/movies/citizen-kane-85th-anniversary/410301",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "Ferris Bueller's Day Off",
-    "year": 1986,
-    "reason": "1986 John Hughes classic",
-    "theater": "AMC Port Chester 14",
-    "location": "suburbs",
-    "city": "Port Chester, NY",
-    "address": "40 Westchester Ave, Port Chester, NY 10573",
-    "is_regal": false,
-    "dates": [
-      "2026-04-17",
-      "2026-04-18",
-      "2026-04-19",
-      "2026-04-20",
-      "2026-04-21",
-      "2026-04-22"
-    ],
-    "times": [],
-    "source_url": "https://www.atomtickets.com/movies/ferris-buellers-day-off/6534",
-    "lb_status": "seen",
-    "lb_label": "\ud83d\udc41 You've seen this",
-    "lb_rating": null
-  },
-  {
-    "title": "Ocean's Eleven 25th Anniversary",
-    "year": 2001,
-    "reason": "2001 Soderbergh film, 25th anniversary",
-    "theater": "AMC Port Chester 14",
-    "location": "suburbs",
-    "city": "Port Chester, NY",
-    "address": "40 Westchester Ave, Port Chester, NY 10573",
-    "is_regal": false,
-    "dates": [
-      "2026-06-21",
-      "2026-06-24"
-    ],
-    "times": [],
-    "source_url": "https://www.atomtickets.com/movies/oceans-eleven-25th-anniversary/410299",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "Willy Wonka & The Chocolate Factory 55th Anniversary",
-    "year": 1971,
-    "reason": "1971 classic, 55th anniversary screening",
-    "theater": "AMC Port Chester 14",
-    "location": "suburbs",
-    "city": "Port Chester, NY",
-    "address": "40 Westchester Ave, Port Chester, NY 10573",
-    "is_regal": false,
-    "dates": [
-      "2026-08-02",
-      "2026-08-05"
-    ],
-    "times": [],
-    "source_url": "https://www.atomtickets.com/movies/willy-wonka-the-chocolate-factory-55th-anniversary/410303",
+    "source_url": "https://www.atomtickets.com/movies/fight-club-4k-remaster/414845",
     "lb_status": "new",
     "lb_label": "\ud83c\udd95 New to you",
     "lb_rating": null
@@ -1540,7 +1455,7 @@
   {
     "title": "The Silence of the Lambs 35th Anniversary",
     "year": 1991,
-    "reason": "1991 classic, 35th anniversary",
+    "reason": "1991 thriller classic, anniversary screening",
     "theater": "AMC Port Chester 14",
     "location": "suburbs",
     "city": "Port Chester, NY",
@@ -1557,9 +1472,128 @@
     "lb_rating": null
   },
   {
+    "title": "The Evil Dead 45th Anniversary - Relive the Horror",
+    "year": 1981,
+    "reason": "1981 Raimi classic, anniversary",
+    "theater": "AMC Port Chester 14",
+    "location": "suburbs",
+    "city": "Port Chester, NY",
+    "address": "40 Westchester Ave, Port Chester, NY 10573",
+    "is_regal": false,
+    "dates": [
+      "2026-04-24"
+    ],
+    "times": [],
+    "source_url": "https://www.atomtickets.com/movies/the-evil-dead-45th-anniversary-relive-the-horror/415378",
+    "lb_status": "new",
+    "lb_label": "\ud83c\udd95 New to you",
+    "lb_rating": null
+  },
+  {
+    "title": "It's A Wonderful Life 80th Anniversary",
+    "year": 1946,
+    "reason": "80th anniversary of Capra classic",
+    "theater": "AMC Port Chester 14",
+    "location": "suburbs",
+    "city": "Port Chester, NY",
+    "address": "40 Westchester Ave, Port Chester, NY 10573",
+    "is_regal": false,
+    "dates": [
+      "2026-12-21",
+      "2026-12-22",
+      "2026-12-23",
+      "2026-12-24"
+    ],
+    "times": [],
+    "source_url": "https://www.atomtickets.com/movies/its-a-wonderful-life-80th-anniversary/410307",
+    "lb_status": "new",
+    "lb_label": "\ud83c\udd95 New to you",
+    "lb_rating": null
+  },
+  {
+    "title": "Top Gun: Maverick (2026 Re-release)",
+    "year": 2022,
+    "reason": "2022 blockbuster re-release",
+    "theater": "AMC Port Chester 14",
+    "location": "suburbs",
+    "city": "Port Chester, NY",
+    "address": "40 Westchester Ave, Port Chester, NY 10573",
+    "is_regal": false,
+    "dates": [
+      "2026-05-13",
+      "2026-05-14",
+      "2026-05-15",
+      "2026-05-16",
+      "2026-05-17",
+      "2026-05-18",
+      "2026-05-19",
+      "2026-05-20"
+    ],
+    "times": [],
+    "source_url": "https://www.atomtickets.com/movies/top-gun-maverick-2026-re-release/415322",
+    "lb_status": "loved",
+    "lb_label": "\u2b50 You rated this \u2605\u2605\u2605\u2605\u2605",
+    "lb_rating": 5.0
+  },
+  {
+    "title": "Citizen Kane 85th Anniversary",
+    "year": 1941,
+    "reason": "85th anniversary of Welles masterpiece",
+    "theater": "AMC Port Chester 14",
+    "location": "suburbs",
+    "city": "Port Chester, NY",
+    "address": "40 Westchester Ave, Port Chester, NY 10573",
+    "is_regal": false,
+    "dates": [
+      "2026-07-08"
+    ],
+    "times": [],
+    "source_url": "https://www.atomtickets.com/movies/citizen-kane-85th-anniversary/410301",
+    "lb_status": "new",
+    "lb_label": "\ud83c\udd95 New to you",
+    "lb_rating": null
+  },
+  {
+    "title": "Willy Wonka & The Chocolate Factory 55th Anniversary",
+    "year": 1971,
+    "reason": "1971 classic, anniversary screening",
+    "theater": "AMC Port Chester 14",
+    "location": "suburbs",
+    "city": "Port Chester, NY",
+    "address": "40 Westchester Ave, Port Chester, NY 10573",
+    "is_regal": false,
+    "dates": [
+      "2026-08-02",
+      "2026-08-05"
+    ],
+    "times": [],
+    "source_url": "https://www.atomtickets.com/movies/willy-wonka-the-chocolate-factory-55th-anniversary/410303",
+    "lb_status": "new",
+    "lb_label": "\ud83c\udd95 New to you",
+    "lb_rating": null
+  },
+  {
+    "title": "Labyrinth",
+    "year": 1986,
+    "reason": "1986 cult classic",
+    "theater": "AMC Port Chester 14",
+    "location": "suburbs",
+    "city": "Port Chester, NY",
+    "address": "40 Westchester Ave, Port Chester, NY 10573",
+    "is_regal": false,
+    "dates": [
+      "2026-05-11"
+    ],
+    "times": [],
+    "source_url": "https://www.atomtickets.com/movies/labyrinth/403443",
+    "lb_status": "seen",
+    "lb_label": "\ud83d\udc41 You've seen this",
+    "lb_rating": null
+  },
+  {
     "title": "The Breadwinner",
     "year": 2017,
-    "reason": "2017 animated revival",
+    "reason": "2017 animated film, revival",
     "theater": "AMC Port Chester 14",
     "location": "suburbs",
     "city": "Port Chester, NY",
@@ -1582,21 +1616,160 @@
     "lb_rating": null
   },
   {
-    "title": "Bridesmaids: 15th Anniversary",
-    "year": 2011,
-    "reason": "2011 comedy classic, 15th anniversary",
+    "title": "Top Gun 40th Anniversary",
+    "year": 1986,
+    "reason": "1986 classic, anniversary screening",
     "theater": "AMC Port Chester 14",
     "location": "suburbs",
     "city": "Port Chester, NY",
     "address": "40 Westchester Ave, Port Chester, NY 10573",
     "is_regal": false,
     "dates": [
-      "2026-04-18",
-      "2026-04-19",
-      "2026-04-21"
+      "2026-05-13",
+      "2026-05-14",
+      "2026-05-15",
+      "2026-05-16",
+      "2026-05-17",
+      "2026-05-18",
+      "2026-05-19",
+      "2026-05-20"
     ],
     "times": [],
-    "source_url": "https://www.atomtickets.com/movies/bridesmaids-15th-anniversary/402379",
+    "source_url": "https://www.atomtickets.com/movies/top-gun-40th-anniversary/407464",
+    "lb_status": "new",
+    "lb_label": "\ud83c\udd95 New to you",
+    "lb_rating": null
+  },
+  {
+    "title": "The Birdcage 30th Anniversary",
+    "year": 1996,
+    "reason": "1996 comedy, anniversary screening",
+    "theater": "AMC Port Chester 14",
+    "location": "suburbs",
+    "city": "Port Chester, NY",
+    "address": "40 Westchester Ave, Port Chester, NY 10573",
+    "is_regal": false,
+    "dates": [
+      "2026-06-07",
+      "2026-06-10"
+    ],
+    "times": [],
+    "source_url": "https://www.atomtickets.com/movies/the-birdcage-30th-anniversary/410298",
+    "lb_status": "new",
+    "lb_label": "\ud83c\udd95 New to you",
+    "lb_rating": null
+  },
+  {
+    "title": "A Beautiful Mind 25th Anniversary",
+    "year": 2001,
+    "reason": "2001 film, anniversary screening",
+    "theater": "AMC Port Chester 14",
+    "location": "suburbs",
+    "city": "Port Chester, NY",
+    "address": "40 Westchester Ave, Port Chester, NY 10573",
+    "is_regal": false,
+    "dates": [
+      "2026-11-22",
+      "2026-11-23"
+    ],
+    "times": [],
+    "source_url": "https://www.atomtickets.com/movies/a-beautiful-mind-25th-anniversary/410305",
+    "lb_status": "new",
+    "lb_label": "\ud83c\udd95 New to you",
+    "lb_rating": null
+  },
+  {
+    "title": "The Cabin in the Woods - Relive the Horror",
+    "year": 2011,
+    "reason": "2011 horror classic, special series",
+    "theater": "AMC Port Chester 14",
+    "location": "suburbs",
+    "city": "Port Chester, NY",
+    "address": "40 Westchester Ave, Port Chester, NY 10573",
+    "is_regal": false,
+    "dates": [
+      "2026-05-08"
+    ],
+    "times": [],
+    "source_url": "https://www.atomtickets.com/movies/the-cabin-in-the-woods-relive-the-horror/415376",
+    "lb_status": "new",
+    "lb_label": "\ud83c\udd95 New to you",
+    "lb_rating": null
+  },
+  {
+    "title": "Legally Blonde 25th Anniversary",
+    "year": 2001,
+    "reason": "2001 comedy, anniversary screening",
+    "theater": "AMC Port Chester 14",
+    "location": "suburbs",
+    "city": "Port Chester, NY",
+    "address": "40 Westchester Ave, Port Chester, NY 10573",
+    "is_regal": false,
+    "dates": [
+      "2026-05-27"
+    ],
+    "times": [],
+    "source_url": "https://www.atomtickets.com/movies/legally-blonde-25th-anniversary/414776",
+    "lb_status": "new",
+    "lb_label": "\ud83c\udd95 New to you",
+    "lb_rating": null
+  },
+  {
+    "title": "Ocean's Eleven 25th Anniversary",
+    "year": 2001,
+    "reason": "2001 film, anniversary screening",
+    "theater": "AMC Port Chester 14",
+    "location": "suburbs",
+    "city": "Port Chester, NY",
+    "address": "40 Westchester Ave, Port Chester, NY 10573",
+    "is_regal": false,
+    "dates": [
+      "2026-06-21",
+      "2026-06-24"
+    ],
+    "times": [],
+    "source_url": "https://www.atomtickets.com/movies/oceans-eleven-25th-anniversary/410299",
+    "lb_status": "new",
+    "lb_label": "\ud83c\udd95 New to you",
+    "lb_rating": null
+  },
+  {
+    "title": "Shrek: 25th Anniversary",
+    "year": 2001,
+    "reason": "2001 animated classic, anniversary",
+    "theater": "AMC Port Chester 14",
+    "location": "suburbs",
+    "city": "Port Chester, NY",
+    "address": "40 Westchester Ave, Port Chester, NY 10573",
+    "is_regal": false,
+    "dates": [
+      "2026-05-15",
+      "2026-05-16",
+      "2026-05-17",
+      "2026-05-18",
+      "2026-05-19",
+      "2026-05-20"
+    ],
+    "times": [],
+    "source_url": "https://www.atomtickets.com/movies/shrek-25th-anniversary/414413",
+    "lb_status": "new",
+    "lb_label": "\ud83c\udd95 New to you",
+    "lb_rating": null
+  },
+  {
+    "title": "Cabin Fever 4K Director's Cut - Relive the Horror",
+    "year": 2002,
+    "reason": "2002 horror classic, 4K restoration",
+    "theater": "AMC Port Chester 14",
+    "location": "suburbs",
+    "city": "Port Chester, NY",
+    "address": "40 Westchester Ave, Port Chester, NY 10573",
+    "is_regal": false,
+    "dates": [
+      "2026-05-01"
+    ],
+    "times": [],
+    "source_url": "https://www.atomtickets.com/movies/cabin-fever-4k-directors-cut-relive-the-horror/415375",
     "lb_status": "new",
     "lb_label": "\ud83c\udd95 New to you",
     "lb_rating": null
@@ -1604,7 +1777,7 @@
   {
     "title": "Fried Green Tomatoes 35th Anniversary",
     "year": 1991,
-    "reason": "1991 film, 35th anniversary screening",
+    "reason": "35th anniversary screening",
     "theater": "AMC Port Chester 14",
     "location": "suburbs",
     "city": "Port Chester, NY",
@@ -1621,30 +1794,9 @@
     "lb_rating": null
   },
   {
-    "title": "It's A Wonderful Life 80th Anniversary",
-    "year": 1946,
-    "reason": "1946 Capra classic, 80th anniversary",
-    "theater": "AMC Port Chester 14",
-    "location": "suburbs",
-    "city": "Port Chester, NY",
-    "address": "40 Westchester Ave, Port Chester, NY 10573",
-    "is_regal": false,
-    "dates": [
-      "2026-12-21",
-      "2026-12-22",
-      "2026-12-23",
-      "2026-12-24"
-    ],
-    "times": [],
-    "source_url": "https://www.atomtickets.com/movies/its-a-wonderful-life-80th-anniversary/410307",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
     "title": "The Maltese Falcon 85th Anniversary",
     "year": 1941,
-    "reason": "1941 Huston classic, 85th anniversary",
+    "reason": "1941 classic, anniversary screening",
     "theater": "AMC Port Chester 14",
     "location": "suburbs",
     "city": "Port Chester, NY",
@@ -1661,65 +1813,50 @@
     "lb_rating": null
   },
   {
-    "title": "The Mummy Returns 25th Anniversary (2026)",
-    "year": 2001,
-    "reason": "2001 film, 25th anniversary screening",
+    "title": "Ferris Bueller's Day Off (1986)",
+    "year": 1986,
+    "reason": "1986 Hughes classic",
     "theater": "AMC Port Chester 14",
     "location": "suburbs",
     "city": "Port Chester, NY",
     "address": "40 Westchester Ave, Port Chester, NY 10573",
     "is_regal": false,
     "dates": [
-      "2026-03-31"
+      "2026-04-22"
     ],
     "times": [],
-    "source_url": "https://www.fandango.com/the-mummy-returns-25th-anniversary-2026-244346/movie-overview",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "The Killer - Hong Kong Cinema Classics",
-    "year": 1989,
-    "reason": "1989 John Woo classic, retrospective series",
-    "theater": "AMC Port Chester 14",
-    "location": "suburbs",
-    "city": "Port Chester, NY",
-    "address": "40 Westchester Ave, Port Chester, NY 10573",
-    "is_regal": false,
-    "dates": [
-      "2026-04-05",
-      "2026-04-06",
-      "2026-04-08"
-    ],
-    "times": [],
-    "source_url": "https://www.fandango.com/the-killer-hong-kong-cinema-classics-243680/movie-overview",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "The Evil Dead (1981)",
-    "year": 1981,
-    "reason": "1981 Sam Raimi horror classic",
-    "theater": "AMC Port Chester 14",
-    "location": "suburbs",
-    "city": "Port Chester, NY",
-    "address": "40 Westchester Ave, Port Chester, NY 10573",
-    "is_regal": false,
-    "dates": [
-      "2026-04-24"
-    ],
-    "times": [],
-    "source_url": "https://www.fandango.com/the-evil-dead-1981-37253/movie-overview",
+    "source_url": "https://www.fandango.com/ferris-buellers-day-off-1986-28124/movie-overview",
     "lb_status": "seen",
     "lb_label": "\ud83d\udc41 You've seen this",
     "lb_rating": null
   },
   {
+    "title": "Speed Racer",
+    "year": 2008,
+    "reason": "2008 Wachowski cult classic",
+    "theater": "AMC Port Chester 14",
+    "location": "suburbs",
+    "city": "Port Chester, NY",
+    "address": "40 Westchester Ave, Port Chester, NY 10573",
+    "is_regal": false,
+    "dates": [
+      "2026-04-24",
+      "2026-04-25",
+      "2026-04-26",
+      "2026-04-27",
+      "2026-04-28",
+      "2026-04-29"
+    ],
+    "times": [],
+    "source_url": "https://www.fandango.com/speed-racer-64487/movie-overview",
+    "lb_status": "new",
+    "lb_label": "\ud83c\udd95 New to you",
+    "lb_rating": null
+  },
+  {
     "title": "Cabin Fever (2003)",
-    "year": 2002,
-    "reason": "Early 2000s horror cult film",
+    "year": 2003,
+    "reason": "Horror cult classic revival",
     "theater": "AMC Port Chester 14",
     "location": "suburbs",
     "city": "Port Chester, NY",
@@ -1737,7 +1874,7 @@
   {
     "title": "The Cabin in the Woods",
     "year": 2012,
-    "reason": "2012 horror cult classic revival",
+    "reason": "Horror cult classic revival",
     "theater": "AMC Port Chester 14",
     "location": "suburbs",
     "city": "Port Chester, NY",
@@ -1753,9 +1890,33 @@
     "lb_rating": null
   },
   {
+    "title": "Crouching Tiger, Hidden Dragon",
+    "year": 2000,
+    "reason": "Ang Lee classic, art house revival",
+    "theater": "AMC Port Chester 14",
+    "location": "suburbs",
+    "city": "Port Chester, NY",
+    "address": "40 Westchester Ave, Port Chester, NY 10573",
+    "is_regal": false,
+    "dates": [
+      "2026-05-15",
+      "2026-05-16",
+      "2026-05-17",
+      "2026-05-18",
+      "2026-05-19",
+      "2026-05-20",
+      "2026-05-21"
+    ],
+    "times": [],
+    "source_url": "https://www.fandango.com/crouching-tiger-hidden-dragon-15578/movie-overview",
+    "lb_status": "liked",
+    "lb_label": "\ud83d\udc4d You rated this \u2605\u2605\u2605\u2605",
+    "lb_rating": 4.0
+  },
+  {
     "title": "Shrek 25th Anniversary (2026)",
     "year": 2001,
-    "reason": "2001 animated classic, 25th anniversary",
+    "reason": "25th anniversary screening",
     "theater": "AMC Port Chester 14",
     "location": "suburbs",
     "city": "Port Chester, NY",
@@ -1776,277 +1937,15 @@
     "lb_rating": null
   },
   {
-    "title": "Legally Blonde 25th Anniversary",
-    "year": 2001,
-    "reason": "2001 film, anniversary screening",
-    "theater": "AMC Port Chester 14",
-    "location": "suburbs",
-    "city": "Port Chester, NY",
-    "address": "40 Westchester Ave, Port Chester, NY 10573",
-    "is_regal": false,
-    "dates": [
-      "2026-05-27"
-    ],
-    "times": [],
-    "source_url": "https://www.fandango.com/legally-blonde-25th-anniversary-245075/movie-overview",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "Shoah",
-    "year": 1985,
-    "reason": "Lanzmann masterpiece revival",
-    "theater": "Jacob Burns Film Center",
-    "location": "suburbs",
-    "city": "Pleasantville, NY",
-    "address": "364 Manville Rd, Pleasantville, NY 10570",
-    "is_regal": false,
-    "dates": [
-      "2026-04-05"
-    ],
-    "times": [],
-    "source_url": "https://burnsfilmcenter.org/booking/shoah/",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "All I Had Was Nothingness + Night and Fog",
-    "year": 1956,
-    "reason": "Resnais classic with companion",
-    "theater": "Jacob Burns Film Center",
-    "location": "suburbs",
-    "city": "Pleasantville, NY",
-    "address": "364 Manville Rd, Pleasantville, NY 10570",
-    "is_regal": false,
-    "dates": [
-      "2026-04-06",
-      "2026-03-30"
-    ],
-    "times": [],
-    "source_url": "https://burnsfilmcenter.org/booking/all-i-had-was-nothingness-night-and-fog/",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "High School",
-    "year": 1968,
-    "reason": "Wiseman documentary classic",
-    "theater": "Jacob Burns Film Center",
-    "location": "suburbs",
-    "city": "Pleasantville, NY",
-    "address": "364 Manville Rd, Pleasantville, NY 10570",
-    "is_regal": false,
-    "dates": [
-      "2026-04-08",
-      "2026-04-09"
-    ],
-    "times": [],
-    "source_url": "https://burnsfilmcenter.org/booking/high-school/",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "Law and Order",
-    "year": 1969,
-    "reason": "Wiseman documentary classic",
-    "theater": "Jacob Burns Film Center",
-    "location": "suburbs",
-    "city": "Pleasantville, NY",
-    "address": "364 Manville Rd, Pleasantville, NY 10570",
-    "is_regal": false,
-    "dates": [
-      "2026-04-08",
-      "2026-04-09"
-    ],
-    "times": [],
-    "source_url": "https://burnsfilmcenter.org/booking/law-and-order/",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "Welfare",
-    "year": 1975,
-    "reason": "Wiseman documentary classic",
-    "theater": "Jacob Burns Film Center",
-    "location": "suburbs",
-    "city": "Pleasantville, NY",
-    "address": "364 Manville Rd, Pleasantville, NY 10570",
-    "is_regal": false,
-    "dates": [
-      "2026-04-08",
-      "2026-04-12"
-    ],
-    "times": [],
-    "source_url": "https://burnsfilmcenter.org/booking/welfare/",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "M\u00e9li\u00e8s Shorts",
-    "year": 1902,
-    "reason": "Early cinema pioneer program",
-    "theater": "Jacob Burns Film Center",
-    "location": "suburbs",
-    "city": "Pleasantville, NY",
-    "address": "364 Manville Rd, Pleasantville, NY 10570",
-    "is_regal": false,
-    "dates": [
-      "2026-04-11",
-      "2026-04-12"
-    ],
-    "times": [],
-    "source_url": "https://burnsfilmcenter.org/booking/melies-shorts/",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "The Story of a Three Day Pass",
-    "year": 1967,
-    "reason": "Van Peebles classic revival",
-    "theater": "Jacob Burns Film Center",
-    "location": "suburbs",
-    "city": "Pleasantville, NY",
-    "address": "364 Manville Rd, Pleasantville, NY 10570",
-    "is_regal": false,
-    "dates": [
-      "2026-04-12"
-    ],
-    "times": [],
-    "source_url": "https://burnsfilmcenter.org/booking/the-story-of-a-three-day-pass/",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "Italianamerican",
-    "year": 1974,
-    "reason": "Early Scorsese documentary",
-    "theater": "Jacob Burns Film Center",
-    "location": "suburbs",
-    "city": "Pleasantville, NY",
-    "address": "364 Manville Rd, Pleasantville, NY 10570",
-    "is_regal": false,
-    "dates": [
-      "2026-04-13"
-    ],
-    "times": [],
-    "source_url": "https://burnsfilmcenter.org/booking/italianamerican/",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "Canal Zone",
-    "year": 1977,
-    "reason": "Wiseman documentary classic",
-    "theater": "Jacob Burns Film Center",
-    "location": "suburbs",
-    "city": "Pleasantville, NY",
-    "address": "364 Manville Rd, Pleasantville, NY 10570",
-    "is_regal": false,
-    "dates": [
-      "2026-04-14",
-      "2026-04-15"
-    ],
-    "times": [],
-    "source_url": "https://burnsfilmcenter.org/booking/canal-zone/",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "The Store",
-    "year": 1983,
-    "reason": "Wiseman documentary classic",
-    "theater": "Jacob Burns Film Center",
-    "location": "suburbs",
-    "city": "Pleasantville, NY",
-    "address": "364 Manville Rd, Pleasantville, NY 10570",
-    "is_regal": false,
-    "dates": [
-      "2026-04-15",
-      "2026-04-17"
-    ],
-    "times": [],
-    "source_url": "https://burnsfilmcenter.org/booking/the-store/",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "Aspen",
-    "year": 1973,
-    "reason": "Wiseman documentary classic",
-    "theater": "Jacob Burns Film Center",
-    "location": "suburbs",
-    "city": "Pleasantville, NY",
-    "address": "364 Manville Rd, Pleasantville, NY 10570",
-    "is_regal": false,
-    "dates": [
-      "2026-04-17",
-      "2026-04-19"
-    ],
-    "times": [],
-    "source_url": "https://burnsfilmcenter.org/booking/aspen/",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "Howl's Moving Castle",
-    "year": 2004,
-    "reason": "Miyazaki classic revival",
-    "theater": "Jacob Burns Film Center",
-    "location": "suburbs",
-    "city": "Pleasantville, NY",
-    "address": "364 Manville Rd, Pleasantville, NY 10570",
-    "is_regal": false,
-    "dates": [
-      "2026-04-18",
-      "2026-04-19"
-    ],
-    "times": [],
-    "source_url": "https://burnsfilmcenter.org/booking/howls-moving-castle-2/",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
-    "title": "Alphaville",
-    "year": 1965,
-    "reason": "Godard sci-fi classic",
-    "theater": "Jacob Burns Film Center",
-    "location": "suburbs",
-    "city": "Pleasantville, NY",
-    "address": "364 Manville Rd, Pleasantville, NY 10570",
-    "is_regal": false,
-    "dates": [
-      "2026-04-18"
-    ],
-    "times": [],
-    "source_url": "https://burnsfilmcenter.org/booking/alphaville/",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
-    "lb_rating": null
-  },
-  {
     "title": "Bridesmaids: 15th Anniversary",
     "year": 2011,
-    "reason": "2011 comedy classic, 15th anniversary",
+    "reason": "2011 comedy, anniversary screening",
     "theater": "Jacob Burns Film Center",
     "location": "suburbs",
     "city": "Pleasantville, NY",
     "address": "364 Manville Rd, Pleasantville, NY 10570",
     "is_regal": false,
     "dates": [
-      "2026-04-18",
       "2026-04-23"
     ],
     "times": [],
@@ -2056,38 +1955,19 @@
     "lb_rating": null
   },
   {
-    "title": "Her",
-    "year": 2013,
-    "reason": "Jonze classic revival",
+    "title": "Frederick Wiseman's America",
+    "year": null,
+    "reason": "Documentary master retrospective",
     "theater": "Jacob Burns Film Center",
     "location": "suburbs",
     "city": "Pleasantville, NY",
     "address": "364 Manville Rd, Pleasantville, NY 10570",
     "is_regal": false,
     "dates": [
-      "2026-04-18"
+      "2026-05-03"
     ],
     "times": [],
-    "source_url": "https://burnsfilmcenter.org/booking/her/",
-    "lb_status": "seen",
-    "lb_label": "\ud83d\udc41 You've seen this",
-    "lb_rating": null
-  },
-  {
-    "title": "Public Housing",
-    "year": 1997,
-    "reason": "Wiseman documentary classic",
-    "theater": "Jacob Burns Film Center",
-    "location": "suburbs",
-    "city": "Pleasantville, NY",
-    "address": "364 Manville Rd, Pleasantville, NY 10570",
-    "is_regal": false,
-    "dates": [
-      "2026-04-21",
-      "2026-04-25"
-    ],
-    "times": [],
-    "source_url": "https://burnsfilmcenter.org/booking/public-housing/",
+    "source_url": "https://burnsfilmcenter.org/series/frederick-wisemans-america/",
     "lb_status": "new",
     "lb_label": "\ud83c\udd95 New to you",
     "lb_rating": null
@@ -2095,7 +1975,7 @@
   {
     "title": "The Piano Teacher",
     "year": 2001,
-    "reason": "Haneke classic revival",
+    "reason": "Haneke art house classic",
     "theater": "Jacob Burns Film Center",
     "location": "suburbs",
     "city": "Pleasantville, NY",
@@ -2113,7 +1993,7 @@
   {
     "title": "Fat Girl",
     "year": 2001,
-    "reason": "Breillat classic revival",
+    "reason": "Catherine Breillat art house classic",
     "theater": "Jacob Burns Film Center",
     "location": "suburbs",
     "city": "Pleasantville, NY",
@@ -2132,7 +2012,7 @@
   {
     "title": "Domestic Violence",
     "year": 2001,
-    "reason": "Wiseman documentary classic",
+    "reason": "Frederick Wiseman documentary",
     "theater": "Jacob Burns Film Center",
     "location": "suburbs",
     "city": "Pleasantville, NY",
@@ -2151,7 +2031,7 @@
   {
     "title": "Belfast, Maine",
     "year": 1999,
-    "reason": "Wiseman documentary classic",
+    "reason": "Frederick Wiseman documentary",
     "theater": "Jacob Burns Film Center",
     "location": "suburbs",
     "city": "Pleasantville, NY",
@@ -2169,7 +2049,7 @@
   {
     "title": "Wallace & Gromit Shorts Program",
     "year": 1989,
-    "reason": "Park animation classics",
+    "reason": "Classic animation series revival",
     "theater": "Jacob Burns Film Center",
     "location": "suburbs",
     "city": "Pleasantville, NY",
@@ -2186,9 +2066,27 @@
     "lb_rating": null
   },
   {
+    "title": "Public Housing",
+    "year": 1997,
+    "reason": "Frederick Wiseman documentary",
+    "theater": "Jacob Burns Film Center",
+    "location": "suburbs",
+    "city": "Pleasantville, NY",
+    "address": "364 Manville Rd, Pleasantville, NY 10570",
+    "is_regal": false,
+    "dates": [
+      "2026-04-25"
+    ],
+    "times": [],
+    "source_url": "https://burnsfilmcenter.org/booking/public-housing/",
+    "lb_status": "new",
+    "lb_label": "\ud83c\udd95 New to you",
+    "lb_rating": null
+  },
+  {
     "title": "Shine a Light",
     "year": 2008,
-    "reason": "2008 Scorsese concert film",
+    "reason": "Scorsese concert film",
     "theater": "Jacob Burns Film Center",
     "location": "suburbs",
     "city": "Pleasantville, NY",
@@ -2206,7 +2104,7 @@
   {
     "title": "Persepolis",
     "year": 2007,
-    "reason": "2007 acclaimed animated film",
+    "reason": "Animated art house classic",
     "theater": "Jacob Burns Film Center",
     "location": "suburbs",
     "city": "Pleasantville, NY",
@@ -2225,7 +2123,7 @@
   {
     "title": "In Jackson Heights",
     "year": 2015,
-    "reason": "2015 Frederick Wiseman documentary",
+    "reason": "Frederick Wiseman documentary",
     "theater": "Jacob Burns Film Center",
     "location": "suburbs",
     "city": "Pleasantville, NY",
@@ -2244,7 +2142,7 @@
   {
     "title": "OTHELLO",
     "year": null,
-    "reason": "Classic adaptation revival",
+    "reason": "Shakespeare adaptation revival",
     "theater": "Jacob Burns Film Center",
     "location": "suburbs",
     "city": "Pleasantville, NY",
@@ -2262,7 +2160,7 @@
   {
     "title": "And Life Goes On...",
     "year": 1992,
-    "reason": "1992 Abbas Kiarostami film",
+    "reason": "Abbas Kiarostami classic",
     "theater": "Jacob Burns Film Center",
     "location": "suburbs",
     "city": "Pleasantville, NY",
@@ -2280,7 +2178,7 @@
   {
     "title": "Ex Libris: The New York Public Library",
     "year": 2017,
-    "reason": "2017 Frederick Wiseman documentary",
+    "reason": "Frederick Wiseman documentary",
     "theater": "Jacob Burns Film Center",
     "location": "suburbs",
     "city": "Pleasantville, NY",
@@ -2299,7 +2197,7 @@
   {
     "title": "Monrovia, Indiana",
     "year": 2018,
-    "reason": "2018 Frederick Wiseman documentary",
+    "reason": "Frederick Wiseman documentary",
     "theater": "Jacob Burns Film Center",
     "location": "suburbs",
     "city": "Pleasantville, NY",
@@ -2318,7 +2216,7 @@
   {
     "title": "American Dream",
     "year": 1990,
-    "reason": "1990 Barbara Kopple documentary",
+    "reason": "Barbara Kopple documentary classic",
     "theater": "Jacob Burns Film Center",
     "location": "suburbs",
     "city": "Pleasantville, NY",
@@ -2335,45 +2233,28 @@
     "lb_rating": null
   },
   {
-    "title": "Rogue One: A Star Wars Story",
-    "year": 2016,
-    "reason": "2016 film revival screening",
+    "title": "The Little Mermaid (1989)",
+    "year": 1989,
+    "reason": "Disney animated classic revival",
     "theater": "Jacob Burns Film Center",
     "location": "suburbs",
     "city": "Pleasantville, NY",
     "address": "364 Manville Rd, Pleasantville, NY 10570",
     "is_regal": false,
     "dates": [
-      "2026-05-04"
+      "2026-05-02",
+      "2026-05-03"
     ],
     "times": [],
-    "source_url": "https://burnsfilmcenter.org/booking/rogue-one-a-star-wars-story/",
-    "lb_status": "liked",
-    "lb_label": "\ud83d\udc4d You rated this \u2605\u2605\u2605\u2605",
-    "lb_rating": 4.0
-  },
-  {
-    "title": "Woodstock Film Festival Filmmaker Meet Up: Short Cuts",
-    "year": 1993,
-    "reason": "1993 Robert Altman film",
-    "theater": "Jacob Burns Film Center",
-    "location": "suburbs",
-    "city": "Pleasantville, NY",
-    "address": "364 Manville Rd, Pleasantville, NY 10570",
-    "is_regal": false,
-    "dates": [
-      "2026-05-07"
-    ],
-    "times": [],
-    "source_url": "https://burnsfilmcenter.org/booking/woodstock-film-festival-filmmaker-meet-up-short-cuts/",
-    "lb_status": "new",
-    "lb_label": "\ud83c\udd95 New to you",
+    "source_url": "https://burnsfilmcenter.org/booking/the-little-mermaid-1989/",
+    "lb_status": "seen",
+    "lb_label": "\ud83d\udc41 You've seen this",
     "lb_rating": null
   },
   {
     "title": "Bambi",
     "year": 1942,
-    "reason": "1942 Disney classic",
+    "reason": "Disney animated classic",
     "theater": "Jacob Burns Film Center",
     "location": "suburbs",
     "city": "Pleasantville, NY",
@@ -2392,7 +2273,7 @@
   {
     "title": "A.I. Artificial Intelligence",
     "year": 2001,
-    "reason": "2001 Spielberg film",
+    "reason": "Spielberg/Kubrick classic",
     "theater": "Jacob Burns Film Center",
     "location": "suburbs",
     "city": "Pleasantville, NY",
@@ -2409,28 +2290,9 @@
     "lb_rating": null
   },
   {
-    "title": "Brooklyn",
-    "year": 2015,
-    "reason": "2015 acclaimed drama",
-    "theater": "Jacob Burns Film Center",
-    "location": "suburbs",
-    "city": "Pleasantville, NY",
-    "address": "364 Manville Rd, Pleasantville, NY 10570",
-    "is_regal": false,
-    "dates": [
-      "2026-05-11",
-      "2026-05-14"
-    ],
-    "times": [],
-    "source_url": "https://burnsfilmcenter.org/booking/brooklyn/",
-    "lb_status": "seen",
-    "lb_label": "\ud83d\udc41 You've seen this",
-    "lb_rating": null
-  },
-  {
     "title": "The Wizard of Oz",
     "year": 1939,
-    "reason": "1939 MGM classic",
+    "reason": "1939 classic, cultural landmark",
     "theater": "Jacob Burns Film Center",
     "location": "suburbs",
     "city": "Pleasantville, NY",
@@ -2449,7 +2311,7 @@
   {
     "title": "Minority Report",
     "year": 2002,
-    "reason": "2002 Spielberg film",
+    "reason": "2002 Spielberg sci-fi classic",
     "theater": "Jacob Burns Film Center",
     "location": "suburbs",
     "city": "Pleasantville, NY",
@@ -2468,7 +2330,7 @@
   {
     "title": "Harlan County U.S.A.",
     "year": 1976,
-    "reason": "1976 Barbara Kopple documentary",
+    "reason": "1976 documentary classic",
     "theater": "Jacob Burns Film Center",
     "location": "suburbs",
     "city": "Pleasantville, NY",
@@ -2486,7 +2348,7 @@
   {
     "title": "The Tree of Life",
     "year": 2011,
-    "reason": "2011 Terrence Malick film",
+    "reason": "2011 Malick masterpiece, art house classic",
     "theater": "Jacob Burns Film Center",
     "location": "suburbs",
     "city": "Pleasantville, NY",
@@ -2531,7 +2393,6 @@
     "is_regal": false,
     "dates": [
       "2026-05-23",
-      "2026-05-25",
       "2026-06-14"
     ],
     "times": [],
@@ -2541,9 +2402,27 @@
     "lb_rating": null
   },
   {
+    "title": "Grizzly Man",
+    "year": 2005,
+    "reason": "2005 Werner Herzog documentary classic",
+    "theater": "Jacob Burns Film Center",
+    "location": "suburbs",
+    "city": "Pleasantville, NY",
+    "address": "364 Manville Rd, Pleasantville, NY 10570",
+    "is_regal": false,
+    "dates": [
+      "2026-05-28"
+    ],
+    "times": [],
+    "source_url": "https://burnsfilmcenter.org/booking/grizzly-man/",
+    "lb_status": "new",
+    "lb_label": "\ud83c\udd95 New to you",
+    "lb_rating": null
+  },
+  {
     "title": "Newsies",
     "year": 1992,
-    "reason": "1992 Disney musical",
+    "reason": "1992 Disney musical, cult classic",
     "theater": "Jacob Burns Film Center",
     "location": "suburbs",
     "city": "Pleasantville, NY",
@@ -2562,7 +2441,7 @@
   {
     "title": "War of the Worlds",
     "year": 2005,
-    "reason": "2005 Spielberg film",
+    "reason": "2005 Spielberg thriller",
     "theater": "Jacob Burns Film Center",
     "location": "suburbs",
     "city": "Pleasantville, NY",
@@ -2600,7 +2479,7 @@
   {
     "title": "Ready Player One",
     "year": 2018,
-    "reason": "2018 Spielberg film",
+    "reason": "2018 Spielberg sci-fi",
     "theater": "Jacob Burns Film Center",
     "location": "suburbs",
     "city": "Pleasantville, NY",
@@ -2638,7 +2517,7 @@
   {
     "title": "The Muppet Movie",
     "year": 1979,
-    "reason": "1979 classic revival",
+    "reason": "1979 beloved classic",
     "theater": "Jacob Burns Film Center",
     "location": "suburbs",
     "city": "Pleasantville, NY",
@@ -2657,7 +2536,7 @@
   {
     "title": "Close Encounters of the Third Kind",
     "year": 1977,
-    "reason": "1977 Spielberg classic",
+    "reason": "1977 Spielberg sci-fi masterpiece",
     "theater": "Jacob Burns Film Center",
     "location": "suburbs",
     "city": "Pleasantville, NY",
@@ -2676,7 +2555,7 @@
   {
     "title": "Hairspray (1988)",
     "year": 1988,
-    "reason": "1988 John Waters film",
+    "reason": "1988 John Waters cult classic",
     "theater": "Jacob Burns Film Center",
     "location": "suburbs",
     "city": "Pleasantville, NY",
